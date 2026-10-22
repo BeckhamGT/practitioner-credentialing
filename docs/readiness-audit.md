@@ -1,5 +1,29 @@
 # Project E source and readiness audit
 
+**Publication update, October 22:** the learner explicitly authorized a separate
+private `BeckhamGT/practitioner-credentialing-submission` repository, with code,
+authentic interview, retained history and genuine checkpoints. Destination owner
+and private visibility were verified; Entire now explicitly targets that repo.
+The original public fork is preserved. [Preflight](audit/private-publication-preflight.json)
+records the history/capture secret scan and interview preservation.
+[Handoff](submission-handoff.md) identifies actual outputs, absent required
+snapshots, synthetic evidence, capture format and access limitations. The final
+publication receipt separately pins the exact commit and demonstrated remote
+ref equality; configuration alone is not synchronization. No facilitator or
+grading identity was established. The learner asked to skip access for now;
+Classroom submission remains pending despite conditional authorization to submit
+after access is verified. Earlier publication holds below are historical and
+are superseded only by this explicit publication authorization. G1/G2 and all
+business evidence boundaries remain unchanged.
+
+| Requirement | Updated evidence / procedure | Remaining state |
+|---|---|---|
+| R03 original interview/history | Current 0427 bytes and Downloads equality rechecked in publication preflight; superseded versions retained in Git | Private push must be demonstrated in final receipt; facilitator access pending |
+| R08 genuine capture and remote pairing | Supported explicit private checkpoint remote; all 14 existing refs contain the real Codex session; final publication commit adds its genuine capture | Final receipt must compare live remote refs and payloads, not configuration alone |
+| R23 Classroom / exact version / access | User authorizes submission with absent actual snapshots disclosed only after publication and access verification; exact assignment observed Assigned | No identity/integration established; user deferred access; not submitted |
+| R24 confidentiality / secrets | Separate private destination verified; 336 unique historical/capture blobs scanned (205,257,223 bytes); 22 reviewed false positives, no credential identified | Final new committed/capture bytes require scan before upload; visibility remains private |
+| R25 handoff / readiness distinctions | Handoff lists actual reports, synthetic demonstrations, absent required paths, exact capture retrieval and remaining access step | Publication is separate from verified access, submission and grading; no full readiness claim |
+
 Current implementation review: 2026-10-22. The learner authorized completion of remaining software without facilitator contact or another inventory search. The Python CLI/explicit JSON workflow now implements all confirmed-rule branches, owned queues, chronological decision evaluation, activation/conditions, re-entry and the guarded writer. Actual three-batch workflow processing, clean replay, independent verification and a separate synthetic end-to-end demonstration are complete. Missing actual evidence remains scoped; no signature/CV pass, notice, approval or activation is invented. See [current review](workflow-review.md), [verification](../deliverables/verification.md), and [completion plan](workflow-completion-plan.md). This is not learner acceptance or submission readiness. Publication/access remain pending. Earlier dated observations below are historical.
 
 ## Evidence preserved and read

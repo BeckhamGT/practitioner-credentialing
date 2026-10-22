@@ -1,0 +1,309 @@
+{
+  "scope": "Pre-publication scan of every unique blob reachable from main and all local genuine checkpoint refs, including their history; excludes ignored working directories",
+  "base_head": "016fb7a14634e3bc4362cfb39605265ae3c2e221",
+  "scanner": "Gitleaks 8.30.1, default rules, decode depth 5, offline scan, redacted output",
+  "official_release_archive_sha256": "b40ab0ae55c505963e365f271a8d3846efbc170aa17f2607f13df610a9aeb6a5",
+  "unique_blobs": 336,
+  "bytes_scanned": 205257223,
+  "candidate_findings": 22,
+  "confirmed_credentials": 0,
+  "finding_dispositions": [
+    {
+      "blob": "5f7c323b0f6127a9684d8d2dbd88e08b993598f0",
+      "path_hint": "tests/test_workflow.py",
+      "line": 200,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "1ebbb1ac394e1244d7c7c26b76ec51ee020d1c06",
+      "path_hint": "docs/audit/interview-update-20261022.json",
+      "line": 34,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "1ebbb1ac394e1244d7c7c26b76ec51ee020d1c06",
+      "path_hint": "docs/audit/interview-update-20261022.json",
+      "line": 35,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "1896d654fb11e2569b268c1c033fa3f6aaadd710",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 34,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "1896d654fb11e2569b268c1c033fa3f6aaadd710",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 35,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "1896d654fb11e2569b268c1c033fa3f6aaadd710",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 36,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "c8215b5ec9e23d64c2b4c62227fcf953217f94b4",
+      "path_hint": "tools/synthetic_workflow.py",
+      "line": 35,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "c8215b5ec9e23d64c2b4c62227fcf953217f94b4",
+      "path_hint": "tools/synthetic_workflow.py",
+      "line": 36,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "c5ee1c2481a2d9b765acbc86d877d03eb9f9b701",
+      "path_hint": "docs/audit/interview-update-20261022.json",
+      "line": 34,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "c5ee1c2481a2d9b765acbc86d877d03eb9f9b701",
+      "path_hint": "docs/audit/interview-update-20261022.json",
+      "line": 35,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "093a5002265dc554aaec3fe6f535d94415275604",
+      "path_hint": "0/transcript.jsonl",
+      "line": 248,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "1035c3fcb36f173f459685243d382167397912af",
+      "path_hint": "0/transcript.jsonl",
+      "line": 248,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "fa46c7978d9b66c37050921189c4aae996884df2",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 34,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "fa46c7978d9b66c37050921189c4aae996884df2",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 35,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "fa46c7978d9b66c37050921189c4aae996884df2",
+      "path_hint": "docs/audit/interview-update-20261022-0427.json",
+      "line": 36,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "SHA-256 preservation digest keyed by authentic interview filename; not an access credential"
+    },
+    {
+      "blob": "f753c874e264d4468c98d3c55dcf2951150bae60",
+      "path_hint": "0/transcript.jsonl",
+      "line": 248,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "4e5a43138d7a6676ac11aecf9332ab4c70c023dd",
+      "path_hint": "0/full.jsonl",
+      "line": 2458,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "4e5a43138d7a6676ac11aecf9332ab4c70c023dd",
+      "path_hint": "0/full.jsonl",
+      "line": 2459,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "e6b7a772c29ed546a0d7017657b193ff340beca3",
+      "path_hint": "0/full.jsonl",
+      "line": 2458,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "e6b7a772c29ed546a0d7017657b193ff340beca3",
+      "path_hint": "0/full.jsonl",
+      "line": 2459,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "cde5f751e9b14d1186151090b69e4a9df9fe48ed",
+      "path_hint": "0/full.jsonl",
+      "line": 2458,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    },
+    {
+      "blob": "cde5f751e9b14d1186151090b69e4a9df9fe48ed",
+      "path_hint": "0/full.jsonl",
+      "line": 2459,
+      "rule": "generic-api-key",
+      "disposition": "false-positive",
+      "reason": "Python synthetic fixture row-constructor arguments; not credential material"
+    }
+  ],
+  "limitations": "Pattern scan and contextual review reduce risk; they do not prove absence of every possible secret. Authentic fictional business material and participant-visible interview/capture are intentionally private. New committed/capture bytes require a final scan before push.",
+  "checkpoint_records": [
+    {
+      "ref": "refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K",
+      "object": "d25a3dd7affc3f2d6680eb7a20f72f770126be5f",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 4737529,
+      "full_payload_sha256": "24645dc62e1ae5ee0f922968f495d9d14144604df488153f5a08260a08f9656d"
+    },
+    {
+      "ref": "refs/entire/checkpoints/0K/01M5GWMD06APCQQ8G5FJASCF0K",
+      "object": "042f85d4b110c73a91e8e0e17ab1bfbd6cf36e41",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 6464794,
+      "full_payload_sha256": "8e32ab31f02fd88f6e2c429ccae0a0091ccb7f6ce1aefc690cb5744723b792f5"
+    },
+    {
+      "ref": "refs/entire/checkpoints/15/01M5GRQCTM17XPNNQ69APNKN15",
+      "object": "dfa0f1688674411c1981f4c2789c20f7c8afc8ad",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 4737529,
+      "full_payload_sha256": "24645dc62e1ae5ee0f922968f495d9d14144604df488153f5a08260a08f9656d"
+    },
+    {
+      "ref": "refs/entire/checkpoints/67/01M5HAX4RP2ZYDWQJ3ZKF32567",
+      "object": "b93cef9fe95e79083f88dba479a76dd1a8d5efa2",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 12180495,
+      "full_payload_sha256": "ebc0a0107afd3c007122468bc6448da832cb17d3037a8d0ce9cc35970d1dbab4"
+    },
+    {
+      "ref": "refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993",
+      "object": "d01fa2f637894ac044f915da4db4e36a146a9886",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 10482266,
+      "full_payload_sha256": "3e7d69274569c92ca4c8a94e7575a7ab12d0c7faa0fcc9879ebcd94078fefba9"
+    },
+    {
+      "ref": "refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH",
+      "object": "56c1d5237dac15f8bb64bd7184c8c4566b8be698",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 12180495,
+      "full_payload_sha256": "ebc0a0107afd3c007122468bc6448da832cb17d3037a8d0ce9cc35970d1dbab4"
+    },
+    {
+      "ref": "refs/entire/checkpoints/E0/01M5GYJ78YW0P39KW1R3KXBZE0",
+      "object": "2f6c5b8a8b10121942bd7b697add3f8c730c7108",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 7291579,
+      "full_payload_sha256": "926d6eb7225378514f83fa4e2c4ddea2123c9c6385977e5b90d4e7446a088c19"
+    },
+    {
+      "ref": "refs/entire/checkpoints/EZ/01M5GWP14APNTA06RM0XWEJ0EZ",
+      "object": "990b6b22ea979132ccdaa9ff059956f9e9da4ff0",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 6464794,
+      "full_payload_sha256": "8e32ab31f02fd88f6e2c429ccae0a0091ccb7f6ce1aefc690cb5744723b792f5"
+    },
+    {
+      "ref": "refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4",
+      "object": "c3f10f80c74abab14c0776e3a81218e730f61916",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 5224000,
+      "full_payload_sha256": "741900ef5cd3f7ebb32a407e734907e644dc0b5887b7483a8c62967686f40377"
+    },
+    {
+      "ref": "refs/entire/checkpoints/P2/01M5H4HMASKMZHW8NEJXCABNP2",
+      "object": "de9c614a8533b0ce7b67cc90b40232803c176ed7",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 10482266,
+      "full_payload_sha256": "3e7d69274569c92ca4c8a94e7575a7ab12d0c7faa0fcc9879ebcd94078fefba9"
+    },
+    {
+      "ref": "refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4",
+      "object": "e5fe71dbf9a6a8359bee06a7710311bb240e8c3c",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 8630967,
+      "full_payload_sha256": "2a3c9369e101477b67ab046491d66e2849f0b24327cad88060d1f115154cdfff"
+    },
+    {
+      "ref": "refs/entire/checkpoints/QY/01M5GT61V1NEZ55T6X8KE8WDQY",
+      "object": "0b47128a9d9808a1898e26d0e6a256cb9058e27b",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 5224000,
+      "full_payload_sha256": "741900ef5cd3f7ebb32a407e734907e644dc0b5887b7483a8c62967686f40377"
+    },
+    {
+      "ref": "refs/entire/checkpoints/VT/01M5H0R161QV0DMYTCEJQXP7VT",
+      "object": "5fcbd03a5c3b34a6d686cce03adea3f6d275f02a",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 8630967,
+      "full_payload_sha256": "2a3c9369e101477b67ab046491d66e2849f0b24327cad88060d1f115154cdfff"
+    },
+    {
+      "ref": "refs/entire/checkpoints/X1/01M5GYME24C8MFWJ7MSS4V20X1",
+      "object": "aa9b26111564ca050101833716598a7fb3a256e3",
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+      "full_payload_bytes": 7291579,
+      "full_payload_sha256": "926d6eb7225378514f83fa4e2c4ddea2123c9c6385977e5b90d4e7446a088c19"
+    }
+  ],
+  "interview": {
+    "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+    "bytes": 43202,
+    "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+    "equals_download_original": true,
+    "current_complete_exports": 1
+  },
+  "destination": {
+    "repo": "BeckhamGT/practitioner-credentialing-submission",
+    "owner": "BeckhamGT",
+    "private_verified": true,
+    "created_empty_for_this_task": true
+  },
+  "public_origin_before": {
+    "url": "https://github.com/BeckhamGT/practitioner-credentialing.git",
+    "main": "8b750ad034a00b0b6d67cc5e9c43f1aaae83f74b"
+  },
+  "checkpoint_sync_configuration": "entire configure --project --checkpoint-remote github:BeckhamGT/practitioner-credentialing-submission; git-refs backend unchanged; synchronization must be separately demonstrated",
+  "access": "Only BeckhamGT is a collaborator. Installed GitHub apps are ChatGPT Codex Connector and Vercel; authorized OAuth app is GitHub CLI. None establishes facilitator/grading access. Learner replied skip it for now, i don\u2019t have it. No collaborator/integration guessed or newly granted.",
+  "Classroom": "Project E in Fellowship Cohort-0 is Assigned; no submission attempted. Access remains a submission prerequisite."
+}
