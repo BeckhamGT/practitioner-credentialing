@@ -60,7 +60,9 @@ G3–G7 remain in [the scoped conflict register](readiness-audit.md#unresolved-g
 
 ## Local commit/capture and review gate
 
-Meaningful local implementation commit and actual stored checkpoint will be checked before closing this milestone. Remote synchronization and facilitator access remain **pending**; no push or publication is authorized. Full implementation, final business verification, submission readiness, Classroom submission and grading are not claimed.
+Meaningful local implementation commit `eff26c4e07fcf2b69a6acce0f82220cd4504fe3b` carries Entire checkpoint `01M5GT4Y6C225ZK9HT3RBE68F4` at `refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4`. The actual stored Git transcript payload was compared byte-for-byte with the CLI transcript export. It contains this session, the learner's actual groundwork acceptance and continuation, and the review implementation tool records. [Capture proof](reviews/capture-proof.json) records the exact ref/object, transcript hash and observed message timestamps. The raw transcript remains local under ignored .local/capture/.
+
+Remote synchronization and facilitator access remain **pending**; no push or publication was authorized or attempted. This proof is preserved by a subsequent local documentation commit. Full implementation, final business verification, submission readiness, Classroom submission and grading are not claimed.
 
 For learner inspection: compare VR-2000 and VR-2201 with the two source-table prohibitions; confirm VR-3002's conflicting dates are still visible and not selected; independently check RR-2500's 2026-05-05 anniversary and 50-day distance from export; confirm all six decisions say final_admission not-evaluated and no activation appears. Showing this report does not record its acceptance.
 

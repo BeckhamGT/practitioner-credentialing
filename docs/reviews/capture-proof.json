@@ -1,0 +1,23 @@
+{
+  "actual_groundwork_acceptance_and_continuation_recorded_at": [
+    "2026-10-22T03:10:50.451Z"
+  ],
+  "actual_review_implementation_recorded_at": [
+    "2026-10-22T03:15:32.486Z",
+    "2026-10-22T03:16:53.642Z"
+  ],
+  "checkpoint_id": "01M5GT4Y6C225ZK9HT3RBE68F4",
+  "checkpoint_object": "0274a8eac88d13ac3fc0a750cbc923824fab74a9",
+  "checkpoint_ref": "refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4",
+  "commit_trailer_matches": true,
+  "facilitator_access": "pending; not demonstrated",
+  "implementation_commit": "eff26c4e07fcf2b69a6acce0f82220cd4504fe3b",
+  "remote_sync": "pending; no push authorized or attempted",
+  "scope": "Record-review milestone local capture proof",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "stored_transcript_bytes": 5172166,
+  "stored_transcript_records": 792,
+  "stored_transcript_sha256": "673f71313deacbb443918bda5a21a588f221769411389c17a004e13639a99dad",
+  "transcript_export_equals_git_bytes": true,
+  "transcript_git_payload": "0/full.jsonl"
+}
