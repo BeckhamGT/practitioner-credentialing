@@ -1,9 +1,3 @@
-<send_user_message_question_reply>
-[{"questionItemId":"[\"request_user_input_async\",\"call_1fcf367b68754e38a2058bd7e756f154\",0]","question":"Which exact GitHub username or approved grading integration should receive access to the private submission repository? The repository currently lists only BeckhamGT as a collaborator; the installed apps are ChatGPT Codex Connector and Vercel, and the course materials do not identify a private-repository grading account. I’ll finish publication and prepare the submission note while this access detail remains pending.","answer":"skip it for now, i don't have it"}]
-</send_user_message_question_reply>
-
----
-
 Use my original public repository as the final Project E destination:\
 [https://github.com/BeckhamGT/practitioner-credentialing.git](https://github.com/BeckhamGT/practitioner-credentialing.git)
 I authorize publishing the project code, original interview, Git history, and genuine Entire conversation records there.
