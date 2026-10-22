@@ -1,0 +1,24 @@
+{
+  "checkpoint_id": "01M5GRMYMAQCXFP2MK68DKP90K",
+  "checkpoint_object": "1b63c8ae0adcc91a486f928532952f7ccb000429",
+  "checkpoint_ref": "refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K",
+  "commit_trailer_matches": true,
+  "facilitator_access": "not demonstrated",
+  "git_payload_paths_matching_export": [
+    "0/full.jsonl"
+  ],
+  "implementation_commit": "13acbae26f407632674b6488791204506c18de5a",
+  "implementation_tool_recorded_at": [
+    "2026-10-22T02:50:54.254Z",
+    "2026-10-22T02:52:38.173Z"
+  ],
+  "learner_authorization_recorded_at": [
+    "2026-10-22T02:46:42.859Z"
+  ],
+  "remote_sync": "pending; no push authorized or attempted",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "stored_transcript_bytes": 4661589,
+  "stored_transcript_records": 614,
+  "stored_transcript_sha256": "33e6b7e9cdd511d6e6bb4e63e33cf5211319e17c18b65dcc0032f761b83a091f",
+  "verified_at_utc": "2026-10-22T02:57:50.150125+00:00"
+}

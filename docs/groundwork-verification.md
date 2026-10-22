@@ -25,7 +25,11 @@ The final interview remains exactly 37,803 bytes with SHA-256 `841137c5c271aa52f
 
 ## Commit and capture gate
 
-Pending the first meaningful local commit and inspection of its real Entire checkpoint. Local session recording was already demonstrated. No push is authorized; remote sync remains pending regardless of local capture success. This section will be updated from actual checkpoint evidence, never from configuration alone.
+The first meaningful groundwork commit is `13acbae26f407632674b6488791204506c18de5a`. Its actual commit message carries `Entire-Checkpoint: 01M5GRMYMAQCXFP2MK68DKP90K`, resolving locally to `refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K`, Git object `1b63c8ae0adcc91a486f928532952f7ccb000429`.
+
+`entire checkpoint explain --commit HEAD --json` identifies the actual session `01a15fd1-860f-7210-a8ec-b2a637129c5e`. The checkpoint transcript was exported with the read-only `--transcript` mode and compared byte-for-byte with the Git-stored payload. It contains the learner's authorization at `2026-10-22T02:46:42.859Z` and the actual implementation tool records. Its 4,661,589 bytes / 614 JSONL records have SHA-256 `33e6b7e9cdd511d6e6bb4e63e33cf5211319e17c18b65dcc0032f761b83a091f`. The raw export stays under ignored `.local/capture/`; the actual durable checkpoint is the Git ref, not this report. [Machine-readable capture proof](groundwork-capture.json) records the observed references and checks.
+
+Local commit association and genuine stored capture are demonstrated. Remote synchronization is **pending**, not passed: no push was authorized or attempted. Facilitator access is not demonstrated. Fork/publication and checkpoint-ref-format questions remain with the learner/facilitator. This evidence report is recorded in a later local documentation commit and does not pretend its own text was present in the earlier checkpoint.
 
 ## Review guide and remaining gates
 
