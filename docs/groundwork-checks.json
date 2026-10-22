@@ -1,0 +1,150 @@
+{
+  "business_logic": "blocked:G1,G2",
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "credentialing",
+        "check-input",
+        "--input",
+        ".local/inputs/batch-01",
+        "--batch",
+        "1"
+      ],
+      "exit_code": 0,
+      "stderr": null,
+      "stdout": {
+        "as_of": "2026-03-16",
+        "assessed_snapshot_written": false,
+        "batch": 1,
+        "business_blockers": [
+          "G1",
+          "G2"
+        ],
+        "documents": 15,
+        "operation": "check-input",
+        "record_counts": {
+          "application-disclosures.csv": 328,
+          "applications.csv": 41,
+          "certification-replies.csv": 38,
+          "correspondence.csv": 15,
+          "declared-credentials.csv": 86,
+          "declared-history.csv": 155,
+          "licence-lookup-other-states.csv": 3,
+          "licence-lookup-wa.csv": 435,
+          "peer-referees.csv": 79,
+          "peer-reference-replies.csv": 57,
+          "privilege-requests.csv": 46,
+          "verification-attempts.csv": 236,
+          "verification-replies.csv": 112
+        },
+        "result": "structure-valid"
+      }
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "credentialing",
+        "stage",
+        "--input",
+        ".local/inputs/batch-01",
+        "--batch",
+        "1",
+        "--store",
+        ".local/evidence-store"
+      ],
+      "exit_code": 0,
+      "stderr": null,
+      "stdout": {
+        "as_of": "2026-03-16",
+        "assessed_snapshot_written": false,
+        "batch": 1,
+        "business_blockers": [
+          "G1",
+          "G2"
+        ],
+        "operation": "evidence-stage",
+        "phase": "evidence-only",
+        "result": "unchanged",
+        "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f"
+      }
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "credentialing",
+        "inspect-state",
+        "--store",
+        ".local/evidence-store"
+      ],
+      "exit_code": 0,
+      "stderr": null,
+      "stdout": {
+        "assessed_snapshot_written": false,
+        "batches": [
+          {
+            "as_of": "2026-03-16",
+            "batch": 1,
+            "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f"
+          }
+        ],
+        "business_blockers": [
+          "G1",
+          "G2"
+        ],
+        "operation": "inspect-state",
+        "phase": "evidence-only",
+        "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+        "summary": {
+          "documents": 15,
+          "record_counts": {
+            "application-disclosures.csv": 328,
+            "applications.csv": 41,
+            "certification-replies.csv": 38,
+            "correspondence.csv": 15,
+            "declared-credentials.csv": 86,
+            "declared-history.csv": 155,
+            "licence-lookup-other-states.csv": 3,
+            "licence-lookup-wa.csv": 435,
+            "peer-referees.csv": 79,
+            "peer-reference-replies.csv": 57,
+            "privilege-requests.csv": 46,
+            "verification-attempts.csv": 236,
+            "verification-replies.csv": 112
+          }
+        }
+      }
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "credentialing",
+        "run"
+      ],
+      "exit_code": 3,
+      "stderr": {
+        "assessed_snapshot_written": false,
+        "error": "business_blocked",
+        "message": "G1/G2 unresolved; completeness, packet readiness, assessed snapshots and business actions are disabled",
+        "result": "operation-failed"
+      },
+      "stdout": null
+    }
+  ],
+  "independent_checks": {
+    "all_29_original_selected_input_bytes_retained": true,
+    "interview_original_bytes_equal": true,
+    "interview_sha256": "841137c5c271aa52ff4305ccccfaae818eedc63edacdfaf852259e9df4ee41d9",
+    "published_snapshot_schema_unchanged": true,
+    "state_raw_hash_matches": true,
+    "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+    "unchanged_head_preserved": true
+  },
+  "recorded_at_utc": "2026-10-22T02:56:29.133259+00:00",
+  "remote_sync": "pending; no push authorized",
+  "scope": "Authorized infrastructure verification only; no assessed credentialing results"
+}
