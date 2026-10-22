@@ -39,6 +39,21 @@ Skill validation/security scan and genuine commit-linked capture are recorded
 for this candidate below after inspection. Remote syncing, access, publication,
 learner acceptance, Classroom submission and grading remain pending.
 
+## Current genuine capture
+
+Meaningful implementation commit `012f589738abaa5803a3f10901011691369137da`
+carries genuine Entire checkpoint `01M5H4CZAGHEBN7X1QX6W1H993` at
+`refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993`.
+The Git-stored full payload equals the CLI export byte-for-byte: 10,380,272 bytes,
+SHA-256 `7b7f25e4c47900f5655952ea0d54f95929070a942e871d0b99ce5750e1227a85`.
+It contains this learner request and subsequent actual implementation/test,
+independent-check and writer operations. [Capture proof](assessments/capture-proof.json)
+records commit association, ref/object and actual message/tool record matches.
+It is written after the implementation commit; it is not a reconstructed session.
+Synthetic demo occurrences are locally sealed by that implementation commit.
+Remote checkpoint synchronization, facilitator access, publication and submission
+remain pending. No push was attempted.
+
 ## Current Skill inspection
 
 Metadata validation passed. The pinned local-only scanner exited 0 and reported

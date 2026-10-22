@@ -103,7 +103,7 @@ case. The schema remains unchanged; no paths are filled merely to satisfy a list
 | Rules register | Complete for applied behavior; future implementation must extend it |
 | Verification report and run log | Current bounded milestone documented; full lifecycle coverage incomplete |
 | Three required assessed snapshots | Blocked; absent for the precise schema/evidence conflict above |
-| Genuine capture | Verify against this meaningful local commit, separately from configuration; remote syncing/access pending |
+| Genuine capture | Verified against commit 012f589738abaa5803a3f10901011691369137da and checkpoint 01M5H4CZAGHEBN7X1QX6W1H993; remote syncing/access pending |
 
 **External evidence gaps:** G1 actual signature/date-to-revision evidence; G2
 actual current CV/version and reconciliation representation, or an explicit
@@ -131,3 +131,8 @@ For this review, inspect the five comparisons above and the rejected status
 proposal. No learner approval is recorded. Any actual choice and its reason
 belongs early in the learner's own turn (first 600 characters); a learner choice
 cannot waive the office rule or supply missing source evidence.
+
+[Current capture proof](../deliverables/assessments/capture-proof.json) compares
+Git-stored full session bytes with the genuine CLI export and checks actual user
+and tool records. It is recorded after the associated implementation commit.
+All publication and facilitator-access claims remain pending.

@@ -1,0 +1,129 @@
+{
+  "verified_at_utc": "2026-10-22T06:23:11.920075+00:00",
+  "implementation_commit": "012f589738abaa5803a3f10901011691369137da",
+  "checkpoint_id": "01M5H4CZAGHEBN7X1QX6W1H993",
+  "checkpoint_ref": "refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993",
+  "checkpoint_ref_object": "80cfae8de13a439bb08e685d8342b43273221ddc",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "commit_checkpoint_trailer_matches": true,
+  "stored_payload_path": "0/full.jsonl",
+  "stored_payload_object": "e2c324f70dad96a01ea5dd1b737aaf916aff4901",
+  "stored_payload_equals_cli_export": true,
+  "payload_sha256": "7b7f25e4c47900f5655952ea0d54f95929070a942e871d0b99ce5750e1227a85",
+  "payload_bytes": 10380272,
+  "actual_current_user_request": {
+    "record": 1522,
+    "timestamp": "2026-10-22T05:42:09.076Z",
+    "match": "Let\u2019s finish as much of Project E as the available evidence supports."
+  },
+  "post_request_tool_evidence": {
+    "test_elements_writer": [
+      {
+        "record": 1695,
+        "timestamp": "2026-10-22T06:04:49.217Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1713,
+        "timestamp": "2026-10-22T06:05:07.538Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1745,
+        "timestamp": "2026-10-22T06:05:45.485Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1761,
+        "timestamp": "2026-10-22T06:06:04.757Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1769,
+        "timestamp": "2026-10-22T06:06:16.378Z",
+        "tool": "exec"
+      }
+    ],
+    "independent_element_checks.py": [
+      {
+        "record": 1862,
+        "timestamp": "2026-10-22T06:10:41.102Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1883,
+        "timestamp": "2026-10-22T06:11:32.847Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1901,
+        "timestamp": "2026-10-22T06:13:32.766Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1916,
+        "timestamp": "2026-10-22T06:17:11.433Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1977,
+        "timestamp": "2026-10-22T06:22:15.879Z",
+        "tool": "exec"
+      }
+    ],
+    "writer_demo": [
+      {
+        "record": 1848,
+        "timestamp": "2026-10-22T06:10:15.176Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1862,
+        "timestamp": "2026-10-22T06:10:41.102Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1901,
+        "timestamp": "2026-10-22T06:13:32.766Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1977,
+        "timestamp": "2026-10-22T06:22:15.879Z",
+        "tool": "exec"
+      }
+    ],
+    "snapshot_unrepresentable": [
+      {
+        "record": 1777,
+        "timestamp": "2026-10-22T06:06:31.937Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1893,
+        "timestamp": "2026-10-22T06:12:07.989Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1901,
+        "timestamp": "2026-10-22T06:13:32.766Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1916,
+        "timestamp": "2026-10-22T06:17:11.433Z",
+        "tool": "exec"
+      },
+      {
+        "record": 1923,
+        "timestamp": "2026-10-22T06:18:27.275Z",
+        "tool": "exec"
+      }
+    ]
+  },
+  "scope": "Genuine local Entire payload contains the actual user turn and subsequent implementation, independent checks, test and writer operations. Not a self-authored transcript substitute. Proof is recorded after the associated implementation commit.",
+  "remote_checkpoint_sync": "pending; no push attempted",
+  "facilitator_access": "pending",
+  "publication": "pending",
+  "Classroom_submission": "not authorized or attempted"
+}
