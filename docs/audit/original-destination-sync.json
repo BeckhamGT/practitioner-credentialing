@@ -1,0 +1,208 @@
+{
+  "verified_at_utc": "2026-10-22T09:04:57.986083+00:00",
+  "destination": "https://github.com/BeckhamGT/practitioner-credentialing",
+  "visibility": "public",
+  "commit_at_initial_capture_migration": "231d7ac28ea66e7a597cd84451bbdff32ff6501f",
+  "initial_remote_checkpoint_refs": 0,
+  "checkpoint_refs_copied_unchanged": 15,
+  "checkpoint_refs": [
+    {
+      "ref": "refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K",
+      "local_object": "d25a3dd7affc3f2d6680eb7a20f72f770126be5f",
+      "remote_object": "d25a3dd7affc3f2d6680eb7a20f72f770126be5f",
+      "fresh_fetch_object": "d25a3dd7affc3f2d6680eb7a20f72f770126be5f",
+      "payload_bytes": 4737529,
+      "payload_sha256": "24645dc62e1ae5ee0f922968f495d9d14144604df488153f5a08260a08f9656d",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/0K/01M5GWMD06APCQQ8G5FJASCF0K",
+      "local_object": "042f85d4b110c73a91e8e0e17ab1bfbd6cf36e41",
+      "remote_object": "042f85d4b110c73a91e8e0e17ab1bfbd6cf36e41",
+      "fresh_fetch_object": "042f85d4b110c73a91e8e0e17ab1bfbd6cf36e41",
+      "payload_bytes": 6464794,
+      "payload_sha256": "8e32ab31f02fd88f6e2c429ccae0a0091ccb7f6ce1aefc690cb5744723b792f5",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/15/01M5GRQCTM17XPNNQ69APNKN15",
+      "local_object": "dfa0f1688674411c1981f4c2789c20f7c8afc8ad",
+      "remote_object": "dfa0f1688674411c1981f4c2789c20f7c8afc8ad",
+      "fresh_fetch_object": "dfa0f1688674411c1981f4c2789c20f7c8afc8ad",
+      "payload_bytes": 4737529,
+      "payload_sha256": "24645dc62e1ae5ee0f922968f495d9d14144604df488153f5a08260a08f9656d",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/67/01M5HAX4RP2ZYDWQJ3ZKF32567",
+      "local_object": "b93cef9fe95e79083f88dba479a76dd1a8d5efa2",
+      "remote_object": "b93cef9fe95e79083f88dba479a76dd1a8d5efa2",
+      "fresh_fetch_object": "b93cef9fe95e79083f88dba479a76dd1a8d5efa2",
+      "payload_bytes": 12180495,
+      "payload_sha256": "ebc0a0107afd3c007122468bc6448da832cb17d3037a8d0ce9cc35970d1dbab4",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993",
+      "local_object": "d01fa2f637894ac044f915da4db4e36a146a9886",
+      "remote_object": "d01fa2f637894ac044f915da4db4e36a146a9886",
+      "fresh_fetch_object": "d01fa2f637894ac044f915da4db4e36a146a9886",
+      "payload_bytes": 10482266,
+      "payload_sha256": "3e7d69274569c92ca4c8a94e7575a7ab12d0c7faa0fcc9879ebcd94078fefba9",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH",
+      "local_object": "56c1d5237dac15f8bb64bd7184c8c4566b8be698",
+      "remote_object": "56c1d5237dac15f8bb64bd7184c8c4566b8be698",
+      "fresh_fetch_object": "56c1d5237dac15f8bb64bd7184c8c4566b8be698",
+      "payload_bytes": 12180495,
+      "payload_sha256": "ebc0a0107afd3c007122468bc6448da832cb17d3037a8d0ce9cc35970d1dbab4",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/E0/01M5GYJ78YW0P39KW1R3KXBZE0",
+      "local_object": "2f6c5b8a8b10121942bd7b697add3f8c730c7108",
+      "remote_object": "2f6c5b8a8b10121942bd7b697add3f8c730c7108",
+      "fresh_fetch_object": "2f6c5b8a8b10121942bd7b697add3f8c730c7108",
+      "payload_bytes": 7291579,
+      "payload_sha256": "926d6eb7225378514f83fa4e2c4ddea2123c9c6385977e5b90d4e7446a088c19",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/EZ/01M5GWP14APNTA06RM0XWEJ0EZ",
+      "local_object": "990b6b22ea979132ccdaa9ff059956f9e9da4ff0",
+      "remote_object": "990b6b22ea979132ccdaa9ff059956f9e9da4ff0",
+      "fresh_fetch_object": "990b6b22ea979132ccdaa9ff059956f9e9da4ff0",
+      "payload_bytes": 6464794,
+      "payload_sha256": "8e32ab31f02fd88f6e2c429ccae0a0091ccb7f6ce1aefc690cb5744723b792f5",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4",
+      "local_object": "c3f10f80c74abab14c0776e3a81218e730f61916",
+      "remote_object": "c3f10f80c74abab14c0776e3a81218e730f61916",
+      "fresh_fetch_object": "c3f10f80c74abab14c0776e3a81218e730f61916",
+      "payload_bytes": 5224000,
+      "payload_sha256": "741900ef5cd3f7ebb32a407e734907e644dc0b5887b7483a8c62967686f40377",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/KX/01M5HCE6W4T7EX4NHYKTC5Q3KX",
+      "local_object": "7d8a8552d67063aeadc243ff48431c3dec211fce",
+      "remote_object": "7d8a8552d67063aeadc243ff48431c3dec211fce",
+      "fresh_fetch_object": "7d8a8552d67063aeadc243ff48431c3dec211fce",
+      "payload_bytes": 13407266,
+      "payload_sha256": "301f26d2efc677d06289a36d56c9f2c78dcd68d8f46a1f18e53ad8f9254e7c78",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/P2/01M5H4HMASKMZHW8NEJXCABNP2",
+      "local_object": "de9c614a8533b0ce7b67cc90b40232803c176ed7",
+      "remote_object": "de9c614a8533b0ce7b67cc90b40232803c176ed7",
+      "fresh_fetch_object": "de9c614a8533b0ce7b67cc90b40232803c176ed7",
+      "payload_bytes": 10482266,
+      "payload_sha256": "3e7d69274569c92ca4c8a94e7575a7ab12d0c7faa0fcc9879ebcd94078fefba9",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4",
+      "local_object": "e5fe71dbf9a6a8359bee06a7710311bb240e8c3c",
+      "remote_object": "e5fe71dbf9a6a8359bee06a7710311bb240e8c3c",
+      "fresh_fetch_object": "e5fe71dbf9a6a8359bee06a7710311bb240e8c3c",
+      "payload_bytes": 8630967,
+      "payload_sha256": "2a3c9369e101477b67ab046491d66e2849f0b24327cad88060d1f115154cdfff",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/QY/01M5GT61V1NEZ55T6X8KE8WDQY",
+      "local_object": "0b47128a9d9808a1898e26d0e6a256cb9058e27b",
+      "remote_object": "0b47128a9d9808a1898e26d0e6a256cb9058e27b",
+      "fresh_fetch_object": "0b47128a9d9808a1898e26d0e6a256cb9058e27b",
+      "payload_bytes": 5224000,
+      "payload_sha256": "741900ef5cd3f7ebb32a407e734907e644dc0b5887b7483a8c62967686f40377",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/VT/01M5H0R161QV0DMYTCEJQXP7VT",
+      "local_object": "5fcbd03a5c3b34a6d686cce03adea3f6d275f02a",
+      "remote_object": "5fcbd03a5c3b34a6d686cce03adea3f6d275f02a",
+      "fresh_fetch_object": "5fcbd03a5c3b34a6d686cce03adea3f6d275f02a",
+      "payload_bytes": 8630967,
+      "payload_sha256": "2a3c9369e101477b67ab046491d66e2849f0b24327cad88060d1f115154cdfff",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    },
+    {
+      "ref": "refs/entire/checkpoints/X1/01M5GYME24C8MFWJ7MSS4V20X1",
+      "local_object": "aa9b26111564ca050101833716598a7fb3a256e3",
+      "remote_object": "aa9b26111564ca050101833716598a7fb3a256e3",
+      "fresh_fetch_object": "aa9b26111564ca050101833716598a7fb3a256e3",
+      "payload_bytes": 7291579,
+      "payload_sha256": "926d6eb7225378514f83fa4e2c4ddea2123c9c6385977e5b90d4e7446a088c19",
+      "payload_equal": true,
+      "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e"
+    }
+  ],
+  "unauthenticated_readback": "Fresh Git fetch with credential helper, askpass and extra HTTP headers cleared; terminal credential prompts disabled",
+  "all_advertised_objects_and_fresh_payloads_equal_local": true,
+  "local_and_fetched_main_history_equal": true,
+  "interview": {
+    "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+    "bytes": 43202,
+    "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+    "remote_equals_worktree_and_downloads": true
+  },
+  "configuration": {
+    ".entire/settings.json": {
+      "enabled": true,
+      "strategy_options": {
+        "checkpoint_remote": {
+          "provider": "github",
+          "repo": "BeckhamGT/practitioner-credentialing"
+        }
+      },
+      "checkpoints": {
+        "primary": {
+          "type": "git-refs"
+        }
+      }
+    },
+    ".entire/settings.local.json": {
+      "enabled": true,
+      "strategy_options": {
+        "checkpoint_remote": {
+          "provider": "github",
+          "repo": "BeckhamGT/practitioner-credentialing"
+        }
+      }
+    }
+  },
+  "local_git_push_settings": {
+    "remote.pushDefault": "origin",
+    "branch.main.pushRemote": "origin",
+    "push.default": "simple"
+  },
+  "initial_hook_attempt": "Supported entire hooks git pre-push origin succeeded silently but published no refs; push queue was absent/empty. No success inferred.",
+  "recovery": "git push origin 'refs/entire/checkpoints/*:refs/entire/checkpoints/*' copied genuine refs unchanged, without force, queue editing, branch creation or transcript modification; installed Entire hook remained enabled.",
+  "sources": [
+    "https://github.com/entireio/cli/blob/main/docs/architecture/ref-checkpoint-backend.md",
+    "https://git-scm.com/docs/git-push"
+  ],
+  "scope": "Proof for the 15 existing checkpoints before the documentation update commit; final publication receipt must separately verify its additional genuine checkpoint and exact final main.",
+  "private_submission_repo": "Left intact; no push or settings change there.",
+  "Classroom_submission": "Not performed; this request asks for accurate comment text."
+}

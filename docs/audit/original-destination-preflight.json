@@ -1,0 +1,63 @@
+{
+  "observed_at_utc": "2026-10-22T09:00:19.411742+00:00",
+  "local_head": "231d7ac28ea66e7a597cd84451bbdff32ff6501f",
+  "public_remote_main": "231d7ac28ea66e7a597cd84451bbdff32ff6501f",
+  "remote_public": true,
+  "local_checkpoint_refs": {
+    "refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K": "d25a3dd7affc3f2d6680eb7a20f72f770126be5f",
+    "refs/entire/checkpoints/0K/01M5GWMD06APCQQ8G5FJASCF0K": "042f85d4b110c73a91e8e0e17ab1bfbd6cf36e41",
+    "refs/entire/checkpoints/15/01M5GRQCTM17XPNNQ69APNKN15": "dfa0f1688674411c1981f4c2789c20f7c8afc8ad",
+    "refs/entire/checkpoints/67/01M5HAX4RP2ZYDWQJ3ZKF32567": "b93cef9fe95e79083f88dba479a76dd1a8d5efa2",
+    "refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993": "d01fa2f637894ac044f915da4db4e36a146a9886",
+    "refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH": "56c1d5237dac15f8bb64bd7184c8c4566b8be698",
+    "refs/entire/checkpoints/E0/01M5GYJ78YW0P39KW1R3KXBZE0": "2f6c5b8a8b10121942bd7b697add3f8c730c7108",
+    "refs/entire/checkpoints/EZ/01M5GWP14APNTA06RM0XWEJ0EZ": "990b6b22ea979132ccdaa9ff059956f9e9da4ff0",
+    "refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4": "c3f10f80c74abab14c0776e3a81218e730f61916",
+    "refs/entire/checkpoints/KX/01M5HCE6W4T7EX4NHYKTC5Q3KX": "7d8a8552d67063aeadc243ff48431c3dec211fce",
+    "refs/entire/checkpoints/P2/01M5H4HMASKMZHW8NEJXCABNP2": "de9c614a8533b0ce7b67cc90b40232803c176ed7",
+    "refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4": "e5fe71dbf9a6a8359bee06a7710311bb240e8c3c",
+    "refs/entire/checkpoints/QY/01M5GT61V1NEZ55T6X8KE8WDQY": "0b47128a9d9808a1898e26d0e6a256cb9058e27b",
+    "refs/entire/checkpoints/VT/01M5H0R161QV0DMYTCEJQXP7VT": "5fcbd03a5c3b34a6d686cce03adea3f6d275f02a",
+    "refs/entire/checkpoints/X1/01M5GYME24C8MFWJ7MSS4V20X1": "aa9b26111564ca050101833716598a7fb3a256e3"
+  },
+  "remote_checkpoint_refs": {},
+  "missing_checkpoint_refs": [
+    "refs/entire/checkpoints/0K/01M5GRMYMAQCXFP2MK68DKP90K",
+    "refs/entire/checkpoints/0K/01M5GWMD06APCQQ8G5FJASCF0K",
+    "refs/entire/checkpoints/15/01M5GRQCTM17XPNNQ69APNKN15",
+    "refs/entire/checkpoints/67/01M5HAX4RP2ZYDWQJ3ZKF32567",
+    "refs/entire/checkpoints/93/01M5H4CZAGHEBN7X1QX6W1H993",
+    "refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH",
+    "refs/entire/checkpoints/E0/01M5GYJ78YW0P39KW1R3KXBZE0",
+    "refs/entire/checkpoints/EZ/01M5GWP14APNTA06RM0XWEJ0EZ",
+    "refs/entire/checkpoints/F4/01M5GT4Y6C225ZK9HT3RBE68F4",
+    "refs/entire/checkpoints/KX/01M5HCE6W4T7EX4NHYKTC5Q3KX",
+    "refs/entire/checkpoints/P2/01M5H4HMASKMZHW8NEJXCABNP2",
+    "refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4",
+    "refs/entire/checkpoints/QY/01M5GT61V1NEZ55T6X8KE8WDQY",
+    "refs/entire/checkpoints/VT/01M5H0R161QV0DMYTCEJQXP7VT",
+    "refs/entire/checkpoints/X1/01M5GYME24C8MFWJ7MSS4V20X1"
+  ],
+  "private_submission_main": "231d7ac28ea66e7a597cd84451bbdff32ff6501f",
+  "initial_config_mismatch": "Project settings named private submission repo; local ignored settings overrode to original repo; remote.pushDefault and branch.main.pushRemote were unset.",
+  "existing_capture_objects_equal_prior_reviewed_scan": false,
+  "user_authorization": "Explicitly publish code, original interview, Git history and genuine Entire conversation records to original public repo; preserve separate repo; return comment text, no submission action requested.",
+  "secret_scan": {
+    "scanner": "Gitleaks 8.30.1 default rules, decode depth 5, redacted local-only scan",
+    "head": "231d7ac28ea66e7a597cd84451bbdff32ff6501f",
+    "unique_reachable_blobs": 351,
+    "reachable_bytes": 234497569,
+    "scan_store": "All reachable blobs plus retained previously scanned blobs; no exclusions added",
+    "findings": 32,
+    "confirmed_credentials": 0,
+    "limitations": "Pattern scan/contextual review cannot prove absence of every conceivable secret.",
+    "dispositions_sha256": "104d3ab7c358faff3b45afc0eda36f56bdc4fc6be3e4e55e64263a7f7fcfa640"
+  },
+  "assignment_confidentiality": "The assignment says not to make private conversations public. The learner explicitly authorizes public publication; this action does not establish compliance with that requirement.",
+  "interview": {
+    "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+    "bytes": 43202,
+    "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+    "equals_unchanged_download": true
+  }
+}

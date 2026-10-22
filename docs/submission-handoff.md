@@ -1,13 +1,30 @@
-# Private submission handoff
+# Project E submission handoff
 
-Destination: https://github.com/BeckhamGT/practitioner-credentialing-submission
+Final destination: https://github.com/BeckhamGT/practitioner-credentialing
 
-The learner authorized this separate private repository on October 22, 2026.
-GitHub verified owner BeckhamGT and private visibility. It was created empty;
-unrelated work was not overwritten. The original public fork and upstream are
-preserved. This does not retroactively establish compliance with the starter's
-**Use this template** instruction. The final publication receipt and prepared
-Classroom note pin the exact published commit and remote checkpoint objects.
+GitHub verified owner BeckhamGT and **public** visibility on October 22, 2026.
+The learner explicitly authorized publishing code, original interview, Git
+history and genuine Entire conversation records here. The other chat's code
+push was verified: remote main was already at
+`231d7ac28ea66e7a597cd84451bbdff32ff6501f`; no checkpoint refs were advertised.
+The 15 existing genuine refs were then copied unchanged and verified by a fresh
+unauthenticated fetch. [Preflight](audit/original-destination-preflight.json) and
+[capture migration proof](audit/original-destination-sync.json) preserve these
+observations. The final receipt/private-comment text pin the later documentation
+commit and its additional genuine checkpoint.
+
+The separate private `BeckhamGT/practitioner-credentialing-submission` repository
+is retained intact at the earlier publication revision; it is no longer the
+final destination. Its prior audit/receipt remain historical evidence. Existing
+history and upstream are preserved. The original repository is a fork; this does
+not retroactively establish compliance with the starter's **Use this template**
+instruction.
+
+The assignment also says not to make private conversations public. The learner's
+explicit public-publication authorization governs this operation; it does not
+establish compliance with that confidentiality requirement. The conflict remains
+disclosed rather than silently waived. Secret scanning identified no confirmed
+credentials; scan limitations remain explicit.
 
 ## Actual results and disclosed limitations
 
@@ -61,27 +78,50 @@ Actual Codex session: `01a15fd1-860f-7210-a8ec-b2a637129c5e`.
 Main implementation commit: `3c03608ab0010f4873318492e158a36b38127005`.
 Its checkpoint: `refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH`.
 Prior review checkpoint: `refs/entire/checkpoints/67/01M5HAX4RP2ZYDWQJ3ZKF32567`.
-The publication commit has its own genuine capture, pinned in the final receipt.
+The prior private-publication commit is
+`231d7ac28ea66e7a597cd84451bbdff32ff6501f`, with checkpoint
+`refs/entire/checkpoints/KX/01M5HCE6W4T7EX4NHYKTC5Q3KX`.
+The final destination/documentation commit has its own genuine capture, pinned
+in the final receipt and prepared Classroom comment.
 
 Installed Entire 0.11.3 uses real per-checkpoint refs rather than a capture
 branch. No branch or transcript is fabricated. Historical proof object IDs
 describe their observation time; final remote synchronization must compare
 current advertised objects and stored payloads with local records.
 
-Supported explicit private routing:
+Supported explicit routing, aligned in both settings scopes:
 
 ```sh
-entire configure --project --checkpoint-remote github:BeckhamGT/practitioner-credentialing-submission
+entire configure --project --checkpoint-remote github:BeckhamGT/practitioner-credentialing
+entire configure --local --checkpoint-remote github:BeckhamGT/practitioner-credentialing
+git config --local remote.pushDefault origin
+git config --local branch.main.pushRemote origin
+git config --local push.default simple
 ```
 
-`submission` is the private Git remote and local default push remote; original
-`origin`/`upstream` URLs are unchanged. The installed Entire pre-push hook performs
-checkpoint synchronization to the explicit destination. Configuration is not
-proof of synchronization. An authorized reviewer can retrieve the real refs:
+`origin` is the original public URL and default code-push destination. The
+gitignored local Entire setting and committed project setting both name that
+same repository. The `submission` remote is preserved but is not a default;
+`upstream` is unchanged. The installed Entire pre-push hook remains enabled for
+new checkpoints. Configuration and a successful code push are not sync proof.
+
+The installed 0.11.3 hook had an empty push queue, so changing the destination did
+not migrate existing checkpoints. The unchanged genuine refs were copied with
+the supported Git command below; no force, internal queue edits, fabricated
+branch or replacement transcripts were used. See the
+[Entire ref backend](https://github.com/entireio/cli/blob/main/docs/architecture/ref-checkpoint-backend.md)
+and [Git refspec documentation](https://git-scm.com/docs/git-push).
 
 ```sh
-git clone https://github.com/BeckhamGT/practitioner-credentialing-submission.git
-cd practitioner-credentialing-submission
+git push origin 'refs/entire/checkpoints/*:refs/entire/checkpoints/*'
+```
+
+Public retrieval was independently demonstrated with credentials disabled.
+A reviewer can retrieve the real refs:
+
+```sh
+git clone https://github.com/BeckhamGT/practitioner-credentialing.git
+cd practitioner-credentialing
 git fetch origin 'refs/entire/checkpoints/*:refs/entire/checkpoints/*'
 entire checkpoint explain --commit HEAD --json
 entire checkpoint explain --commit 3c03608ab0010f4873318492e158a36b38127005 --transcript
@@ -93,19 +133,17 @@ capture-branch wording versus installed ref format remains explicit.
 
 ## Access and submission boundary
 
-Only BeckhamGT is currently a collaborator. Installed apps are ChatGPT Codex
-Connector and Vercel; the authorized OAuth app is GitHub CLI. These do not
-establish course access. Classroom names Wei Kuo as teacher but provides no
-verified GitHub identity or approved grading integration. No identity or
-invitation has been invented.
+The original repository's code, interview and genuine checkpoint refs are
+publicly retrievable; a private collaborator invitation is no longer necessary
+for that read path. This demonstrates technical retrieval, not that the
+facilitator has reviewed the work or that a grading integration accepts the
+installed ref format. No such account, acceptance or grading result is invented.
+The earlier private-repository identity/access hold is historical.
 
-The learner replied, “skip it for now, i don't have it,” when asked for that
-identity. **Classroom submission remains pending.** The remaining step is to
-identify the authorized account/integration, grant the required private access,
-and verify it can read the pinned code, original interview and checkpoint refs.
-A private URL or pending invitation is not verified access. The learner
-authorized submission with these output limitations disclosed only after
-publication and access are verified.
+**Classroom submission remains pending.** This request asks for accurate
+private-comment text, not a turn-in. The prepared comment discloses the absent
+actual assessed snapshots, synthetic-only demonstrations, fork/template and
+public-confidentiality conflicts, exact published commit and genuine capture.
 
 Exact assignment:
 https://classroom.google.com/c/ODcyMjA4NTkwNDk2/a/ODczMzcxMDI0ODUw/details

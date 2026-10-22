@@ -1,6 +1,29 @@
 # Project E source and readiness audit
 
-**Publication update, October 22:** the learner explicitly authorized a separate
+**Current destination update, October 22:** the learner explicitly authorized
+the original **public** `BeckhamGT/practitioner-credentialing` as final, including
+code, original interview/history and genuine Entire records. Initial remote main
+already equaled `231d7ac28ea66e7a597cd84451bbdff32ff6501f`, but no capture refs were
+present. Project Entire settings still named the separate private repo; a local
+override named the original. Both scopes now explicitly name the original;
+Git defaults and main pushRemote are origin, with push.default=simple. Fifteen
+existing genuine refs were copied unchanged and independently fetched without
+credentials. [Preflight](audit/original-destination-preflight.json) and
+[migration proof](audit/original-destination-sync.json) retain object/payload
+comparisons. The final receipt must also cover the documentation commit's new
+capture and exact final remote revision. The separate private repository and
+all earlier evidence remain intact. G1/G2, actual snapshot absence and human
+authority are unchanged. No Classroom submission is performed by this update.
+
+| Requirement | Current evidence / procedure | Remaining state |
+|---|---|---|
+| R03 interview / history / access | Remote interview equals unchanged Downloads; one current complete export; all retained main history fetched publicly | Byte preservation and public retrieval demonstrated; not facilitator inspection |
+| R08 genuine capture / syncing | All 15 prior refs and full transcript payloads match unauthenticated fresh fetch; empty Entire queue explained why code push alone omitted capture; new refs use normal hook | Final receipt separately pins the update commit and additional checkpoint |
+| R23 exact revision / Classroom / pairing | Original public destination chosen; final private comment identifies exact commit, actual reports, absent paths and genuine refs | Comment prepared only; not submitted; grader acceptance of ref format unconfirmed |
+| R24 confidentiality / secrets | Current capture scanned; explicit public-publication authorization recorded | Assignment prohibits making private conversations public; authorization does not prove compliance; conflict remains disclosed |
+| R25 handoff / limitations | Current handoff uses original URL and public visibility; private repository retained as history | Actual assessed snapshots remain absent; no full readiness, submission or grading claim |
+
+**Historical private-publication preflight, October 22:** the learner explicitly authorized a separate
 private `BeckhamGT/practitioner-credentialing-submission` repository, with code,
 authentic interview, retained history and genuine checkpoints. Destination owner
 and private visibility were verified; Entire now explicitly targets that repo.

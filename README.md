@@ -184,18 +184,20 @@ links actual and conditional evidence; [run log](deliverables/run-log.md) names
 commands, consumed/produced artifacts and failures. Inspect the real outputs;
 display and passing tests are not acceptance.
 
-The original public fork is preserved, while the starter says to use its
-template. On October 22 the learner authorized a separate private publication at
-`BeckhamGT/practitioner-credentialing-submission`, including the authentic
-interview, history and genuine Entire records. Entire explicitly targets that
-private repository; its supported git-refs backend is retained. The assignment's
-capture-branch wording is disclosed; no capture branch is fabricated. See the
-[submission handoff](docs/submission-handoff.md) and
-[preflight evidence](docs/audit/private-publication-preflight.json).
+The final destination is the original **public** repository:
+`https://github.com/BeckhamGT/practitioner-credentialing`. The learner explicitly
+authorized public code, original interview, history and genuine Entire records.
+Both project/local Entire settings target it; local Git defaults and the main
+branch's push remote are `origin`. The separate private submission repository
+and prior evidence remain intact. See the [handoff](docs/submission-handoff.md),
+[destination preflight](docs/audit/original-destination-preflight.json) and
+[capture migration proof](docs/audit/original-destination-sync.json).
 
-Private publication, demonstrated remote synchronization, facilitator access
-and Classroom submission are separate checks. The final publication receipt
-pins the exact published commit and advertised checkpoint objects. Facilitator
-identity/access remains unavailable; the learner asked to skip that step for
-now, so Classroom submission remains pending. The learner owns actual choices
-and final review; put any choice/reason early in a turn (first 600 characters).
+The assignment's template-versus-fork, capture-branch-versus-genuine-refs, and
+non-public-conversation requirements remain disclosed; public authorization is
+not a claim that those requirements were satisfied. No capture branch is
+fabricated. Public retrieval is demonstrated separately from facilitator review
+or grading acceptance. The final receipt pins the exact published commit and
+remote checkpoint objects. Classroom submission remains pending; a prepared
+private comment is not a turn-in. The learner owns actual choices and final
+review; put any choice/reason early in a turn (first 600 characters).
