@@ -1,0 +1,78 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5GRMYMAQCXFP2MK68DKP90K",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-22T02:57:08.708237Z",
+  "branch": "main",
+  "checkpoints_count": 4,
+  "save_step_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "README.md",
+    "credentialing/__init__.py",
+    "credentialing/__main__.py",
+    "credentialing/cli.py",
+    "credentialing/storage.py",
+    "credentialing/validation.py",
+    "docs/audit/source-inventory.json",
+    "docs/audit/source-readings.json",
+    "docs/groundwork-plan.md",
+    "docs/groundwork-verification.md",
+    "docs/readiness-audit.md",
+    "interviews/project-e-practitioner-credentialing-20261021-2206.md",
+    "requirements.lock",
+    "requirements.txt",
+    "tests/__init__.py",
+    "tests/test_groundwork.py"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "1deb77989444",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 774215,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 7332096,
+    "output_tokens": 63628,
+    "api_call_count": 49,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-22T02:57:08.635403Z",
+    "agent_lines": 8450,
+    "agent_removed": 0,
+    "human_added": 1167,
+    "human_modified": 13,
+    "human_removed": 0,
+    "total_committed": 9630,
+    "total_lines_changed": 9630,
+    "agent_percentage": 87.74662512980271,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 88,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".codex/hooks.json": 88
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 88,
+      "user_lines_removed": 0,
+      "agent_lines_added": 8463,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".codex/hooks.json": 88
+      }
+    }
+  ]
+}
