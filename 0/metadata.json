@@ -1,0 +1,42 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5GYME24C8MFWJ7MSS4V20X1",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-22T04:41:42.98242Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "docs/audit/interview-update-20261022-0427.json",
+    "docs/audit/interview-update-capture-20261022-0427.json",
+    "docs/readiness-audit.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "1975ad8a71c1",
+  "checkpoint_transcript_start": 1105,
+  "transcript_lines_at_start": 1105,
+  "compact_transcript_start": 101,
+  "token_usage": {
+    "input_tokens": 3421,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 299136,
+    "output_tokens": 2710,
+    "api_call_count": 2
+  },
+  "session_metrics": {
+    "turn_count": 7
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-22T04:41:42.869927Z",
+    "agent_lines": 47,
+    "agent_removed": 6,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 47,
+    "total_lines_changed": 53,
+    "agent_percentage": 100,
+    "metric_version": 2
+  }
+}
