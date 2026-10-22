@@ -1,0 +1,21 @@
+Let’s use your proposed Python CLI with explicit persisted JSON state.
+
+I authorize independent groundwork while G1 and G2 remain unresolved: file loading, structural validation, source provenance, hashes, state storage, the command interface, and tests for those components. Preserve existing work and keep later-batch evidence out of earlier runs.
+
+Keep signature/CV-dependent completeness decisions, packet-readiness conclusions, and assessed snapshots blocked. Do not invent missing evidence, business rules, notices, or a schema status to bypass those gaps.
+
+I will seek clarification from the stakeholder and, if needed, the facilitator about:
+
+- Application-signature evidence and the export’s representation of that check.
+- CV currency and evidence of CV-to-application reconciliation.
+- Acceptance of the existing fork, the approved publication/access arrangement, and Entire’s checkpoint-ref format.
+
+Maintain the narrower source conflicts with their affected records, consequences, owners, and next actions. Continue unrelated authorized work, but do not silently repair source records or choose unsupported interpretations.
+
+Keep me involved at meaningful decisions. Explain options and tradeoffs, then ask for my actual choice where needed. Do not write my reasoning or treat silence as approval.
+
+Make a meaningful local commit of the authorized groundwork and verify that its real Entire checkpoint contains this session and is associated with that commit. If capture fails, stop assessed implementation and report the repair needed. Keep interview, capture, and source material local until the publication arrangement is resolved; report remote syncing as pending until demonstrated.
+
+Once the evidence gaps are resolved, return to me before implementing the affected business logic. After batch 1 is processed, show me the actual snapshot and action queue with specific source comparisons and an independent calculation for me to review before continuing.
+
+Maintain the requirement-to-evidence map as work progresses. Do not claim submission readiness from passing tests alone, and do not submit to Classroom without my explicit authorization.
