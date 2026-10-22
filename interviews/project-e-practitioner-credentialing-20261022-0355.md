@@ -1,6 +1,6 @@
 # Project E — Practitioner Credentialing Interview
 
-Participant: Beckham Vo · Exported: 10/21/2026, 6:06:55 PM
+Participant: Beckham Vo · Exported: 10/21/2026, 11:55:39 PM
 
 ## Renata Kowalczyk · Medical Services Professional, Medical Staff Office
 
@@ -652,3 +652,63 @@ How many attempts do you have at reaching out for applicants?
 **Renata Kowalczyk** · Voice · 06:06 PM
 
 For missing items or completeness conditions, I send a written request which starts a thirty-day clock. For verifications and peer references, I attempt at least three times, twenty-one calendar days apart.
+
+**Beckham Vo** · Voice · 11:50 PM
+
+What should we do about applicant signature?
+
+**Renata Kowalczyk** · Voice · 11:50 PM
+
+An applicant's signature is a mandatory completeness condition. If the signature is missing, I send a written request to the applicant, which starts a thirty-day calendar clock. You can review the full list of conditions in the procedure. - [Initial appointment — Medical Staff Office procedure (LARK-MSO-2026.1)](https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit)
+
+**Renata Kowalczyk** · Voice · 11:50 PM
+
+This does not reset or pause the thirty-day calendar clock.
+
+**Beckham Vo** · Voice · 11:50 PM
+
+How to establish that the applicant signed and dated the application itself?
+
+**Renata Kowalczyk** · Voice · 11:50 PM
+
+I review the submitted application form at intake to confirm the applicant has provided their signature and a written date in the designated fields. This is part of the completeness screen. You can verify this procedure in the Initial appointment — Medical Staff Office procedure.
+
+- [Initial appointment — Medical Staff Office procedure (LARK-MSO-2026.1)](https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit)
+
+**Renata Kowalczyk** · Voice · 11:50 PM
+
+Which specific part of the workflow would you like to explore next?
+
+**Beckham Vo** · Voice · 11:51 PM
+
+What does the office mean by current CV?
+
+**Renata Kowalczyk** · Voice · 11:51 PM
+
+A current curriculum vitae is a mandatory completeness condition submitted at intake, ensuring the file reflects the applicant's most recent professional history. You can find this in the Initial appointment — Medical Staff Office procedure.
+
+- [Initial appointment — Medical Staff Office procedure (LARK-MSO-2026.1)](https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit)
+
+**Renata Kowalczyk** · Voice · 11:51 PM
+
+Which specific part of the workflow would you like to explore next?
+
+**Beckham Vo** · Voice · 11:54 PM
+
+Where can we find that signed application or recorded result of that check for each application revision?
+
+**Renata Kowalczyk** · Voice · 11:54 PM
+
+The signed application is part of the application revisions folder for each batch. However, the recorded result of my completeness check is not exported and remains part of my internal bookkeeping.
+
+**Beckham Vo** · Voice · 11:54 PM
+
+What does the CV represent for an applicant?
+
+**Renata Kowalczyk** · Voice · 11:54 PM
+
+The curriculum vitae represents the applicant's declared professional history. I compare it against the application and the completed verifications during the reconciliation stage. - [Initial appointment — Medical Staff Office procedure (LARK-MSO-2026.1)](https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit)
+
+**Renata Kowalczyk** · Voice · 11:54 PM
+
+Which specific part of the workflow would you like to explore next?
