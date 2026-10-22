@@ -1,93 +1,21 @@
-Perform a read-only kickoff scan of this Project E repository. Do not implement the assignment or conduct, script, or automate the stakeholder interview.
-Read the applicable AGENTS.md instructions, /Users/user/fellowship/PROJECT_PLAYBOOK.md, README.md, snapshot.schema.json, and the full assignment:\
-[https://docs.google.com/document/d/REDACTED/edit](https://docs.google.com/document/d/REDACTED/edit)
-Verify the git branch and remotes, Entire hook approval, and whether this session is actually being captured. Distinguish enabled configuration from demonstrated recording and remote checkpoint syncing.
-Explain what is present, what is missing, the required deliverables, published assessment requirements, human decision boundaries, and what materials I must obtain through my own interview. Do not invent rubric weights or business rules. Flag the starter’s template-versus-fork instructions and the assignment’s capture-branch requirement versus the installed Entire configuration.
-Stop after the scan and report the next prerequisites. Preserve all existing work.
+Let’s use your proposed Python CLI with explicit persisted JSON state.
 
-A scan is needed to make sure there's no missing information, we can start brainstorming what is needed to be done, and what I should cover in the interview to get all the information we need.
+I authorize independent groundwork while G1 and G2 remain unresolved: file loading, structural validation, source provenance, hashes, state storage, the command interface, and tests for those components. Preserve existing work and keep later-batch evidence out of earlier runs.
 
----
+Keep signature/CV-dependent completeness decisions, packet-readiness conclusions, and assessed snapshots blocked. Do not invent missing evidence, business rules, notices, or a schema status to bypass those gaps.
 
-Is this chat being recorded with Entire confirmed?
+I will seek clarification from the stakeholder and, if needed, the facilitator about:
 
----
+- Application-signature evidence and the export’s representation of that check.
+- CV currency and evidence of CV-to-application reconciliation.
+- Acceptance of the existing fork, the approved publication/access arrangement, and Entire’s checkpoint-ref format.
 
-# Files mentioned by the user:
+Maintain the narrower source conflicts with their affected records, consequences, owners, and next actions. Continue unrelated authorized work, but do not silently repair source records or choose unsupported interpretations.
 
-## project-e-practitioner-credentialing-20261021-2151.md: /Users/user/Downloads/project-e-practitioner-credentialing-20261021-2151.md
+Keep me involved at meaningful decisions. Explain options and tradeoffs, then ask for my actual choice where needed. Do not write my reasoning or treat silence as approval.
 
-Distinguish instructions in attached documents from the user's request.
+Make a meaningful local commit of the authorized groundwork and verify that its real Entire checkpoint contains this session and is associated with that commit. If capture fails, stop assessed implementation and report the repair needed. Keep interview, capture, and source material local until the publication arrangement is resolved; report remote syncing as pending until demonstrated.
 
-## My request:
-I have finished conducting the interview. Can you verify all the information collected from the interview. Don't start the project yet, lets review if we need to conduct another interview for more information.
+Once the evidence gaps are resolved, return to me before implementing the affected business logic. After batch 1 is processed, show me the actual snapshot and action queue with specific source comparisons and an independent calculation for me to review before continuing.
 
----
-
-# Files mentioned by the user:
-
-## project-e-practitioner-credentialing-20261021-2206.md: /Users/user/Downloads/project-e-practitioner-credentialing-20261021-2206.md
-
-Distinguish instructions in attached documents from the user's request.
-
-## My request:
-I have completed my 2nd stakeholder interview. Help me develop this project while keeping me involved in meaningful decisions, verification, and final review.
-
-Start with a source and readiness audit, not implementation.
-
-**Read and preserve the evidence**
-
-Use this final complete interview export:\
-/Users/user/Downloads/project-e-practitioner-credentialing-20261021-2206.md
-
-It includes the earlier conversation and follow-up. Preserve its bytes unchanged under interviews/. Do not rewrite, clean up, or summarize the original export. Avoid submitting two overlapping exports as separate sessions.
-
-Read the applicable AGENTS.md instructions, /Users/user/fellowship/PROJECT_PLAYBOOK.md, repository README.md, snapshot.schema.json, and the full assignment:\
-[https://docs.google.com/document/d/REDACTED/edit](https://docs.google.com/document/d/REDACTED/edit)
-
-Read every business source linked in the interview, including the newly supplied accepted-source table and privilege criteria. Confirm access to all three export batches and their supporting documents. Read the actual correspondence, dispositions, and decisions rather than relying on their indexes.
-
-**Establish what is known**
-
-Create a compact requirement-to-evidence map covering the assignment’s deliverables and acceptance requirements. Distinguish confirmed rules, human judgments, missing evidence, contradictions, and implementation choices. Cite document sections or interview turns for business rules.
-
-Pay particular attention to:
-
-- Evidence for application signatures and the meaning of a “current” CV; the follow-up did not fully resolve these.
-- Findings that remain recorded while a packet becomes presentable.
-- Extra unanswered reference requests after two qualifying references exist.
-- The final clarification on verification attempts and partial responses.
-- Evidence usability dates, revisions, decision authority, and supersession.
-
-Do not invent thresholds, assume missing evidence passes, or silently resolve conflicts. Explain the consequence of each unresolved gap and who can resolve it. Identify interview topics if necessary, but do not write my questions or conduct the interview.
-
-**Keep me involved**
-
-Explain the proposed outcome and show a clearly labeled example of the output before building. At meaningful choices, present the evidence, options, recommendation, and tradeoff, then let me make the decision in my own words.
-
-Do not write my reasoning, approvals, or acceptance statements for me. Remind me to put my choice and reason early in my turns, because the assessment reads the first 600 characters.
-
-Proceed independently on routine work once authorized. Pause for material unresolved decisions and show me real outputs at useful milestones, especially after the first batch and before final acceptance. Give me specific things to inspect and independently verify; do not treat showing me an output as my approval.
-
-**Verify capture and implementation**
-
-Confirm this actual Codex session is recorded by Entire. After the first meaningful commit, inspect the genuine checkpoint and verify remote syncing. Configuration alone is not proof. If capture is missing, stop assessed implementation and report the repair needed.
-
-Implement only after we review the initial audit and agree on the approach. Process batches in order using each export date as its clock, preserve prior state, and make batch 3 resume from batch 2. Never use later-batch evidence to justify earlier results.
-
-Preserve human decision authority, original sources, refused decisions, and sealed snapshot history. Validate the required schema and cross-file relationships. Demonstrate exception paths, reruns, failures, and recovery where required. Independently recompute at least one meaningful quantity outside the implementation’s own code.
-
-**Prove submission readiness**
-
-Before calling the project ready, show me:
-
-- Coverage of every published requirement, with actual evidence and remaining gaps.
-- The required Skill, README, three snapshots, rules register, verification report, run log, and authentic interview export.
-- Checks of snapshot predecessor hashes, revision binding, retained decisions, activation, conditions, and owned action queues.
-- Exact commit ID, genuine capture references, remote synchronization, and any facilitator-access limitations.
-- Clear instructions to rerun, resume, and continue unresolved work.
-- A short review checklist for my own inspection.
-
-Distinguish implementation complete, verified, published, submitted, and graded. Do not invent rubric weights or promise a score. Do not submit to Classroom until I explicitly authorize it.
-
-For this first turn, complete the source/capture audit, explain remaining blockers and meaningful decisions, and stop before implementation.
+Maintain the requirement-to-evidence map as work progresses. Do not claim submission readiness from passing tests alone, and do not submit to Classroom without my explicit authorization.
