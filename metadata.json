@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5GT61V1NEZ55T6X8KE8WDQY",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "docs/readiness-audit.md",
+    "docs/record-review-milestone.md",
+    "docs/reviews/capture-proof.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 2706,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 704896,
+    "output_tokens": 1267,
+    "api_call_count": 2
+  }
+}
