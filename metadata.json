@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5H4CZAGHEBN7X1QX6W1H993",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md",
+    "SKILL.md",
+    "credentialing/cli.py",
+    "credentialing/conditional.py",
+    "credentialing/elements.py",
+    "credentialing/snapshots.py",
+    "credentialing/writer.py",
+    "docs/element-review-milestone.md",
+    "docs/element-writer-plan.md",
+    "docs/partial-representation-assessment.md",
+    "tests/test_continuation.py",
+    "tests/test_elements_writer.py",
+    "tools/independent_element_checks.py",
+    "tools/writer_demo.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 435728,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 7159040,
+    "output_tokens": 75684,
+    "api_call_count": 50
+  }
+}
