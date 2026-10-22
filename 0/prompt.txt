@@ -1,0 +1,15 @@
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_1fcf367b68754e38a2058bd7e756f154\",0]","question":"Which exact GitHub username or approved grading integration should receive access to the private submission repository? The repository currently lists only BeckhamGT as a collaborator; the installed apps are ChatGPT Codex Connector and Vercel, and the course materials do not identify a private-repository grading account. I’ll finish publication and prepare the submission note while this access detail remains pending.","answer":"skip it for now, i don't have it"}]
+</send_user_message_question_reply>
+
+---
+
+Use my original public repository as the final Project E destination:\
+[https://github.com/BeckhamGT/practitioner-credentialing.git](https://github.com/BeckhamGT/practitioner-credentialing.git)
+I authorize publishing the project code, original interview, Git history, and genuine Entire conversation records there.
+The other chat already pushed main through commit 231d7ac28ea66e7a597cd84451bbdff32ff6501f and set the local Entire checkpoint destination to github/practitioner-credentialing. Verify those results before repeating work.
+Ensure future code pushes and checkpoint syncing consistently target the original repository. Check both project/local Entire settings and Git’s default push settings, since these previously targeted the separate submission repository.
+Verify the remote main commit and every required genuine checkpoint against local records. Do not assume the successful code push also uploaded capture. Synchronize any missing checkpoints using supported tooling.
+Update the handoff and publication documentation to name the original repository and state the current visibility accurately. Preserve historical evidence and leave the separate submission repository intact. Commit and push any necessary documentation updates, then verify the final remote revision.
+Keep the submission limitations explicit: actual assessed snapshots remain absent, unresolved evidence remains human work, and synthetic demonstrations do not establish actual applicant outcomes.
+Return the final repository URL, exact published commit, checkpoint-sync proof, and the accurate private-comment text for Google Classroom. Do not mark the assignment submitted unless that action has actually occurred.
