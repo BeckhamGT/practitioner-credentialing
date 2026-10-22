@@ -1,0 +1,38 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5HAKJS8PH3W4AQYQNJ71TBH",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "credentialing/cli.py",
+    "credentialing/conditional.py",
+    "credentialing/human_review.py",
+    "credentialing/processor.py",
+    "credentialing/workflow.py",
+    "credentialing/workflow_store.py",
+    "credentialing/writer.py",
+    "docs/human-observation-protocol.md",
+    "docs/workflow-completion-plan.md",
+    "tests/test_workflow.py",
+    "tools/independent_workflow_checks.py",
+    "tools/synthetic_workflow.py",
+    "tools/workflow_demo.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 73592,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 20036352,
+    "output_tokens": 149575,
+    "api_call_count": 70
+  }
+}
