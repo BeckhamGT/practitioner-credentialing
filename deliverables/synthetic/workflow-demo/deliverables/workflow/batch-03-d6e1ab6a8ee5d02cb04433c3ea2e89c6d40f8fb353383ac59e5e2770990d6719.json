@@ -1,0 +1,2505 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "action_id": "537a9d1eb7e50debd04d",
+          "dependency": "monitored-condition",
+          "due": "2026-12-31",
+          "execution": "not-sent-or-performed-by-software",
+          "item": "Re-verify Washington licence SYNTH-MD before expiry",
+          "kind": "owed",
+          "owner": "Medical Services Professional",
+          "sources": []
+        }
+      ],
+      "activation": {
+        "active_at_export": true,
+        "cycle_end": "2027-04-24",
+        "effective_date": "2026-04-25",
+        "privileges": [
+          "PRIV-FM"
+        ]
+      },
+      "application_id": "SYNTH-WORKFLOW",
+      "appointment_history": [
+        {
+          "as_of": "2026-03-16",
+          "batch": 1,
+          "value": {
+            "activation": null,
+            "approval_decision_id": null
+          }
+        },
+        {
+          "as_of": "2026-04-20",
+          "batch": 2,
+          "value": {
+            "activation": {
+              "active_at_export": false,
+              "cycle_end": "2027-04-24",
+              "effective_date": "2026-04-25",
+              "privileges": [
+                "PRIV-FM"
+              ]
+            },
+            "approval_decision_id": "SYNTH-GB"
+          }
+        },
+        {
+          "as_of": "2026-05-18",
+          "batch": 3,
+          "value": {
+            "activation": {
+              "active_at_export": true,
+              "cycle_end": "2027-04-24",
+              "effective_date": "2026-04-25",
+              "privileges": [
+                "PRIV-FM"
+              ]
+            },
+            "approval_decision_id": "SYNTH-GB"
+          }
+        }
+      ],
+      "approval_decision_id": "SYNTH-GB",
+      "as_of": "2026-05-18",
+      "condition_details_unresolved": false,
+      "condition_history": [
+        {
+          "as_of": "2026-03-16",
+          "batch": 1,
+          "value": []
+        },
+        {
+          "as_of": "2026-04-20",
+          "batch": 2,
+          "value": [
+            {
+              "blocks_activation": false,
+              "condition": "SYNTH named monitoring evidence",
+              "due": "2026-04-30",
+              "events": [],
+              "finding": false,
+              "owner": "Medical Services Professional",
+              "satisfaction_records": [],
+              "satisfied": false
+            },
+            {
+              "blocks_activation": false,
+              "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+              "credential_number": "SYNTH-MD",
+              "due": "2026-12-31",
+              "events": [],
+              "finding": false,
+              "origin": "licence-expiry",
+              "owner": "Medical Services Professional",
+              "satisfaction_records": [],
+              "satisfied": false
+            }
+          ]
+        },
+        {
+          "as_of": "2026-05-18",
+          "batch": 3,
+          "value": [
+            {
+              "blocks_activation": false,
+              "condition": "SYNTH named monitoring evidence",
+              "due": "2026-04-30",
+              "events": [
+                {
+                  "date": "2026-04-30",
+                  "event": "became-finding",
+                  "notification_sent": false,
+                  "owner": "Clinical Director"
+                },
+                {
+                  "date": "2026-05-02",
+                  "event": "satisfied-by-naming-record"
+                }
+              ],
+              "finding": false,
+              "owner": "Medical Services Professional",
+              "satisfaction_records": [
+                {
+                  "condition": "SYNTH named monitoring evidence",
+                  "date": "2026-05-02",
+                  "source": {
+                    "batch": 3,
+                    "path": "letters/SYNTH-satisfaction.md",
+                    "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8",
+                    "source_id": "SYNTH-3-14"
+                  }
+                }
+              ],
+              "satisfied": true
+            },
+            {
+              "blocks_activation": false,
+              "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+              "credential_number": "SYNTH-MD",
+              "due": "2026-12-31",
+              "events": [],
+              "finding": false,
+              "origin": "licence-expiry",
+              "owner": "Medical Services Professional",
+              "satisfaction_records": [],
+              "satisfied": false
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "basis": "synthetic-conditional-demonstration",
+          "conditions": [
+            {
+              "condition": "SYNTH named monitoring evidence",
+              "due": "2026-04-30"
+            }
+          ],
+          "fields": {
+            "Application": "SYNTH-WORKFLOW",
+            "Body": "Governing Body",
+            "Conditions": "",
+            "Criteria version": "LARK-PRIV-2026.1",
+            "Decision ID": "SYNTH-GB",
+            "Decision date": "2026-03-20",
+            "Effective date": "2026-04-25",
+            "Outcome": "approved-with-conditions",
+            "Privileges": "PRIV-FM",
+            "Reason": "SYNTHETIC conditional grant",
+            "Revision": "1",
+            "Role": "Chair, Governing Body",
+            "Signatory": "Ms. Corinne Batiste",
+            "Supersedes": ""
+          },
+          "independent_conditions": {
+            "body": true,
+            "earlier_same_body_records": [],
+            "literal_supersedes": null,
+            "names_prior_received_record": false,
+            "outcome_reason": true,
+            "prior_presentability": true,
+            "recorded_revision": true,
+            "signatory_role": true,
+            "supersession_applicability_known": true
+          },
+          "later_evidence_may_not_rewrite_this_evaluation": true,
+          "observed_in_batch": 2,
+          "packet_evaluation_at_decision": {
+            "application_id": "SYNTH-WORKFLOW",
+            "date": "2026-02-07",
+            "established_negative_dependencies": [],
+            "presentable": true,
+            "requirements": {
+              "CV_reconciled": true,
+              "certification": true,
+              "education": true,
+              "experience": true,
+              "gaps": true,
+              "high_risk_disposition": true,
+              "intake_complete": true,
+              "licensure": true,
+              "no_open_discrepancy": true,
+              "references": true
+            },
+            "revision": 1,
+            "unknown_dependencies": []
+          },
+          "result": {
+            "admitted": true,
+            "reason": null
+          },
+          "source": {
+            "batch": 2,
+            "path": "decisions/SYNTH-GB.md",
+            "sha256": "07d88352604630fb1471025c35d9d09339b2cd8522fa8d3787e84fecbb6e3f72",
+            "source_id": "SYNTH-2-14"
+          }
+        }
+      ],
+      "documents_read": [
+        {
+          "source": {
+            "batch": 1,
+            "path": "letters/SYNTH-intake-evidence.md",
+            "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d",
+            "source_id": "SYNTH-1-14"
+          },
+          "text": "# SYNTHETIC invented intake documents\n\n**Date:** 2026-02-01\n**Application:** SYNTH-WORKFLOW\n**Revision:** 1\n\nInvented signed application, current CV comparison, declaration attestation, and degree/training accreditation evidence. NOT supplied-applicant material.\n"
+        },
+        {
+          "source": {
+            "batch": 1,
+            "path": "letters/SYNTH-review.md",
+            "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+            "source_id": "SYNTH-1-15"
+          },
+          "text": "# SYNTHETIC MSP observations\n\n**Date:** 2026-02-08\n**Application:** SYNTH-WORKFLOW\n**Revision:** 1\n**Review schema:** credentialing-observations/1\n**Recorded by:** Ms. Renata Kowalczyk, CPMSM\n\n```json\n{\n  \"evidence\": [\n    {\n      \"path\": \"letters/SYNTH-intake-evidence.md\",\n      \"sha256\": \"fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d\"\n    }\n  ],\n  \"facts\": {\n    \"application_signature\": true,\n    \"cv_current\": true,\n    \"cv_reconciled\": true,\n    \"all_credentials_declared\": true,\n    \"accreditation_by_entry\": {\n      \"SYNTH-E0\": true,\n      \"SYNTH-E1\": true\n    }\n  }\n}\n```\n"
+        },
+        {
+          "source": {
+            "batch": 2,
+            "path": "decisions/SYNTH-GB.md",
+            "sha256": "07d88352604630fb1471025c35d9d09339b2cd8522fa8d3787e84fecbb6e3f72",
+            "source_id": "SYNTH-2-14"
+          },
+          "text": "# SYNTHETIC invented decision\n\n**Decision ID:** SYNTH-GB\n**Body:** Governing Body\n**Signatory:** Ms. Corinne Batiste\n**Role:** Chair, Governing Body\n**Application:** SYNTH-WORKFLOW\n**Revision:** 1\n**Decision date:** 2026-03-20\n**Outcome:** approved-with-conditions\n**Privileges:** PRIV-FM\n**Criteria version:** LARK-PRIV-2026.1\n**Reason:** SYNTHETIC conditional grant\n**Effective date:** 2026-04-25\n**Supersedes:** \n**Conditions:**\n- SYNTH named monitoring evidence — due 2026-04-30\n"
+        },
+        {
+          "source": {
+            "batch": 3,
+            "path": "letters/SYNTH-satisfaction.md",
+            "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8",
+            "source_id": "SYNTH-3-14"
+          },
+          "text": "# SYNTHETIC invented satisfaction\n\n**Date:** 2026-05-02\n**Application:** SYNTH-WORKFLOW\n**Recorded by:** Ms. Renata Kowalczyk, CPMSM\n**Condition satisfied:** SYNTH named monitoring evidence\n"
+        }
+      ],
+      "element_result_classes": {
+        "certification": "established-within-exported-scope",
+        "education": "established-within-exported-scope",
+        "experience": "established-within-exported-scope",
+        "gaps": "established-within-exported-scope",
+        "licensure": "established-within-exported-scope",
+        "references": "established-within-exported-scope"
+      },
+      "elements": {
+        "certification": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "certificates": [
+              {
+                "declaration": {
+                  "row": {
+                    "application_id": "SYNTH-WORKFLOW",
+                    "credential_class": "certification",
+                    "declaration_id": "SYNTH-C",
+                    "declared_expiry_date": "",
+                    "declared_issue_date": "",
+                    "declared_status": "Board certified",
+                    "issuer": "American Board of Family Medicine",
+                    "jurisdiction_or_board": "ABFM",
+                    "number_declared": "",
+                    "revision": "1"
+                  },
+                  "source": {
+                    "batch": 1,
+                    "csv_row": 3,
+                    "path": "declared-credentials.csv",
+                    "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0",
+                    "source_id": "SYNTH-1-3"
+                  }
+                },
+                "latest": {
+                  "class": "listed-primary-class",
+                  "row": {
+                    "application_id": "SYNTH-WORKFLOW",
+                    "board_code": "ABFM",
+                    "board_name": "American Board of Family Medicine",
+                    "certificate_specialty": "Family Medicine",
+                    "certification_status": "Active",
+                    "declaration_id": "SYNTH-C",
+                    "expiry_date": "2028-12-31",
+                    "initial_certification_date": "2003-07-01",
+                    "notes": "",
+                    "received_date": "2026-02-04",
+                    "received_from": "Certifying board — American Board of Family Medicine",
+                    "reply_id": "SYNTH-CR",
+                    "reply_method": "",
+                    "requested_date": "2026-01-02"
+                  },
+                  "rule": "ATT Board certification / Primary source",
+                  "source": {
+                    "batch": 1,
+                    "csv_row": 2,
+                    "path": "certification-replies.csv",
+                    "sha256": "206038806296a4af33b950a763afd9af829832a93afa00610f65d87eaf141c84",
+                    "source_id": "SYNTH-1-7"
+                  },
+                  "usable": true
+                },
+                "replies": [
+                  {
+                    "class": "listed-primary-class",
+                    "row": {
+                      "application_id": "SYNTH-WORKFLOW",
+                      "board_code": "ABFM",
+                      "board_name": "American Board of Family Medicine",
+                      "certificate_specialty": "Family Medicine",
+                      "certification_status": "Active",
+                      "declaration_id": "SYNTH-C",
+                      "expiry_date": "2028-12-31",
+                      "initial_certification_date": "2003-07-01",
+                      "notes": "",
+                      "received_date": "2026-02-04",
+                      "received_from": "Certifying board — American Board of Family Medicine",
+                      "reply_id": "SYNTH-CR",
+                      "reply_method": "",
+                      "requested_date": "2026-01-02"
+                    },
+                    "rule": "ATT Board certification / Primary source",
+                    "source": {
+                      "batch": 1,
+                      "csv_row": 2,
+                      "path": "certification-replies.csv",
+                      "sha256": "206038806296a4af33b950a763afd9af829832a93afa00610f65d87eaf141c84",
+                      "source_id": "SYNTH-1-7"
+                    },
+                    "usable": true
+                  }
+                ]
+              }
+            ],
+            "conditional_components": [],
+            "groups": [
+              {
+                "code": "PRIV-FM",
+                "criteria_version": "LARK-PRIV-2026.1",
+                "current_experience": "reserved-clinical-leadership",
+                "inactive_certificate_supports_nothing": false,
+                "qualifying_accredited_degree": true,
+                "supported": true,
+                "supporting_certification": true,
+                "training": [
+                  {
+                    "met": true,
+                    "minimum_months": 36,
+                    "observations": [
+                      {
+                        "accreditation": true,
+                        "duration": true,
+                        "entry_id": "SYNTH-E1",
+                        "meets": true,
+                        "source": {
+                          "batch": 1,
+                          "csv_row": 3,
+                          "path": "verification-replies.csv",
+                          "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3",
+                          "source_id": "SYNTH-1-8"
+                        }
+                      }
+                    ],
+                    "required_title": "Residency — Family Medicine"
+                  }
+                ],
+                "training_met": true
+              },
+              {
+                "code": "PRIV-HOSP",
+                "criteria_version": "LARK-PRIV-2026.1",
+                "current_experience": "reserved-clinical-leadership",
+                "inactive_certificate_supports_nothing": false,
+                "qualifying_accredited_degree": true,
+                "supported": true,
+                "supporting_certification": true,
+                "training": [
+                  {
+                    "met": false,
+                    "minimum_months": 36,
+                    "observations": [],
+                    "required_title": "Residency — Internal Medicine"
+                  },
+                  {
+                    "met": true,
+                    "minimum_months": 36,
+                    "observations": [
+                      {
+                        "accreditation": true,
+                        "duration": true,
+                        "entry_id": "SYNTH-E1",
+                        "meets": true,
+                        "source": {
+                          "batch": 1,
+                          "csv_row": 3,
+                          "path": "verification-replies.csv",
+                          "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3",
+                          "source_id": "SYNTH-1-8"
+                        }
+                      }
+                    ],
+                    "required_title": "Residency — Family Medicine"
+                  }
+                ],
+                "training_met": true
+              }
+            ],
+            "scope": "No accreditation pass or one-component interpretation invented",
+            "supported": [
+              "PRIV-FM",
+              "PRIV-HOSP"
+            ],
+            "unsupported": [],
+            "verification_complete": true
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        },
+        "education": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "entries": [
+              {
+                "accepted_reply_dates": [
+                  "2026-02-01"
+                ],
+                "discrepancy": false,
+                "education_required": true,
+                "entry": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "contact_email": "synthetic@example.invalid",
+                  "contact_name": "SYNTH contact",
+                  "entry_id": "SYNTH-E0",
+                  "entry_type": "medical-school",
+                  "from_date": "1996-08-20",
+                  "hours_per_week": "",
+                  "location": "",
+                  "notes": "",
+                  "organization": "SYNTH School",
+                  "revision": "1",
+                  "role": "Doctor of Medicine",
+                  "to_date": "2000-06-30"
+                },
+                "experience_required": false,
+                "five_year_floor": "2021-01-01",
+                "replies": [
+                  {
+                    "changed_since_reply": {},
+                    "class": "listed-primary-class",
+                    "current_entry_matches": true,
+                    "discrepancy": false,
+                    "entry_fields_match": true,
+                    "row": {
+                      "application_id": "SYNTH-WORKFLOW",
+                      "attester_name": "SYNTH source",
+                      "attester_organization": "SYNTH School",
+                      "attester_role": "",
+                      "element": "education-and-training",
+                      "entry_id": "SYNTH-E0",
+                      "notes": "",
+                      "outcome": "confirmed",
+                      "received_date": "2026-02-01",
+                      "received_from": "Registrar's office — SYNTH School",
+                      "reply_id": "SYNTH-V0",
+                      "reply_method": "direct portal",
+                      "requested_date": "2026-01-02",
+                      "verified_credential": "Degree — Doctor of Medicine",
+                      "verified_from": "1996-08-20",
+                      "verified_to": "2000-06-30"
+                    },
+                    "rule": "ATT Education and training / Primary source",
+                    "source": {
+                      "batch": 1,
+                      "csv_row": 2,
+                      "path": "verification-replies.csv",
+                      "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3",
+                      "source_id": "SYNTH-1-8"
+                    },
+                    "verified": true,
+                    "window": "within-date-window-only"
+                  }
+                ],
+                "source": {
+                  "batch": 1,
+                  "csv_row": 2,
+                  "path": "declared-history.csv",
+                  "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                  "source_id": "SYNTH-1-2"
+                },
+                "source_verified_current_entry": true
+              },
+              {
+                "accepted_reply_dates": [
+                  "2026-02-02"
+                ],
+                "discrepancy": false,
+                "education_required": true,
+                "entry": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "contact_email": "synthetic@example.invalid",
+                  "contact_name": "SYNTH contact",
+                  "entry_id": "SYNTH-E1",
+                  "entry_type": "residency",
+                  "from_date": "2000-07-01",
+                  "hours_per_week": "",
+                  "location": "",
+                  "notes": "",
+                  "organization": "SYNTH Hospital",
+                  "revision": "1",
+                  "role": "Family Medicine Residency",
+                  "to_date": "2003-06-30"
+                },
+                "experience_required": false,
+                "five_year_floor": "2021-01-01",
+                "replies": [
+                  {
+                    "changed_since_reply": {},
+                    "class": "listed-primary-class",
+                    "current_entry_matches": true,
+                    "discrepancy": false,
+                    "entry_fields_match": true,
+                    "row": {
+                      "application_id": "SYNTH-WORKFLOW",
+                      "attester_name": "SYNTH source",
+                      "attester_organization": "SYNTH Hospital",
+                      "attester_role": "",
+                      "element": "education-and-training",
+                      "entry_id": "SYNTH-E1",
+                      "notes": "",
+                      "outcome": "confirmed",
+                      "received_date": "2026-02-02",
+                      "received_from": "Graduate medical education office — SYNTH Hospital",
+                      "reply_id": "SYNTH-V1",
+                      "reply_method": "direct portal",
+                      "requested_date": "2026-01-02",
+                      "verified_credential": "Residency — Family Medicine",
+                      "verified_from": "2000-07-01",
+                      "verified_to": "2003-06-30"
+                    },
+                    "rule": "ATT Education and training / Primary source",
+                    "source": {
+                      "batch": 1,
+                      "csv_row": 3,
+                      "path": "verification-replies.csv",
+                      "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3",
+                      "source_id": "SYNTH-1-8"
+                    },
+                    "verified": true,
+                    "window": "within-date-window-only"
+                  }
+                ],
+                "source": {
+                  "batch": 1,
+                  "csv_row": 3,
+                  "path": "declared-history.csv",
+                  "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                  "source_id": "SYNTH-1-2"
+                },
+                "source_verified_current_entry": true
+              }
+            ],
+            "scope": "Each known current entry; accepted source, date window and all changed fields checked"
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        },
+        "experience": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "entries": [
+              {
+                "accepted_reply_dates": [
+                  "2026-02-03"
+                ],
+                "discrepancy": false,
+                "education_required": false,
+                "entry": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "contact_email": "synthetic@example.invalid",
+                  "contact_name": "SYNTH contact",
+                  "entry_id": "SYNTH-E2",
+                  "entry_type": "employment",
+                  "from_date": "2003-07-01",
+                  "hours_per_week": "",
+                  "location": "",
+                  "notes": "",
+                  "organization": "SYNTH Practice",
+                  "revision": "1",
+                  "role": "Staff Physician",
+                  "to_date": ""
+                },
+                "experience_required": true,
+                "five_year_floor": "2021-01-01",
+                "replies": [
+                  {
+                    "changed_since_reply": {},
+                    "class": "listed-primary-class",
+                    "current_entry_matches": true,
+                    "discrepancy": false,
+                    "entry_fields_match": true,
+                    "row": {
+                      "application_id": "SYNTH-WORKFLOW",
+                      "attester_name": "SYNTH source",
+                      "attester_organization": "SYNTH Practice",
+                      "attester_role": "",
+                      "element": "affiliation-and-employment",
+                      "entry_id": "SYNTH-E2",
+                      "notes": "",
+                      "outcome": "confirmed",
+                      "received_date": "2026-02-03",
+                      "received_from": "Medical staff office — SYNTH Practice",
+                      "reply_id": "SYNTH-V2",
+                      "reply_method": "direct portal",
+                      "requested_date": "2026-01-02",
+                      "verified_credential": "Employment — Staff Physician",
+                      "verified_from": "2003-07-01",
+                      "verified_to": ""
+                    },
+                    "rule": "ATT Affiliations and employment / Primary source",
+                    "source": {
+                      "batch": 1,
+                      "csv_row": 4,
+                      "path": "verification-replies.csv",
+                      "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3",
+                      "source_id": "SYNTH-1-8"
+                    },
+                    "verified": true,
+                    "window": "within-date-window-only"
+                  }
+                ],
+                "source": {
+                  "batch": 1,
+                  "csv_row": 4,
+                  "path": "declared-history.csv",
+                  "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                  "source_id": "SYNTH-1-2"
+                },
+                "source_verified_current_entry": true
+              }
+            ],
+            "scope": "Each known current entry; accepted source, date window and all changed fields checked"
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        },
+        "gaps": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "basis": "declared history only; not CV-reconciled or source-date-adopted",
+            "clock": "2026-05-18",
+            "evaluated": true,
+            "gaps": [],
+            "school_finished": "2000-06-30"
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        },
+        "licensure": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "CD_dispositions": [],
+            "Washington": {
+              "actiontaken_recorded": "No",
+              "active_status_on_observation": true,
+              "board_reply_review_needed": false,
+              "declared_WA_rows": [
+                {
+                  "row": {
+                    "application_id": "SYNTH-WORKFLOW",
+                    "credential_class": "licence",
+                    "declaration_id": "SYNTH-L",
+                    "declared_expiry_date": "2026-12-31",
+                    "declared_issue_date": "",
+                    "declared_status": "Active",
+                    "issuer": "Washington State Department of Health",
+                    "jurisdiction_or_board": "WA",
+                    "number_declared": "SYNTH-MD",
+                    "revision": "1"
+                  },
+                  "source": {
+                    "batch": 1,
+                    "csv_row": 2,
+                    "path": "declared-credentials.csv",
+                    "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0",
+                    "source_id": "SYNTH-1-3"
+                  }
+                }
+              ],
+              "full_unrestricted_conclusion": "not-inferred-from-actiontaken",
+              "latest_observation": {
+                "row": {
+                  "actiontaken": "No",
+                  "birthyear": "1975",
+                  "ceduedate": "",
+                  "credentialnumber": "SYNTH-MD",
+                  "credentialtype": "",
+                  "expirationdate": "2026-12-31",
+                  "firstissuedate": "2003-07-01",
+                  "firstname": "Example",
+                  "lastissuedate": "2025-12-01",
+                  "lastname": "Synthetic",
+                  "lookup_date": "2026-03-10",
+                  "middlename": "",
+                  "status": "ACTIVE"
+                },
+                "source": {
+                  "batch": 1,
+                  "csv_row": 2,
+                  "path": "licence-lookup-wa.csv",
+                  "sha256": "3f6c6f6711b1eae94f10c3b876a2e9f8f78dc3f07839d315e2613e22e8d91b15",
+                  "source_id": "SYNTH-1-5"
+                }
+              },
+              "matched": true,
+              "no_WA_credential_in_export": false,
+              "observations": [
+                {
+                  "row": {
+                    "actiontaken": "No",
+                    "birthyear": "1975",
+                    "ceduedate": "",
+                    "credentialnumber": "SYNTH-MD",
+                    "credentialtype": "",
+                    "expirationdate": "2026-12-31",
+                    "firstissuedate": "2003-07-01",
+                    "firstname": "Example",
+                    "lastissuedate": "2025-12-01",
+                    "lastname": "Synthetic",
+                    "lookup_date": "2026-03-10",
+                    "middlename": "",
+                    "status": "ACTIVE"
+                  },
+                  "source": {
+                    "batch": 1,
+                    "csv_row": 2,
+                    "path": "licence-lookup-wa.csv",
+                    "sha256": "3f6c6f6711b1eae94f10c3b876a2e9f8f78dc3f07839d315e2613e22e8d91b15",
+                    "source_id": "SYNTH-1-5"
+                  }
+                }
+              ],
+              "recorded_board_number_declared": true,
+              "rule": "E Washington four-field join and missing-row convention; P §3 Check 1; lookup is not NPI",
+              "unexpired_at_export_from_recorded_expiry": true
+            },
+            "clean_basis": "Board status, expiry and action record together; actiontaken alone is never used",
+            "other_states": [],
+            "remaining": [],
+            "restriction_sources": []
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        },
+        "references": {
+          "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+          "detail": {
+            "clock": "2026-05-18",
+            "currency_clock": "2026-03-20",
+            "needed_reply_dates": [
+              "2026-02-06",
+              "2026-02-07"
+            ],
+            "qualifying_distinct_referees": 2,
+            "replies": [
+              {
+                "current": true,
+                "eligibility": true,
+                "fields": {
+                  "box_says_not_related_or_partner": true,
+                  "limits": "Returned fields checked individually; no reference count, element state, presentation date or competency judgment",
+                  "qualification_conclusion": "not-evaluated",
+                  "relationship_text_assessment": "not-evaluated",
+                  "rules": [
+                    "P §3 Check 4: eligibility arithmetic and currency"
+                  ],
+                  "same_discipline": true,
+                  "signature_current_at_export_only": true,
+                  "signature_second_anniversary": "2028-02-05",
+                  "worked_together_recency_from_returned_dates": true
+                },
+                "qualifies_at_this_clock": true,
+                "row": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "comments": "SYNTHETIC comments",
+                  "last_worked_together_end": "",
+                  "received_date": "2026-02-06",
+                  "recommendation": "Recommend without reservation",
+                  "referee_id": "SYNTH-R0",
+                  "referee_specialty_stated": "Family Medicine",
+                  "related_or_partner": "No",
+                  "relationship_stated": "I worked directly with the applicant.",
+                  "reply_id": "SYNTH-RR0",
+                  "signature_date": "2026-02-05"
+                },
+                "source": {
+                  "batch": 1,
+                  "csv_row": 2,
+                  "path": "peer-reference-replies.csv",
+                  "sha256": "96f26c48c9cfdcda6b3b761b795b5981dbd032631bb15aa39f91f50a4c9bb688",
+                  "source_id": "SYNTH-1-11"
+                },
+                "window": "within-date-window-only"
+              },
+              {
+                "current": true,
+                "eligibility": true,
+                "fields": {
+                  "box_says_not_related_or_partner": true,
+                  "limits": "Returned fields checked individually; no reference count, element state, presentation date or competency judgment",
+                  "qualification_conclusion": "not-evaluated",
+                  "relationship_text_assessment": "not-evaluated",
+                  "rules": [
+                    "P §3 Check 4: eligibility arithmetic and currency"
+                  ],
+                  "same_discipline": true,
+                  "signature_current_at_export_only": true,
+                  "signature_second_anniversary": "2028-02-05",
+                  "worked_together_recency_from_returned_dates": true
+                },
+                "qualifies_at_this_clock": true,
+                "row": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "comments": "SYNTHETIC comments",
+                  "last_worked_together_end": "",
+                  "received_date": "2026-02-07",
+                  "recommendation": "Recommend without reservation",
+                  "referee_id": "SYNTH-R1",
+                  "referee_specialty_stated": "Family Medicine",
+                  "related_or_partner": "No",
+                  "relationship_stated": "I worked directly with the applicant.",
+                  "reply_id": "SYNTH-RR1",
+                  "signature_date": "2026-02-05"
+                },
+                "source": {
+                  "batch": 1,
+                  "csv_row": 3,
+                  "path": "peer-reference-replies.csv",
+                  "sha256": "96f26c48c9cfdcda6b3b761b795b5981dbd032631bb15aa39f91f50a4c9bb688",
+                  "source_id": "SYNTH-1-11"
+                },
+                "window": "within-date-window-only"
+              }
+            ],
+            "unknown_qualification": 0
+          },
+          "nothing_owed": true,
+          "sources": [],
+          "state": "resolved"
+        }
+      },
+      "high_risk": {
+        "confirmation_sources": [],
+        "contradicted_no": false,
+        "dispositions": [],
+        "finding_retained": false,
+        "nothing_owed": true,
+        "yes_rows": []
+      },
+      "history": [
+        {
+          "batch": 1,
+          "evidence_clock": "2026-01-01",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": false,
+            "elements": {
+              "certification": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "education": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "experience": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "intake_complete",
+                "education",
+                "experience",
+                "licensure",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": false,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "CV_reconciled"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-01-02",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": null,
+            "elements": {
+              "certification": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "education": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "experience": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "licensure",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-02-02",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": null,
+            "elements": {
+              "certification": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "experience",
+                "licensure",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": true,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-02-03",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": null,
+            "elements": {
+              "certification": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "licensure",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": true,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-02-04",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": null,
+            "elements": {
+              "certification": {
+                "nothing_owed": null,
+                "state": null
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "licensure",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": true,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-02-07",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": null,
+            "elements": {
+              "certification": {
+                "nothing_owed": null,
+                "state": null
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": true,
+                "state": "resolved"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "licensure"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": true,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "revision": 1,
+            "status": null,
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-02-08",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": true,
+            "elements": {
+              "certification": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": false,
+                "state": "outstanding"
+              },
+              "references": {
+                "nothing_owed": true,
+                "state": "resolved"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": null,
+              "established_negative_dependencies": [
+                "licensure"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": true,
+                "certification": true,
+                "education": true,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": true,
+                "licensure": false,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": []
+            },
+            "revision": 1,
+            "status": "in-verification",
+            "terminal": null
+          }
+        },
+        {
+          "batch": 1,
+          "evidence_clock": "2026-03-16",
+          "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports",
+          "value": {
+            "complete": true,
+            "elements": {
+              "certification": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "education": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "experience": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "gaps": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "licensure": {
+                "nothing_owed": true,
+                "state": "resolved"
+              },
+              "references": {
+                "nothing_owed": true,
+                "state": "resolved"
+              }
+            },
+            "packet": {
+              "application_id": "SYNTH-WORKFLOW",
+              "date": "2026-02-07",
+              "established_negative_dependencies": [],
+              "presentable": true,
+              "requirements": {
+                "CV_reconciled": true,
+                "certification": true,
+                "education": true,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": true,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": []
+            },
+            "revision": 1,
+            "status": "packet-presentable",
+            "terminal": null
+          }
+        }
+      ],
+      "human_records": {
+        "CD": [],
+        "anomalies": [],
+        "confirmations": [],
+        "terminal": null
+      },
+      "intake": {
+        "CV_reconciled": true,
+        "clocks": [],
+        "complete": true,
+        "conditions": {
+          "1_application_signed_and_dated": true,
+          "2_release_signed_and_dated": true,
+          "3_specific_published_privilege_request": true,
+          "4_current_CV": true,
+          "5_professional_questions": true,
+          "6_explained_continuous_declared_history": true,
+          "7_two_named_referees": true,
+          "8_affiliation_employer_contacts": true,
+          "9_all_credentials_declared": true
+        },
+        "human_observations": {
+          "accreditation_by_entry": {
+            "actor": "Ms. Renata Kowalczyk, CPMSM",
+            "classification": "human-recorded-source-observation",
+            "date": "2026-02-08",
+            "evidence": [
+              {
+                "path": "letters/SYNTH-intake-evidence.md",
+                "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+              }
+            ],
+            "item_sources": {
+              "SYNTH-E0": {
+                "actor": "Ms. Renata Kowalczyk, CPMSM",
+                "date": "2026-02-08",
+                "evidence": [
+                  {
+                    "path": "letters/SYNTH-intake-evidence.md",
+                    "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+                  }
+                ],
+                "source": {
+                  "batch": 1,
+                  "path": "letters/SYNTH-review.md",
+                  "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+                  "source_id": "SYNTH-1-15"
+                }
+              },
+              "SYNTH-E1": {
+                "actor": "Ms. Renata Kowalczyk, CPMSM",
+                "date": "2026-02-08",
+                "evidence": [
+                  {
+                    "path": "letters/SYNTH-intake-evidence.md",
+                    "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+                  }
+                ],
+                "source": {
+                  "batch": 1,
+                  "path": "letters/SYNTH-review.md",
+                  "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+                  "source_id": "SYNTH-1-15"
+                }
+              }
+            },
+            "source": {
+              "batch": 1,
+              "path": "letters/SYNTH-review.md",
+              "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+              "source_id": "SYNTH-1-15"
+            },
+            "value": {
+              "SYNTH-E0": true,
+              "SYNTH-E1": true
+            }
+          },
+          "all_credentials_declared": {
+            "actor": "Ms. Renata Kowalczyk, CPMSM",
+            "classification": "human-recorded-source-observation",
+            "date": "2026-02-08",
+            "evidence": [
+              {
+                "path": "letters/SYNTH-intake-evidence.md",
+                "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+              }
+            ],
+            "item_sources": {},
+            "source": {
+              "batch": 1,
+              "path": "letters/SYNTH-review.md",
+              "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+              "source_id": "SYNTH-1-15"
+            },
+            "value": true
+          },
+          "application_signature": {
+            "actor": "Ms. Renata Kowalczyk, CPMSM",
+            "classification": "human-recorded-source-observation",
+            "date": "2026-02-08",
+            "evidence": [
+              {
+                "path": "letters/SYNTH-intake-evidence.md",
+                "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+              }
+            ],
+            "item_sources": {},
+            "source": {
+              "batch": 1,
+              "path": "letters/SYNTH-review.md",
+              "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+              "source_id": "SYNTH-1-15"
+            },
+            "value": true
+          },
+          "cv_current": {
+            "actor": "Ms. Renata Kowalczyk, CPMSM",
+            "classification": "human-recorded-source-observation",
+            "date": "2026-02-08",
+            "evidence": [
+              {
+                "path": "letters/SYNTH-intake-evidence.md",
+                "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+              }
+            ],
+            "item_sources": {},
+            "source": {
+              "batch": 1,
+              "path": "letters/SYNTH-review.md",
+              "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+              "source_id": "SYNTH-1-15"
+            },
+            "value": true
+          },
+          "cv_reconciled": {
+            "actor": "Ms. Renata Kowalczyk, CPMSM",
+            "classification": "human-recorded-source-observation",
+            "date": "2026-02-08",
+            "evidence": [
+              {
+                "path": "letters/SYNTH-intake-evidence.md",
+                "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+              }
+            ],
+            "item_sources": {},
+            "source": {
+              "batch": 1,
+              "path": "letters/SYNTH-review.md",
+              "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37",
+              "source_id": "SYNTH-1-15"
+            },
+            "value": true
+          }
+        },
+        "receipt_fields_are_not_signature_or_CV_content": true,
+        "release_permission": true,
+        "verification_request_permitted": true,
+        "working_referee_addresses": "outside export; neither met nor failed, E What I do not export"
+      },
+      "monitored_conditions": [
+        {
+          "blocks_activation": false,
+          "condition": "SYNTH named monitoring evidence",
+          "due": "2026-04-30",
+          "events": [
+            {
+              "date": "2026-04-30",
+              "event": "became-finding",
+              "notification_sent": false,
+              "owner": "Clinical Director"
+            },
+            {
+              "date": "2026-05-02",
+              "event": "satisfied-by-naming-record"
+            }
+          ],
+          "finding": false,
+          "owner": "Medical Services Professional",
+          "satisfaction_records": [
+            {
+              "condition": "SYNTH named monitoring evidence",
+              "date": "2026-05-02",
+              "source": {
+                "batch": 3,
+                "path": "letters/SYNTH-satisfaction.md",
+                "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8",
+                "source_id": "SYNTH-3-14"
+              }
+            }
+          ],
+          "satisfied": true
+        },
+        {
+          "blocks_activation": false,
+          "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+          "credential_number": "SYNTH-MD",
+          "due": "2026-12-31",
+          "events": [],
+          "finding": false,
+          "origin": "licence-expiry",
+          "owner": "Medical Services Professional",
+          "satisfaction_records": [],
+          "satisfied": false
+        }
+      ],
+      "packet": {
+        "application_id": "SYNTH-WORKFLOW",
+        "date": "2026-02-07",
+        "established_negative_dependencies": [],
+        "presentable": true,
+        "requirements": {
+          "CV_reconciled": true,
+          "certification": true,
+          "education": true,
+          "experience": true,
+          "gaps": true,
+          "high_risk_disposition": true,
+          "intake_complete": true,
+          "licensure": true,
+          "no_open_discrepancy": true,
+          "references": true
+        },
+        "revision": 1,
+        "unknown_dependencies": []
+      },
+      "requests": [
+        {
+          "application_id": "SYNTH-WORKFLOW",
+          "attempt_intervals_days": [],
+          "attempts": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "attempt_date": "2026-01-02",
+                "attempt_id": "SYNTH-A0",
+                "attempted_with": "SYNTH peer",
+                "comment": "",
+                "element": "peer-reference",
+                "method": "portal",
+                "outcome": "request sent",
+                "subject_ref": "SYNTH-R0"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "verification-attempts.csv",
+                "sha256": "e3b170749c5bb75f4a312650a5aa280cb06a83a24a1e8fc8b0568bd27e1cfce8",
+                "source_id": "SYNTH-1-9"
+              }
+            }
+          ],
+          "counts_as_reference": null,
+          "element": "peer-reference",
+          "limits": "Schedule arithmetic only; no qualifying-reference count, notice sent, fourth reminder, element hold or closure inferred",
+          "no_response_is_verification": false,
+          "no_returned_row_at_day64": false,
+          "observed_reply_occurrences": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "comments": "SYNTHETIC comments",
+                "last_worked_together_end": "",
+                "received_date": "2026-02-06",
+                "recommendation": "Recommend without reservation",
+                "referee_id": "SYNTH-R0",
+                "referee_specialty_stated": "Family Medicine",
+                "related_or_partner": "No",
+                "relationship_stated": "I worked directly with the applicant.",
+                "reply_id": "SYNTH-RR0",
+                "signature_date": "2026-02-05"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "peer-reference-replies.csv",
+                "sha256": "96f26c48c9cfdcda6b3b761b795b5981dbd032631bb15aa39f91f50a4c9bb688",
+                "source_id": "SYNTH-1-11"
+              }
+            }
+          ],
+          "operationally_closed": null,
+          "peer_day64_date": "2026-03-07",
+          "peer_first_request_date": "2026-01-02",
+          "peer_first_request_sources": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "first_request_date": "2026-01-02",
+                "referee_credential": "",
+                "referee_id": "SYNTH-R0",
+                "referee_name": "SYNTH peer",
+                "referee_organization": "",
+                "referee_specialty": "Family Medicine",
+                "relationship_declared": "",
+                "revision": "1",
+                "source": ""
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "peer-referees.csv",
+                "sha256": "b1e38b909edc988d63b633289181206b0035f6d165b21e46eaa498184b00f862",
+                "source_id": "SYNTH-1-10"
+              }
+            }
+          ],
+          "peer_scheduled_dates": [
+            "2026-01-02",
+            "2026-01-23",
+            "2026-02-13"
+          ],
+          "recorded_attempt_count": 1,
+          "reply_observed": true,
+          "reply_qualifies": "not-evaluated",
+          "request_satisfied": "not-evaluated",
+          "subject_ref": "SYNTH-R0"
+        },
+        {
+          "application_id": "SYNTH-WORKFLOW",
+          "attempt_intervals_days": [],
+          "attempts": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "attempt_date": "2026-01-02",
+                "attempt_id": "SYNTH-A1",
+                "attempted_with": "SYNTH peer",
+                "comment": "",
+                "element": "peer-reference",
+                "method": "portal",
+                "outcome": "request sent",
+                "subject_ref": "SYNTH-R1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "verification-attempts.csv",
+                "sha256": "e3b170749c5bb75f4a312650a5aa280cb06a83a24a1e8fc8b0568bd27e1cfce8",
+                "source_id": "SYNTH-1-9"
+              }
+            }
+          ],
+          "counts_as_reference": null,
+          "element": "peer-reference",
+          "limits": "Schedule arithmetic only; no qualifying-reference count, notice sent, fourth reminder, element hold or closure inferred",
+          "no_response_is_verification": false,
+          "no_returned_row_at_day64": false,
+          "observed_reply_occurrences": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "comments": "SYNTHETIC comments",
+                "last_worked_together_end": "",
+                "received_date": "2026-02-07",
+                "recommendation": "Recommend without reservation",
+                "referee_id": "SYNTH-R1",
+                "referee_specialty_stated": "Family Medicine",
+                "related_or_partner": "No",
+                "relationship_stated": "I worked directly with the applicant.",
+                "reply_id": "SYNTH-RR1",
+                "signature_date": "2026-02-05"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "peer-reference-replies.csv",
+                "sha256": "96f26c48c9cfdcda6b3b761b795b5981dbd032631bb15aa39f91f50a4c9bb688",
+                "source_id": "SYNTH-1-11"
+              }
+            }
+          ],
+          "operationally_closed": null,
+          "peer_day64_date": "2026-03-07",
+          "peer_first_request_date": "2026-01-02",
+          "peer_first_request_sources": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "first_request_date": "2026-01-02",
+                "referee_credential": "",
+                "referee_id": "SYNTH-R1",
+                "referee_name": "SYNTH peer",
+                "referee_organization": "",
+                "referee_specialty": "Family Medicine",
+                "relationship_declared": "",
+                "revision": "1",
+                "source": ""
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "peer-referees.csv",
+                "sha256": "b1e38b909edc988d63b633289181206b0035f6d165b21e46eaa498184b00f862",
+                "source_id": "SYNTH-1-10"
+              }
+            }
+          ],
+          "peer_scheduled_dates": [
+            "2026-01-02",
+            "2026-01-23",
+            "2026-02-13"
+          ],
+          "recorded_attempt_count": 1,
+          "reply_observed": true,
+          "reply_qualifies": "not-evaluated",
+          "request_satisfied": "not-evaluated",
+          "subject_ref": "SYNTH-R1"
+        },
+        {
+          "application_id": "SYNTH-WORKFLOW",
+          "attempt_intervals_days": [],
+          "attempts": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "attempt_date": "2026-01-02",
+                "attempt_id": "SYNTH-A2",
+                "attempted_with": "SYNTH peer",
+                "comment": "",
+                "element": "peer-reference",
+                "method": "portal",
+                "outcome": "request sent",
+                "subject_ref": "SYNTH-R2"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 4,
+                "path": "verification-attempts.csv",
+                "sha256": "e3b170749c5bb75f4a312650a5aa280cb06a83a24a1e8fc8b0568bd27e1cfce8",
+                "source_id": "SYNTH-1-9"
+              }
+            }
+          ],
+          "counts_as_reference": false,
+          "element": "peer-reference",
+          "limits": "Schedule arithmetic only; no qualifying-reference count, notice sent, fourth reminder, element hold or closure inferred",
+          "no_response_is_verification": false,
+          "no_returned_row_at_day64": true,
+          "observed_reply_occurrences": [],
+          "operationally_closed": "no-longer-needed",
+          "peer_day64_date": "2026-03-07",
+          "peer_first_request_date": "2026-01-02",
+          "peer_first_request_sources": [
+            {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "first_request_date": "2026-01-02",
+                "referee_credential": "",
+                "referee_id": "SYNTH-R2",
+                "referee_name": "SYNTH peer",
+                "referee_organization": "",
+                "referee_specialty": "Family Medicine",
+                "relationship_declared": "",
+                "revision": "1",
+                "source": ""
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 4,
+                "path": "peer-referees.csv",
+                "sha256": "b1e38b909edc988d63b633289181206b0035f6d165b21e46eaa498184b00f862",
+                "source_id": "SYNTH-1-10"
+              }
+            }
+          ],
+          "peer_scheduled_dates": [
+            "2026-01-02",
+            "2026-01-23",
+            "2026-02-13"
+          ],
+          "recorded_attempt_count": 1,
+          "reply_observed": false,
+          "reply_qualifies": "not-evaluated",
+          "request_satisfied": "not-evaluated",
+          "subject_ref": "SYNTH-R2"
+        }
+      ],
+      "revision": 1,
+      "schema_application": {
+        "action_queue": [
+          {
+            "due": "2026-12-31",
+            "item": "Re-verify Washington licence SYNTH-MD before expiry",
+            "owner": "Medical Services Professional"
+          }
+        ],
+        "activation": {
+          "active_at_export": true,
+          "cycle_end": "2027-04-24",
+          "effective_date": "2026-04-25",
+          "privileges": [
+            "PRIV-FM"
+          ]
+        },
+        "application_id": "SYNTH-WORKFLOW",
+        "approval_decision_id": "SYNTH-GB",
+        "decisions": [
+          {
+            "admitted": true,
+            "decision_id": "SYNTH-GB",
+            "reason": null
+          }
+        ],
+        "elements": {
+          "certification": "resolved",
+          "education": "resolved",
+          "experience": "resolved",
+          "gaps": "resolved",
+          "licensure": "resolved",
+          "references": "resolved"
+        },
+        "monitored_conditions": [
+          {
+            "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+            "due": "2026-12-31"
+          }
+        ],
+        "packet_presentable": true,
+        "revision": 1,
+        "status": "active-with-conditions"
+      },
+      "schema_conflicts": [],
+      "status": "active-with-conditions"
+    }
+  ],
+  "as_of": "2026-05-18",
+  "assessment_state": "representable",
+  "batch": 3,
+  "dataset": "synthetic-demonstration",
+  "decision_history": [
+    {
+      "basis": "synthetic-conditional-demonstration",
+      "conditions": [
+        {
+          "condition": "SYNTH named monitoring evidence",
+          "due": "2026-04-30"
+        }
+      ],
+      "fields": {
+        "Application": "SYNTH-WORKFLOW",
+        "Body": "Governing Body",
+        "Conditions": "",
+        "Criteria version": "LARK-PRIV-2026.1",
+        "Decision ID": "SYNTH-GB",
+        "Decision date": "2026-03-20",
+        "Effective date": "2026-04-25",
+        "Outcome": "approved-with-conditions",
+        "Privileges": "PRIV-FM",
+        "Reason": "SYNTHETIC conditional grant",
+        "Revision": "1",
+        "Role": "Chair, Governing Body",
+        "Signatory": "Ms. Corinne Batiste",
+        "Supersedes": ""
+      },
+      "independent_conditions": {
+        "body": true,
+        "earlier_same_body_records": [],
+        "literal_supersedes": null,
+        "names_prior_received_record": false,
+        "outcome_reason": true,
+        "prior_presentability": true,
+        "recorded_revision": true,
+        "signatory_role": true,
+        "supersession_applicability_known": true
+      },
+      "later_evidence_may_not_rewrite_this_evaluation": true,
+      "observed_in_batch": 2,
+      "packet_evaluation_at_decision": {
+        "application_id": "SYNTH-WORKFLOW",
+        "date": "2026-02-07",
+        "established_negative_dependencies": [],
+        "presentable": true,
+        "requirements": {
+          "CV_reconciled": true,
+          "certification": true,
+          "education": true,
+          "experience": true,
+          "gaps": true,
+          "high_risk_disposition": true,
+          "intake_complete": true,
+          "licensure": true,
+          "no_open_discrepancy": true,
+          "references": true
+        },
+        "revision": 1,
+        "unknown_dependencies": []
+      },
+      "result": {
+        "admitted": true,
+        "reason": null
+      },
+      "source": {
+        "batch": 2,
+        "path": "decisions/SYNTH-GB.md",
+        "sha256": "07d88352604630fb1471025c35d9d09339b2cd8522fa8d3787e84fecbb6e3f72",
+        "source_id": "SYNTH-2-14"
+      }
+    }
+  ],
+  "engine": "workflow/1",
+  "evidence_state_sha256": "ede7dfffb86f7337230de58e9e7513fbfa7eb53d610ff97536beaf5508ec8f24",
+  "format": "credentialing-workflow/1",
+  "previous_workflow_sha256": "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87",
+  "revision_history": [
+    {
+      "CV_reconciliation": "not-evaluated:G2",
+      "application_field_changes": {},
+      "application_id": "SYNTH-WORKFLOW",
+      "evidence_reuse_conclusion": "not-evaluated",
+      "previous_revision": null,
+      "recorded_fields": {
+        "applicant_id": "SYNTH-P",
+        "application_id": "SYNTH-WORKFLOW",
+        "birth_year": "1975",
+        "cv_received_date": "2026-01-01",
+        "degree": "MD",
+        "discipline": "Family Medicine",
+        "first_name": "Example",
+        "first_received_date": "2026-01-01",
+        "last_name": "Synthetic",
+        "middle_name": "",
+        "npi": "",
+        "position_sought": "",
+        "practice_state": "WA",
+        "received_date": "2026-01-01",
+        "release_signed_date": "2026-01-01",
+        "revision": "1",
+        "revision_reason": ""
+      },
+      "restated_comparisons": {
+        "application-disclosures.csv": {
+          "added": [
+            {
+              "id": "PPQ-1",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-1",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-2",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-2",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-3",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-3",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 4,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-4",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-4",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 5,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-5",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-5",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 6,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-6",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-6",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 7,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-7",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-7",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 8,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            },
+            {
+              "id": "PPQ-8",
+              "row": {
+                "answer": "No",
+                "applicant_comment": "",
+                "application_id": "SYNTH-WORKFLOW",
+                "question_code": "PPQ-8",
+                "question_text": "SYNTHETIC question",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 9,
+                "path": "application-disclosures.csv",
+                "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b",
+                "source_id": "SYNTH-1-1"
+              }
+            }
+          ],
+          "changed": [],
+          "identity_column": "question_code",
+          "removed": [],
+          "unchanged_ids": []
+        },
+        "declared-credentials.csv": {
+          "added": [
+            {
+              "id": "SYNTH-C",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "credential_class": "certification",
+                "declaration_id": "SYNTH-C",
+                "declared_expiry_date": "",
+                "declared_issue_date": "",
+                "declared_status": "Board certified",
+                "issuer": "American Board of Family Medicine",
+                "jurisdiction_or_board": "ABFM",
+                "number_declared": "",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "declared-credentials.csv",
+                "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0",
+                "source_id": "SYNTH-1-3"
+              }
+            },
+            {
+              "id": "SYNTH-L",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "credential_class": "licence",
+                "declaration_id": "SYNTH-L",
+                "declared_expiry_date": "2026-12-31",
+                "declared_issue_date": "",
+                "declared_status": "Active",
+                "issuer": "Washington State Department of Health",
+                "jurisdiction_or_board": "WA",
+                "number_declared": "SYNTH-MD",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "declared-credentials.csv",
+                "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0",
+                "source_id": "SYNTH-1-3"
+              }
+            }
+          ],
+          "changed": [],
+          "identity_column": "declaration_id",
+          "removed": [],
+          "unchanged_ids": []
+        },
+        "declared-history.csv": {
+          "added": [
+            {
+              "id": "SYNTH-E0",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "contact_email": "synthetic@example.invalid",
+                "contact_name": "SYNTH contact",
+                "entry_id": "SYNTH-E0",
+                "entry_type": "medical-school",
+                "from_date": "1996-08-20",
+                "hours_per_week": "",
+                "location": "",
+                "notes": "",
+                "organization": "SYNTH School",
+                "revision": "1",
+                "role": "Doctor of Medicine",
+                "to_date": "2000-06-30"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "declared-history.csv",
+                "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                "source_id": "SYNTH-1-2"
+              }
+            },
+            {
+              "id": "SYNTH-E1",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "contact_email": "synthetic@example.invalid",
+                "contact_name": "SYNTH contact",
+                "entry_id": "SYNTH-E1",
+                "entry_type": "residency",
+                "from_date": "2000-07-01",
+                "hours_per_week": "",
+                "location": "",
+                "notes": "",
+                "organization": "SYNTH Hospital",
+                "revision": "1",
+                "role": "Family Medicine Residency",
+                "to_date": "2003-06-30"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "declared-history.csv",
+                "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                "source_id": "SYNTH-1-2"
+              }
+            },
+            {
+              "id": "SYNTH-E2",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "contact_email": "synthetic@example.invalid",
+                "contact_name": "SYNTH contact",
+                "entry_id": "SYNTH-E2",
+                "entry_type": "employment",
+                "from_date": "2003-07-01",
+                "hours_per_week": "",
+                "location": "",
+                "notes": "",
+                "organization": "SYNTH Practice",
+                "revision": "1",
+                "role": "Staff Physician",
+                "to_date": ""
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 4,
+                "path": "declared-history.csv",
+                "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+                "source_id": "SYNTH-1-2"
+              }
+            }
+          ],
+          "changed": [],
+          "identity_column": "entry_id",
+          "removed": [],
+          "unchanged_ids": []
+        },
+        "privilege-requests.csv": {
+          "added": [
+            {
+              "id": "PRIV-FM",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "criteria_version_cited": "LARK-PRIV-2026.1",
+                "privilege_code": "PRIV-FM",
+                "privilege_name": "SYNTHETIC",
+                "request_id": "SYNTH-PRIV-FM",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "privilege-requests.csv",
+                "sha256": "f3d6801fb4a03c2e4f1fd2342a232bc50a0adfa1f103608a21f24cc5a79bd866",
+                "source_id": "SYNTH-1-4"
+              }
+            },
+            {
+              "id": "PRIV-HOSP",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "criteria_version_cited": "LARK-PRIV-2026.1",
+                "privilege_code": "PRIV-HOSP",
+                "privilege_name": "SYNTHETIC",
+                "request_id": "SYNTH-PRIV-HOSP",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "privilege-requests.csv",
+                "sha256": "f3d6801fb4a03c2e4f1fd2342a232bc50a0adfa1f103608a21f24cc5a79bd866",
+                "source_id": "SYNTH-1-4"
+              }
+            }
+          ],
+          "changed": [],
+          "identity_column": "privilege_code",
+          "removed": [],
+          "unchanged_ids": []
+        }
+      },
+      "revision": 1,
+      "source": {
+        "batch": 1,
+        "csv_row": 2,
+        "path": "applications.csv",
+        "sha256": "5ff716ae901f93802def83a49f8f1dd3252d5edd5bccc8f65def006d83454fa8",
+        "source_id": "SYNTH-1-0"
+      }
+    }
+  ],
+  "rules_sha256": "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+  "schema_projection_conflicts": [],
+  "source_manifest": {
+    "as_of": "2026-05-18",
+    "batch": 3,
+    "files": [
+      {
+        "kind": "records",
+        "path": "applications.csv",
+        "sha256": "63c1a271ab2af901e8106aa211a474561d0deb21085ae4e384bb5bfcebc9eff0",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-0",
+        "source_url": "https://example.invalid/synthetic/3/0"
+      },
+      {
+        "kind": "records",
+        "path": "application-disclosures.csv",
+        "sha256": "0bad7e35c48a5ad492c8462dda0f3fe903eb0174c59044e8556dd346c4e5ff96",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-1",
+        "source_url": "https://example.invalid/synthetic/3/1"
+      },
+      {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "43bdd7a5c865e05da6cc1e8982c467ac899d43c09b5128eba995f3c64743301d",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-2",
+        "source_url": "https://example.invalid/synthetic/3/2"
+      },
+      {
+        "kind": "records",
+        "path": "declared-credentials.csv",
+        "sha256": "20e44bc2e25d0d9a5fdbcb564a659fd9ac10faf46ffc6bbb10c5ba6fa4c00c03",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-3",
+        "source_url": "https://example.invalid/synthetic/3/3"
+      },
+      {
+        "kind": "records",
+        "path": "privilege-requests.csv",
+        "sha256": "56449c0862aa85e91ad4cdd7b589043c7ebaae3e5225db12e051800c070d3690",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-4",
+        "source_url": "https://example.invalid/synthetic/3/4"
+      },
+      {
+        "kind": "records",
+        "path": "licence-lookup-wa.csv",
+        "sha256": "2e6693635851be7f662c0e45814cec632593afb73da96bf3f776e806920d90c7",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-5",
+        "source_url": "https://example.invalid/synthetic/3/5"
+      },
+      {
+        "kind": "records",
+        "path": "licence-lookup-other-states.csv",
+        "sha256": "3d9cc090a459e75fa671dbc7344d486f9d39a2b6a1b7be44723247565bb6b0a2",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-6",
+        "source_url": "https://example.invalid/synthetic/3/6"
+      },
+      {
+        "kind": "records",
+        "path": "certification-replies.csv",
+        "sha256": "a0f68abff968645afd9f28f4e4e640a5da10ca05eeba4e62e73208f412a601eb",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-7",
+        "source_url": "https://example.invalid/synthetic/3/7"
+      },
+      {
+        "kind": "records",
+        "path": "verification-replies.csv",
+        "sha256": "7bb8d0bd5ebac3237cc102a031c7780800a70d1adca0b6458cca2eeffd1e7404",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-8",
+        "source_url": "https://example.invalid/synthetic/3/8"
+      },
+      {
+        "kind": "records",
+        "path": "verification-attempts.csv",
+        "sha256": "8b130fe580279f40033e110deebaf27d4ee2c22a96c8185d32d8a37b9f734383",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-9",
+        "source_url": "https://example.invalid/synthetic/3/9"
+      },
+      {
+        "kind": "records",
+        "path": "peer-referees.csv",
+        "sha256": "b7cd57151aed10e7ff6b63fbcb3b06ac8000fa67910ecf8b8d0c61892dd9aef1",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-10",
+        "source_url": "https://example.invalid/synthetic/3/10"
+      },
+      {
+        "kind": "records",
+        "path": "peer-reference-replies.csv",
+        "sha256": "70ab52544eb327ac48534fdccc80a60d5d20ef73b13838b280b4e82f982f85ab",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-11",
+        "source_url": "https://example.invalid/synthetic/3/11"
+      },
+      {
+        "kind": "records",
+        "path": "correspondence.csv",
+        "sha256": "74675e40345a7e24ee18403b1438adc2589686d1746845c2484ef04170ffcf0c",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-12",
+        "source_url": "https://example.invalid/synthetic/3/12"
+      },
+      {
+        "kind": "batch-readme",
+        "path": "README.md",
+        "sha256": "928a910550ce07bba0255c3393a91c22dee6f1abd3feca75744490a13eadffbe",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-13",
+        "source_url": "https://example.invalid/synthetic/3/13"
+      },
+      {
+        "kind": "document",
+        "path": "letters/SYNTH-satisfaction.md",
+        "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8",
+        "source_batch": 3,
+        "source_id": "SYNTH-3-14",
+        "source_url": "https://example.invalid/synthetic/3/14"
+      }
+    ],
+    "format": "credentialing-input-manifest/1"
+  },
+  "summary": {
+    "admission_unresolved": 0,
+    "admitted": 1,
+    "applications": 1,
+    "packet_presentable": {
+      "True": 1
+    },
+    "refused": 0,
+    "schema_applications": 1,
+    "statuses": {
+      "active-with-conditions": 1
+    }
+  }
+}

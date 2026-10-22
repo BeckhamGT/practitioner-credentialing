@@ -1,6 +1,6 @@
-# Run log — evidence operations, not assessed batch runs
+# Run log — actual and conditional workflow operations
 
-This log records actual commands. No command below produced an assessed snapshot or a Supported/Partial assignment result. Deliberate probes are labeled; source/accepted stores were preserved. See [machine log](evidence/execution-log.json) for exact arguments, return codes and stdout hashes. Times are UTC; business clocks are the batch export dates.
+This log records actual commands. No actual-case command below produced a full assessed snapshot or a Supported/Partial assignment result. The separate synthetic CLI demonstration generates labeled fixture snapshots. Deliberate probes are labeled; source/accepted stores were preserved. See [machine log](evidence/execution-log.json) for exact arguments, return codes and stdout hashes. Times are UTC; business clocks are the batch export dates.
 
 ## Consumed and produced
 
@@ -112,3 +112,45 @@ three-batch CSVs/README/manifests and selected current reports; it writes stdout
 only. The later clock-source refinement reproduced those exact output bytes.
 Regression stdout/stderr summary is in assessments/test-summary.json and raw
 output in assessments/tests.txt. Development checks are not assessed batch runs.
+
+## Complete workflow processing
+
+`process` now runs all confirmed-rule branches and persists a complete internal
+workflow report even when the original schema cannot encode the actual batch.
+The exact command/time/exit/receipt records are in [workflow execution log](workflow/execution-log.json).
+The first three are actual batches in order; subsequent entries are unchanged
+batch-3 repeats, a clean three-batch reconstruction and the independent check.
+Each consumes its pinned source manifest/previous workflow plus original pinned
+rules. Each writes or verifies its hash-named workflow report and the separate
+immutable workflow store; no actual assessment snapshot is generated. Exit 3 is
+scoped to assessed projection, not a software or business deferral.
+
+The synthetic demonstration's [own log](synthetic/workflow-demo/execution-log.json)
+records seven real CLI calls: three evidence stages, three full workflow runs,
+and an unchanged final rerun. Inputs are only its invented batch folders. Outputs
+are its separate stores, nested reports/snapshots/run log and proof. Its snapshot
+produced lists include the workflow report and writer artifacts. Internal journal/
+state-control objects are distinct from business output files.
+
+Development evaluations before verification had false role-format/action/referee
+classifications and overly strong treatment of unrecorded route/narrative review.
+They were rejected, preserved byte-for-byte with logs in
+.local/workflow-completion/rejected-development-reports and separately identified
+stores, and reconstructed without changing any source or previously accepted
+result. Original command/receipt paths remain in those development logs with
+retained locations/dispositions. They are not asserted as current business results.
+The final raw 145-test output is workflow/tests.txt. Integrated failure/recovery
+and malformed-condition probes are explicitly synthetic; no production failure,
+notification, clinical approval or learner acceptance was manufactured.
+
+| Entry | UTC start | Operation / batch | Exit | Result |
+|---|---|---|---|---|
+| 1 | 2026-10-22T07:48:31.871839+00:00 | process / 1 | 3 | stored blocked-at-schema-projection |
+| 2 | 2026-10-22T07:48:32.286072+00:00 | process / 2 | 3 | stored blocked-at-schema-projection |
+| 3 | 2026-10-22T07:48:32.898796+00:00 | process / 3 | 3 | stored blocked-at-schema-projection |
+| 4 | 2026-10-22T07:48:33.606057+00:00 | process / 3 | 3 | unchanged blocked-at-schema-projection |
+| 5 | 2026-10-22T07:48:34.391216+00:00 | process / 3 | 3 | unchanged blocked-at-schema-projection |
+| 6 | 2026-10-22T07:52:52.016331+00:00 | process / 1 | 3 | stored blocked-at-schema-projection |
+| 7 | 2026-10-22T07:52:52.451186+00:00 | process / 2 | 3 | stored blocked-at-schema-projection |
+| 8 | 2026-10-22T07:52:53.057549+00:00 | process / 3 | 3 | stored blocked-at-schema-projection |
+| 9 | 2026-10-22T07:52:53.744852+00:00 | independent check / all | 0 | independent original-source repeat  |

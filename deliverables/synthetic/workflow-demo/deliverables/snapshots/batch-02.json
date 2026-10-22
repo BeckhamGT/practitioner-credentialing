@@ -1,0 +1,91 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "due": "2026-04-30",
+          "item": "SYNTH named monitoring evidence",
+          "owner": "Medical Services Professional"
+        },
+        {
+          "due": "2026-12-31",
+          "item": "Re-verify Washington licence SYNTH-MD before expiry",
+          "owner": "Medical Services Professional"
+        }
+      ],
+      "activation": {
+        "active_at_export": false,
+        "cycle_end": "2027-04-24",
+        "effective_date": "2026-04-25",
+        "privileges": [
+          "PRIV-FM"
+        ]
+      },
+      "application_id": "SYNTH-WORKFLOW",
+      "approval_decision_id": "SYNTH-GB",
+      "decisions": [
+        {
+          "admitted": true,
+          "decision_id": "SYNTH-GB",
+          "reason": null
+        }
+      ],
+      "elements": {
+        "certification": "resolved",
+        "education": "resolved",
+        "experience": "resolved",
+        "gaps": "resolved",
+        "licensure": "resolved",
+        "references": "resolved"
+      },
+      "monitored_conditions": [
+        {
+          "condition": "SYNTH named monitoring evidence",
+          "due": "2026-04-30"
+        },
+        {
+          "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+          "due": "2026-12-31"
+        }
+      ],
+      "packet_presentable": true,
+      "revision": 1,
+      "status": "approved-not-yet-effective"
+    }
+  ],
+  "as_of": "2026-04-20",
+  "batch": 2,
+  "consumed": {
+    "documents": [
+      "README.md",
+      "decisions/SYNTH-GB.md"
+    ],
+    "record_files": [
+      "applications.csv",
+      "application-disclosures.csv",
+      "declared-history.csv",
+      "declared-credentials.csv",
+      "privilege-requests.csv",
+      "licence-lookup-wa.csv",
+      "licence-lookup-other-states.csv",
+      "certification-replies.csv",
+      "verification-replies.csv",
+      "verification-attempts.csv",
+      "peer-referees.csv",
+      "peer-reference-replies.csv",
+      "correspondence.csv"
+    ]
+  },
+  "predecessor": {
+    "path": "deliverables/snapshots/batch-01.json",
+    "sha256": "890d2ce6d8f130eb6418e60fcc5905ccf77f253ab8097f0b0ad1ed2853484c0c"
+  },
+  "produced": [
+    "deliverables/run-log.md",
+    "deliverables/snapshots/batch-02.json",
+    "deliverables/workflow/batch-02-56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87.json"
+  ],
+  "rules_file": "deliverables/rules.md",
+  "schema_version": "credentialing-snapshot/1",
+  "snapshot_id": "SYNTH-workflow-02-56a004dd4f26323c0600405c"
+}

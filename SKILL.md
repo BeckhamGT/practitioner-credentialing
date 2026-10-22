@@ -1,108 +1,113 @@
 ---
 name: practitioner-credentialing
-description: Review Larkhollow initial-appointment export evidence across batches, retain provenance and decision records, and expose unresolved human-owned work.
+description: Process Larkhollow initial-appointment export batches with persisted evidence, scoped human review, owned queues, chronological decisions and guarded credentialing snapshots.
 ---
 
 # Practitioner credentialing
 
-Use this repository from its root with the Python CLI in [README.md](README.md).
-This version performs evidence review and continuation. It is **not yet the full
-intake-to-activation implementation**. Its outputs cannot replace the assignment's
-three assessed snapshots.
+Run from this repository root using [README](README.md). This Skill implements
+the dated workflow and writer. A usable implementation does not imply that its
+supplied applicants have enough evidence for complete assessment snapshots.
 
-## Inputs and scope
+## One batch and exact predecessor
 
-Take one authorized physical export folder with `input.manifest.json`, the exact
-predecessor state SHA-256 when continuing, and the pinned rule/source bundle.
-The manifest names exactly the thirteen CSVs, README and indexed supporting
-documents. Read actual document bytes, not merely correspondence subjects.
+1. Read the [rules register](deliverables/rules.md), original schema and current
+   [source audit](docs/readiness-audit.md). Use one authorized physical batch
+   manifest, its export date, pinned rules and the exact preceding state hashes.
+2. If needed, materialize only the reviewed manifest's batch using the README
+   preparer outside business runtime. `stage` retains original bytes; it is not
+   a completeness pass. Never load the combined archive into a batch runner.
+3. Invoke `process` with evidence store/state, separate work store, pinned
+   element rules/hash and `--previous-workflow` for later batches. README supplies
+   exact three-batch commands. Batch 3 must resume batch 2. Do not replace missing
+   or corrupt predecessors with an empty run.
+4. Read stdout's workflow hash/report and assessment result. Exit 3 can mean the
+   workflow report was retained while its schema projection is blocked; it is
+   not an approved business deferral. Continue independent work from that exact
+   workflow receipt. Exit 2 requires failure investigation. Exit 0 means a
+   generated/unchanged schema result, not acceptance or submission readiness.
 
-Read [the rules register](deliverables/rules.md) for rule origin, source sections,
-and implemented versus conditional behavior. Before assessing completeness or
-using a new clarification, read [the unresolved source register](docs/readiness-audit.md#unresolved-gaps-and-contradictions).
-G1/G2 currently lack actual signed-application/CV evidence or an authorized export
-representation. Keep these unknown. A receipt date or blank template supplies
-neither a case pass nor an applicant failure.
+## Evidence and authority
 
-## One batch and continuation
+Preserve raw sources, original outcomes, refused records, revision bindings,
+request attempts and prior workflow objects. Re-evaluate changed entry fields,
+current licence/peer dates and affected elements; unrelated checks continue.
+Retain readiness and disposition history when an element reopens or a file ends.
 
-1. Follow README setup. Verify the supplied batch manifest with `check-input`.
-   Its export date is the business clock, not the host date.
-2. Stage exactly the next batch using the explicit predecessor shown in README.
-   Keep the accepted store and historical source bytes. Stage receipts mean
-   evidence retained, not complete intake or an assessed snapshot.
-3. Run `review` for independent source-class, date and authority-prefix checks;
-   run `timeline` for revisions, recorded attempts/replies and the decision register.
-   Run `elements` for declared-history gaps, licence observations, source replies,
-   privilege components, peer fields and all independently checkable decision
-   conditions. README supplies the exact pinned rule/hash and state commands.
-   Pin the requested state even when HEAD is newer. Keep every received occurrence,
-   original outcome, refusal and provenance reference.
-4. Inspect actual output against the linked original source rows/documents and
-   independently check a meaningful quantity. Show the learner a real milestone
-   with what to inspect; display is not acceptance. Record only their actual reply.
+Separate established results, missing evidence and synthetic assumptions. A known
+false necessary condition may disprove readiness independently of another
+unknown. Missing signature/CV evidence is neither an applicant omission nor a
+pass. G1/G2 remain MSP-owned human review tasks with due null absent a record.
+Do not invent a written notice, clock, source class, age threshold or approval.
 
-The exact commands and observed state hashes are in README. For a new authorized
-batch, use the new manifest and the verified current state; do not reuse the
-example's dates or hashes as if they described a different input.
+Five judgments remain human: gap explanation adequacy; disqualifying finding;
+eligibility discontinuation; appointment/privilege recommendation; and GB
+approval/modification/deferral/denial. Check actual people, bodies, terms and
+protocol against the roster. A role asserted in a record is not its authority.
+Record the actual disposition; never write the learner's choice or reasoning.
 
-## Authority and conditional behavior
+For evidence absent from CSVs, use only genuine source-linked human records
+conforming to [the MSP observation protocol](docs/human-observation-protocol.md).
+The adapter permits factual checks and MSP source-route determination, not
+reserved clinical judgments. It validates dated source references and roster
+identity, not cryptographic authorship. No actual review record is fabricated.
+Return to the learner before newly supplied evidence/conventions are adopted.
 
-The five reserved judgments and their owners are in the rules register. Preserve
-both sides of discrepancies and authentic returned dispositions. A recommendation
-does not become an approval; a record asserting a role does not establish it.
+## Outputs and schema boundary
 
-An independently proved early admission failure may be refused now. Otherwise
-leave admission unevaluated until the required prior revision-bound packet is
-supported. `admitted: null` occurs only in the internal evidence-review format;
-it is never a new value for the published snapshot schema.
+`deliverables/workflow/current.json` selects full actual-case workflow reports;
+immutable object hashes link their predecessors. Reports contain six element
+results, exact dependencies, source observations, owned queues, decisions,
+activation/condition records and history. Null means unknown only in this
+internal format. Use the unchanged schema's application definition where its
+meanings are established. Never substitute a new enum or nullable boolean in a
+required snapshot.
 
-`credentialing/conditional.py` contains kernels exercised on labeled synthetic
-fixtures. There is no CLI route applying them to supplied applicants. In particular,
-synthetic completeness/CV facts and readiness results never authorize a real
-decision or activation. Return to the learner before integrating newly supported
-dependent business logic. Continue independent work while a scoped gap remains.
+Only a fully representable caseload and assessed predecessor chain can generate
+`deliverables/snapshots/batch-0N.json`. Otherwise retain the full report and exact
+unmet fields. No application is omitted to force a batch through. Partial needs
+an actual schema-valid snapshot; deferred needs an admitted GB business hold.
 
-## Outputs, failure and rerun
+`deliverables/synthetic/workflow-demo/` contains the separate invented SYNTH-only
+end-to-end package. Its source assumptions/positive results do not establish
+facts for supplied applicants. Mixed synthetic/actual application inputs are
+rejected. Lower-level historical reports remain under evidence/assessments.
 
-Evidence review JSON lives under `deliverables/evidence/`; the independent
-element reports live under `deliverables/assessments/`, with `current.json`
-selecting the latest retained report occurrence per batch. Separate synthetic
-results live under `deliverables/synthetic/`. None is an actual assessed snapshot.
-The original schema is [snapshot.schema.json](snapshot.schema.json); `verify-snapshot`
-checks its structure and selected cross-file relationships, not business truth.
+## Rerun, failure and recovery
 
-Use [verification](deliverables/verification.md) and [run log](deliverables/run-log.md)
-to distinguish observed results from unfinished work. A failed operation returns
-nonzero, records its scope and leaves the last verified state intact. It must not
-present old output as the current successful result. An unchanged stage/rerun keeps
-the same evidence state and report bytes. Preserve damaged state for diagnosis;
-recover only from verified retained evidence in a separate reconstruction when needed.
+Unchanged latest-batch `process` retains workflow identity and snapshot bytes.
+Replay an earlier chain in a new store, preserving the old one. Changed closed
+inputs/retained results never overwrite original state. If HEAD is lost while
+objects remain, or a file/hash conflicts, preserve and investigate; reconstruct
+separately from verified retained evidence. A stale lock requires proof its
+writer is inactive before manual removal.
 
-`run` with pinned state/rules and a separate `--report` preserves the independent
-assessment, then exits 3 `snapshot_unrepresentable` while required schema facts
-are unknown. This is neither Partial nor an admitted business deferral. Read
-[the schema conflict and rejected status proposal](docs/partial-representation-assessment.md).
-Never populate `deliverables/snapshots/` to bypass missing evidence.
+Snapshot writer transactions keep exact prior/planned bytes and block
+verification after interruption. Workflow state may already have advanced;
+that is not an assessed success. Inspect, use `recover-writer --root <workspace>
+--schema snapshot.schema.json`, then retry the same batch and original workflow
+predecessor. External file changes are never overwritten by rollback. A failed
+later run must not advertise an earlier snapshot as its current success.
 
-`credentialing/writer.py` implements local schema/chain-gated generation,
-unchanged reruns, byte-preserved supersession and downstream regeneration. It has
-synthetic demonstrations only; a complete business-state projector is unfinished.
-Only a Git commit seals a generated occurrence. The writer never commits or
-publishes remotely. Its transaction journal is internal control state, not a
-business outcome. An interrupted transaction blocks current-output verification.
-After preserving and inspecting it, use `recover-writer --root <workspace>
---schema snapshot.schema.json` to validate journal/backups and restore prior
-working outputs. If the current files differ from both prior and planned bytes,
-recovery refuses to overwrite them; preserve the evidence and investigate. After
-recovery rerun the same authorized input. Never remove a lock until its writer
-has been shown inactive. Power-loss durability is not established.
+Git commit seals a snapshot. Unchanged reruns keep it. A changed sealed occurrence
+gets a new ID, archived original bytes, a recorded reason and regenerated later
+chain. Use the history path/hash index; never rewrite old predecessor bytes.
+Power-loss durability is not established by these local tests.
 
-## Handoff boundary
+## Verification and review
 
-Keep one authentic final cumulative export per interview session, retain superseded
-bytes in Git, and leave originals unchanged. The learner conducts interviews; this
-Skill identifies missing evidence but does not draft or automate that interview.
-Keep genuine capture associated with meaningful commits. Publication, capture
-syncing and Classroom submission remain separate pending actions requiring the
-learner's publication/submission authorization and the approved access arrangement.
+Inspect [current verification](deliverables/verification.md),
+[run log](deliverables/run-log.md) and [review guide](docs/workflow-review.md).
+Compare actual source rows/documents and recompute a meaningful quantity with
+`tools/independent_workflow_checks.py`, outside the workflow implementation.
+Use the synthetic CLI demo and exception/failure tests for conditional branches.
+Tests, schema checks and output display do not replace actual-case evidence or
+learner review. Record only real feedback; put learner choices/reasons early in
+their own turns because the first 600 characters are assessed.
+
+Keep the authentic final interview byte-unchanged and preserve superseded Git
+history. The learner conducts interviews; this Skill neither drafts nor automates
+them. Verify genuine Entire payloads for meaningful local commits. Keep material
+local until publication/access is authorized; remote syncing, facilitator access,
+Classroom submission and grading are separate pending states. No facilitator
+contact or repeated unchanged inventory search is required for current software.

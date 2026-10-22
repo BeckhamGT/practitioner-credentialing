@@ -1,0 +1,4 @@
+reply_id,application_id,entry_id,element,attester_organization,attester_name,attester_role,received_from,verified_credential,verified_from,verified_to,outcome,requested_date,received_date,reply_method,notes
+SYNTH-V0,SYNTH-WORKFLOW,SYNTH-E0,education-and-training,SYNTH School,SYNTH source,,Registrar's office — SYNTH School,Degree — Doctor of Medicine,1996-08-20,2000-06-30,confirmed,2026-01-02,2026-02-01,direct portal,
+SYNTH-V1,SYNTH-WORKFLOW,SYNTH-E1,education-and-training,SYNTH Hospital,SYNTH source,,Graduate medical education office — SYNTH Hospital,Residency — Family Medicine,2000-07-01,2003-06-30,confirmed,2026-01-02,2026-02-02,direct portal,
+SYNTH-V2,SYNTH-WORKFLOW,SYNTH-E2,affiliation-and-employment,SYNTH Practice,SYNTH source,,Medical staff office — SYNTH Practice,Employment — Staff Physician,2003-07-01,,confirmed,2026-01-02,2026-02-03,direct portal,

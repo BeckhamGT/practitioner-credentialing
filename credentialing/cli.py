@@ -1,4 +1,4 @@
-"""Command interface restricted to the learner-authorized foundation."""
+"""Evidence loading, dated workflow processing and guarded snapshot generation."""
 
 from __future__ import annotations
 
@@ -15,11 +15,20 @@ from .validation import read_json
 from .elements import assess_elements
 from .writer import SnapshotWriter
 from .validation import GroundworkError, load_batch
+from .processor import process_run
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description="Evidence-only groundwork; business processing is blocked by G1/G2.")
+    parser = argparse.ArgumentParser(description="Process credentialing evidence chronologically; retain scoped unknowns and human authority.")
     commands = parser.add_subparsers(dest="command", required=True)
+    command = commands.add_parser("process", help="Complete dated business evaluation, immutable continuation and truthful schema projection")
+    command.add_argument("--store", type=Path, required=True, help="Retained evidence store")
+    command.add_argument("--state", required=True)
+    command.add_argument("--work-store",type=Path,required=True)
+    command.add_argument("--previous-workflow")
+    command.add_argument("--rules",type=Path,required=True)
+    command.add_argument("--rules-sha256",required=True)
+    command.add_argument("--root",type=Path,default=Path.cwd(),help="Existing output workspace with rules register")
     for name in ("check-input", "stage"):
         command = commands.add_parser(name)
         command.add_argument("--input", type=Path, required=True, help="One physical batch directory with input.manifest.json")
@@ -51,7 +60,7 @@ def main(argv=None) -> int:
     command.add_argument("--state", required=True)
     command.add_argument("--rules", type=Path, required=True)
     command.add_argument("--rules-sha256", required=True)
-    command = commands.add_parser("run", help="Assess supported facts; write a snapshot only when every required field is established")
+    command = commands.add_parser("run", help="Legacy independent-report boundary; use process for the full workflow")
     command.add_argument("--store", type=Path)
     command.add_argument("--state")
     command.add_argument("--rules", type=Path)
@@ -59,6 +68,11 @@ def main(argv=None) -> int:
     command.add_argument("--report", type=Path)
     args = parser.parse_args(argv)
     try:
+        if args.command == "process":
+            schema_path = Path(__file__).resolve().parents[1]/"snapshot.schema.json"
+            result, code = process_run(args.store,args.state,args.work_store,args.previous_workflow,args.rules,args.rules_sha256,args.root,schema_path)
+            print(json.dumps(result,sort_keys=True,indent=2))
+            return code
         if args.command == "run":
             values = (args.store, args.state, args.rules, args.rules_sha256, args.report)
             if not any(values):

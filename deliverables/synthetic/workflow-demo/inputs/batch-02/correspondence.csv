@@ -1,0 +1,2 @@
+letter_id,date,direction,application_id,correspondent,subject,document_path
+SYNTH-DOC-2-0,2026-03-20,inbound,SYNTH-WORKFLOW,SYNTH fixture,SYNTHETIC source,decisions/SYNTH-GB.md

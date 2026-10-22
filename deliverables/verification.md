@@ -1,3 +1,81 @@
+# Verification — complete workflow capability
+
+[Current review](../docs/workflow-review.md) is the definitive actual/conditional
+scope. The remaining confirmed-rule implementation is now present in
+workflow.py, workflow_store.py, human_review.py and processor.py, integrated with
+the guarded writer. `process` is the full command. The older `run --report`
+boundary remains for historical reproduction.
+
+| Verification | Actual observation / evidence |
+|---|---|
+| Actual three-batch continuation | [Current reports](workflow/current.json): 40 files each; batch 3 resumes exact batch 2 workflow/evidence hashes. Full source/decision/revision/queue/history retained |
+| Scoped actual conclusions | At batch 3: 6 proven negative packets, 34 unknown; 4 proven refusals, 52 unknown admissions; no inferred approval or activation |
+| Original-source comparison | [Independent proof](workflow/independent-verification.json): 120 revision/incremental-referee/eligibility-count/gap comparisons; original missing-items letter +30 days independently gives March 20 |
+| Known statuses independent of G1/G2 | APP-019 missing-item clock, APP-018 recorded return, APP-028 withdrawal, APP-029 authorized discontinuation; no invented notices/judgments |
+| Original schema application meanings | APP-019 at batch 1; APP-019 and APP-029 at batches 2/3 validate against original application definition. Unknown files are not omitted to manufacture a batch snapshot |
+| Conditional end-to-end | [Synthetic CLI proof](synthetic/workflow-demo/proof.json) with retained invented inputs, genuine commands, source-linked reviews, three original-schema snapshots, exact grants/effective cycle/conditions and unchanged rerun |
+| Regression | **145 tests pass**; [raw output](workflow/tests.txt). Includes partial observations/corrections, unknown source versus refusal, ordinary partial workflow, terminal/authority logic and integrated snapshot-write failure/recovery |
+| Replay and history | Clean reconstruction reproduces all three exact workflow hashes; final reruns return unchanged. Original protected artifacts/stores preserved |
+
+The final proven refusal list is MEC-2026-024/GBD-2026-024 (APP-014 missing second
+reply before those decisions), GBD-2026-034 (superseded revision) and MEC-2026-036
+(body cannot approve). In particular, APP-021 secondary-route authority and
+APP-018 narrative consistency remain unknown, not independently proved failures.
+No later evidence is borrowed into an earlier decision view.
+
+During development, actual-source comparison caught: Degree/Employment role
+prefixes causing false discrepancies; “None reported” interpreted as an action;
+and incremental referee names incorrectly filtered to restated revisions.
+Corrections are covered by focused tests. Subsequent review separated unknown
+secondary-route authority and narrative consistency from proven negative
+prerequisites. Rejected provisional reports/stores and their operation logs are
+retained under .local/workflow-completion/, not advertised as current results.
+Original sources and accepted historical reports were not changed. A syntax
+bracket error in initial module assembly was diagnosed from its exact traceback
+and repaired before the first runnable evaluation. Genuine session capture keeps
+the development operations; no production incident is fabricated.
+
+Software capability is complete for the confirmed rules and documented input
+protocol. Missing actual signature/CV/attestation/accreditation or route evidence
+and scoped source conflicts remain external facts; the implementation exposes
+component results and human work rather than inventing them. Free-form future
+facts require genuine attributable normalization under the documented protocol.
+Full actual lifecycle verification, three actual assessed snapshots, final
+learner acceptance, publication/access and submission remain unestablished.
+No facilitator contact or unchanged inventory search is required now.
+
+The current security inspection, preservation proof and genuine commit-linked
+capture are recorded below when checked. A scan/test/commit alone is not
+submission readiness.
+
+## Current security and preservation checks
+
+Skill metadata validation passed. The pinned local-only scanner exited 0 with
+one MEDIUM DATA_EXFIL_NETWORK_REQUESTS at elements.py:368 and one INFO
+MANIFEST_MISSING_LICENSE at SKILL.md. The medium is an inspected false positive:
+`requests` is a local dictionary populated by `indexed`, and `.get` is local row
+lookup. The INFO remains accepted for the local candidate without inventing
+license terms. [Raw report](workflow/skill-scan.md) and [scope/hashes/dispositions](workflow/skill-validation.json)
+are preserved; the scanner's SAFE label is not a safety certificate. Raw scanner
+and test output retain their final blank lines rather than being normalized.
+The invented raw decision also retains its generated blank Supersedes metadata
+line with a trailing space. Code/documentation whitespace checks exclude those
+three raw artifacts; no retained source or proof hash is silently normalized.
+
+[Preservation proof](workflow/preservation.json) checks all 59 protected baseline
+artifacts, including the original schema, authentic interview, source archives,
+prior accepted reports/synthetic proof and both accepted evidence-store HEADs.
+The one current interview still equals Downloads byte-for-byte. No actual
+snapshot path exists. Current actual [summary](workflow/summary.json) distinguishes
+all established/missing element states and decision/packet results.
+
+## Earlier milestone accounts (historical)
+
+The following is retained context from prior implementation milestones. Its
+“current” labels refer to those earlier moments; unfinished-software claims and
+counts are superseded by the complete workflow account above. Original linked
+evidence remains unchanged.
+
 # Verification — element and writer milestone
 
 This is a bounded local milestone, not full implementation or submission

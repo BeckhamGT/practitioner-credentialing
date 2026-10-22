@@ -1,0 +1,945 @@
+{
+  "method": "Original CSVs and actual letter; daily set subtraction, distinct incremental referee IDs and calendar arithmetic; no product imports",
+  "results": [
+    {
+      "batch": 1,
+      "report": "deliverables/workflow/batch-01-5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679.json",
+      "report_sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679",
+      "checks": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "named_referees": 0,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        }
+      ],
+      "actual_missing_item_due": "2026-03-20",
+      "status_APP019": "intake-incomplete"
+    },
+    {
+      "batch": 2,
+      "report": "deliverables/workflow/batch-02-a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e.json",
+      "report_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+      "checks": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 3,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "named_referees": 0,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        }
+      ],
+      "actual_missing_item_due": "2026-03-20",
+      "status_APP019": "ineligible-clock-expired"
+    },
+    {
+      "batch": 3,
+      "report": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "report_sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5",
+      "checks": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 3,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "named_referees": 0,
+          "qualifying_current_returned_fields": 0,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 1,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "named_referees": 3,
+          "qualifying_current_returned_fields": 3,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 2,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "named_referees": 2,
+          "qualifying_current_returned_fields": 2,
+          "declared_gaps": []
+        }
+      ],
+      "actual_missing_item_due": "2026-03-20",
+      "status_APP019": "ineligible-clock-expired"
+    }
+  ],
+  "limits": "Checks these quantities and clocks, not complete intake, accreditation, CV reconciliation or clinical authority"
+}

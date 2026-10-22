@@ -1,0 +1,82 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "due": "2026-12-31",
+          "item": "Re-verify Washington licence SYNTH-MD before expiry",
+          "owner": "Medical Services Professional"
+        }
+      ],
+      "activation": {
+        "active_at_export": true,
+        "cycle_end": "2027-04-24",
+        "effective_date": "2026-04-25",
+        "privileges": [
+          "PRIV-FM"
+        ]
+      },
+      "application_id": "SYNTH-WORKFLOW",
+      "approval_decision_id": "SYNTH-GB",
+      "decisions": [
+        {
+          "admitted": true,
+          "decision_id": "SYNTH-GB",
+          "reason": null
+        }
+      ],
+      "elements": {
+        "certification": "resolved",
+        "education": "resolved",
+        "experience": "resolved",
+        "gaps": "resolved",
+        "licensure": "resolved",
+        "references": "resolved"
+      },
+      "monitored_conditions": [
+        {
+          "condition": "Re-verify Washington licence SYNTH-MD before expiry",
+          "due": "2026-12-31"
+        }
+      ],
+      "packet_presentable": true,
+      "revision": 1,
+      "status": "active-with-conditions"
+    }
+  ],
+  "as_of": "2026-05-18",
+  "batch": 3,
+  "consumed": {
+    "documents": [
+      "README.md",
+      "letters/SYNTH-satisfaction.md"
+    ],
+    "record_files": [
+      "applications.csv",
+      "application-disclosures.csv",
+      "declared-history.csv",
+      "declared-credentials.csv",
+      "privilege-requests.csv",
+      "licence-lookup-wa.csv",
+      "licence-lookup-other-states.csv",
+      "certification-replies.csv",
+      "verification-replies.csv",
+      "verification-attempts.csv",
+      "peer-referees.csv",
+      "peer-reference-replies.csv",
+      "correspondence.csv"
+    ]
+  },
+  "predecessor": {
+    "path": "deliverables/snapshots/batch-02.json",
+    "sha256": "0064e7bdf96ad819b221099c13df63713fb5654cd788fcee0d18b97f5f25927c"
+  },
+  "produced": [
+    "deliverables/run-log.md",
+    "deliverables/snapshots/batch-03.json",
+    "deliverables/workflow/batch-03-d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719.json"
+  ],
+  "rules_file": "deliverables/rules.md",
+  "schema_version": "credentialing-snapshot/1",
+  "snapshot_id": "SYNTH-workflow-03-d6e1ab6a8ee5d02cb04433c3"
+}

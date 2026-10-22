@@ -1,0 +1,159 @@
+[
+  {
+    "batch": 1,
+    "sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679",
+    "summary": {
+      "admission_unresolved": 5,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 24,
+        "None": 16
+      },
+      "refused": 1,
+      "schema_applications": 1,
+      "statuses": {
+        "decision-inadmissible": 1,
+        "intake-incomplete": 1,
+        "returned-incomplete": 1,
+        "unresolved-intake-status": 37
+      }
+    },
+    "element_states": {
+      "licensure": {
+        "resolved": 38,
+        "finding": 1,
+        "outstanding": 1
+      },
+      "experience": {
+        "resolved": 22,
+        "outstanding": 17,
+        "discrepancy": 1
+      },
+      "gaps": {
+        "resolved": 38,
+        "routed-to-clinical-director": 1,
+        "return-incomplete": 1
+      },
+      "education": {
+        "resolved": 30,
+        "outstanding": 10
+      },
+      "certification": {
+        "missing-evidence": 34,
+        "outstanding": 3,
+        "finding": 1,
+        "discrepancy": 1,
+        "eligibility-question": 1
+      },
+      "references": {
+        "resolved": 23,
+        "outstanding": 17
+      }
+    }
+  },
+  {
+    "batch": 2,
+    "sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+    "summary": {
+      "admission_unresolved": 31,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 13,
+        "None": 27
+      },
+      "refused": 4,
+      "schema_applications": 2,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "element_states": {
+      "licensure": {
+        "resolved": 38,
+        "finding": 1,
+        "outstanding": 1
+      },
+      "experience": {
+        "resolved": 36,
+        "outstanding": 3,
+        "discrepancy": 1
+      },
+      "gaps": {
+        "resolved": 40
+      },
+      "education": {
+        "resolved": 36,
+        "outstanding": 3,
+        "missing-evidence": 1
+      },
+      "certification": {
+        "missing-evidence": 36,
+        "outstanding": 1,
+        "finding": 1,
+        "discrepancy": 1,
+        "eligibility-question": 1
+      },
+      "references": {
+        "resolved": 36,
+        "outstanding": 4
+      }
+    }
+  },
+  {
+    "batch": 3,
+    "sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5",
+    "summary": {
+      "admission_unresolved": 52,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 6,
+        "None": 34
+      },
+      "refused": 4,
+      "schema_applications": 2,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "element_states": {
+      "licensure": {
+        "resolved": 39,
+        "finding": 1
+      },
+      "experience": {
+        "resolved": 38,
+        "outstanding": 2
+      },
+      "gaps": {
+        "resolved": 40
+      },
+      "education": {
+        "resolved": 37,
+        "outstanding": 2,
+        "missing-evidence": 1
+      },
+      "certification": {
+        "missing-evidence": 36,
+        "outstanding": 1,
+        "finding": 1,
+        "discrepancy": 1,
+        "eligibility-question": 1
+      },
+      "references": {
+        "resolved": 38,
+        "outstanding": 2
+      }
+    }
+  }
+]

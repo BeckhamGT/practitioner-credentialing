@@ -1,0 +1,4 @@
+entry_id,application_id,revision,entry_type,organization,location,role,from_date,to_date,hours_per_week,contact_name,contact_email,notes
+SYNTH-E0,SYNTH-WORKFLOW,1,medical-school,SYNTH School,,Doctor of Medicine,1996-08-20,2000-06-30,,SYNTH contact,synthetic@example.invalid,
+SYNTH-E1,SYNTH-WORKFLOW,1,residency,SYNTH Hospital,,Family Medicine Residency,2000-07-01,2003-06-30,,SYNTH contact,synthetic@example.invalid,
+SYNTH-E2,SYNTH-WORKFLOW,1,employment,SYNTH Practice,,Staff Physician,2003-07-01,,,SYNTH contact,synthetic@example.invalid,

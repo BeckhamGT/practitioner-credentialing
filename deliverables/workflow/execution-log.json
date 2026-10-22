@@ -1,0 +1,3042 @@
+[
+  {
+    "started_at_utc": "2026-10-22T07:48:31.871839+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+      "--work-store",
+      ".local/workflow-store-v4",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-03-16",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 1,
+      "operation": "process",
+      "previous_workflow_sha256": null,
+      "report": "deliverables/workflow/batch-01-5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-029",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 5,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 24,
+          "None": 16
+        },
+        "refused": 1,
+        "schema_applications": 1,
+        "statuses": {
+          "decision-inadmissible": 1,
+          "intake-incomplete": 1,
+          "returned-incomplete": 1,
+          "unresolved-intake-status": 37
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679"
+    },
+    "stderr": ""
+  },
+  {
+    "started_at_utc": "2026-10-22T07:48:32.286072+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a",
+      "--work-store",
+      ".local/workflow-store-v4",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-04-20",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 2,
+      "operation": "process",
+      "previous_workflow_sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679",
+      "report": "deliverables/workflow/batch-02-a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 31,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 13,
+          "None": 27
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    },
+    "stderr": ""
+  },
+  {
+    "started_at_utc": "2026-10-22T07:48:32.898796+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "--work-store",
+      ".local/workflow-store-v4",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 3,
+      "operation": "process",
+      "previous_workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+      "report": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-027/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-027/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-028/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-028/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-035/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-037/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/GBD-2026-038/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5"
+    },
+    "stderr": ""
+  },
+  {
+    "started_at_utc": "2026-10-22T07:48:33.606057+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "--work-store",
+      ".local/workflow-store-v4",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 3,
+      "operation": "process",
+      "previous_workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+      "report": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-027/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-027/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-028/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-028/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-035/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-037/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/GBD-2026-038/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "unchanged",
+      "workflow_sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5"
+    },
+    "stderr": ""
+  },
+  {
+    "started_at_utc": "2026-10-22T07:48:34.391216+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "--work-store",
+      ".local/workflow-store-v4",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 3,
+      "operation": "process",
+      "previous_workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+      "report": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-027/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-027/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-028/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-028/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-035/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-037/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/GBD-2026-038/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "unchanged",
+      "workflow_sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5"
+    },
+    "stderr": ""
+  },
+  {
+    "started_at_utc": "2026-10-22T07:52:52.016331+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+      "--work-store",
+      ".local/workflow-completion/clean-replay",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-03-16",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 1,
+      "operation": "process",
+      "previous_workflow_sha256": null,
+      "report": "deliverables/workflow/batch-01-5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-029",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 5,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 24,
+          "None": 16
+        },
+        "refused": 1,
+        "schema_applications": 1,
+        "statuses": {
+          "decision-inadmissible": 1,
+          "intake-incomplete": 1,
+          "returned-incomplete": 1,
+          "unresolved-intake-status": 37
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679"
+    },
+    "scope": "clean reconstruction, same source/rules hashes; no original state replacement"
+  },
+  {
+    "started_at_utc": "2026-10-22T07:52:52.451186+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a",
+      "--work-store",
+      ".local/workflow-completion/clean-replay",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-04-20",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 2,
+      "operation": "process",
+      "previous_workflow_sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679",
+      "report": "deliverables/workflow/batch-02-a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 31,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 13,
+          "None": 27
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    },
+    "scope": "clean reconstruction, same source/rules hashes; no original state replacement"
+  },
+  {
+    "started_at_utc": "2026-10-22T07:52:53.057549+00:00",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      ".local/continuation-store",
+      "--state",
+      "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "--work-store",
+      ".local/workflow-completion/clean-replay",
+      "--rules",
+      "references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--previous-workflow",
+      "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    ],
+    "exit_code": 3,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "assessment_result": "blocked-at-schema-projection",
+      "batch": 3,
+      "operation": "process",
+      "previous_workflow_sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e",
+      "report": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "schema_projection_conflicts": [
+        {
+          "application_id": "APP-2026-001",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-011/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-011/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-002",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-012/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-012/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-003",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-013/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-013/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-004",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-014/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-014/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-005",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-015/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-015/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-006",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-016/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-016/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-007",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-017/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-017/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-008",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-018/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-018/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-009",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-019/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-019/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-010",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-020/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-020/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-011",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-021/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-021/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-012",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-022/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-022/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-013",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-023/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-023/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-014",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-015",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-016",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-025/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-025/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-017",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-026/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-026/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-018",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-027/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-027/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-020",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-021",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/education: final enum requires missing support evidence",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-028/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-028/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-022",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-023",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-024",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-025",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-026",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "decisions/MEC-2026-029/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-029/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-027",
+          "fields": [
+            "status: no established existing enum for unresolved intake"
+          ]
+        },
+        {
+          "application_id": "APP-2026-028",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-030",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-031",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-030/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-030/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-032",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-031/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-031/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-033",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        },
+        {
+          "application_id": "APP-2026-034",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-032/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-032/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-035",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-033/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-033/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-036",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-034/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-035/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-037",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-035/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-036/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-037/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-038",
+          "fields": [
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/GBD-2026-038/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-039",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence",
+            "decisions/MEC-2026-037/admitted: ordered admission is unresolved",
+            "decisions/GBD-2026-039/admitted: ordered admission is unresolved"
+          ]
+        },
+        {
+          "application_id": "APP-2026-040",
+          "fields": [
+            "status: no established existing enum for unresolved intake",
+            "packet_presentable: required boolean is unknown",
+            "elements/certification: final enum requires missing support evidence"
+          ]
+        }
+      ],
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5"
+    },
+    "scope": "clean reconstruction, same source/rules hashes; no original state replacement"
+  },
+  {
+    "started_at_utc": "2026-10-22T07:52:53.744852+00:00",
+    "command": [
+      ".venv/bin/python",
+      "tools/independent_workflow_checks.py",
+      "--inputs",
+      ".local/inputs",
+      "--reports",
+      "deliverables/workflow"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "457fe397a24694485251dbbd5f926242eb71bc0de4e9312e5433d77af0318303",
+    "scope": "independent original-source repeat"
+  }
+]

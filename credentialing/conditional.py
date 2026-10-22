@@ -40,7 +40,7 @@ def packet(evidence):
     if any(value is not None and type(value) is not bool for value in checks.values()):
         raise GroundworkError("conditional_input", "Expected explicit boolean facts or unknown")
     missing = [name for name, value in checks.items() if value is None]
-    ready = None if missing else all(checks.values())
+    ready = False if any(value is False for value in checks.values()) else None if missing else True
     if ready and not evidence["last_needed_reply_date"]:
         missing.append("last needed reply date")
         ready = None

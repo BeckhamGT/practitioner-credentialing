@@ -1,117 +1,84 @@
-# Rules register — current implementation scope
+# Rules register — complete workflow capability
 
-This register distinguishes executable checks from conditional test kernels and
-remaining work. It is not a declaration that every application is complete. No
-case-specific answers are encoded in the runtime. Case examples belong in the
-verification evidence, not rule configuration.
+This register covers the current `process` command, its helpers and writer.
+Historical review outputs remain unchanged. A rule is different from evidence
+that an individual case meets it. No case-specific answers are in the runtime.
 
-## Sources and versions
+## Pinned source registry
 
-| Key | Source and locator | Version / origin |
+| Key | Source / version | Authority and origin |
 |---|---|---|
-| A | [Assignment](https://docs.google.com/document/d/1HhmU8Jay09XHDci38hl9ZOX_dMryaSv4aFLCPu1Nk-E/edit), Your task, Deliverables, cross-file rules, Interview, Submit | Published assignment; no rubric weights published |
-| P | [Office procedure](https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit) | LARK-MSO-2026.1, effective 2026-01-01; distinguishes quoted manual rules from local Larkhollow rules |
-| ATT | [Accepted-source table](https://docs.google.com/document/d/1ze0RTP4H8J68FSqbFmkG7Qd_5cZiB6Lh2BfyU6v2Sj8/edit) | LARK-ATT-2026.1, effective 2026-01-01; office closed lists |
-| AUTH | [Authority roster](https://docs.google.com/document/d/1Dvc3eJei4K7RyE8HZtZkMtRQNqE6VPQU8gUXVbps2xQ/edit) | LARK-AUTH-2026.1; office roles, terms and 2026-01-05 designation |
-| E | [Export guide](https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA/edit), The files, Dates/blanks, The three joins, What I do not export | Office note 2026-03-16 |
-| I | [Original final interview](../interviews/project-e-practitioner-credentialing-20261022-0427.md) | Participant-visible turns; timestamps/lines below; original bytes unchanged |
-| APP / REF / PRIV | [Application](../references/element-sources/APP.txt), [reference form](../references/element-sources/REF.txt), [privilege criteria](../references/element-sources/PRIV.txt) | LARK-APP/REF/PRIV-2026.1; PRIV effective 2026-01-01. APP/REF effective dates not separately stated; no date inferred |
-| S | [Published schema](../snapshot.schema.json) | credentialing-snapshot/1, Draft 2020-12; byte-unchanged |
+| A | [Assignment](https://docs.google.com/document/d/1HhmU8Jay09XHDci38hl9ZOX_dMryaSv4aFLCPu1Nk-E/edit), Your task, Submission states, Deliverables, cross-file rules, Interview, Submit | Published requirements; no rubric weights |
+| P | [Office procedure](../references/record-review/procedure.txt), LARK-MSO-2026.1, effective 2026-01-01 | Adopted IHS manual quotations with section numbers, alongside explicitly local rules; the office's procedure governs |
+| ATT | [Accepted-source table](../references/record-review/accepted-sources.txt), LARK-ATT-2026.1, effective 2026-01-01 | Office closed source classes and impossibility routes |
+| AUTH | [Roster](../references/record-review/authority.txt), LARK-AUTH-2026.1 | Office bodies, named people, terms, designation and continuing MSP |
+| APP / REF / PRIV | [Application](../references/element-sources/APP.txt), [reference form](../references/element-sources/REF.txt), [privilege criteria](../references/element-sources/PRIV.txt), LARK-APP/REF/PRIV-2026.1 | Office forms/map; PRIV effective 2026-01-01; APP/REF have no separately stated effective date |
+| E | [Export guide](../references/export-guide.txt), office note 2026-03-16 | Export meaning, closed batches, joins, blanks and address-check limitation |
+| I | [Authentic final interview](../interviews/project-e-practitioner-credentialing-20261022-0427.md), Oct 21 18:05–18:06 and 23:50–23:54, Oct 22 00:21–00:27 | Original human turns; clocks/partial replies, attempts, signature method, qualitative CV meaning and unverified source-location claims |
+| S | [Required schema](../snapshot.schema.json), credentialing-snapshot/1 | Original bytes unchanged; owns status/element meanings and required types |
 
-The executable source/hash pins are [record-review/rules.json](../references/record-review/rules.json)
-[continuation.json](../references/continuation.json) and [element-rules.json](../references/element-rules.json). These are engineering
-transcriptions of confirmed rules, not newly authored office policy. Hashes cover
-retained extracted text, not authenticated native-provider revisions.
+`references/element-rules.json` pins the earlier continuation/record-review
+contracts and all extracted texts. Its SHA-256 remains
+`f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1`.
+These are engineering transcriptions of office rules, not new office policy.
+Hashes establish retained bytes, not native-provider revision authentication.
 
-## Applied to supplied evidence now
+## Applied rule coverage
 
-| Rule | Exact source / adopted versus local | Implementation and limit |
+| Rule and exact source | Implementation / interpretation | Limit or human owner |
 |---|---|---|
-| Export date is clock; UTF-8, inclusive dates and explicitly meaningful blanks | E The export date is the clock; Dates, blanks and columns — office convention | `validation.py`, `review.py`, `timeline.py`; empty evidence stays unknown; no host date in business arithmetic |
-| Exact thirteen record files, one README, actual indexed documents | E The files; A actual supporting evidence — office/export contract | `validation.py`; structural integrity only, including valid header-only files |
-| Source hashes, allowlist, immutable state objects, explicit predecessor, atomic HEAD | A sequential continuation; engineering integrity choices | `storage.py`; these are internal evidence objects, not schema snapshots; no orphan-state promotion |
-| Applicant-carried evidence is unacceptable regardless of letterhead | P §3, manual §6.1 — adopted rule | `review.source_class`; retain original reply, classify route; not a final credential conclusion |
-| Closed accepted sources and matching declared subject | P §3 office closed-list rule; ATT per-element table — local criteria within adopted primary-source framework | `review.py`; source-class classification only. Secondary-source impossibility route is not automatically inferred from silence |
-| Verification on/after first receipt and before decision; board lookup exception | P §8 — office arithmetic consistent with the manual's removal of the old fixed limit | `review.date_window` tests strict decision boundary; actual reports check export-date window only, not final packet usability |
-| Referee same discipline, nonrelative box, direct-work dates; two-year signature anniversary | P §3 Check 4: manual §6.4 element 11; office measurement/currency rules | `review.peer_checks`; individual returned fields only; `elements` also checks explicit direct-work prose conservatively; final qualification/counts remain unevaluated |
-| Retain every attempt and original request/reply occurrence | P §3, manual §6.2 and office permanent-history rule — adopted plus local | `timeline.request_history`; a returned row is observed evidence, never automatic satisfaction or acceptable verification |
-| Three peer requests 21 days apart; day 64 arithmetic | P §3 Check 4 — office schedule; I October 21 18:06 line 654 confirms at-least-three/21-day attempts | `timeline.py`; computes schedule only when recorded anchor is unambiguous; no notice sent or invented fourth-reminder policy |
-| Restated revision-side facts; compare all entry fields | E The three joins; P §§2,11 — office convention | `timeline.revision_history`; retains additions/removals/changed values, including organization, role and contact fields. Does not claim CV reconciliation or unchanged evidence usable |
-| Registry-validated body, outcome, signatory and role term | P §9 manual §§1,7,12 plus local roster protocol; AUTH — adopted authority principle, local identities/terms | `review.authority_checks`, `timeline.decision_history`; preserve asserted outcome and stop on proved early failures |
-| Decision must name current applicant/revision | P §9 — office admission/re-entry rule | `timeline.py`; compare recorded revision available at decision date, excluding later-batch revisions. This can prove a negative mismatch; it cannot establish positive packet identity/admission |
-| Received decisions and refusal reasons persist | A cross-file rule 4; P §§9,11 — assignment/local history rule | Timeline preserves original records in receipt order. Later reports retain earlier early refusals. Actual snapshots not yet produced |
-| Human owner of rejected-record review is MSP | P §9 — local protocol | Timeline `review_tasks`; internal evidence-review tasks with no invented due date, not the final business queue |
+| Nine-condition completeness; no verification requests without signed release (P §1, APP §§A–J; manual §5 adopted, local nine conditions) | `workflow.intake`; evaluates each condition separately; unknown is not a pass or applicant failure. Request permission requires complete intake and release | Actual G1/G2 are unrepresented; typed MSP observations may establish them from cited sources, not a CLI bypass |
+| Current CV means most recent professional history at intake (I lines 688/710); compare CV/application/completed verifications (P §2, adopted manual §6.2) | `human_review.observations`, separate file-level reconciliation result | No age threshold, no declared-history.csv equivalence; no invented comparison |
+| Missing item written request +30 calendar days, inclusive; partial replies/revisions do not reset (P §1, manual §5 and local clock; I lines 624/634/644) | `workflow.intake` reads actual notices, retains original deadline and item receipts; no deadline from G1/G2 alone | No new notice or correspondence is sent by software |
+| Unexplained ≥30-day gap returns file incomplete (P §§1/3 Check 2, adopted manual §6.4) | Computed element return requirement; actual returned status requires actual recorded return correspondence | A proposed action is not a performed return |
+| Compare both values; applicant written amendment resolves; one disputed entry does not stop others (P §2, manual §6.4 and local entry scope) | `entry_checks` preserves reply/declaration/change fields; a matching amended date may use its original reply. Organization/role/contact/supervisor changes require a corresponding current verification | CV comparison is separate; no silent source-date adoption |
+| First receipt anchors five-year experience floor; deeper verification for conflicts (P §3 Check 2, manual §6.4 and local anchor) | Current work/affiliation entries overlapping floor, plus identified earlier discrepancies, are checked | Current clinical competence remains with clinical leadership |
+| Primary-source prohibition on applicant-carried evidence, closed accepted classes (P §3, manual §§1/6.1; ATT) | `source_class`, `entry_checks`, certification source checks; original rejected replies retained | Unknown source/route authority is unknown, not a proven refusal; explicit applicant-carried/unlisted types fail the source check |
+| Affiliation-retained CVO names itself and the affiliation; secondary only when impossible, not nonresponsive (ATT) | Explicit CVO retaining/acting-for assertions; linked roster-validated MSP route observation plus most-recent affiliation and reason for secondary route | Mere offered secondary evidence is not proof MSP accepted it. APP-021 remains source-admission review |
+| Permanent attempts; three 21 days apart; peer day 64 escalation (P §3, manual §§6.2/15; P Check 4/REF; I line 654) | `request_history`, owned next-attempt/overdue tasks; all attempts retained after reply | G7 does not authorize a fourth-reminder policy; tasks are not sent messages |
+| WA four-field join; no match means no WA credential, not NPI; lookup exception (E joins/columns; P §3 Check 1) | `wa_observation`, source date filtering and exact board join; inclusive recorded expiry; no CE due-date use | Joined record is an observation, not identity authentication beyond supplied export |
+| Active/current/full unrestricted WA bylaw; every other held licence verified including inactive (P Check 1, adopted manual §6.4 with local practice-state restriction) | Status/date/action and actual board reply considered together; restriction goes to CD. Other-state “None reported” is explicit no action; blank remains unknown | No restriction conclusion from actiontaken alone; expired/inactive other-state licences are still verified |
+| Licensure finding persists after CD disposition ends wait (P Check 1/§8 local) | Original restriction source stays finding; source-recorded CD disposition clears its hold only | Disqualification is CD/MEC/GB judgment |
+| All declared intervals inclusive; school completion +1; blank end = export; overlap covers; recompute ≥30 and ≥180 gaps (P Check 2; E blanks) | `gap_intervals`, `gap_explanations`; actual arithmetic independently checked with daily sets | Declared history is not silently replaced by source dates or missing CV contents |
+| Explanation covers entire named period; presence marks explained; long gaps require recorded CD disposition (P Check 2 local) | Exact interval containment; CD actor/term and identified gap checked | Adequacy is never computed. G5 preserves the identified disposition while flagging its uncorroborated cited date |
+| Degree and all post-graduate training verified, education does not confer licence (P Check 3, manual §6.4; ATT) | Per-entry source, date, credential/role and revision changes | Qualifying degree/accreditation for privilege support remains a distinct check |
+| Two same-discipline, nonrelative, direct-work peers; recency at signature; currency second anniversary inclusive (P Check 4, manual §6.4; REF) | Distinct latest replies, returned box/prose, dates and signature; existing referee names carry through revisions because E restates only four other declaration tables | Unfamiliar/contradictory prose remains review; G3 boundary claim retained, actual May 18 stale result agrees under either wording |
+| Extra unanswered peer request does not hold met element; close at presentation as no longer needed (P Check 4 local) | Separate count and permanent request history; closure requires established presentation/admission, not a readiness guess | Never counts an unanswered request; terminal closure has its own reason |
+| All active/inactive certificates verified; board eligible exception; published map and training minima (P Check 5, manual §6.4/§9; PRIV rules 1–6) | Board/source/window/status, explicit candidate-good-standing note and future end; exact board/specialty; all/any training rows, calendar durations and degree/training accreditation | Actual accreditation lacks separate evidence; final support may remain unknown. No invented alias, threshold or accreditation pass |
+| Unsupported subset versus no support, no automatic discontinuation (P Check 5; PRIV rules 2/3/5/6) | Names independently unsupported groups; eligibility question routed to CD; later supported request withdraws question; explicit inactive/forbidden eligibility and CARD clauses applied | G6 one-component “neither” tension remains scoped; current-experience column never automated |
+| Yes or contradicted No is high risk; applicant confirmation and CD disposition (P §4/APP §I, manual §7; P §6) | Retains original disclosure, actual board contradiction, written confirmation and human disposition; queues CD/MEC/GB evidence | No third federal body; no automatic disqualification or recommendation |
+| Complete/reconciled file, six nothing-owed results, no discrepancy, usable replies, named revision (P §8, manual §§8/12 with office rules) | Three-valued dependencies: any proven necessary failure makes readiness false; otherwise an unknown stays unknown. Last needed reply date excludes extra unnecessary peer returns | A missing proof is not by itself a proven historical failure. Historical readiness stays after refusal or terminal event |
+| Reply on/after first receipt and strictly before decision; same-day lookup exception (P §8 local) | `visible` and `date_window`; each new decision uses its own batch/date view | Later batches never repair earlier results; prior evaluations remain immutable |
+| Ordered authority, role/term, applicant/revision, prior packet, reason; second same-body GB names earlier admitted record (P §9/AUTH, adopted authority principle plus local protocol) | `conditional.decision`, full workflow independent condition observations and ordered result; original IDs/outcomes retained | Unknown prerequisite remains unevaluated, not refused. Plain approval/positive recommendation need no reason |
+| Actual withdrawal or CD discontinuation ends file, never appointed (P §§6/11) | Applicant association, CD identity/term and actual directive; operational requests close but evidence/history stays | Wrong-recipient metadata stays visible; no automatic discontinuation from unsupported privileges |
+| Admitted current-revision GB approval only, exact granted codes, effective date/decision date, one-year-minus-day cycle (P §10/Check 1, manual §§5/12/15) | `activation`; supports observed semicolon/comma grant delimiters; admission separate from activation | Undefined leap-cycle convention stays unresolved; no requested-but-ungranted group activated |
+| Named approval conditions and licence expiry tracked; satisfaction names condition; overdue goes to CD; no activation hold (P §10/Check 1 local) | `recorded_conditions`, `conditions`, current/retained condition events; licence obligation due expiry itself; actual renewal joins its named credential | Unknown condition details block their schema projection, not unrelated work or otherwise established activation; no deadline invented |
+| Five re-entry triggers, preserve prior source/revision/refusal/readiness/appointment/condition history (P §11, adopted manual §15 and local scope) | Workflow reports and immutable predecessor chain; entry changes affect own entry; export-clock monitoring continues | No later evidence silently rewrites an earlier decision evaluation |
+| Schema and six cross-file invariants; unchanged rerun, new IDs/retained bytes/downstream regeneration (A Deliverables; S) | `processor`, `snapshots`, `writer`; current case fragments validated against original application definition; whole snapshot only for complete representable caseload/chain | Actual required snapshot paths stay absent; synthetic nested paths are explicitly fixtures |
 
-## Conditional kernels — synthetic fixtures only
+## Engineering mechanisms and boundaries
 
-| Rule | Exact source / adopted versus local | Tested behavior and dependency |
-|---|---|---|
-| Presentability requires complete intake, reconciliation, usable evidence, six resolved elements and revision binding | P §§1,2,8 — office completeness/readiness criteria | `conditional.packet` requires explicit established facts. Unknown completeness/CV inputs yield no presentability boolean. It does not implement the nine-condition intake screen |
-| A disposed licensure finding/partial certification finding may remain while presentable | P §8 explanation of resolved; §3 Check 1 — office interpretation | Finding enum retained; independently supplied nothing-owed facts control. No Clinical Director judgment is synthesized |
-| Ordered admission; prior packet strictly before decision; reason exceptions | P §9 five conditions and later reason clarification — office protocol implementing adopted authority | `conditional.decision`; first failed or unknown check stops evaluation. Plain approval and positive recommendation need no reason |
-| Second GB decision names prior admitted decision it supersedes; recommendations not duplicates | P §9 two-decisions clarification — local | Conditional tests cover exact prior ID, wrong/missing reference and unknown earlier admission. Actual duplicate admission is not inferred while the earlier packet/admission is unknown |
-| Only admitted current-revision GB approval activates exact grants; effective date or decision date | P §10, manual §§5/15 plus local activation rule | `conditional.activation`; no positive supplied-case route. Unknown admission blocks; no requested-but-ungranted privilege is added |
-| Initial cycle one year minus one day | P §3 Check 1 manual §12 and local cycle; §10 | Conditional date arithmetic. Leap-day cycle convention remains explicitly unsupported, not silently shifted |
-| Named conditions have own due dates; only a naming record satisfies; unmet on due date routes to CD; conditions do not block activation | P §10 — office monitoring rule | `conditional.conditions`; explicit synthetic records only. Actual condition extraction/admission and licence-expiry monitoring are still pending |
-| Extra unanswered reference stays visible after two qualify, closes at presentation as no longer needed, never counts as a reference | P §3 Check 4 — local clarification | `conditional.peer_extra_request`; two qualified/current references and presentation are explicit synthetic inputs. A returned extra reply still needs qualification |
+`WorkflowStore` persists immutable content-hashed workflow reports with exact
+predecessors, a writer lock and atomic HEAD. It is separate from the original
+evidence store. Changed retained outputs require a separately identified
+reconstruction; missing/corrupt predecessors never trigger a fresh start.
+Snapshot writer transactions preserve planned/prior bytes and block verification
+until rollback/retry. Workflow processing may succeed while schema generation
+fails; that workflow result is not advertised as an assessed snapshot.
 
-## Schema and cross-file checks
+The typed MSP observation adapter requires a dated application/revision, roster
+identity, existing source paths/hashes and permitted factual keys. It cannot grant
+privileges or make a reserved clinical judgment. A conflicting correction must
+name the prior review hash. No such record is invented for supplied applicants.
+Hash/roster checks do not authenticate a signature; authorized input provenance
+and independent human inspection remain material.
 
-`snapshots.verify_snapshot` applies S plus A cross-file rules: calendar-valid dates,
-current snapshot in produced, existing produced/rules paths, exact predecessor
-bytes, sequential batch clocks, distinct occurrence IDs, retained applications and
-decision histories/refusal reasons, same-file admitted approval reference, and
-activation range/clock consistency. These are read-only checks demonstrated on
-synthetic snapshots. They do not establish source truth, body authority, exact
-grants, condition satisfaction, queue ownership or consumed-file completeness.
-The local writer now validates these checks before generation; synthetic proof covers unchanged reruns, byte-preserved archives, new IDs, downstream regeneration, interrupted-write rejection and journal rollback/retry. A Git commit seals generated working files. The complete actual business-state projector remains unfinished.
+Formatting normalization only removes the observed Degree/Employment labels or
+reorders the observed Residency label. It creates no medical credential alias.
+Source documents are data, never tool instructions. Synthetic datasets have only
+SYNTH-prefixed application IDs; mixed actual/synthetic application inputs are
+rejected. The demo sources and assumptions are conspicuously labeled.
 
-## Missing evidence, scoped conflicts and reserved judgments
-
-G1: no actual signed/dated forms associated with revisions. G2: no CV contents/version
-or explicit export mapping of CV reconciliation. I October 21 lines 688/710 clarifies
-qualitative currency and comparison; October 22 lines 722/744/752/766/774 claims a
-shared revisions location but supplies no available document set. No age threshold,
-CSV substitution, applicant failure, notice or schema status is invented.
-
-G3–G8 remain in the [scoped source register](../docs/readiness-audit.md#unresolved-gaps-and-contradictions).
-They retain their exact records, consequences and owners; they are not global
-stops. No source correction or unsupported privilege-support interpretation is adopted.
-
-Five judgments remain reserved (A Your task; P §6): gap explanation adequacy —
-Clinical Director; disqualifying findings — Clinical Director, MEC and GB;
-eligibility discontinuation — Clinical Director; recommendation/privileges — MEC;
-grant/modify/defer/deny — GB. Runtime reviews preserve evidence and authentic
-decisions. No engineering choice or synthetic fixture supplies their judgment.
-
-Remaining confirmed-rule implementation includes the full intake/reconciliation
-screen, final licensure/expiry state, reconciled history and final support evaluation,
-qualification of references including prose, evidence reuse, final packet/decision
-state, terminal paths, activation/conditions and the business action queue. Some
-independent portions can continue now; G1/G2 block only dependent conclusions.
-
-## Additional applied independent checks
-
-| Rule | Source / origin | Implementation and limit |
-|---|---|---|
-| Medical-school completion +1; all interval types inclusive; blank end runs to export; gaps ≥30, ≥180 routes to CD | P §3 Check 2; E dates — adopted manual history check with office thresholds/arithmetic | `elements.gap_intervals`, `gap_explanations`. Declared intervals only; exact full-period explanation coverage is observed; adequacy and G5/G8 remain with humans |
-| Five-year experience floor anchored to first receipt, deeper for conflicts | P §3 Check 2; P §11 — office measurement of adopted verification rule | `entry_observations`: source reply context and every changed entry field retained; no automatic reuse after G2/revision changes |
-| WA exact four-field join; no row means no WA credential; own lookup exempt from reply window; NPI/CE not licence | E joins/WA columns; P §3 Check 1 — office export convention and adopted manual licence verification | `wa_observation`; actiontaken prompts reading actual board reply, does not prove restricted/unrestricted. Status and inclusive expiry facts separately recorded |
-| Verify every declared other-state licence, active/inactive | P §3 Check 1; ATT — adopted manual rule and office source list | `other_licence_observations`; number/jurisdiction observations preserved. Missing reply is not no licence |
-| Current supporting certification AND verified minimum accredited training; published codes, CARD conjunction, limited board eligibility | PRIV table and application rules 1–8 — local eligibility criteria | `privilege_components` records exact board/specialty, current certificate observations and returned training/duration. No new aliases; undefined specialty/accreditation stay explicit. G6 one-component classification not settled; current experience/competence remain human |
-| Current CV reflects most recent professional history at intake; compare actual CV/application/verifications | P §§1–2, I Oct 21 11:51/11:54 PM lines 688/710 — local clarification | Intake facts retain receipt/release fields, PPQ answers and yes-comments independently; signature, CV content/reconciliation unknown. No age threshold/CSV equivalence inferred |
-| Reason required except plain approval/positive recommendation; same-body GB supersession names earlier admitted record | P §9 and AUTH — local admission protocol | `decision_conditions` inspects every independently supported field, retaining the ordered stopping point. Received prior record ≠ admitted prior record; no later refusal leapfrogs unknown packet prerequisites |
-| Actual human records are data, actor/term must be checked | A Your task, P §6; AUTH — adopted authority with local roster | `elements.actual_documents_read` retains full bodies and checks CD identity/term prefix. Binding/effect and scoped provenance conflicts are not silently adopted |
-| No schema enum or required boolean may mean an unsupported unknown | A submission states/Deliverables/cross-file rules, S status/packet/admitted definitions — published contract | `run` preserves independent facts then blocks serialization. Rejected proposal and exact conflict in docs/partial-representation-assessment.md; truthful evidence task owner MSP, due null, never an invented applicant notice |
-| Exact listed grant codes; multi-code separators are lexical, not additional grants | Actual decision record format; P §10 — engineering parsing of supplied records | Conditional activation handles observed semicolons and commas, rejects unknown/duplicate codes, still synthetic only |
-
-Training durations use calendar month boundaries (e.g. July 1–June 30 for 36
-months). Undefined month-end/leap conventions remain unknown; CARD's separate
-IM-residency minimum is not invented from a different row. Source text hashes
-are checked; they do not authenticate provider revision history.
-
-Writer output files and its run-log notes are distinct from internal transaction
-journals/backups. Current chains are validated; unchanged archived snapshots keep
-their original predecessor paths/bytes, resolved historically through the
-path/hash archive index. This is an engineering integrity mechanism, not an
-authorization to alter a human record or waive an office rule.
+G1/G2 and G3–G8 remain in [the audit](../docs/readiness-audit.md). No facilitator
+contact or inventory retry is required for current software work. Human judgments,
+new source conventions and publication/submission remain with their actual owners.

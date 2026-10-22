@@ -1,0 +1,2 @@
+credentialnumber,credentialtype,status,firstissuedate,lastissuedate,expirationdate,ceduedate,actiontaken,birthyear,firstname,middlename,lastname,lookup_date
+SYNTH-MD,,ACTIVE,2003-07-01,2025-12-01,2026-12-31,,No,1975,Example,,Synthetic,2026-03-10

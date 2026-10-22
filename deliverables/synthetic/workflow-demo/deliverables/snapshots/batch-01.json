@@ -1,0 +1,62 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "due": null,
+          "item": "Keep extra unanswered reference request visible until presentation; it does not hold the met element: SYNTH-R2",
+          "owner": "Medical Services Professional"
+        }
+      ],
+      "activation": null,
+      "application_id": "SYNTH-WORKFLOW",
+      "approval_decision_id": null,
+      "decisions": [],
+      "elements": {
+        "certification": "resolved",
+        "education": "resolved",
+        "experience": "resolved",
+        "gaps": "resolved",
+        "licensure": "resolved",
+        "references": "resolved"
+      },
+      "monitored_conditions": [],
+      "packet_presentable": true,
+      "revision": 1,
+      "status": "packet-presentable"
+    }
+  ],
+  "as_of": "2026-03-16",
+  "batch": 1,
+  "consumed": {
+    "documents": [
+      "README.md",
+      "letters/SYNTH-intake-evidence.md",
+      "letters/SYNTH-review.md"
+    ],
+    "record_files": [
+      "applications.csv",
+      "application-disclosures.csv",
+      "declared-history.csv",
+      "declared-credentials.csv",
+      "privilege-requests.csv",
+      "licence-lookup-wa.csv",
+      "licence-lookup-other-states.csv",
+      "certification-replies.csv",
+      "verification-replies.csv",
+      "verification-attempts.csv",
+      "peer-referees.csv",
+      "peer-reference-replies.csv",
+      "correspondence.csv"
+    ]
+  },
+  "predecessor": null,
+  "produced": [
+    "deliverables/run-log.md",
+    "deliverables/snapshots/batch-01.json",
+    "deliverables/workflow/batch-01-ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34.json"
+  ],
+  "rules_file": "deliverables/rules.md",
+  "schema_version": "credentialing-snapshot/1",
+  "snapshot_id": "SYNTH-workflow-01-ad75f406260af01b2ecb7775"
+}

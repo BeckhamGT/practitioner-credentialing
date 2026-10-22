@@ -1,0 +1,349 @@
+[
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "stage",
+      "--input",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/inputs/batch-01",
+      "--batch",
+      "1",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-03-16",
+      "assessed_snapshot_written": false,
+      "batch": 1,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "b5c0608fe2853347c72ccb53b1dd376bc6b3f316f88774aedf03d8ba33f63bd0"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.471468+00:00",
+    "stdout_sha256": "b38df93611a17eecaf1a85cc348f8a5b3410cb97df5fc5fe143a99427c58ec93"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--state",
+      "b5c0608fe2853347c72ccb53b1dd376bc6b3f316f88774aedf03d8ba33f63bd0",
+      "--work-store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/workflow",
+      "--rules",
+      "/Users/user/fellowship/practitioner-credentialing/references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--root",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-03-16",
+      "assessed_snapshot_written": true,
+      "assessment_result": "schema-snapshot-generated-or-unchanged",
+      "batch": 1,
+      "business_outcomes": "Only source-supported or explicitly labeled synthetic facts; Git sealing separate",
+      "existing_snapshot_retained": false,
+      "operation": "process",
+      "previous_workflow_sha256": null,
+      "report": "deliverables/workflow/batch-01-ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34.json",
+      "schema_projection_conflicts": [],
+      "snapshot": {
+        "result": "written",
+        "retained": [],
+        "sealed_by_git_commit": false,
+        "snapshots": [
+          "deliverables/snapshots/batch-01.json"
+        ],
+        "written": [
+          "deliverables/run-log.md",
+          "deliverables/snapshots/batch-01.json",
+          "deliverables/workflow/batch-01-ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34.json"
+        ]
+      },
+      "summary": {
+        "admission_unresolved": 0,
+        "admitted": 0,
+        "applications": 1,
+        "packet_presentable": {
+          "True": 1
+        },
+        "refused": 0,
+        "schema_applications": 1,
+        "statuses": {
+          "packet-presentable": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.556464+00:00",
+    "stdout_sha256": "f3eff97e87f728bd0f03c20559d11038e4c73444ec45282ad139324fe0286e82"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "stage",
+      "--input",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/inputs/batch-02",
+      "--batch",
+      "2",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--previous-state",
+      "b5c0608fe2853347c72ccb53b1dd376bc6b3f316f88774aedf03d8ba33f63bd0"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-04-20",
+      "assessed_snapshot_written": false,
+      "batch": 2,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "c6795ac00220aac6395952827ef9391858dffb0ccd92b294cbc6425b596a8ee6"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.640266+00:00",
+    "stdout_sha256": "409d6e79996c902bf7e9745474dfa272caca92294e977091c1eff0972af47214"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--state",
+      "c6795ac00220aac6395952827ef9391858dffb0ccd92b294cbc6425b596a8ee6",
+      "--work-store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/workflow",
+      "--rules",
+      "/Users/user/fellowship/practitioner-credentialing/references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--root",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo",
+      "--previous-workflow",
+      "ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-04-20",
+      "assessed_snapshot_written": true,
+      "assessment_result": "schema-snapshot-generated-or-unchanged",
+      "batch": 2,
+      "business_outcomes": "Only source-supported or explicitly labeled synthetic facts; Git sealing separate",
+      "existing_snapshot_retained": false,
+      "operation": "process",
+      "previous_workflow_sha256": "ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34",
+      "report": "deliverables/workflow/batch-02-56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87.json",
+      "schema_projection_conflicts": [],
+      "snapshot": {
+        "result": "written",
+        "retained": [],
+        "sealed_by_git_commit": false,
+        "snapshots": [
+          "deliverables/snapshots/batch-02.json"
+        ],
+        "written": [
+          "deliverables/run-log.md",
+          "deliverables/snapshots/batch-02.json",
+          "deliverables/workflow/batch-02-56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87.json"
+        ]
+      },
+      "summary": {
+        "admission_unresolved": 0,
+        "admitted": 1,
+        "applications": 1,
+        "packet_presentable": {
+          "True": 1
+        },
+        "refused": 0,
+        "schema_applications": 1,
+        "statuses": {
+          "approved-not-yet-effective": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.718975+00:00",
+    "stdout_sha256": "83da5bcb3f0e9560feb19ae0fe8b69736ac1fb38951c7c78b7cc1e798939070d"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "stage",
+      "--input",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/inputs/batch-03",
+      "--batch",
+      "3",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--previous-state",
+      "c6795ac00220aac6395952827ef9391858dffb0ccd92b294cbc6425b596a8ee6"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "batch": 3,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "ede7dfffb86f7337230de58e9e7513fbfa7eb53d610ff97536beaf5508ec8f24"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.809263+00:00",
+    "stdout_sha256": "844046ba8d396bc7aee257e22cc44ce2bd2729b48cf14b4730436333448f9dea"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--state",
+      "ede7dfffb86f7337230de58e9e7513fbfa7eb53d610ff97536beaf5508ec8f24",
+      "--work-store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/workflow",
+      "--rules",
+      "/Users/user/fellowship/practitioner-credentialing/references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--root",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo",
+      "--previous-workflow",
+      "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": true,
+      "assessment_result": "schema-snapshot-generated-or-unchanged",
+      "batch": 3,
+      "business_outcomes": "Only source-supported or explicitly labeled synthetic facts; Git sealing separate",
+      "existing_snapshot_retained": false,
+      "operation": "process",
+      "previous_workflow_sha256": "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87",
+      "report": "deliverables/workflow/batch-03-d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719.json",
+      "schema_projection_conflicts": [],
+      "snapshot": {
+        "result": "written",
+        "retained": [],
+        "sealed_by_git_commit": false,
+        "snapshots": [
+          "deliverables/snapshots/batch-03.json"
+        ],
+        "written": [
+          "deliverables/run-log.md",
+          "deliverables/snapshots/batch-03.json",
+          "deliverables/workflow/batch-03-d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719.json"
+        ]
+      },
+      "summary": {
+        "admission_unresolved": 0,
+        "admitted": 1,
+        "applications": 1,
+        "packet_presentable": {
+          "True": 1
+        },
+        "refused": 0,
+        "schema_applications": 1,
+        "statuses": {
+          "active-with-conditions": 1
+        }
+      },
+      "workflow_result": "stored",
+      "workflow_sha256": "d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.887576+00:00",
+    "stdout_sha256": "bc99ce2e93c57369c7cab3cf48220d764bc504aa4c8716f4fced22cd167abb02"
+  },
+  {
+    "command": [
+      "/Users/user/fellowship/practitioner-credentialing/.venv/bin/python",
+      "-m",
+      "credentialing",
+      "process",
+      "--store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/evidence",
+      "--state",
+      "ede7dfffb86f7337230de58e9e7513fbfa7eb53d610ff97536beaf5508ec8f24",
+      "--work-store",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo/.local/workflow",
+      "--rules",
+      "/Users/user/fellowship/practitioner-credentialing/references/element-rules.json",
+      "--rules-sha256",
+      "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1",
+      "--root",
+      "/Users/user/fellowship/practitioner-credentialing/deliverables/synthetic/workflow-demo",
+      "--previous-workflow",
+      "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87"
+    ],
+    "exit_code": 0,
+    "receipt": {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "assessment_result": "schema-snapshot-generated-or-unchanged",
+      "batch": 3,
+      "business_outcomes": "Only source-supported or explicitly labeled synthetic facts; Git sealing separate",
+      "existing_snapshot_retained": true,
+      "operation": "process",
+      "previous_workflow_sha256": "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87",
+      "report": "deliverables/workflow/batch-03-d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719.json",
+      "schema_projection_conflicts": [],
+      "snapshot": {
+        "result": "unchanged",
+        "sealed_by_git_commit": false,
+        "snapshots": [
+          "deliverables/snapshots/batch-03.json"
+        ],
+        "written": []
+      },
+      "summary": {
+        "admission_unresolved": 0,
+        "admitted": 1,
+        "applications": 1,
+        "packet_presentable": {
+          "True": 1
+        },
+        "refused": 0,
+        "schema_applications": 1,
+        "statuses": {
+          "active-with-conditions": 1
+        }
+      },
+      "workflow_result": "unchanged",
+      "workflow_sha256": "d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719"
+    },
+    "started_at_utc": "2026-10-22T08:00:18.983741+00:00",
+    "stdout_sha256": "1663138c487611a1fc3524e9c843bad8bec3cbeabb9c969897b987fc63eadca9"
+  }
+]

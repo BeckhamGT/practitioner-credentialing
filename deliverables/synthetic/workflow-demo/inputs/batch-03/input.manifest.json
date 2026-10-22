@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-05-18",
+  "batch": 3,
+  "files": [
+    {
+      "kind": "records",
+      "path": "applications.csv",
+      "sha256": "63c1a271ab2af901e8106aa211a474561d0deb21085ae4e384bb5bfcebc9eff0",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-0",
+      "source_url": "https://example.invalid/synthetic/3/0"
+    },
+    {
+      "kind": "records",
+      "path": "application-disclosures.csv",
+      "sha256": "0bad7e35c48a5ad492c8462dda0f3fe903eb0174c59044e8556dd346c4e5ff96",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-1",
+      "source_url": "https://example.invalid/synthetic/3/1"
+    },
+    {
+      "kind": "records",
+      "path": "declared-history.csv",
+      "sha256": "43bdd7a5c865e05da6cc1e8982c467ac899d43c09b5128eba995f3c64743301d",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-2",
+      "source_url": "https://example.invalid/synthetic/3/2"
+    },
+    {
+      "kind": "records",
+      "path": "declared-credentials.csv",
+      "sha256": "20e44bc2e25d0d9a5fdbcb564a659fd9ac10faf46ffc6bbb10c5ba6fa4c00c03",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-3",
+      "source_url": "https://example.invalid/synthetic/3/3"
+    },
+    {
+      "kind": "records",
+      "path": "privilege-requests.csv",
+      "sha256": "56449c0862aa85e91ad4cdd7b589043c7ebaae3e5225db12e051800c070d3690",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-4",
+      "source_url": "https://example.invalid/synthetic/3/4"
+    },
+    {
+      "kind": "records",
+      "path": "licence-lookup-wa.csv",
+      "sha256": "2e6693635851be7f662c0e45814cec632593afb73da96bf3f776e806920d90c7",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-5",
+      "source_url": "https://example.invalid/synthetic/3/5"
+    },
+    {
+      "kind": "records",
+      "path": "licence-lookup-other-states.csv",
+      "sha256": "3d9cc090a459e75fa671dbc7344d486f9d39a2b6a1b7be44723247565bb6b0a2",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-6",
+      "source_url": "https://example.invalid/synthetic/3/6"
+    },
+    {
+      "kind": "records",
+      "path": "certification-replies.csv",
+      "sha256": "a0f68abff968645afd9f28f4e4e640a5da10ca05eeba4e62e73208f412a601eb",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-7",
+      "source_url": "https://example.invalid/synthetic/3/7"
+    },
+    {
+      "kind": "records",
+      "path": "verification-replies.csv",
+      "sha256": "7bb8d0bd5ebac3237cc102a031c7780800a70d1adca0b6458cca2eeffd1e7404",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-8",
+      "source_url": "https://example.invalid/synthetic/3/8"
+    },
+    {
+      "kind": "records",
+      "path": "verification-attempts.csv",
+      "sha256": "8b130fe580279f40033e110deebaf27d4ee2c22a96c8185d32d8a37b9f734383",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-9",
+      "source_url": "https://example.invalid/synthetic/3/9"
+    },
+    {
+      "kind": "records",
+      "path": "peer-referees.csv",
+      "sha256": "b7cd57151aed10e7ff6b63fbcb3b06ac8000fa67910ecf8b8d0c61892dd9aef1",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-10",
+      "source_url": "https://example.invalid/synthetic/3/10"
+    },
+    {
+      "kind": "records",
+      "path": "peer-reference-replies.csv",
+      "sha256": "70ab52544eb327ac48534fdccc80a60d5d20ef73b13838b280b4e82f982f85ab",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-11",
+      "source_url": "https://example.invalid/synthetic/3/11"
+    },
+    {
+      "kind": "records",
+      "path": "correspondence.csv",
+      "sha256": "74675e40345a7e24ee18403b1438adc2589686d1746845c2484ef04170ffcf0c",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-12",
+      "source_url": "https://example.invalid/synthetic/3/12"
+    },
+    {
+      "kind": "batch-readme",
+      "path": "README.md",
+      "sha256": "928a910550ce07bba0255c3393a91c22dee6f1abd3feca75744490a13eadffbe",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-13",
+      "source_url": "https://example.invalid/synthetic/3/13"
+    },
+    {
+      "kind": "document",
+      "path": "letters/SYNTH-satisfaction.md",
+      "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8",
+      "source_batch": 3,
+      "source_id": "SYNTH-3-14",
+      "source_url": "https://example.invalid/synthetic/3/14"
+    }
+  ],
+  "format": "credentialing-input-manifest/1"
+}

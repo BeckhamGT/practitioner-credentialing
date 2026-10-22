@@ -1,0 +1,2 @@
+letter_id,date,direction,application_id,correspondent,subject,document_path
+SYNTH-DOC-3-0,2026-05-02,inbound,SYNTH-WORKFLOW,SYNTH fixture,SYNTHETIC source,letters/SYNTH-satisfaction.md

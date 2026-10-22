@@ -88,7 +88,7 @@ class SnapshotWriter:
             verify_snapshot(self.root, snapshot_path(max(result)), self.schema)
         return result
 
-    def publish(self, candidates, clocks, unresolved, reason=None):
+    def publish(self, candidates, clocks, unresolved, reason=None, external_outputs=()):
         if unresolved:
             raise GroundworkError("snapshot_unrepresentable", "Required business fields are uncomputed; no truthful schema projection")
         if not candidates:
@@ -136,7 +136,8 @@ class SnapshotWriter:
                     if not any(x["sha256"] == sha for x in registry["occurrences"]):
                         registry["occurrences"].append({"original_path": snapshot_path(batch), "retained_path": path,
                                                         "sha256": sha, "snapshot_id": value["snapshot_id"], "reason": reason})
-            output_names = [snapshot_path(b) for b in range(first, last + 1)] + sorted(archive) + ["deliverables/run-log.md"]
+            for name in external_outputs:confined_file(self.root,name)
+            output_names = [snapshot_path(b) for b in range(first, last + 1)] + sorted(archive) + ["deliverables/run-log.md"] + list(external_outputs)
             if archive:
                 output_names.append(registry_path)
             planned = dict(archive)
@@ -158,7 +159,7 @@ class SnapshotWriter:
             # Verify prospective relationships in isolation before changing outputs.
             with tempfile.TemporaryDirectory(dir=self.control, prefix="preflight-") as name:
                 temp = Path(name)
-                required = set()
+                required = set(external_outputs)
                 for value, _ in old.values():
                     required.update(value["produced"]);required.add(value["rules_file"])
                 for candidate in ordered:

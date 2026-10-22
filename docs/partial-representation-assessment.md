@@ -1,5 +1,15 @@
 # Can G1/G2 be a truthful partial snapshot?
 
+**Current reassessment:** G1/G2 do not block every individual result. The full
+workflow now computes independent elements, known negative readiness and actual
+terminal/intake statuses. APP-019 and APP-029 have supported schema application
+objects at batch 3. Other files still lack required status/element/packet/admission
+meanings, so the entire 40-file batch cannot be serialized. See
+[the current actual/conditional review](workflow-review.md). This limitation no
+longer denotes unfinished software; the projector and writer are implemented.
+The original APP-001 proposed status below remains rejected for that case.
+
+
 Assessment against the published assignment/schema, October 22. This is a
 proposal analysis, not an adopted status, applicant outcome or learner approval.
 The schema is unchanged.
