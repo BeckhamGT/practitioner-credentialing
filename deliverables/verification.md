@@ -69,6 +69,22 @@ The one current interview still equals Downloads byte-for-byte. No actual
 snapshot path exists. Current actual [summary](workflow/summary.json) distinguishes
 all established/missing element states and decision/packet results.
 
+## Genuine current commit capture
+
+Implementation commit `3c03608ab0010f4873318492e158a36b38127005`
+carries checkpoint `01M5HAKJS8PH3W4AQYQNJ71TBH` at
+`refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH`.
+The Git-stored full payload equals the CLI transcript export byte-for-byte:
+12,094,168 bytes, SHA-256
+`df4afda1e0314c90bb8d557e781951651475f240dffa7885fb9563f93f89b696`.
+It includes the actual latest human authorization and subsequent implementation,
+independent verification, tests and synthetic CLI demonstration operations.
+[Proof](workflow/capture-proof.json) records the real session, commit association,
+ref/object and actual user/tool record matches. The proof is written afterward;
+it is not a self-authored replacement transcript. The synthetic snapshots are
+locally sealed by this implementation commit. Remote synchronization, facilitator
+access, publication and Classroom submission remain pending; no push was attempted.
+
 ## Earlier milestone accounts (historical)
 
 The following is retained context from prior implementation milestones. Its

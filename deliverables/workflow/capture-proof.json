@@ -1,0 +1,129 @@
+{
+  "verified_at_utc": "2026-10-22T08:11:35.084116+00:00",
+  "implementation_commit": "3c03608ab0010f4873318492e158a36b38127005",
+  "checkpoint_id": "01M5HAKJS8PH3W4AQYQNJ71TBH",
+  "checkpoint_ref": "refs/entire/checkpoints/BH/01M5HAKJS8PH3W4AQYQNJ71TBH",
+  "checkpoint_object": "b8e530a1a2a89102c69b0441ec3f8511449cdaae",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "commit_trailer_matches": true,
+  "stored_path": "0/full.jsonl",
+  "stored_payload_object": "4e5a43138d7a6676ac11aecf9332ab4c70c023dd",
+  "stored_payload_equals_cli_export": true,
+  "payload_bytes": 12094168,
+  "payload_sha256": "df4afda1e0314c90bb8d557e781951651475f240dffa7885fb9563f93f89b696",
+  "actual_latest_user_request": {
+    "record": 2061,
+    "timestamp": "2026-10-22T06:34:43.752Z",
+    "match": "Continue without requiring facilitator contact at this stage."
+  },
+  "subsequent_actual_tool_records": {
+    "credentialing/workflow.py": [
+      {
+        "record": 2524,
+        "timestamp": "2026-10-22T07:31:26.634Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2531,
+        "timestamp": "2026-10-22T07:32:09.144Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2603,
+        "timestamp": "2026-10-22T07:43:24.655Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2614,
+        "timestamp": "2026-10-22T07:44:33.248Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2625,
+        "timestamp": "2026-10-22T07:46:00.235Z",
+        "tool": "exec"
+      }
+    ],
+    "test_workflow": [
+      {
+        "record": 2587,
+        "timestamp": "2026-10-22T07:41:04.741Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2603,
+        "timestamp": "2026-10-22T07:43:24.655Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2625,
+        "timestamp": "2026-10-22T07:46:00.235Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2634,
+        "timestamp": "2026-10-22T07:47:06.608Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2804,
+        "timestamp": "2026-10-22T08:10:19.874Z",
+        "tool": "exec"
+      }
+    ],
+    "independent_workflow_checks.py": [
+      {
+        "record": 2559,
+        "timestamp": "2026-10-22T07:36:24.581Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2587,
+        "timestamp": "2026-10-22T07:41:04.741Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2650,
+        "timestamp": "2026-10-22T07:48:31.736Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2682,
+        "timestamp": "2026-10-22T07:52:51.903Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2804,
+        "timestamp": "2026-10-22T08:10:19.874Z",
+        "tool": "exec"
+      }
+    ],
+    "tools.workflow_demo": [
+      {
+        "record": 2559,
+        "timestamp": "2026-10-22T07:36:24.581Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2587,
+        "timestamp": "2026-10-22T07:41:04.741Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2650,
+        "timestamp": "2026-10-22T07:48:31.736Z",
+        "tool": "exec"
+      },
+      {
+        "record": 2726,
+        "timestamp": "2026-10-22T08:00:18.120Z",
+        "tool": "exec"
+      }
+    ]
+  },
+  "scope": "Genuine Entire Git-stored full session includes the actual latest authorization and implementation, actual source checks, conditional CLI demonstration and verification. Proof is recorded after its associated code commit. Configuration alone is not proof.",
+  "remote_checkpoint_sync": "pending; no push attempted",
+  "facilitator_access": "pending",
+  "publication": "pending",
+  "Classroom_submission": "not authorized or attempted"
+}

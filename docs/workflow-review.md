@@ -112,7 +112,7 @@ actual gaps or establish full assignment coverage by itself.
   unimplemented; the conditional demonstration proves those branches only.
 - **Publication and final review:** repository template-versus-fork and approved
   visibility/access/checkpoint-ref arrangement are still pending. Genuine local
-  capture must be verified against the meaningful commit. Remote synchronization,
+  capture is verified against the meaningful implementation commit below. Remote synchronization,
   facilitator access, learner acceptance, Classroom submission and grading are
   separate and are not claimed.
 
@@ -120,3 +120,12 @@ Review the actual comparisons above, the two supported schema application
 objects, and the conditional fixture givens before its positive outcomes. Report
 only your real inspection/feedback. Put any choice/reason early in your own turn;
 no approval or waiver is inferred from continuing work.
+
+## Exact local implementation and capture
+
+Implementation `3c03608ab0010f4873318492e158a36b38127005`, checkpoint
+`01M5HAKJS8PH3W4AQYQNJ71TBH`, has verified Git-stored/CLI payload equality and
+contains the actual latest request plus subsequent work. [Capture proof](../deliverables/workflow/capture-proof.json)
+is recorded after that commit. A following documentation commit records this
+proof; it does not claim to predate implementation. No remote equality or access
+is inferred. The working candidate remains unaccepted by the learner.
