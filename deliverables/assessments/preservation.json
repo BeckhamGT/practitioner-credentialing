@@ -1,0 +1,137 @@
+{
+  "checked_at_utc": "2026-10-22T06:19:56.258584+00:00",
+  "baseline_commit": "8c7626e4ef9af540445c07c32cd4d5162852a894",
+  "protected_files_unchanged": [
+    {
+      "path": "deliverables/evidence/batch-01-timeline-43ea990d33a5.json",
+      "sha256": "43ea990d33a50c0b92a71bd83c7dc743d4d0d662cc5a757dee55bdd960bd6d7e"
+    },
+    {
+      "path": "deliverables/evidence/batch-02-timeline-4c0b738ad865.json",
+      "sha256": "4c0b738ad865d8ef556683e61259d88f72de655bdffa40578c45544ca66574c0"
+    },
+    {
+      "path": "deliverables/evidence/batch-03-timeline-2339f13a56fa.json",
+      "sha256": "2339f13a56fabcd90d8218996e83f74bf5374a598af5013ceb9f85d61c167f5e"
+    },
+    {
+      "path": "deliverables/evidence/capture-proof.json",
+      "sha256": "3869c3e5617980f89617ad1db32afef259e2787430f562ff91709a85d2f17327"
+    },
+    {
+      "path": "deliverables/evidence/execution-log.json",
+      "sha256": "f1265431da5347380c1949a9db56a369ed1654f5e6ea6ca769e72150ee72c067"
+    },
+    {
+      "path": "deliverables/evidence/handoff-check.json",
+      "sha256": "dc8af44b4d2c7c2570e93e6a5206267a98074cbd982af7b9ce0700afdcef9b09"
+    },
+    {
+      "path": "deliverables/evidence/independent-verification.json",
+      "sha256": "45fc97b7a917baba4b35a180db79d1e41aa0b93815569a62416889a444c7e169"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-01.json",
+      "sha256": "9e35cd9d70b507b8ffad01fcebd0fc1a4643a1aed35d264e87e98e01ac50a63a"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-02.json",
+      "sha256": "315901d46665c6d60a734c03703407af266862fcae52b0dd3055f7defd8724a0"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-03.json",
+      "sha256": "732b7f6f8921c90a94a7f7628b2a2e7f9fdd77ededd9efef7e391b43a9d573f8"
+    },
+    {
+      "path": "deliverables/evidence/skill-scan.md",
+      "sha256": "7c25df723c3a8bae45ba11a2736b86955f56eebdc2a3341ccf1aa990a1923c37"
+    },
+    {
+      "path": "deliverables/evidence/skill-validation.json",
+      "sha256": "cd53fd5a1c297de0c8b88e105db686e09e9a30f7afa7030fbb959534e25b0c86"
+    },
+    {
+      "path": "deliverables/synthetic/conditional-results.json",
+      "sha256": "3a19474fd910fdcba333d408f52efea721c121eb56f09fcb4919383248d63f39"
+    },
+    {
+      "path": "docs/audit/interview-update-20261022-0427.json",
+      "sha256": "8924b671e56baedd24499dd7fce899e9cf727ba6c10152f219306ddbd2e3bc34"
+    },
+    {
+      "path": "docs/audit/interview-update-20261022.json",
+      "sha256": "eeed5519df6f27bd7d357c50ba9f8eccc8a9667da62ecf0672fd6dfbbc011abe"
+    },
+    {
+      "path": "docs/audit/interview-update-capture-20261022-0427.json",
+      "sha256": "cc98d4e092d4327af8bd4cef8a8ab0d35c8d7acaaa4d2ce0a16cf0830d510467"
+    },
+    {
+      "path": "docs/audit/interview-update-capture-20261022.json",
+      "sha256": "ee093d3479d56d87123e68b7a3b5dfc3fd1984aa0e19fe5a982117807a66cb34"
+    },
+    {
+      "path": "docs/audit/source-inventory.json",
+      "sha256": "e6add6a2c190c8674b8c7d090fbc6762ba0f7458722f8053b5eb4d3e0292de3f"
+    },
+    {
+      "path": "docs/audit/source-readings.json",
+      "sha256": "4bd79770ee0a1fe25c8dc8fa008d6028d120605f98a62a4c640e4c896a8a7515"
+    },
+    {
+      "path": "docs/reviews/batch-01-record-review-1638d5576c72.json",
+      "sha256": "1638d5576c72aeb2eacd35c6946bdbb470afa20f5692482067e404c2057bafe1"
+    },
+    {
+      "path": "docs/reviews/batch-01-record-review-63af121d5181.json",
+      "sha256": "63af121d518196af97fcbd555728f1e99b0970ded015e879c9cc3ed960fda8f1"
+    },
+    {
+      "path": "docs/reviews/capture-proof.json",
+      "sha256": "d8ff53500fba794695e71529064b304eba921683a1699ef5dca8a91b7b44c2a2"
+    },
+    {
+      "path": "docs/reviews/independent-checks.json",
+      "sha256": "63bc9dff805b27c2a4bdc6a8e2ff55370aa18e6fba621e24c205a9dfc209fee3"
+    },
+    {
+      "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+      "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d"
+    },
+    {
+      "path": "references/record-review/README.md",
+      "sha256": "9205204391152c793ca15f2714a940ca851fa1b397de03c8de063e3213a5c308"
+    },
+    {
+      "path": "references/record-review/accepted-sources.txt",
+      "sha256": "3e3b7da8f5582958b037939c6ab3681e015ce4a29fa704f0b91da28c37e03620"
+    },
+    {
+      "path": "references/record-review/authority.txt",
+      "sha256": "37baaf8a28fbfc3fcea688fb35f1a85cf7cc7e665bebe1539eb9faa890cb65c6"
+    },
+    {
+      "path": "references/record-review/procedure.txt",
+      "sha256": "e62cb335326de7a1b3ea0e7fb53c58d21a0ba655cdfba1a1cad505634f0d5dd0"
+    },
+    {
+      "path": "references/record-review/rules.json",
+      "sha256": "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b"
+    },
+    {
+      "path": "snapshot.schema.json",
+      "sha256": "df371cfd4638194348be79352a0683d9d4dc40bb4f95d87f6028a7b889274318"
+    },
+    {
+      "path": ".local/evidence-store/HEAD.json",
+      "sha256": "47bdbe60c5751059395e48193167c5796df61aca36e4faeb2936b00a3d2a63ec"
+    },
+    {
+      "path": ".local/continuation-store/HEAD.json",
+      "sha256": "1ee17c3fdc5fe0febdf1e5d42f0f0c6e9bc3fc8070025400640812b72b503b50"
+    }
+  ],
+  "interview_equals_Downloads": true,
+  "one_current_interview": true,
+  "actual_snapshot_paths_absent": true
+}

@@ -1,0 +1,57 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "due": null,
+          "item": "SYNTHETIC corrected source request",
+          "owner": "Medical Services Professional"
+        }
+      ],
+      "activation": null,
+      "application_id": "SYNTH-ONLY",
+      "approval_decision_id": null,
+      "decisions": [
+        {
+          "admitted": false,
+          "decision_id": "SYNTH-D",
+          "reason": "body-authority"
+        }
+      ],
+      "elements": {
+        "certification": "outstanding",
+        "education": "outstanding",
+        "experience": "outstanding",
+        "gaps": "outstanding",
+        "licensure": "outstanding",
+        "references": "outstanding"
+      },
+      "monitored_conditions": [],
+      "packet_presentable": false,
+      "revision": 1,
+      "status": "in-verification"
+    }
+  ],
+  "as_of": "2026-03-16",
+  "batch": 1,
+  "consumed": {
+    "documents": [],
+    "record_files": [
+      "SYNTH.csv"
+    ]
+  },
+  "predecessor": null,
+  "produced": [
+    "deliverables/run-log.md",
+    "deliverables/snapshots/batch-01.json",
+    "deliverables/snapshots/batch-02.json",
+    "deliverables/snapshots/batch-03.json",
+    "deliverables/snapshots/history/batch-01-41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a.json",
+    "deliverables/snapshots/history/batch-02-a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5.json",
+    "deliverables/snapshots/history/batch-03-cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7.json",
+    "deliverables/snapshots/history/index.json"
+  ],
+  "rules_file": "rules.md",
+  "schema_version": "credentialing-snapshot/1",
+  "snapshot_id": "SYNTH-NEW-1"
+}

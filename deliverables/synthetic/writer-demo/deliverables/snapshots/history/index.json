@@ -1,0 +1,26 @@
+{
+  "format": "snapshot-history/1",
+  "occurrences": [
+    {
+      "original_path": "deliverables/snapshots/batch-01.json",
+      "reason": "SYNTHETIC correction; regenerate all affected later occurrences",
+      "retained_path": "deliverables/snapshots/history/batch-01-41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a.json",
+      "sha256": "41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a",
+      "snapshot_id": "SYNTH-1"
+    },
+    {
+      "original_path": "deliverables/snapshots/batch-02.json",
+      "reason": "SYNTHETIC correction; regenerate all affected later occurrences",
+      "retained_path": "deliverables/snapshots/history/batch-02-a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5.json",
+      "sha256": "a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5",
+      "snapshot_id": "SYNTH-2"
+    },
+    {
+      "original_path": "deliverables/snapshots/batch-03.json",
+      "reason": "SYNTHETIC correction; regenerate all affected later occurrences",
+      "retained_path": "deliverables/snapshots/history/batch-03-cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7.json",
+      "sha256": "cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7",
+      "snapshot_id": "SYNTH-3"
+    }
+  ]
+}

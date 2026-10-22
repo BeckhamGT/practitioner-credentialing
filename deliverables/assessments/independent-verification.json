@@ -1,0 +1,837 @@
+{
+  "method": "Original CSVs; daily sets and four-field joins; no credentialing imports",
+  "limits": "Declared-history arithmetic only; not CV reconciliation or business outcomes",
+  "results": [
+    {
+      "batch": 1,
+      "as_of": "2026-03-16",
+      "report": "batch-01-elements-1afae619a1e6.json",
+      "report_sha256": "1afae619a1e60683ceaea50fe2d94e05f1f096cfbdbcc35db8477a078ae0dc82",
+      "new_batch_source_hashes": {
+        "applications.csv": "8abd24835cae92ffd3579cd77c66b1bb28343a8a0d3f3f735a4b78451076ce59",
+        "declared-history.csv": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "licence-lookup-wa.csv": "79fa22cbd17295cbff94819caedba93ca60eed7401caca4956d0cc3a01089030"
+      },
+      "checked": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": false
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "as_of": "2026-04-20",
+      "report": "batch-02-elements-cf7c99c0984a.json",
+      "report_sha256": "cf7c99c0984a5754da12004340421d1dd78454f16250b622a30d6a61c11b41a2",
+      "new_batch_source_hashes": {
+        "applications.csv": "049316b77c02fdeb9333cd51119c72d184ae02ad4d297c1ae0259a0e07cbcffa",
+        "declared-history.csv": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "licence-lookup-wa.csv": "bd9ab678d48dc31147d6d6b04f84e38f504bfd9fbfd76504f68490acc3306b5b"
+      },
+      "checked": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 2,
+          "gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "as_of": "2026-05-18",
+      "report": "batch-03-elements-c6a4eef414e0.json",
+      "report_sha256": "c6a4eef414e00c52cccf76f9dc27aa2ab7c852691941e41e92a0b3d79a4fbe50",
+      "new_batch_source_hashes": {
+        "applications.csv": "8f1142668781b4ee14fffe7d11ca0c414eeb6b96b4da97a9e116594b3e5b7a4c",
+        "declared-history.csv": "cdcbfd572b1e3acf2daccd25d91cfe70906ae8a7ec5380988d550527b67130db",
+        "licence-lookup-wa.csv": "e697d76869cbe545f2cbe42fd6812ab130e5f22cb6bd050fc9268ebe5939c334"
+      },
+      "checked": [
+        {
+          "application_id": "APP-2026-001",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-002",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-003",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-004",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-005",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2013-07-01",
+              "to": "2013-07-30",
+              "days": 30
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-006",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-007",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-008",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-009",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-010",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-011",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-012",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-013",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-014",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-015",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-016",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-017",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2019-04-01",
+              "to": "2019-11-05",
+              "days": 219
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-018",
+          "revision": 2,
+          "gaps": [
+            {
+              "from": "2024-05-02",
+              "to": "2024-06-01",
+              "days": 31
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-019",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-020",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-021",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-022",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-023",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-024",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-025",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-026",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-027",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-028",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-029",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-030",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-031",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-032",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-033",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-034",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-035",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-036",
+          "revision": 2,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-037",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-038",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-039",
+          "revision": 1,
+          "gaps": [
+            {
+              "from": "2021-04-01",
+              "to": "2021-07-04",
+              "days": 95
+            }
+          ],
+          "WA_match_observed": true
+        },
+        {
+          "application_id": "APP-2026-040",
+          "revision": 1,
+          "gaps": [],
+          "WA_match_observed": true
+        }
+      ]
+    }
+  ]
+}

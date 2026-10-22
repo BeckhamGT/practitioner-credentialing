@@ -167,6 +167,11 @@ class ContinuationTests(unittest.TestCase):
         self.assertEqual(before["cycle_end"], "2027-03-31")
         self.assertTrue(activation(fields, {"admitted": True}, 1, "2026-04-01", {"PRIV-FM"})["activation"]["active_at_export"])
 
+    def test_office_semicolon_grant_separator_preserves_exact_codes(self):
+        fields = self.fields(Privileges="PRIV-FM; PRIV-HOSP")
+        result = activation(fields, {"admitted": True}, 1, "2026-04-01", {"PRIV-FM", "PRIV-HOSP", "PRIV-IM"})
+        self.assertEqual(result["activation"]["privileges"], ["PRIV-FM", "PRIV-HOSP"])
+
     def test_leap_cycle_and_unpublished_grant_need_explicit_handling(self):
         fields = self.fields(**{"Decision date": "2024-02-29"})
         self.assertFalse(activation(fields, {"admitted": True}, 1, "2024-02-29", {"PRIV-FM"})["evaluated"])

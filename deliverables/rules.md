@@ -15,10 +15,11 @@ verification evidence, not rule configuration.
 | AUTH | [Authority roster](https://docs.google.com/document/d/1Dvc3eJei4K7RyE8HZtZkMtRQNqE6VPQU8gUXVbps2xQ/edit) | LARK-AUTH-2026.1; office roles, terms and 2026-01-05 designation |
 | E | [Export guide](https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA/edit), The files, Dates/blanks, The three joins, What I do not export | Office note 2026-03-16 |
 | I | [Original final interview](../interviews/project-e-practitioner-credentialing-20261022-0427.md) | Participant-visible turns; timestamps/lines below; original bytes unchanged |
+| APP / REF / PRIV | [Application](../references/element-sources/APP.txt), [reference form](../references/element-sources/REF.txt), [privilege criteria](../references/element-sources/PRIV.txt) | LARK-APP/REF/PRIV-2026.1; PRIV effective 2026-01-01. APP/REF effective dates not separately stated; no date inferred |
 | S | [Published schema](../snapshot.schema.json) | credentialing-snapshot/1, Draft 2020-12; byte-unchanged |
 
 The executable source/hash pins are [record-review/rules.json](../references/record-review/rules.json)
-and [continuation.json](../references/continuation.json). These are engineering
+[continuation.json](../references/continuation.json) and [element-rules.json](../references/element-rules.json). These are engineering
 transcriptions of confirmed rules, not newly authored office policy. Hashes cover
 retained extracted text, not authenticated native-provider revisions.
 
@@ -32,7 +33,7 @@ retained extracted text, not authenticated native-provider revisions.
 | Applicant-carried evidence is unacceptable regardless of letterhead | P §3, manual §6.1 — adopted rule | `review.source_class`; retain original reply, classify route; not a final credential conclusion |
 | Closed accepted sources and matching declared subject | P §3 office closed-list rule; ATT per-element table — local criteria within adopted primary-source framework | `review.py`; source-class classification only. Secondary-source impossibility route is not automatically inferred from silence |
 | Verification on/after first receipt and before decision; board lookup exception | P §8 — office arithmetic consistent with the manual's removal of the old fixed limit | `review.date_window` tests strict decision boundary; actual reports check export-date window only, not final packet usability |
-| Referee same discipline, nonrelative box, direct-work dates; two-year signature anniversary | P §3 Check 4: manual §6.4 element 11; office measurement/currency rules | `review.peer_checks`; individual returned fields only; relationship prose, final qualification and counts remain unevaluated |
+| Referee same discipline, nonrelative box, direct-work dates; two-year signature anniversary | P §3 Check 4: manual §6.4 element 11; office measurement/currency rules | `review.peer_checks`; individual returned fields only; `elements` also checks explicit direct-work prose conservatively; final qualification/counts remain unevaluated |
 | Retain every attempt and original request/reply occurrence | P §3, manual §6.2 and office permanent-history rule — adopted plus local | `timeline.request_history`; a returned row is observed evidence, never automatic satisfaction or acceptable verification |
 | Three peer requests 21 days apart; day 64 arithmetic | P §3 Check 4 — office schedule; I October 21 18:06 line 654 confirms at-least-three/21-day attempts | `timeline.py`; computes schedule only when recorded anchor is unambiguous; no notice sent or invented fourth-reminder policy |
 | Restated revision-side facts; compare all entry fields | E The three joins; P §§2,11 — office convention | `timeline.revision_history`; retains additions/removals/changed values, including organization, role and contact fields. Does not claim CV reconciliation or unchanged evidence usable |
@@ -63,7 +64,7 @@ decision histories/refusal reasons, same-file admitted approval reference, and
 activation range/clock consistency. These are read-only checks demonstrated on
 synthetic snapshots. They do not establish source truth, body authority, exact
 grants, condition satisfaction, queue ownership or consumed-file completeness.
-The assessed snapshot writer and sealed-occurrence supersession remain unfinished.
+The local writer now validates these checks before generation; synthetic proof covers unchanged reruns, byte-preserved archives, new IDs, downstream regeneration, interrupted-write rejection and journal rollback/retry. A Git commit seals generated working files. The complete actual business-state projector remains unfinished.
 
 ## Missing evidence, scoped conflicts and reserved judgments
 
@@ -73,7 +74,7 @@ qualitative currency and comparison; October 22 lines 722/744/752/766/774 claims
 shared revisions location but supplies no available document set. No age threshold,
 CSV substitution, applicant failure, notice or schema status is invented.
 
-G3–G7 remain in the [scoped source register](../docs/readiness-audit.md#unresolved-gaps-and-contradictions).
+G3–G8 remain in the [scoped source register](../docs/readiness-audit.md#unresolved-gaps-and-contradictions).
 They retain their exact records, consequences and owners; they are not global
 stops. No source correction or unsupported privilege-support interpretation is adopted.
 
@@ -84,7 +85,33 @@ grant/modify/defer/deny — GB. Runtime reviews preserve evidence and authentic
 decisions. No engineering choice or synthetic fixture supplies their judgment.
 
 Remaining confirmed-rule implementation includes the full intake/reconciliation
-screen, licensure/expiry checks, complete history/gap and support evaluation,
+screen, final licensure/expiry state, reconciled history and final support evaluation,
 qualification of references including prose, evidence reuse, final packet/decision
 state, terminal paths, activation/conditions and the business action queue. Some
 independent portions can continue now; G1/G2 block only dependent conclusions.
+
+## Additional applied independent checks
+
+| Rule | Source / origin | Implementation and limit |
+|---|---|---|
+| Medical-school completion +1; all interval types inclusive; blank end runs to export; gaps ≥30, ≥180 routes to CD | P §3 Check 2; E dates — adopted manual history check with office thresholds/arithmetic | `elements.gap_intervals`, `gap_explanations`. Declared intervals only; exact full-period explanation coverage is observed; adequacy and G5/G8 remain with humans |
+| Five-year experience floor anchored to first receipt, deeper for conflicts | P §3 Check 2; P §11 — office measurement of adopted verification rule | `entry_observations`: source reply context and every changed entry field retained; no automatic reuse after G2/revision changes |
+| WA exact four-field join; no row means no WA credential; own lookup exempt from reply window; NPI/CE not licence | E joins/WA columns; P §3 Check 1 — office export convention and adopted manual licence verification | `wa_observation`; actiontaken prompts reading actual board reply, does not prove restricted/unrestricted. Status and inclusive expiry facts separately recorded |
+| Verify every declared other-state licence, active/inactive | P §3 Check 1; ATT — adopted manual rule and office source list | `other_licence_observations`; number/jurisdiction observations preserved. Missing reply is not no licence |
+| Current supporting certification AND verified minimum accredited training; published codes, CARD conjunction, limited board eligibility | PRIV table and application rules 1–8 — local eligibility criteria | `privilege_components` records exact board/specialty, current certificate observations and returned training/duration. No new aliases; undefined specialty/accreditation stay explicit. G6 one-component classification not settled; current experience/competence remain human |
+| Current CV reflects most recent professional history at intake; compare actual CV/application/verifications | P §§1–2, I Oct 21 11:51/11:54 PM lines 688/710 — local clarification | Intake facts retain receipt/release fields, PPQ answers and yes-comments independently; signature, CV content/reconciliation unknown. No age threshold/CSV equivalence inferred |
+| Reason required except plain approval/positive recommendation; same-body GB supersession names earlier admitted record | P §9 and AUTH — local admission protocol | `decision_conditions` inspects every independently supported field, retaining the ordered stopping point. Received prior record ≠ admitted prior record; no later refusal leapfrogs unknown packet prerequisites |
+| Actual human records are data, actor/term must be checked | A Your task, P §6; AUTH — adopted authority with local roster | `elements.actual_documents_read` retains full bodies and checks CD identity/term prefix. Binding/effect and scoped provenance conflicts are not silently adopted |
+| No schema enum or required boolean may mean an unsupported unknown | A submission states/Deliverables/cross-file rules, S status/packet/admitted definitions — published contract | `run` preserves independent facts then blocks serialization. Rejected proposal and exact conflict in docs/partial-representation-assessment.md; truthful evidence task owner MSP, due null, never an invented applicant notice |
+| Exact listed grant codes; multi-code separators are lexical, not additional grants | Actual decision record format; P §10 — engineering parsing of supplied records | Conditional activation handles observed semicolons and commas, rejects unknown/duplicate codes, still synthetic only |
+
+Training durations use calendar month boundaries (e.g. July 1–June 30 for 36
+months). Undefined month-end/leap conventions remain unknown; CARD's separate
+IM-residency minimum is not invented from a different row. Source text hashes
+are checked; they do not authenticate provider revision history.
+
+Writer output files and its run-log notes are distinct from internal transaction
+journals/backups. Current chains are validated; unchanged archived snapshots keep
+their original predecessor paths/bytes, resolved historically through the
+path/hash archive index. This is an engineering integrity mechanism, not an
+authorization to alter a human record or waive an office rule.

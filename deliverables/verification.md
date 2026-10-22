@@ -1,4 +1,63 @@
-# Verification — confirmed-rule milestone
+# Verification — element and writer milestone
+
+This is a bounded local milestone, not full implementation or submission
+readiness. [Current review](../docs/element-review-milestone.md) contains actual
+results, precise source comparisons, proposed status treatment and remaining
+implementation versus external gaps. [Current reports](assessments/current.json)
+select immutable hash-named assessment occurrences. The first set is retained;
+a later metadata clarification removes an obsolete not-evaluated label for
+reason observations without changing any supplied source or case outcome.
+
+| Actual check | Observed evidence and limit |
+|---|---|
+| Three chronological element assessments | 40 files each, four declared gaps ≥30 days and one ≥180; decision refusal/blocked counts 0/6, 2/33, 2/54. No completeness/readiness/positive admission inferred |
+| Independent original-source arithmetic | `tools/independent_element_checks.py`: daily sets versus interval union, all 120 application/batch gap and WA joins match; [evidence](assessments/independent-verification.json). Not CV reconciliation |
+| Actual correspondence/dispositions | [Selected original records](assessments/source-comparisons.json); full bodies are retained in the reports. G5 remains and new G8 scopes APP-018 wording to that record |
+| All supported decision conditions | Body, registry role/term, recorded revision, reason and literal prior-ID observations shown. Blank Supersedes is observed, but its admission consequence remains conditional on earlier admission |
+| Actual assessed-run attempt | Three `run` commands retain independent reports, exit 3 `snapshot_unrepresentable`, and produce no actual snapshots; [exact log](assessments/execution-log.json) |
+| Rerun and batch isolation | Reports reproduce byte-for-byte with later HEAD present; pinned state chain only; original store/source evidence unchanged |
+| Synthetic writer lifecycle | [Proof](synthetic/writer-demo/proof.json): three schema-valid fixture occurrences, exact predecessor chain, unchanged rerun, preserved superseded bytes, full downstream regeneration, injected failure, blocked current verification, journal rollback and retry. No supplied applicant result |
+| Regression | [114 tests](assessments/test-summary.json), [raw output](assessments/tests.txt), including Unicode report preservation, unknown inputs, illegal status/activation and protected refusal history. Tests alone do not establish requirement coverage |
+
+A real development defect was found during the first actual `run`: stdout escaped
+Unicode while report persistence did not, so the preservation guard returned
+`changed_report`. The parsed objects were equal (1,391,306 versus 1,389,453
+bytes). A Unicode source fixture reproduced the failure; persistence now matches
+stdout exactly, and the guard still refuses genuinely different bytes. The
+original report is preserved. Separate actual-source inspection found semicolons
+in multi-grant decision records; synthetic activation parsing now handles that
+separator and tests exact grant codes. Neither change admits a real decision.
+
+The writer API is implemented; a complete business-state projector is not. Final
+per-element states, reuse/reconciliation, actual queue/terminal effects and
+packet/admission/activation integration remain implementation work. G1/G2 remain
+external evidence blockers for dependent facts. [Partial representation analysis](../docs/partial-representation-assessment.md)
+explains why an owned task cannot repair the mandatory status/boolean conflict.
+The schema is unchanged; no unsupported status, deferral or snapshot is created.
+
+Skill validation/security scan and genuine commit-linked capture are recorded
+for this candidate below after inspection. Remote syncing, access, publication,
+learner acceptance, Classroom submission and grading remain pending.
+
+## Current Skill inspection
+
+Metadata validation passed. The pinned local-only scanner exited 0 and reported
+one MEDIUM `DATA_EXFIL_NETWORK_REQUESTS` at elements.py:368 and one INFO
+`MANIFEST_MISSING_LICENSE` at SKILL.md. The medium is an inspected false positive:
+`requests` is a local dictionary from `indexed`, and `.get` reads privilege rows;
+no HTTP client is imported. The INFO is accepted for the local candidate without
+inventing license terms. [Raw report](assessments/skill-scan.md) and [bundle hashes/dispositions](assessments/skill-validation.json)
+are retained. Manual code/instruction/output inspection supplements the scan;
+the scanner's SAFE label is not a safety certification. Raw scanner output keeps
+its extra final blank line and runtime telemetry warning unchanged.
+
+## Prior milestone account (historical)
+
+The following describes the earlier confirmed-rule milestone and its 93-test
+state. Its original evidence files remain unchanged. Where it says an element
+check or writer is unfinished, the current scope above supersedes that account;
+full business integration remains unfinished.
+
 
 This is a bounded implementation and source verification milestone, **not full
 implementation or submission readiness**. No assessed snapshots exist. The

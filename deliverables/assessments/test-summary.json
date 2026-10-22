@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-10-22T06:11:33.086559+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-v"
+  ],
+  "exit_code": 0,
+  "tests": 114,
+  "raw_output_sha256": "7c6673e32380a221acae3c8bde73fffe77e5dac44493877f8431af5ba91e5aa1",
+  "scope": "Synthetic contract and regression tests; not proof of actual business completion"
+}

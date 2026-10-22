@@ -1,0 +1,832 @@
+{
+  "purpose": "Selected original rows/documents for learner inspection, not corrected sources or case conclusions",
+  "sources": [
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 64,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1700",
+        "application_id": "APP-2026-017",
+        "revision": "1",
+        "entry_type": "medical-school",
+        "organization": "Steadmere University School of Medicine",
+        "location": "Steadmere, NC",
+        "role": "Doctor of Medicine",
+        "from_date": "2003-08-25",
+        "to_date": "2007-06-30",
+        "hours_per_week": "",
+        "contact_name": "Iyanla Oduya",
+        "contact_email": "iyanla.oduya@steadmere.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 65,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1701",
+        "application_id": "APP-2026-017",
+        "revision": "1",
+        "entry_type": "residency",
+        "organization": "Braypoint Regional Medical Center",
+        "location": "Braypoint, WA",
+        "role": "Emergency Medicine Residency",
+        "from_date": "2007-07-01",
+        "to_date": "2010-06-30",
+        "hours_per_week": "60",
+        "contact_name": "Marcus Okonkwo",
+        "contact_email": "marcus.okonkwo@braypoint.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 66,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1702",
+        "application_id": "APP-2026-017",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Mosswater Valley Hospital",
+        "location": "Mosswater, WA",
+        "role": "Emergency Physician",
+        "from_date": "2010-07-12",
+        "to_date": "2019-03-31",
+        "hours_per_week": "40",
+        "contact_name": "Soraya Mendez-Ruiz",
+        "contact_email": "soraya.mendez@mosswater.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 67,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1703",
+        "application_id": "APP-2026-017",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Stonebridge Medical Associates",
+        "location": "Stonebridge, OR",
+        "role": "Emergency Physician",
+        "from_date": "2012-01-01",
+        "to_date": "2019-03-31",
+        "hours_per_week": "12",
+        "contact_name": "Hideo Vandermeer",
+        "contact_email": "hideo.vandermeer@stonebridge.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 68,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1704",
+        "application_id": "APP-2026-017",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Kettlebrook Family Clinic",
+        "location": "Kettlebrook, WA",
+        "role": "Emergency Physician",
+        "from_date": "2019-11-06",
+        "to_date": "",
+        "hours_per_week": "36",
+        "contact_name": "Sigrid Eze-Okafor",
+        "contact_email": "sigrid.eze@kettlebrook.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 69,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1800",
+        "application_id": "APP-2026-018",
+        "revision": "1",
+        "entry_type": "medical-school",
+        "organization": "Thistlewood University School of Medicine",
+        "location": "Thistlewood, NY",
+        "role": "Doctor of Medicine",
+        "from_date": "2010-08-23",
+        "to_date": "2014-06-30",
+        "hours_per_week": "",
+        "contact_name": "Priya Bergmann",
+        "contact_email": "priya.bergmann@thistlewood.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 70,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1801",
+        "application_id": "APP-2026-018",
+        "revision": "1",
+        "entry_type": "residency",
+        "organization": "Cedar Quarry University Hospital",
+        "location": "Cedar Quarry, OR",
+        "role": "Internal Medicine Residency",
+        "from_date": "2014-07-01",
+        "to_date": "2017-06-30",
+        "hours_per_week": "60",
+        "contact_name": "Rafael Nordstrand",
+        "contact_email": "rafael.nordstrand@cedar.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 71,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1802",
+        "application_id": "APP-2026-018",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Willowmere Health Cooperative",
+        "location": "Willowmere, WA",
+        "role": "Staff Physician",
+        "from_date": "2017-07-10",
+        "to_date": "2024-05-01",
+        "hours_per_week": "40",
+        "contact_name": "Anaya Sarpong",
+        "contact_email": "anaya.sarpong@willowmere.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 72,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1803",
+        "application_id": "APP-2026-018",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Silverbeck Physicians Group",
+        "location": "Silverbeck, WA",
+        "role": "Staff Physician",
+        "from_date": "2024-06-02",
+        "to_date": "",
+        "hours_per_week": "40",
+        "contact_name": "Leander Ferndale",
+        "contact_email": "leander.ferndale@silverbeck.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 116,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3000",
+        "application_id": "APP-2026-030",
+        "revision": "1",
+        "entry_type": "medical-school",
+        "organization": "Corvale College of Osteopathic Medicine",
+        "location": "Corvale, IA",
+        "role": "Doctor of Medicine",
+        "from_date": "2008-08-25",
+        "to_date": "2012-06-30",
+        "hours_per_week": "",
+        "contact_name": "Priya Oduya",
+        "contact_email": "priya.oduya@corvale.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 117,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3001",
+        "application_id": "APP-2026-030",
+        "revision": "1",
+        "entry_type": "residency",
+        "organization": "Fernhollow Medical Center",
+        "location": "Fernhollow, WA",
+        "role": "Internal Medicine Residency",
+        "from_date": "2012-07-01",
+        "to_date": "2015-06-30",
+        "hours_per_week": "60",
+        "contact_name": "Rafael Okonkwo",
+        "contact_email": "rafael.okonkwo@fernhollow.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 118,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3002",
+        "application_id": "APP-2026-030",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Mosswater Valley Hospital",
+        "location": "Mosswater, WA",
+        "role": "Staff Physician",
+        "from_date": "2018-03-05",
+        "to_date": "2022-08-31",
+        "hours_per_week": "40",
+        "contact_name": "Anaya Mendez-Ruiz",
+        "contact_email": "anaya.mendez@mosswater.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 119,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3003",
+        "application_id": "APP-2026-030",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Northsound Medical Group",
+        "location": "Everleigh, WA",
+        "role": "Staff Physician",
+        "from_date": "2022-09-12",
+        "to_date": "",
+        "hours_per_week": "40",
+        "contact_name": "Leander Vandermeer",
+        "contact_email": "leander.vandermeer@northsound.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "declared-history.csv",
+      "csv_row": 120,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+        "source_batch": 1,
+        "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+        "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3004",
+        "application_id": "APP-2026-030",
+        "revision": "1",
+        "entry_type": "employment",
+        "organization": "Larkhollow Physicians Network",
+        "location": "Larkhollow, WA",
+        "role": "Staff Physician",
+        "from_date": "2015-07-13",
+        "to_date": "2018-02-28",
+        "hours_per_week": "40",
+        "contact_name": "Nadira Eze-Okafor",
+        "contact_email": "nadira.eze@larkhollow.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "applications.csv",
+      "csv_row": 33,
+      "source": {
+        "kind": "records",
+        "path": "applications.csv",
+        "sha256": "8abd24835cae92ffd3579cd77c66b1bb28343a8a0d3f3f735a4b78451076ce59",
+        "source_batch": 1,
+        "source_id": "1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_",
+        "source_url": "https://drive.google.com/file/d/1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_/view?usp=drivesdk"
+      },
+      "row": {
+        "application_id": "APP-2026-031",
+        "revision": "1",
+        "applicant_id": "LP-1031",
+        "received_date": "2026-02-16",
+        "first_received_date": "2026-02-16",
+        "last_name": "Matsuda",
+        "first_name": "Kenji",
+        "middle_name": "",
+        "birth_year": "1983",
+        "degree": "MD",
+        "npi": "1273106582",
+        "practice_state": "WA",
+        "position_sought": "Staff Physician, Hospital Medicine",
+        "discipline": "Hospital Medicine",
+        "release_signed_date": "2026-02-16",
+        "cv_received_date": "2026-02-16",
+        "revision_reason": ""
+      }
+    },
+    {
+      "batch": 1,
+      "path": "letters/2026-02-13_gap-explanation_APP-2026-017.md",
+      "source": {
+        "kind": "document",
+        "path": "letters/2026-02-13_gap-explanation_APP-2026-017.md",
+        "sha256": "60d08570b395b2e8436171fbfc9768a88c22fca3094a1f0e0c994c5a567b8a4f",
+        "source_batch": 1,
+        "source_id": "1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v",
+        "source_url": "https://drive.google.com/file/d/1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v/view?usp=drivesdk"
+      },
+      "text": "# Explanation of period 2019-04-01 to 2019-11-05\n\n**Date:** 2026-02-13  \n**From:** Oskar Lindqvist, MD  \n**Application:** APP-2026-017  \n**Applicant:** Dr. Oskar Lindqvist, MD  \n**Period explained:** 2019-04-01 to 2019-11-05  \n\nI took seven months away from clinical practice to care for a parent after a stroke. I was not employed, not in training and not in the military during that period. I returned to full emergency department practice on 2019-11-06.\n\nOskar Lindqvist, MD"
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 2,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1800",
+        "application_id": "APP-2026-018",
+        "revision": "2",
+        "entry_type": "medical-school",
+        "organization": "Thistlewood University School of Medicine",
+        "location": "Thistlewood, NY",
+        "role": "Doctor of Medicine",
+        "from_date": "2010-08-23",
+        "to_date": "2014-06-30",
+        "hours_per_week": "",
+        "contact_name": "Priya Bergmann",
+        "contact_email": "priya.bergmann@thistlewood.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 3,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1801",
+        "application_id": "APP-2026-018",
+        "revision": "2",
+        "entry_type": "residency",
+        "organization": "Cedar Quarry University Hospital",
+        "location": "Cedar Quarry, OR",
+        "role": "Internal Medicine Residency",
+        "from_date": "2014-07-01",
+        "to_date": "2017-06-30",
+        "hours_per_week": "60",
+        "contact_name": "Rafael Nordstrand",
+        "contact_email": "rafael.nordstrand@cedar.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 4,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1802",
+        "application_id": "APP-2026-018",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Willowmere Health Cooperative",
+        "location": "Willowmere, WA",
+        "role": "Staff Physician",
+        "from_date": "2017-07-10",
+        "to_date": "2024-05-01",
+        "hours_per_week": "40",
+        "contact_name": "Anaya Sarpong",
+        "contact_email": "anaya.sarpong@willowmere.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 5,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-1803",
+        "application_id": "APP-2026-018",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Silverbeck Physicians Group",
+        "location": "Silverbeck, WA",
+        "role": "Staff Physician",
+        "from_date": "2024-06-02",
+        "to_date": "",
+        "hours_per_week": "40",
+        "contact_name": "Leander Ferndale",
+        "contact_email": "leander.ferndale@silverbeck.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 6,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3000",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "medical-school",
+        "organization": "Corvale College of Osteopathic Medicine",
+        "location": "Corvale, IA",
+        "role": "Doctor of Medicine",
+        "from_date": "2008-08-25",
+        "to_date": "2012-06-30",
+        "hours_per_week": "",
+        "contact_name": "Priya Oduya",
+        "contact_email": "priya.oduya@corvale.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 7,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3001",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "residency",
+        "organization": "Fernhollow Medical Center",
+        "location": "Fernhollow, WA",
+        "role": "Internal Medicine Residency",
+        "from_date": "2012-07-01",
+        "to_date": "2015-06-30",
+        "hours_per_week": "60",
+        "contact_name": "Rafael Okonkwo",
+        "contact_email": "rafael.okonkwo@fernhollow.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 8,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3002",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Mosswater Valley Hospital",
+        "location": "Mosswater, WA",
+        "role": "Staff Physician",
+        "from_date": "2018-03-05",
+        "to_date": "2021-11-30",
+        "hours_per_week": "40",
+        "contact_name": "Anaya Mendez-Ruiz",
+        "contact_email": "anaya.mendez@mosswater.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 9,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3003",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Northsound Medical Group",
+        "location": "Everleigh, WA",
+        "role": "Staff Physician",
+        "from_date": "2022-09-12",
+        "to_date": "",
+        "hours_per_week": "40",
+        "contact_name": "Leander Vandermeer",
+        "contact_email": "leander.vandermeer@northsound.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 10,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3004",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Larkhollow Physicians Network",
+        "location": "Larkhollow, WA",
+        "role": "Staff Physician",
+        "from_date": "2015-07-13",
+        "to_date": "2018-02-28",
+        "hours_per_week": "40",
+        "contact_name": "Nadira Eze-Okafor",
+        "contact_email": "nadira.eze@larkhollow.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "declared-history.csv",
+      "csv_row": 11,
+      "source": {
+        "kind": "records",
+        "path": "declared-history.csv",
+        "sha256": "eef494b8f21bb6ee6f296acf7bcc406c7827240d05e1c16740c52effba8e24fa",
+        "source_batch": 2,
+        "source_id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+        "source_url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk"
+      },
+      "row": {
+        "entry_id": "ENT-3090",
+        "application_id": "APP-2026-030",
+        "revision": "2",
+        "entry_type": "employment",
+        "organization": "Two Rivers Health Partners",
+        "location": "Two Rivers, OR",
+        "role": "Locum Physician",
+        "from_date": "2021-12-06",
+        "to_date": "2022-09-05",
+        "hours_per_week": "24",
+        "contact_name": "Cordelia Banerjee",
+        "contact_email": "cordelia.banerjee@two.example",
+        "notes": ""
+      }
+    },
+    {
+      "batch": 2,
+      "path": "applications.csv",
+      "csv_row": 4,
+      "source": {
+        "kind": "records",
+        "path": "applications.csv",
+        "sha256": "049316b77c02fdeb9333cd51119c72d184ae02ad4d297c1ae0259a0e07cbcffa",
+        "source_batch": 2,
+        "source_id": "18CV-lCocbNvBGXUFk6WSDO3v6Pe87OGo",
+        "source_url": "https://drive.google.com/file/d/18CV-lCocbNvBGXUFk6WSDO3v6Pe87OGo/view?usp=drivesdk"
+      },
+      "row": {
+        "application_id": "APP-2026-031",
+        "revision": "2",
+        "applicant_id": "LP-1031",
+        "received_date": "2026-04-09",
+        "first_received_date": "2026-02-16",
+        "last_name": "Matsuda",
+        "first_name": "Kenji",
+        "middle_name": "",
+        "birth_year": "1983",
+        "degree": "MD",
+        "npi": "1273106582",
+        "practice_state": "WA",
+        "position_sought": "Staff Physician, Hospital Medicine",
+        "discipline": "Hospital Medicine",
+        "release_signed_date": "2026-02-16",
+        "cv_received_date": "2026-02-16",
+        "revision_reason": "Declared the Washington licence issued 2026-04-02."
+      }
+    },
+    {
+      "batch": 2,
+      "path": "letters/2026-03-30_gap-explanation_APP-2026-018.md",
+      "source": {
+        "kind": "document",
+        "path": "letters/2026-03-30_gap-explanation_APP-2026-018.md",
+        "sha256": "ab82ffaa1812abdb9865b68451f1a6aa898755db7c2f62462ea1b92d2f200040",
+        "source_batch": 2,
+        "source_id": "1pGDP53yNZRdPpJHdQZHbWhKiED3MKGCC",
+        "source_url": "https://drive.google.com/file/d/1pGDP53yNZRdPpJHdQZHbWhKiED3MKGCC/view?usp=drivesdk"
+      },
+      "text": "# Explanation of period 2024-05-02 to 2024-06-01\n\n**Date:** 2026-03-30  \n**From:** Anaya Banerjee, MD  \n**Application:** APP-2026-018  \n**Applicant:** Dr. Anaya Banerjee, MD  \n**Period explained:** 2024-05-02 to 2024-06-01  \n\nI left Willowmere Health Cooperative at the end of April 2024 and started at Harrowgate Community Health at the beginning of June. The month between the two was unpaid leave taken to move house. I was not employed and not in training.\n\nAnaya Banerjee, MD\n"
+    },
+    {
+      "batch": 2,
+      "path": "dispositions/2026-04-02_disposition_APP-2026-017.md",
+      "source": {
+        "kind": "document",
+        "path": "dispositions/2026-04-02_disposition_APP-2026-017.md",
+        "sha256": "73c10b8b5b8ae279d340de265c9a44f6b30b347e2495296fe9dfca3e6a7a7416",
+        "source_batch": 2,
+        "source_id": "1oUgCdrlqCmcYLIlNsdR_5y_mhsQUGM0G",
+        "source_url": "https://drive.google.com/file/d/1oUgCdrlqCmcYLIlNsdR_5y_mhsQUGM0G/view?usp=drivesdk"
+      },
+      "text": "# Clinical Director's disposition — Gap of 219 days, 2019-04-01 to 2019-11-05\n\n**Date:** 2026-04-02  \n**Application:** APP-2026-017  \n**Applicant:** Dr. Oskar Lindqvist, MD  \n**Recorded by:** Dr. Marguerite Oyelaran, MD, Clinical Director  \n\nI have read the applicant's written explanation of 2026-02-24 and the verified dates on either side of the period. The explanation is sufficient and the file may proceed. I record no condition.\n\nMarguerite Oyelaran, MD\nClinical Director\n"
+    },
+    {
+      "batch": 2,
+      "path": "decisions/2026-04-14_MEC-2026-036.md",
+      "source": {
+        "kind": "document",
+        "path": "decisions/2026-04-14_MEC-2026-036.md",
+        "sha256": "2d0ef18080a1845e752e90781c2c15d2debf7fc6ac680f8102be41f08890d54d",
+        "source_batch": 2,
+        "source_id": "1fCcyWlcPYNDZ8f4QZSn_xhcHznO6mNlH",
+        "source_url": "https://drive.google.com/file/d/1fCcyWlcPYNDZ8f4QZSn_xhcHznO6mNlH/view?usp=drivesdk"
+      },
+      "text": "# Executive Committee of the Medical Staff — minute extract MEC-2026-036\n\n**Decision ID:** MEC-2026-036  \n**Body:** Executive Committee of the Medical Staff  \n**Signatory:** Dr. Peter Vandermolen, MD  \n**Role:** Chair, Executive Committee of the Medical Staff  \n**Application:** APP-2026-038  \n**Revision:** 1  \n**Decision date:** 2026-04-14  \n**Outcome:** approved  \n**Privileges:** PRIV-EM  \n**Criteria version:** LARK-PRIV-2026.1  \n**Reason:** The Executive Committee approved the appointment and the emergency medicine privileges requested, without dissent.  \n**Effective date:**   \n**Supersedes:**   \n\n## Minute\n\nThe Executive Committee reviewed the file as presented by the Medical Staff Office and recorded the outcome above without dissent.\n\nSigned: Dr. Peter Vandermolen, MD, Chair, Executive Committee of the Medical Staff, 2026-04-14.\n"
+    },
+    {
+      "batch": 2,
+      "path": "decisions/2026-04-14_GBD-2026-036.md",
+      "source": {
+        "kind": "document",
+        "path": "decisions/2026-04-14_GBD-2026-036.md",
+        "sha256": "375432b1067a6558ca7f0e4501311f7fb7bdbfaa195a380fd2f84a560abf4150",
+        "source_batch": 2,
+        "source_id": "1owYZ_1xEqhEyswmwm1lY8W0gbwZjtzkg",
+        "source_url": "https://drive.google.com/file/d/1owYZ_1xEqhEyswmwm1lY8W0gbwZjtzkg/view?usp=drivesdk"
+      },
+      "text": "# Governing Body — record of decision GBD-2026-036\n\n**Decision ID:** GBD-2026-036  \n**Body:** Governing Body  \n**Signatory:** Mr. Desmond Ihejirika  \n**Role:** Vice-Chair, Governing Body  \n**Application:** APP-2026-037  \n**Revision:** 1  \n**Decision date:** 2026-04-14  \n**Outcome:** approved  \n**Privileges:** PRIV-FM  \n**Criteria version:** LARK-PRIV-2026.1  \n**Reason:**   \n**Effective date:** 2026-05-01  \n**Supersedes:**   \n\n## Minute\n\nThe Governing Body considered the file presented by the Medical Staff Office together with the Executive Committee's recommendation, and recorded the outcome above.\n\nSigned: Mr. Desmond Ihejirika, Vice-Chair, Governing Body, 2026-04-14.\n"
+    },
+    {
+      "batch": 2,
+      "path": "decisions/2026-04-14_GBD-2026-034.md",
+      "source": {
+        "kind": "document",
+        "path": "decisions/2026-04-14_GBD-2026-034.md",
+        "sha256": "57ea8a880a8716d1330bbdcf229e38fa0630422f267b295e32652c173448c202",
+        "source_batch": 2,
+        "source_id": "1xux8aNZAdAFTNqgAHvk9_asPNUZEA-aU",
+        "source_url": "https://drive.google.com/file/d/1xux8aNZAdAFTNqgAHvk9_asPNUZEA-aU/view?usp=drivesdk"
+      },
+      "text": "# Governing Body — record of decision GBD-2026-034\n\n**Decision ID:** GBD-2026-034  \n**Body:** Governing Body  \n**Signatory:** Ms. Corinne Batiste  \n**Role:** Chair, Governing Body  \n**Application:** APP-2026-036  \n**Revision:** 1  \n**Decision date:** 2026-04-14  \n**Outcome:** approved  \n**Privileges:** PRIV-FM  \n**Criteria version:** LARK-PRIV-2026.1  \n**Reason:**   \n**Effective date:**   \n**Supersedes:**   \n\n## Minute\n\nThe Governing Body considered the file presented by the Medical Staff Office together with the Executive Committee's recommendation, and recorded the outcome above.\n\nSigned: Ms. Corinne Batiste, Chair, Governing Body, 2026-04-14.\n"
+    },
+    {
+      "batch": 3,
+      "path": "decisions/2026-05-12_GBD-2026-037.md",
+      "source": {
+        "kind": "document",
+        "path": "decisions/2026-05-12_GBD-2026-037.md",
+        "sha256": "a3b6e1426bd425a356511d4be16e8ed0f1399dfebce145884370129f6315ec31",
+        "source_batch": 3,
+        "source_id": "10SUkHU-yLYIpmh2lWNySPtrfM6R3wqgk",
+        "source_url": "https://drive.google.com/file/d/10SUkHU-yLYIpmh2lWNySPtrfM6R3wqgk/view?usp=drivesdk"
+      },
+      "text": "# Governing Body — record of decision GBD-2026-037\n\n**Decision ID:** GBD-2026-037  \n**Body:** Governing Body  \n**Signatory:** Ms. Corinne Batiste  \n**Role:** Chair, Governing Body  \n**Application:** APP-2026-037  \n**Revision:** 1  \n**Decision date:** 2026-05-12  \n**Outcome:** approved  \n**Privileges:** PRIV-FM; PRIV-HOSP  \n**Criteria version:** LARK-PRIV-2026.1  \n**Reason:**   \n**Effective date:** 2026-05-15  \n**Supersedes:**   \n\n## Minute\n\nThe Governing Body considered the file again and recorded the outcome above.\n\nSigned: Ms. Corinne Batiste, Chair, Governing Body, 2026-05-12.\n"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """Read-only schema/chain relationship verifier; never manufactures a snapshot."""
 
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from .validation import GroundworkError, confined_file, digest, read_json, relative_path, schema_validate
@@ -10,6 +10,8 @@ def verify_snapshot(root: Path, path: str, schema: dict):
     if root.is_symlink():
         raise GroundworkError("unsafe_path", "Snapshot workspace cannot be symlinked")
     root = root.resolve(strict=True)
+    if (root / ".local/snapshot-writer/active.json").exists():
+        raise GroundworkError("writer_recovery_required", "Interrupted writer has unsealed working files; recover before treating output as current")
     seen_paths, seen_ids = set(), set()
     checked = []
 
@@ -41,12 +43,27 @@ def verify_snapshot(root: Path, path: str, schema: dict):
             if approval is not None and (approval not in decisions or not decisions[approval]["admitted"]):
                 raise GroundworkError("snapshot_relationship", "Approval ID does not name an admitted same-file decision")
             activation = app["activation"]
+            if approval is not None and activation is None:
+                raise GroundworkError("snapshot_relationship", "Admitted approval lacks activation record")
             if activation is not None:
                 if approval is None or activation["effective_date"] > activation["cycle_end"]:
                     raise GroundworkError("snapshot_relationship", "Activation lacks authority link or valid range")
                 active = activation["effective_date"] <= value["as_of"] <= activation["cycle_end"]
                 if activation["active_at_export"] != active:
                     raise GroundworkError("snapshot_relationship", "Activation flag contradicts export clock")
+                start = date.fromisoformat(activation["effective_date"])
+                try:
+                    end = start.replace(year=start.year + 1) - timedelta(days=1)
+                except ValueError as exc:
+                    raise GroundworkError("snapshot_relationship", "Leap-day cycle needs an explicit convention") from exc
+                if activation["cycle_end"] != end.isoformat():
+                    raise GroundworkError("snapshot_relationship", "Cycle is not one year minus one day")
+            if app["status"] in ("active", "active-with-conditions") and (activation is None or not activation["active_at_export"]):
+                raise GroundworkError("snapshot_relationship", "Active status lacks active privileges")
+            if app["status"] == "approved-not-yet-effective" and (activation is None or activation["effective_date"] <= value["as_of"]):
+                raise GroundworkError("snapshot_relationship", "Future-start status lacks future approval start")
+            if app["status"] == "packet-presentable" and not app["packet_presentable"]:
+                raise GroundworkError("snapshot_relationship", "Presentable status contradicts packet flag")
         prior = value["predecessor"]
         if prior is None:
             if value["batch"] != 1:

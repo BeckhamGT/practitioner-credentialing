@@ -55,3 +55,60 @@ No stakeholder interview was conducted, scripted or automated. No notices were s
 ## Local implementation checkpoint
 
 Meaningful commit `486d0eb6f580081ee3cbf812e4c11872034ee9a5` has real checkpoint `01M5H0MYEEFCSDDP9TKX6E3GP4`; stored transcript bytes and learner authorization were inspected. Capture proof is recorded in a later documentation commit. Remote syncing/access remain pending; no publication or submission. Three final post-guard timeline reads were also compared byte-for-byte with retained reports; their tool record is in genuine capture, rather than a separately timestamped per-command entry here.
+
+## Element assessment and writer milestone
+
+[Machine log](assessments/execution-log.json) is the exact argument/time/exit/hash
+record for the following operations. Inputs for each elements/run operation are
+the pinned state and its predecessor chain's immutable manifests/blobs, plus the
+pinned element/continuation/record-review source bundle. `run` creates/verifies
+only its named independent report, then stops at assessed serialization; it
+writes no assessed snapshot. `elements` stdout is retained under a content hash.
+The first report set remains preserved; a later report occurrence corrects an
+obsolete metadata label, not source content or business outcomes. `current.json`
+selects the current occurrences. Logging wrappers write this ledger, not business
+source records. Original source and accepted-store bytes remain unchanged.
+
+| Log entry | UTC start | Batch | Operation | Exit | Produced / result |
+|---|---|---|---|---|---|
+| 1 | 2026-10-22T06:06:32.032710+00:00 | 1 | elements | 0 | deliverables/assessments/batch-01-elements-4b7fef28a1d9.json  |
+| 2 | 2026-10-22T06:06:32.151276+00:00 | 1 | elements | 0 | deliverables/assessments/batch-01-elements-4b7fef28a1d9.json unchanged repeat |
+| 3 | 2026-10-22T06:06:32.251173+00:00 | 1 | run | 3 | deliverables/assessments/batch-01-elements-4b7fef28a1d9.json  |
+| 4 | 2026-10-22T06:06:32.344493+00:00 | 2 | elements | 0 | deliverables/assessments/batch-02-elements-f59ac7adae7b.json  |
+| 5 | 2026-10-22T06:06:32.475564+00:00 | 2 | elements | 0 | deliverables/assessments/batch-02-elements-f59ac7adae7b.json unchanged repeat |
+| 6 | 2026-10-22T06:06:32.597547+00:00 | 2 | run | 3 | deliverables/assessments/batch-02-elements-f59ac7adae7b.json  |
+| 7 | 2026-10-22T06:06:32.710942+00:00 | 3 | elements | 0 | deliverables/assessments/batch-03-elements-4f8bb26795ad.json  |
+| 8 | 2026-10-22T06:06:32.847039+00:00 | 3 | elements | 0 | deliverables/assessments/batch-03-elements-4f8bb26795ad.json unchanged repeat |
+| 9 | 2026-10-22T06:06:32.988900+00:00 | 3 | run | 3 | deliverables/assessments/batch-03-elements-4f8bb26795ad.json  |
+| 10 | 2026-10-22T06:10:41.217504+00:00 | 1 | elements | 0 | deliverables/assessments/batch-01-elements-1afae619a1e6.json  |
+| 11 | 2026-10-22T06:10:41.360158+00:00 | 1 | elements | 0 | deliverables/assessments/batch-01-elements-1afae619a1e6.json unchanged repeat |
+| 12 | 2026-10-22T06:10:41.454797+00:00 | 1 | run | 3 | deliverables/assessments/batch-01-elements-1afae619a1e6.json  |
+| 13 | 2026-10-22T06:10:41.551969+00:00 | 2 | elements | 0 | deliverables/assessments/batch-02-elements-cf7c99c0984a.json  |
+| 14 | 2026-10-22T06:10:41.677197+00:00 | 2 | elements | 0 | deliverables/assessments/batch-02-elements-cf7c99c0984a.json unchanged repeat |
+| 15 | 2026-10-22T06:10:41.798416+00:00 | 2 | run | 3 | deliverables/assessments/batch-02-elements-cf7c99c0984a.json  |
+| 16 | 2026-10-22T06:10:41.925740+00:00 | 3 | elements | 0 | deliverables/assessments/batch-03-elements-c6a4eef414e0.json  |
+| 17 | 2026-10-22T06:10:42.068943+00:00 | 3 | elements | 0 | deliverables/assessments/batch-03-elements-c6a4eef414e0.json unchanged repeat |
+| 18 | 2026-10-22T06:10:42.214408+00:00 | 3 | run | 3 | deliverables/assessments/batch-03-elements-c6a4eef414e0.json  |
+| 19 | 2026-10-22T06:10:42.345419+00:00 | — | tools/independent_element_checks.py --inputs | 0 | deliverables/assessments/independent-verification.json  |
+| 20 | 2026-10-22T06:10:42.436602+00:00 | — | -m tools.writer_demo | 0 | .local/elements-milestone/writer-demo-stdout.json  |
+
+The first development wrapper stopped at `changed_report` on batch 1 because
+stdout and persisted report differed only in Unicode escaping. Its two preceding
+read-only evaluations and failed attempt are visible in the genuine session;
+the wrapper aborted before saving a timestamped operation ledger. No exact
+operation timestamp is reconstructed. The original hash-named report remains.
+The Unicode regression test reproduced exit 2 instead of intended exit 3; the
+serialization correction restored byte equality without overwriting the report.
+See verification.md for the precise cause and final 114-test result.
+
+The writer demo command creates only its explicitly synthetic root, with
+synthetic source/rules files, generated nested snapshots, archives/index, run-log,
+proof and internal transaction journals. Its proof records each generation,
+unchanged rerun, rejected correction, injected write failure, blocked verification,
+rollback and successful retry. It never reads supplied applicants. Fixture Git
+sealing is the subsequent meaningful local commit, not the generation call.
+[Independent checker](assessments/independent-verification.json) consumes original
+three-batch CSVs/README/manifests and selected current reports; it writes stdout
+only. The later clock-source refinement reproduced those exact output bytes.
+Regression stdout/stderr summary is in assessments/test-summary.json and raw
+output in assessments/tests.txt. Development checks are not assessed batch runs.

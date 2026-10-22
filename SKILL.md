@@ -33,6 +33,9 @@ neither a case pass nor an applicant failure.
    evidence retained, not complete intake or an assessed snapshot.
 3. Run `review` for independent source-class, date and authority-prefix checks;
    run `timeline` for revisions, recorded attempts/replies and the decision register.
+   Run `elements` for declared-history gaps, licence observations, source replies,
+   privilege components, peer fields and all independently checkable decision
+   conditions. README supplies the exact pinned rule/hash and state commands.
    Pin the requested state even when HEAD is newer. Keep every received occurrence,
    original outcome, refusal and provenance reference.
 4. Inspect actual output against the linked original source rows/documents and
@@ -62,8 +65,10 @@ dependent business logic. Continue independent work while a scoped gap remains.
 
 ## Outputs, failure and rerun
 
-Evidence review JSON lives under `deliverables/evidence/`; the separate synthetic
-results live under `deliverables/synthetic/`. Neither is an assessed snapshot.
+Evidence review JSON lives under `deliverables/evidence/`; the independent
+element reports live under `deliverables/assessments/`, with `current.json`
+selecting the latest retained report occurrence per batch. Separate synthetic
+results live under `deliverables/synthetic/`. None is an actual assessed snapshot.
 The original schema is [snapshot.schema.json](snapshot.schema.json); `verify-snapshot`
 checks its structure and selected cross-file relationships, not business truth.
 
@@ -74,9 +79,24 @@ present old output as the current successful result. An unchanged stage/rerun ke
 the same evidence state and report bytes. Preserve damaged state for diagnosis;
 recover only from verified retained evidence in a separate reconstruction when needed.
 
-The future assessed writer must follow the assignment's sealed-snapshot occurrence,
-supersession and downstream-chain rules; that writer is still unimplemented.
+`run` with pinned state/rules and a separate `--report` preserves the independent
+assessment, then exits 3 `snapshot_unrepresentable` while required schema facts
+are unknown. This is neither Partial nor an admitted business deferral. Read
+[the schema conflict and rejected status proposal](docs/partial-representation-assessment.md).
 Never populate `deliverables/snapshots/` to bypass missing evidence.
+
+`credentialing/writer.py` implements local schema/chain-gated generation,
+unchanged reruns, byte-preserved supersession and downstream regeneration. It has
+synthetic demonstrations only; a complete business-state projector is unfinished.
+Only a Git commit seals a generated occurrence. The writer never commits or
+publishes remotely. Its transaction journal is internal control state, not a
+business outcome. An interrupted transaction blocks current-output verification.
+After preserving and inspecting it, use `recover-writer --root <workspace>
+--schema snapshot.schema.json` to validate journal/backups and restore prior
+working outputs. If the current files differ from both prior and planned bytes,
+recovery refuses to overwrite them; preserve the evidence and investigate. After
+recovery rerun the same authorized input. Never remove a lock until its writer
+has been shown inactive. Power-loss durability is not established.
 
 ## Handoff boundary
 

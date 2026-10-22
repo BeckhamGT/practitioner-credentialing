@@ -1,0 +1,313 @@
+{
+  "board_eligible_groups": [
+    "PRIV-FM",
+    "PRIV-IM",
+    "PRIV-HOSP",
+    "PRIV-PED"
+  ],
+  "clinical_director": {
+    "from": "2025-07-01",
+    "recorded_by": "Dr. Marguerite Oyelaran, MD, Clinical Director",
+    "source": "AUTH Individual authority",
+    "to": "2027-06-30"
+  },
+  "continuation_path": "continuation.json",
+  "continuation_sha256": "d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c",
+  "criteria": {
+    "PRIV-ANES": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABA",
+          "Anesthesiology"
+        ],
+        [
+          "AOBA",
+          "Anesthesiology"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Anesthesiology",
+          48
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-CARD": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABIM",
+          "Cardiovascular Disease"
+        ],
+        [
+          "AOBIM",
+          "Cardiology"
+        ]
+      ],
+      "note": "CARD row requires IM residency in addition to fellowship; it does not repeat a minimum residency duration. No extra duration is invented.",
+      "training": [
+        [
+          "Residency \u2014 Internal Medicine",
+          null
+        ],
+        [
+          "Fellowship \u2014 Cardiovascular Disease",
+          36
+        ]
+      ],
+      "training_combination": "all"
+    },
+    "PRIV-EM": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABEM",
+          "Emergency Medicine"
+        ],
+        [
+          "AOBEM",
+          "Emergency Medicine"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Emergency Medicine",
+          36
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-FM": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABFM",
+          "Family Medicine"
+        ],
+        [
+          "AOBFP",
+          "Family Practice"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Family Medicine",
+          36
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-GS": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABS",
+          "Surgery"
+        ],
+        [
+          "AOBS",
+          "General Surgery"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 General Surgery",
+          60
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-HOSP": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABIM",
+          "Internal Medicine"
+        ],
+        [
+          "ABIM",
+          "Internal Medicine with Focused Practice in Hospital Medicine"
+        ],
+        [
+          "ABFM",
+          "Family Medicine"
+        ],
+        [
+          "AOBIM",
+          "Internal Medicine"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Internal Medicine",
+          36
+        ],
+        [
+          "Residency \u2014 Family Medicine",
+          36
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-IM": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABIM",
+          "Internal Medicine"
+        ],
+        [
+          "AOBIM",
+          "Internal Medicine"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Internal Medicine",
+          36
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-OBG": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABOG",
+          "Obstetrics and Gynecology"
+        ],
+        [
+          "AOBOG",
+          null
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Obstetrics and Gynecology",
+          48
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-ORTHO": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABOS",
+          "Orthopaedic Surgery"
+        ],
+        [
+          "AOBOS",
+          "Orthopedic Surgery"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Orthopaedic Surgery",
+          60
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-PED": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABP",
+          "Pediatrics"
+        ],
+        [
+          "AOBP",
+          "Pediatrics"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Pediatrics",
+          36
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-PSY": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABPN",
+          "Psychiatry"
+        ],
+        [
+          "AOBNP",
+          "Psychiatry"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Psychiatry",
+          48
+        ]
+      ],
+      "training_combination": "any"
+    },
+    "PRIV-RAD": {
+      "accredited_training_required": true,
+      "certifications": [
+        [
+          "ABR",
+          "Diagnostic Radiology"
+        ],
+        [
+          "AOBR",
+          "Diagnostic Radiology"
+        ]
+      ],
+      "training": [
+        [
+          "Residency \u2014 Diagnostic Radiology",
+          48
+        ]
+      ],
+      "training_combination": "any"
+    }
+  },
+  "criteria_version": "LARK-PRIV-2026.1",
+  "experience_years": 5,
+  "format": "credentialing-element-rules/1",
+  "gap_days": 30,
+  "long_gap_days": 180,
+  "practice_question_codes": [
+    "PPQ-1",
+    "PPQ-2",
+    "PPQ-3",
+    "PPQ-4",
+    "PPQ-5",
+    "PPQ-6",
+    "PPQ-7",
+    "PPQ-8"
+  ],
+  "sources": {
+    "APP": {
+      "effective_from": null,
+      "path": "element-sources/APP.txt",
+      "sha256": "9b4f939ae38ff219b452f3a42b30315bc97726d46d34d838d4500a2e9a0cdf56",
+      "url": "https://docs.google.com/document/d/1nFdoz-AeCUTBzZUXrG27AKsNXCiJ_TJLLDI3WleiiB0",
+      "version": "LARK-APP-2026.1"
+    },
+    "PRIV": {
+      "effective_from": "2026-01-01",
+      "path": "element-sources/PRIV.txt",
+      "sha256": "fa34dbc4a5a8b3f30d20678e009d61ec6e9b16a6182d8d66406dc342009a6522",
+      "url": "https://docs.google.com/document/d/1auOI2S9mT7GRn3eS6HJv3wU5C9vDqGObfMmVF9Bc4fo",
+      "version": "LARK-PRIV-2026.1"
+    },
+    "REF": {
+      "effective_from": null,
+      "path": "element-sources/REF.txt",
+      "sha256": "0c15223a1a9adf7a581c677fa99640ca916e31fb1e30249f1c9f4c507b3c0e1d",
+      "url": "https://docs.google.com/document/d/1p7lZMbDkrr34rqkv59OpGoZv_XBncpAz2WXCAH7Qa80",
+      "version": "LARK-REF-2026.1"
+    }
+  }
+}

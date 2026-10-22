@@ -1,0 +1,51 @@
+{
+  "applications": [
+    {
+      "action_queue": [
+        {
+          "due": null,
+          "item": "SYNTHETIC outstanding evidence",
+          "owner": "Medical Services Professional"
+        }
+      ],
+      "activation": null,
+      "application_id": "SYNTH-ONLY",
+      "approval_decision_id": null,
+      "decisions": [
+        {
+          "admitted": false,
+          "decision_id": "SYNTH-D",
+          "reason": "body-authority"
+        }
+      ],
+      "elements": {
+        "certification": "outstanding",
+        "education": "outstanding",
+        "experience": "outstanding",
+        "gaps": "outstanding",
+        "licensure": "outstanding",
+        "references": "outstanding"
+      },
+      "monitored_conditions": [],
+      "packet_presentable": false,
+      "revision": 1,
+      "status": "in-verification"
+    }
+  ],
+  "as_of": "2026-03-16",
+  "batch": 1,
+  "consumed": {
+    "documents": [],
+    "record_files": [
+      "SYNTH.csv"
+    ]
+  },
+  "predecessor": null,
+  "produced": [
+    "deliverables/run-log.md",
+    "deliverables/snapshots/batch-01.json"
+  ],
+  "rules_file": "rules.md",
+  "schema_version": "credentialing-snapshot/1",
+  "snapshot_id": "SYNTH-1"
+}

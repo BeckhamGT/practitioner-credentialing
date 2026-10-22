@@ -1,0 +1,161 @@
+{
+  "assumptions": [
+    "Complete synthetic intake",
+    "Six elements outstanding",
+    "A known body-authority refusal"
+  ],
+  "current_chain": {
+    "checked": [
+      {
+        "as_of": "2026-03-16",
+        "batch": 1,
+        "path": "deliverables/snapshots/batch-01.json",
+        "sha256": "0644724950f68fab07378335d476e73bc680391fbcf4ca918a7fd815f67a81f7"
+      },
+      {
+        "as_of": "2026-04-20",
+        "batch": 2,
+        "path": "deliverables/snapshots/batch-02.json",
+        "sha256": "cc607b38cfe33f73ba495770ffcf320923c59a2ca01a0b78fe72fffe7cb3eb02"
+      },
+      {
+        "as_of": "2026-05-18",
+        "batch": 3,
+        "path": "deliverables/snapshots/batch-03.json",
+        "sha256": "36161a077fdd2a43c7d73aca86663de80e07da92f1cb00f312fd719cc0a22763"
+      }
+    ],
+    "limitations": [
+      "Does not prove completeness, CV reconciliation, packet facts or source authority",
+      "Does not prove exact grants, condition satisfaction, action ownership or consumed-file completeness",
+      "Schema/links alone do not establish submission readiness"
+    ],
+    "operation": "verify-snapshot",
+    "structure_and_links": "valid"
+  },
+  "dataset": "SYNTHETIC ONLY; no supplied applicants",
+  "failure_recovery_preserved_prior_snapshot": true,
+  "limits": "Writer/serialization demonstration. Business facts are supplied fixtures. Git sealing occurs only at a later explicit local commit.",
+  "old_occurrences_retained_byte_for_byte": true,
+  "operations": [
+    {
+      "result": "written",
+      "retained": [],
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-01.json"
+      ],
+      "written": [
+        "deliverables/run-log.md",
+        "deliverables/snapshots/batch-01.json"
+      ]
+    },
+    {
+      "result": "written",
+      "retained": [],
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-02.json"
+      ],
+      "written": [
+        "deliverables/run-log.md",
+        "deliverables/snapshots/batch-02.json"
+      ]
+    },
+    {
+      "result": "written",
+      "retained": [],
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-03.json"
+      ],
+      "written": [
+        "deliverables/run-log.md",
+        "deliverables/snapshots/batch-03.json"
+      ]
+    },
+    {
+      "result": "unchanged",
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-03.json"
+      ],
+      "written": []
+    },
+    {
+      "expected_failure": "downstream_regeneration",
+      "prior_bytes_unchanged": true
+    },
+    {
+      "result": "written",
+      "retained": [
+        "deliverables/snapshots/history/batch-01-41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a.json",
+        "deliverables/snapshots/history/batch-02-a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5.json",
+        "deliverables/snapshots/history/batch-03-cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7.json"
+      ],
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-01.json",
+        "deliverables/snapshots/batch-02.json",
+        "deliverables/snapshots/batch-03.json"
+      ],
+      "written": [
+        "deliverables/run-log.md",
+        "deliverables/snapshots/batch-01.json",
+        "deliverables/snapshots/batch-02.json",
+        "deliverables/snapshots/batch-03.json",
+        "deliverables/snapshots/history/batch-01-41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a.json",
+        "deliverables/snapshots/history/batch-02-a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5.json",
+        "deliverables/snapshots/history/batch-03-cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7.json",
+        "deliverables/snapshots/history/index.json"
+      ]
+    },
+    {
+      "expected_failure": "writer_interrupted",
+      "scope": "isolated synthetic batch 2 working files"
+    },
+    {
+      "verification_blocked": "writer_recovery_required"
+    },
+    {
+      "prior_outputs_restored": true,
+      "result": "rolled-back",
+      "transaction_retained": "transactions/282576d2a3814471b2eea32f16fb6e30"
+    },
+    {
+      "result": "written",
+      "retained": [],
+      "sealed_by_git_commit": false,
+      "snapshots": [
+        "deliverables/snapshots/batch-02.json"
+      ],
+      "written": [
+        "deliverables/run-log.md",
+        "deliverables/snapshots/batch-02.json"
+      ]
+    }
+  ],
+  "recovered_chain": {
+    "checked": [
+      {
+        "as_of": "2026-03-16",
+        "batch": 1,
+        "path": "deliverables/snapshots/batch-01.json",
+        "sha256": "41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a"
+      },
+      {
+        "as_of": "2026-04-20",
+        "batch": 2,
+        "path": "deliverables/snapshots/batch-02.json",
+        "sha256": "a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5"
+      }
+    ],
+    "limitations": [
+      "Does not prove completeness, CV reconciliation, packet facts or source authority",
+      "Does not prove exact grants, condition satisfaction, action ownership or consumed-file completeness",
+      "Schema/links alone do not establish submission readiness"
+    ],
+    "operation": "verify-snapshot",
+    "structure_and_links": "valid"
+  }
+}

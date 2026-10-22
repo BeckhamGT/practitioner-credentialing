@@ -6,6 +6,7 @@ clinical disposition, CV comparison or packet evidence for actual applicants.
 """
 
 from datetime import date, timedelta
+import re
 
 from .review import anniversary, authority_checks
 from .validation import GroundworkError
@@ -95,7 +96,8 @@ def activation(fields, admission, revision, as_of, published_codes):
             or fields["Outcome"] not in ("approved", "approved-with-conditions")
             or fields["Revision"] != str(revision)):
         return {"evaluated": True, "activation": None}
-    grants = [value.strip() for value in fields["Privileges"].split(",") if value.strip()]
+    # Actual office records separate multiple grant codes with semicolons.
+    grants = [value.strip() for value in re.split(r"[;,]", fields["Privileges"]) if value.strip()]
     if not grants or len(set(grants)) != len(grants) or not set(grants) <= set(published_codes):
         raise GroundworkError("conditional_input", "Grant codes must be distinct published groups")
     start = date.fromisoformat(fields.get("Effective date") or fields["Decision date"])
