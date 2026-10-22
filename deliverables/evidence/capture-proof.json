@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-10-22T05:17:48.225775+00:00",
+  "meaningful_commit": "486d0eb6f580081ee3cbf812e4c11872034ee9a5",
+  "checkpoint_id": "01M5H0MYEEFCSDDP9TKX6E3GP4",
+  "checkpoint_ref": "refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4",
+  "checkpoint_object": "a182bead79a374c4d44387005d167014e805a097",
+  "actual_session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "session_metadata_matches": true,
+  "commit_trailer_matches": true,
+  "stored_git_transcript_equals_cli_export": true,
+  "transcript_path": "0/full.jsonl",
+  "transcript_bytes": 8571371,
+  "transcript_records": 1486,
+  "transcript_sha256": "54fbdfb2df2d874dea3c7d7dfae081229f5b5eaa53525e13bfb814b77783e94f",
+  "actual_transcript_matches": {
+    "learner_authorization": [
+      "2026-10-22T04:51:05.396Z"
+    ],
+    "learner_continuation": [
+      "2026-10-22T05:03:39.226Z"
+    ],
+    "timeline_implementation": [
+      "2026-10-22T04:56:27.638Z",
+      "2026-10-22T04:56:27.691Z",
+      "2026-10-22T04:57:57.219Z",
+      "2026-10-22T04:57:57.321Z",
+      "2026-10-22T05:00:18.802Z",
+      "2026-10-22T05:00:18.853Z",
+      "2026-10-22T05:00:31.039Z",
+      "2026-10-22T05:00:31.193Z",
+      "2026-10-22T05:00:31.265Z",
+      "2026-10-22T05:00:32.059Z",
+      "2026-10-22T05:14:32.764Z",
+      "2026-10-22T05:14:32.836Z",
+      "2026-10-22T05:15:25.281Z",
+      "2026-10-22T05:15:25.333Z",
+      "2026-10-22T05:16:51.307Z",
+      "2026-10-22T05:16:54.385Z",
+      "2026-10-22T05:16:54.523Z"
+    ],
+    "synthetic_tests": [
+      "2026-10-22T05:00:13.996Z",
+      "2026-10-22T05:00:14.277Z",
+      "2026-10-22T05:00:18.802Z",
+      "2026-10-22T05:00:18.853Z"
+    ],
+    "independent_verification": [
+      "2026-10-22T05:03:06.823Z",
+      "2026-10-22T05:03:07.804Z"
+    ]
+  },
+  "committed_artifact_hashes": {
+    "SKILL.md": "d0a1f08f6918f191d46ca852022880d6eb2f20f6d2664eed4f1ed50cb03aa997",
+    "credentialing/timeline.py": "f73af580a43ae5bc5137c0f028496e8cfd87fc3a6984ad47c19d52d377e49fa1",
+    "credentialing/conditional.py": "092da5741264dcdda5214498182b8dad953e609bde916768ba62d0b9f7f65621",
+    "credentialing/snapshots.py": "5c1efe4069fc2d4b37b9e14f77c1e5e94213a04f938d906d847e00eccb87df98",
+    "deliverables/rules.md": "5f1baf8bbd77b83439adcd27ed4ead732e675b0e7772f3192464aa8729a5cc33",
+    "deliverables/verification.md": "4fd80857c29044290662b36ffd14a5efa74edc338e7c7620645bd18c7f9b4e0e",
+    "deliverables/run-log.md": "bec62fbed0e0ca483ce7f170c63521ad9c3e0563da30fc297c7074b327144c17"
+  },
+  "scope": "Genuine local capture includes actual learner authorization/continuation and implementation/verification operations; not configuration alone or a self-authored replacement",
+  "proof_timing": "Observed after meaningful commit; preserved in a subsequent local documentation commit",
+  "remote_sync": "pending; no push authorized or attempted",
+  "facilitator_access": "pending; not demonstrated",
+  "full_implementation": "incomplete; no assessed snapshots or submission readiness claimed"
+}

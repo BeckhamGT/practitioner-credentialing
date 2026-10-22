@@ -131,3 +131,9 @@ the assignment reads its first 600 characters.
 ## Skill validation and manual inspection
 
 Skill metadata validation passed with the existing scanner Python environment. The default interpreter lacked YAML; no dependencies were installed. The pinned local-only Cisco 2.0.13 scan exited 0 with zero high/medium/low findings and one INFO finding, MANIFEST_MISSING_LICENSE at SKILL.md. This is accepted for the current local candidate; no license terms are invented. [Raw scan](evidence/skill-scan.md) and [scanned bundle hashes/disposition](evidence/skill-validation.json) are preserved. Manual inspection covered instructions, runtime, preparer, checker, hidden-file scope and local destinations. The Skill is not certified safe by this scan, and full-repository historical evidence/dependency trees were not scanned as operative code.
+
+## Local commit and genuine capture
+
+Meaningful implementation commit `486d0eb6f580081ee3cbf812e4c11872034ee9a5` carries checkpoint `01M5H0MYEEFCSDDP9TKX6E3GP4` at `refs/entire/checkpoints/P4/01M5H0MYEEFCSDDP9TKX6E3GP4`. The actual Git-stored full transcript equals the CLI export byte-for-byte and contains the learner’s real authorization/continuation plus implementation, synthetic tests and independent-check operations. [Capture proof](evidence/capture-proof.json) records object, hash and observed timestamps. This proof is recorded afterward in a documentation commit; it does not claim to predate the implementation commit. Remote synchronization and facilitator access remain pending. No push or submission occurred.
+
+Whitespace note: the raw scanner report retains the scanner’s extra final blank line byte-for-byte; git diff --check reports that artifact’s blank-at-EOF warning. Code/documentation checks excluding that raw evidence file pass. The scan output was not silently normalized.

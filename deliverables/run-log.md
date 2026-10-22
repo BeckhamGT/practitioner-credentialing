@@ -51,3 +51,7 @@ Stages write immutable source/state objects and HEAD under the named local store
 - Local-only Skill scan and manual bundle inspection are recorded in verification.md.
 
 No stakeholder interview was conducted, scripted or automated. No notices were sent, source facts corrected, human decisions authored, Drive search retried, or material published/submitted.
+
+## Local implementation checkpoint
+
+Meaningful commit `486d0eb6f580081ee3cbf812e4c11872034ee9a5` has real checkpoint `01M5H0MYEEFCSDDP9TKX6E3GP4`; stored transcript bytes and learner authorization were inspected. Capture proof is recorded in a later documentation commit. Remote syncing/access remain pending; no publication or submission. Three final post-guard timeline reads were also compared byte-for-byte with retained reports; their tool record is in genuine capture, rather than a separately timestamped per-command entry here.
