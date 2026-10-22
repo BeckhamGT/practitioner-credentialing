@@ -1,0 +1,6 @@
+I reviewed the groundwork verification and capture proof, and they look good. I accept this groundwork milestone.
+Continue with work that is supported by confirmed rules and independent of G1/G2. First identify the next bounded scope and explain why it does not depend on application-signature evidence or CV currency/reconciliation. Then implement and verify that scope, preserving source history, batch isolation, and human authority.
+Keep G1/G2-dependent completeness decisions, packet-readiness conclusions, and assessed snapshots blocked. Do not interpret my acceptance of the groundwork as resolving those gaps or accepting final business outcomes.
+Give me a concise list of the exact evidence or authoritative clarification still needed for G1/G2, with source references and consequences. Do not draft interview questions. Keep the narrower conflicts scoped to their affected records.
+Continue verifying genuine capture for meaningful commits. Keep everything local while the publication/access arrangement remains unresolved; remote syncing and facilitator access must remain explicitly pending.
+At the next meaningful review point, show me actual results, what was independently checked, remaining limitations, and the decision you need from me. Do not claim full implementation or submission readiness yet.
