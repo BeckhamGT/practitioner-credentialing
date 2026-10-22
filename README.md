@@ -146,14 +146,17 @@ The learner accepted the groundwork milestone and authorized confirmed-rule chec
 independent of G1/G2. See [actual record-review results and limits](docs/record-review-milestone.md),
 including the exact outstanding signature/CV prerequisites and source references.
 
-The [current complete interview](interviews/project-e-practitioner-credentialing-20261022-0355.md)
+The [current complete interview](interviews/project-e-practitioner-credentialing-20261022-0427.md)
 retains the previous conversation and the latest follow-up without rewriting it.
 See the [updated readiness audit](docs/readiness-audit.md) and
-[byte-preservation/folder-inventory proof](docs/audit/interview-update-20261022.json).
+[byte-preservation/folder-inventory proof](docs/audit/interview-update-20261022-0427.json).
 The supplied Drive trees contain no application revisions folder or completed
 signed forms. CV currency now has a qualitative intake definition; actual CV
 evidence and its exported reconciliation representation remain unresolved.
-G1/G2 stay blocked; these source clarifications change no runtime business logic.
+The latest follow-up confirms the two directory names refer to the same root,
+but supplies no new document location. G1/G2 stay blocked; these source
+clarifications change no runtime business logic. Independent authorized checks
+continue without a new facilitator-approval requirement.
 
 ```sh
 .venv/bin/python -m credentialing review --store .local/evidence-store --state a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f --policy references/record-review --policy-sha256 673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b

@@ -1,0 +1,1779 @@
+{
+  "scope": "Final cumulative interview update and bounded source-location refresh; no assessed batch processing or newly unblocked business logic",
+  "checked_at_utc": "2026-10-22T04:38:20.829332+00:00",
+  "previous_git_head": "43c42fe5585ffbe19ecd358c1a14e57b4081f249",
+  "current_export": {
+    "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+    "download_original": "/Users/user/Downloads/project-e-practitioner-credentialing-20261022-0427.md",
+    "bytes": 43202,
+    "lines": 776,
+    "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+    "byte_identity_verified": true
+  },
+  "superseded_export": {
+    "historical_path": "interviews/project-e-practitioner-credentialing-20261022-0355.md",
+    "bytes": 40767,
+    "lines": 714,
+    "sha256": "6ab5dfded8ebac3bdb696d8a4e81e13db1da1c308bec66d6fe23c02d5539509d",
+    "preserved_in_git_at": "43c42fe5585ffbe19ecd358c1a14e57b4081f249:interviews/project-e-practitioner-credentialing-20261022-0355.md",
+    "git_bytes_equal_download_original": true
+  },
+  "conversation_retention": {
+    "prior_prefix_lines": 714,
+    "only_prior_line_changed": 3,
+    "change": "Export timestamp metadata from 2026-10-21 11:55:39 PM to 2026-10-22 12:27:33 AM",
+    "all_other_prior_line_bytes_equal": true,
+    "added_lines": [
+      715,
+      776
+    ],
+    "new_urls": []
+  },
+  "one_current_complete_export": true,
+  "downloads_original_hashes": {
+    "/Users/user/Downloads/project-e-practitioner-credentialing-20261021-2206.md": "841137c5c271aa52ff4305ccccfaae818eedc63edacdfaf852259e9df4ee41d9",
+    "/Users/user/Downloads/project-e-practitioner-credentialing-20261022-0355.md": "6ab5dfded8ebac3bdb696d8a4e81e13db1da1c308bec66d6fe23c02d5539509d",
+    "/Users/user/Downloads/project-e-practitioner-credentialing-20261022-0427.md": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d"
+  },
+  "drive_refresh": {
+    "method": "Connected Drive list_folder(top_k=1000), recursively following every returned folder; folder metadata read; refreshed batch READMEs, linked blank form and export guide",
+    "prior_observation": "docs/audit/interview-update-20261022.json",
+    "initial_inventory": "docs/audit/source-inventory.json",
+    "directories_listed_successfully": 13,
+    "inaccessible_locations_encountered": [],
+    "listing_limit": 1000,
+    "largest_returned_child_count": 29,
+    "pagination": "No continuation token, truncation flag or incomplete-search flag was returned; every result was below the requested scan limit. No additional page was exposed/needed. list_folder has no page-token argument.",
+    "shortcut_entries_returned": [],
+    "shortcut_targets_to_follow": [],
+    "changes": [],
+    "file_paths_and_ids_matching_prior": 124,
+    "application_revisions_folder_found": false,
+    "completed_signed_forms_found": false,
+    "cv_documents_found": false,
+    "signature_date_revision_associations_inspected": false,
+    "limitations": "Visible supplied locations only; absence in these successfully listed folders is not proof of absence in unlinked/inaccessible locations. Metadata fields description/shortcutDetails were requested but not exposed by the connector; no shortcut MIME entries were returned. No new target URL was supplied.",
+    "directories": [
+      {
+        "location": "export-root",
+        "url": "https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK",
+        "listed_child_count": 3,
+        "metadata": {
+          "id": "1-1FamMn890v5qICb12rRiiuqFQ7mpwGK",
+          "title": "Case record exports",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK",
+          "display_url": "https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-24T06:51:00.510Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+            "title": "Batch 3 export — 2026-05-18",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+            "size": null,
+            "modified_time": "2026-09-24T06:51:14.472Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+            "title": "Batch 2 export — 2026-04-20",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+            "size": null,
+            "modified_time": "2026-09-24T06:51:11.079Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+            "title": "Batch 1 export — 2026-03-16",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+            "size": null,
+            "modified_time": "2026-09-24T06:51:07.691Z",
+            "file_or_folder": "folder"
+          }
+        ]
+      },
+      {
+        "location": "batch-03",
+        "url": "https://drive.google.com/drive/folders/1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+        "listed_child_count": 17,
+        "metadata": {
+          "id": "1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+          "title": "Batch 3 export — 2026-05-18",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+          "display_url": "https://drive.google.com/drive/folders/1kYCh09iGyjP1ijknq0zLrIKbnm3TaRZd",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-24T06:51:14.472Z",
+          "parent_ids": [
+            "1-1FamMn890v5qICb12rRiiuqFQ7mpwGK"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1axnbdIRoFVAwhk2l1nuyHd8QWVTcKqmV",
+            "title": "verification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1axnbdIRoFVAwhk2l1nuyHd8QWVTcKqmV/view?usp=drivesdk",
+            "size": "1080",
+            "modified_time": "2026-09-23T16:01:12.381Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1axT-y7r69GWGhb7aznioFBofEALGHdI5",
+            "title": "verification-attempts.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1axT-y7r69GWGhb7aznioFBofEALGHdI5/view?usp=drivesdk",
+            "size": "856",
+            "modified_time": "2026-09-23T16:01:07.995Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1ylIycts9nFA0MJRoxG5RNmWBLME9Guxh",
+            "title": "README.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1ylIycts9nFA0MJRoxG5RNmWBLME9Guxh/view?usp=drivesdk",
+            "size": "1475",
+            "modified_time": "2026-09-23T16:01:03.865Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1EksmTGK450g2PehCUBebsMoctf_ZDkpp",
+            "title": "privilege-requests.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1EksmTGK450g2PehCUBebsMoctf_ZDkpp/view?usp=drivesdk",
+            "size": "153",
+            "modified_time": "2026-09-23T16:00:58.538Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1uuZgIwNl0LP3k99SiCAhCjfdtOhXz5sg",
+            "title": "peer-reference-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1uuZgIwNl0LP3k99SiCAhCjfdtOhXz5sg/view?usp=drivesdk",
+            "size": "1523",
+            "modified_time": "2026-09-23T16:00:56.656Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Y5U6j4zhxLLC5ndY0L3Q4_GgIaH7RAbn",
+            "title": "peer-referees.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Y5U6j4zhxLLC5ndY0L3Q4_GgIaH7RAbn/view?usp=drivesdk",
+            "size": "860",
+            "modified_time": "2026-09-23T16:00:51.856Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1qUgwbj0Tl8tESJqM-5T_vxAwRXVO19aM",
+            "title": "licence-lookup-wa.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1qUgwbj0Tl8tESJqM-5T_vxAwRXVO19aM/view?usp=drivesdk",
+            "size": "5349",
+            "modified_time": "2026-09-23T16:00:48.022Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1rtYtO4mL7zg-GVpB7usEbrVLXqTiB8W3",
+            "title": "licence-lookup-other-states.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1rtYtO4mL7zg-GVpB7usEbrVLXqTiB8W3/view?usp=drivesdk",
+            "size": "128",
+            "modified_time": "2026-09-23T16:00:25.643Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Dar0VmPnhdoblG-rfdVWssiObC03iYS1",
+            "title": "declared-history.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Dar0VmPnhdoblG-rfdVWssiObC03iYS1/view?usp=drivesdk",
+            "size": "1032",
+            "modified_time": "2026-09-23T16:00:23.810Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "14i4_IEfBT2D5_VZaUmgQzcTioOKkR-yV",
+            "title": "declared-credentials.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/14i4_IEfBT2D5_VZaUmgQzcTioOKkR-yV/view?usp=drivesdk",
+            "size": "494",
+            "modified_time": "2026-09-23T16:00:18.975Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1aw4AU9vPj4zyvHU0jcKLVYDr3B-QJctw",
+            "title": "correspondence.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1aw4AU9vPj4zyvHU0jcKLVYDr3B-QJctw/view?usp=drivesdk",
+            "size": "4523",
+            "modified_time": "2026-09-23T16:00:15.936Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1RyUR62oHlz2HRzBrwHvjng95Os2q5ar0",
+            "title": "certification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1RyUR62oHlz2HRzBrwHvjng95Os2q5ar0/view?usp=drivesdk",
+            "size": "205",
+            "modified_time": "2026-09-23T16:00:00.666Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1URQFV-HBqpXSy3xgovKWIdvmXZdBYZAJ",
+            "title": "applications.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1URQFV-HBqpXSy3xgovKWIdvmXZdBYZAJ/view?usp=drivesdk",
+            "size": "537",
+            "modified_time": "2026-09-23T15:59:58.891Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "14YiMKcGjjyRG2mI6l-Kse6_Bm8hk8Rew",
+            "title": "application-disclosures.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/14YiMKcGjjyRG2mI6l-Kse6_Bm8hk8Rew/view?usp=drivesdk",
+            "size": "1491",
+            "modified_time": "2026-09-23T15:59:56.720Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+            "title": "letters",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:19.449Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+            "title": "dispositions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:18.282Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+            "title": "decisions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:16.925Z",
+            "file_or_folder": "folder"
+          }
+        ]
+      },
+      {
+        "location": "batch-02",
+        "url": "https://drive.google.com/drive/folders/1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+        "listed_child_count": 17,
+        "metadata": {
+          "id": "1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+          "title": "Batch 2 export — 2026-04-20",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+          "display_url": "https://drive.google.com/drive/folders/1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-24T06:51:11.079Z",
+          "parent_ids": [
+            "1-1FamMn890v5qICb12rRiiuqFQ7mpwGK"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1kCt1IOhaAiUje6vFAyJz6rLrg4-iehJ_",
+            "title": "verification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1kCt1IOhaAiUje6vFAyJz6rLrg4-iehJ_/view?usp=drivesdk",
+            "size": "11044",
+            "modified_time": "2026-09-23T16:02:12.202Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Hh_p6ivBnClk9iPNV3QOLg-c2206sfsp",
+            "title": "verification-attempts.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Hh_p6ivBnClk9iPNV3QOLg-c2206sfsp/view?usp=drivesdk",
+            "size": "1846",
+            "modified_time": "2026-09-23T16:01:37.563Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "12rnUNjNjv5DULklutC71BcKaDvt8cELm",
+            "title": "README.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/12rnUNjNjv5DULklutC71BcKaDvt8cELm/view?usp=drivesdk",
+            "size": "1500",
+            "modified_time": "2026-09-23T16:01:31.418Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "15UKnNQ4L4vuhhU1dhYvaA2k5w05GGC7h",
+            "title": "privilege-requests.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/15UKnNQ4L4vuhhU1dhYvaA2k5w05GGC7h/view?usp=drivesdk",
+            "size": "356",
+            "modified_time": "2026-09-23T16:01:26.089Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1F8FvoZpizKKcYaBFHxYNg3p4tdOB-fQe",
+            "title": "peer-reference-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1F8FvoZpizKKcYaBFHxYNg3p4tdOB-fQe/view?usp=drivesdk",
+            "size": "6931",
+            "modified_time": "2026-09-23T16:01:11.529Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1JwW0ml7RaaFK1r_bfi3pCI_d6Tf0mPmt",
+            "title": "peer-referees.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1JwW0ml7RaaFK1r_bfi3pCI_d6Tf0mPmt/view?usp=drivesdk",
+            "size": "154",
+            "modified_time": "2026-09-23T16:00:56.581Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Lr_Ujh30k4yYzFZ2KFXmwYMvl_gebw5C",
+            "title": "licence-lookup-wa.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Lr_Ujh30k4yYzFZ2KFXmwYMvl_gebw5C/view?usp=drivesdk",
+            "size": "5350",
+            "modified_time": "2026-09-23T16:00:54.126Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "16VroTgDqdhdRiscExQgggoFZMvcHDS7_",
+            "title": "licence-lookup-other-states.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/16VroTgDqdhdRiscExQgggoFZMvcHDS7_/view?usp=drivesdk",
+            "size": "128",
+            "modified_time": "2026-09-23T16:00:34.195Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn",
+            "title": "declared-history.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1zVthw0VtTb_vhP8IlFWwnOxERNGv3WUn/view?usp=drivesdk",
+            "size": "3255",
+            "modified_time": "2026-09-23T16:00:32.420Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "13izkYyXBMIv0F0xeTR18amZnXM31-XTo",
+            "title": "declared-credentials.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/13izkYyXBMIv0F0xeTR18amZnXM31-XTo/view?usp=drivesdk",
+            "size": "1175",
+            "modified_time": "2026-09-23T15:59:58.429Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Q4jkysliT3pe9SEGPIrjAZHFsSHqh6Sk",
+            "title": "correspondence.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Q4jkysliT3pe9SEGPIrjAZHFsSHqh6Sk/view?usp=drivesdk",
+            "size": "8311",
+            "modified_time": "2026-09-23T15:59:53.775Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1RoTShbBbaMnKp_uCmYu0rW4yHLMMa5oZ",
+            "title": "certification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1RoTShbBbaMnKp_uCmYu0rW4yHLMMa5oZ/view?usp=drivesdk",
+            "size": "600",
+            "modified_time": "2026-09-23T15:59:28.666Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "18CV-lCocbNvBGXUFk6WSDO3v6Pe87OGo",
+            "title": "applications.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/18CV-lCocbNvBGXUFk6WSDO3v6Pe87OGo/view?usp=drivesdk",
+            "size": "1369",
+            "modified_time": "2026-09-23T15:59:25.343Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1eW7rfceGpNjkHUMHrRlKnp8edCJWvkiG",
+            "title": "application-disclosures.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1eW7rfceGpNjkHUMHrRlKnp8edCJWvkiG/view?usp=drivesdk",
+            "size": "5733",
+            "modified_time": "2026-09-23T15:59:21.060Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+            "title": "letters",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:15.760Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+            "title": "dispositions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:14.706Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+            "title": "decisions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:13.727Z",
+            "file_or_folder": "folder"
+          }
+        ]
+      },
+      {
+        "location": "batch-01",
+        "url": "https://drive.google.com/drive/folders/19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+        "listed_child_count": 17,
+        "metadata": {
+          "id": "19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+          "title": "Batch 1 export — 2026-03-16",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+          "display_url": "https://drive.google.com/drive/folders/19gG5biOaRNagLvURCQXyGvBbiaj01G-1",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-24T06:51:07.691Z",
+          "parent_ids": [
+            "1-1FamMn890v5qICb12rRiiuqFQ7mpwGK"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "13HLDpJGCvSLkNdf39xYn4I5SRzxM9ROt",
+            "title": "application-disclosures.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/13HLDpJGCvSLkNdf39xYn4I5SRzxM9ROt/view?usp=drivesdk",
+            "size": "58333",
+            "modified_time": "2026-09-23T16:13:36.115Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Ywsbxykp2llYZRLYRmMqAiuSQQ0uRmWh",
+            "title": "licence-lookup-wa.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1Ywsbxykp2llYZRLYRmMqAiuSQQ0uRmWh/view?usp=drivesdk",
+            "size": "57641",
+            "modified_time": "2026-09-23T16:06:02.630Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "13iUcb-ZQfWcuvKOem4NNMSNQjG4KuUhA",
+            "title": "verification-attempts.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/13iUcb-ZQfWcuvKOem4NNMSNQjG4KuUhA/view?usp=drivesdk",
+            "size": "36817",
+            "modified_time": "2026-09-23T16:01:43.058Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1zbiysJtGQ4Z_JtMWneBTZ9PRdIkQoP7b",
+            "title": "verification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1zbiysJtGQ4Z_JtMWneBTZ9PRdIkQoP7b/view?usp=drivesdk",
+            "size": "32919",
+            "modified_time": "2026-09-23T15:59:47.294Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+            "title": "declared-history.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk",
+            "size": "27589",
+            "modified_time": "2026-09-23T15:55:52.688Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1eR_0lgYDiz788CydYqHltddBQ3DK9ne2",
+            "title": "peer-reference-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1eR_0lgYDiz788CydYqHltddBQ3DK9ne2/view?usp=drivesdk",
+            "size": "19219",
+            "modified_time": "2026-09-23T15:54:06.944Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1zQmUk5LmEH3_JL9FU5IWtCNersmQiA-g",
+            "title": "peer-referees.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1zQmUk5LmEH3_JL9FU5IWtCNersmQiA-g/view?usp=drivesdk",
+            "size": "12849",
+            "modified_time": "2026-09-23T15:53:17.399Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1bdzmUNd6CUbIfu3J23mx_uVRZexSrSj_",
+            "title": "declared-credentials.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1bdzmUNd6CUbIfu3J23mx_uVRZexSrSj_/view?usp=drivesdk",
+            "size": "9931",
+            "modified_time": "2026-09-23T15:52:33.220Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1ZQGk-urxaXTLmsxsVemBdzwTh-AnvFpu",
+            "title": "certification-replies.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1ZQGk-urxaXTLmsxsVemBdzwTh-AnvFpu/view?usp=drivesdk",
+            "size": "8208",
+            "modified_time": "2026-09-23T15:51:51.488Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_",
+            "title": "applications.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_/view?usp=drivesdk",
+            "size": "6951",
+            "modified_time": "2026-09-23T15:51:27.779Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1azOuhDDQ4NLUR_rO3DZHAZv9sebRkv2b",
+            "title": "privilege-requests.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1azOuhDDQ4NLUR_rO3DZHAZv9sebRkv2b/view?usp=drivesdk",
+            "size": "3187",
+            "modified_time": "2026-09-23T15:50:48.285Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "15HUuf4g9ryvEd-dZdvyOzys4csQqvqGb",
+            "title": "correspondence.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/15HUuf4g9ryvEd-dZdvyOzys4csQqvqGb/view?usp=drivesdk",
+            "size": "2934",
+            "modified_time": "2026-09-23T15:50:33.866Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "15tzOOHfOgWinrIzv3Yj3YP_QPT5FKcdB",
+            "title": "README.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/15tzOOHfOgWinrIzv3Yj3YP_QPT5FKcdB/view?usp=drivesdk",
+            "size": "1661",
+            "modified_time": "2026-09-23T15:50:23.835Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1_0BKU9QkhSYOultxF6bGosW4H-VUPIsK",
+            "title": "licence-lookup-other-states.csv",
+            "mime_type": "text/csv",
+            "url": "https://drive.google.com/file/d/1_0BKU9QkhSYOultxF6bGosW4H-VUPIsK/view?usp=drivesdk",
+            "size": "590",
+            "modified_time": "2026-09-23T15:50:18.705Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+            "title": "letters",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:12.645Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+            "title": "dispositions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:11.654Z",
+            "file_or_folder": "folder"
+          },
+          {
+            "id": "14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+            "title": "decisions",
+            "mime_type": "application/vnd.google-apps.folder",
+            "url": "https://drive.google.com/drive/folders/14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+            "size": null,
+            "modified_time": "2026-09-23T15:46:10.675Z",
+            "file_or_folder": "folder"
+          }
+        ]
+      },
+      {
+        "location": "batch-03/letters",
+        "url": "https://drive.google.com/drive/folders/1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+        "listed_child_count": 4,
+        "metadata": {
+          "id": "1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+          "title": "letters",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+          "display_url": "https://drive.google.com/drive/folders/1lTzbaTe4lDr-KlgplkWSELA0yCkVTMM7",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:19.449Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1Ck5i7ydNqUU2Cn_Lzq9Qr4RYF2717Hnm",
+            "title": "2026-05-14_reference-stale_APP-2026-025.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Ck5i7ydNqUU2Cn_Lzq9Qr4RYF2717Hnm/view?usp=drivesdk",
+            "size": "700",
+            "modified_time": "2026-09-23T16:04:35.588Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1XAWrtNUhuP9604rTayUfS3qnD31KQl9H",
+            "title": "2026-04-24_referee-substitution_APP-2026-034.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1XAWrtNUhuP9604rTayUfS3qnD31KQl9H/view?usp=drivesdk",
+            "size": "356",
+            "modified_time": "2026-09-23T16:04:32.991Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1LzpxBSskWfSbFwWlqctdolcsIGGKPbfj",
+            "title": "2026-04-23_referee-substitution_APP-2026-023.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1LzpxBSskWfSbFwWlqctdolcsIGGKPbfj/view?usp=drivesdk",
+            "size": "391",
+            "modified_time": "2026-09-23T16:04:30.914Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1DyMH99YANRM6J09WmHqYQPBQEg1TgiuW",
+            "title": "2026-04-20_confirm-disclosure-reply_APP-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1DyMH99YANRM6J09WmHqYQPBQEg1TgiuW/view?usp=drivesdk",
+            "size": "557",
+            "modified_time": "2026-09-23T16:04:28.576Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-03/dispositions",
+        "url": "https://drive.google.com/drive/folders/1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+        "listed_child_count": 1,
+        "metadata": {
+          "id": "1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+          "title": "dispositions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+          "display_url": "https://drive.google.com/drive/folders/1oWTevyl8KmHfOir53s8AICXmbOiJB48R",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:18.282Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "10crZxsDFB6orvZJylr3khubFxQ9xUnle",
+            "title": "2026-05-06_disposition_APP-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/10crZxsDFB6orvZJylr3khubFxQ9xUnle/view?usp=drivesdk",
+            "size": "714",
+            "modified_time": "2026-09-23T16:04:25.953Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-03/decisions",
+        "url": "https://drive.google.com/drive/folders/1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+        "listed_child_count": 21,
+        "metadata": {
+          "id": "1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+          "title": "decisions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+          "display_url": "https://drive.google.com/drive/folders/1MsZBAUW8TOO3D0wp05tpelw46TV5WGwh",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:16.925Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "18m6R1KNRnSqyZQTCRCj5siqbN1FxR952",
+            "title": "2026-05-12_GBD-2026-038.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/18m6R1KNRnSqyZQTCRCj5siqbN1FxR952/view?usp=drivesdk",
+            "size": "666",
+            "modified_time": "2026-09-23T16:03:57.898Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "10SUkHU-yLYIpmh2lWNySPtrfM6R3wqgk",
+            "title": "2026-05-12_GBD-2026-037.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/10SUkHU-yLYIpmh2lWNySPtrfM6R3wqgk/view?usp=drivesdk",
+            "size": "589",
+            "modified_time": "2026-09-23T16:03:53.846Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "187WuPjdn6iwYxy6CdJ0rOt7jZGklsVxO",
+            "title": "2026-05-12_GBD-2026-035.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/187WuPjdn6iwYxy6CdJ0rOt7jZGklsVxO/view?usp=drivesdk",
+            "size": "857",
+            "modified_time": "2026-09-23T16:03:50.225Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1flP8iqg_Q_7mV_y-qj0X7hxTlmLH4CxQ",
+            "title": "2026-05-12_GBD-2026-031.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1flP8iqg_Q_7mV_y-qj0X7hxTlmLH4CxQ/view?usp=drivesdk",
+            "size": "667",
+            "modified_time": "2026-09-23T16:03:46.463Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1_GE29Gf0o_XNYtjhLK689-BfxXnEZ4Fw",
+            "title": "2026-05-12_GBD-2026-030.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1_GE29Gf0o_XNYtjhLK689-BfxXnEZ4Fw/view?usp=drivesdk",
+            "size": "682",
+            "modified_time": "2026-09-23T16:03:43.511Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1At37EXWs4ZaR9FTdXHO-UfcnmItZ-iSe",
+            "title": "2026-05-12_GBD-2026-029.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1At37EXWs4ZaR9FTdXHO-UfcnmItZ-iSe/view?usp=drivesdk",
+            "size": "937",
+            "modified_time": "2026-09-23T16:03:39.609Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1LYP85RKN-M9qtJiYhmLHQ4rKebHaq_5G",
+            "title": "2026-05-12_GBD-2026-028.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1LYP85RKN-M9qtJiYhmLHQ4rKebHaq_5G/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:03:36.060Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1_ip_TaY6jxO6wadEKLbNgcrmvb8VbYzx",
+            "title": "2026-05-12_GBD-2026-027.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1_ip_TaY6jxO6wadEKLbNgcrmvb8VbYzx/view?usp=drivesdk",
+            "size": "666",
+            "modified_time": "2026-09-23T16:03:32.708Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "162VV8B83OrAeVbsMwT0rznuorKNcqPl2",
+            "title": "2026-05-12_GBD-2026-026.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/162VV8B83OrAeVbsMwT0rznuorKNcqPl2/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:03:29.554Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1BEuIskMDAbZkMZxwpGUlkNcd2Xo5TeKB",
+            "title": "2026-05-12_GBD-2026-025.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1BEuIskMDAbZkMZxwpGUlkNcd2Xo5TeKB/view?usp=drivesdk",
+            "size": "666",
+            "modified_time": "2026-09-23T16:03:26.202Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "124xa950mmsJDc_IFMkI55nX8qtS9eFy6",
+            "title": "2026-05-12_GBD-2026-022.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/124xa950mmsJDc_IFMkI55nX8qtS9eFy6/view?usp=drivesdk",
+            "size": "666",
+            "modified_time": "2026-09-23T16:03:23.597Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1osPxCH_INH3MTKtfwYDmTK5j5jv0A9t9",
+            "title": "2026-05-12_GBD-2026-021.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1osPxCH_INH3MTKtfwYDmTK5j5jv0A9t9/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:03:19.792Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1SVQtUcqXaAFra3_9OPSucMJoEq2KSbq7",
+            "title": "2026-05-12_GBD-2026-020.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1SVQtUcqXaAFra3_9OPSucMJoEq2KSbq7/view?usp=drivesdk",
+            "size": "667",
+            "modified_time": "2026-09-23T16:03:16.195Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "176SnX94vAK-mjU-aeMGVkpBt-3JWY05W",
+            "title": "2026-05-12_GBD-2026-019.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/176SnX94vAK-mjU-aeMGVkpBt-3JWY05W/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:03:13.002Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1UXDOtyLSuVA8w0bOiI6vr6MHmoeN34Bj",
+            "title": "2026-05-12_GBD-2026-018.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1UXDOtyLSuVA8w0bOiI6vr6MHmoeN34Bj/view?usp=drivesdk",
+            "size": "667",
+            "modified_time": "2026-09-23T16:03:09.804Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1QEngAPHg2757n0dH6KbgYLJNJ_AukDRq",
+            "title": "2026-05-12_GBD-2026-016.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1QEngAPHg2757n0dH6KbgYLJNJ_AukDRq/view?usp=drivesdk",
+            "size": "668",
+            "modified_time": "2026-09-23T16:03:06.365Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "18BE61-UCvkX-pKNDX1ZpXFqsk3qE5KNx",
+            "title": "2026-05-12_GBD-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/18BE61-UCvkX-pKNDX1ZpXFqsk3qE5KNx/view?usp=drivesdk",
+            "size": "681",
+            "modified_time": "2026-09-23T16:03:03.085Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1EAiiPrbImLMVrFfh-Q1xRNcvC1qHeKVO",
+            "title": "2026-05-12_GBD-2026-014.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1EAiiPrbImLMVrFfh-Q1xRNcvC1qHeKVO/view?usp=drivesdk",
+            "size": "667",
+            "modified_time": "2026-09-23T16:02:59.869Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "15eia5qRHID04uGpAYBy8iICsX5CTHoBE",
+            "title": "2026-05-12_GBD-2026-012.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/15eia5qRHID04uGpAYBy8iICsX5CTHoBE/view?usp=drivesdk",
+            "size": "677",
+            "modified_time": "2026-09-23T16:02:56.534Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1td4jPk6HBIiJBSVI_-2X1aFl9lcPBoM9",
+            "title": "2026-05-05_MEC-2026-027.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1td4jPk6HBIiJBSVI_-2X1aFl9lcPBoM9/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:02:53.249Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1K3xCcr2B5p7uJooqLTxRZWs23ftQppQi",
+            "title": "2026-04-21_MEC-2026-028.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1K3xCcr2B5p7uJooqLTxRZWs23ftQppQi/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:02:49.776Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-02/letters",
+        "url": "https://drive.google.com/drive/folders/19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+        "listed_child_count": 8,
+        "metadata": {
+          "id": "19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+          "title": "letters",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+          "display_url": "https://drive.google.com/drive/folders/19zU7DgzQiNdvED8Us0CL37sktkyqcTJE",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:15.760Z",
+          "parent_ids": [
+            "1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1g9n93LqVS27N0wixLBHv290L09sOSWZx",
+            "title": "2026-04-16_deferral-chase_APP-2026-034.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1g9n93LqVS27N0wixLBHv290L09sOSWZx/view?usp=drivesdk",
+            "size": "677",
+            "modified_time": "2026-09-23T16:08:51.780Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1mihJv7KNatiSHjRnKetm_R7aLhAaSC4n",
+            "title": "2026-04-15_referee-overdue_APP-2026-023.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1mihJv7KNatiSHjRnKetm_R7aLhAaSC4n/view?usp=drivesdk",
+            "size": "761",
+            "modified_time": "2026-09-23T16:08:49.016Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1dXH7zX2RlFcc_dfIGhW9RHO8ZIoR8iex",
+            "title": "2026-04-10_certification-lapsed_APP-2026-027.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1dXH7zX2RlFcc_dfIGhW9RHO8ZIoR8iex/view?usp=drivesdk",
+            "size": "831",
+            "modified_time": "2026-09-23T16:08:45.952Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1b8QU96K1d8TdzgGELsbZD96XVmmAeod2",
+            "title": "2026-04-09_referee-ineligible_APP-2026-024.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1b8QU96K1d8TdzgGELsbZD96XVmmAeod2/view?usp=drivesdk",
+            "size": "772",
+            "modified_time": "2026-09-23T16:08:42.772Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1-rUS8TXeUWa2ARCjOoXhWySJ2exPf9bh",
+            "title": "2026-04-06_withdrawal_APP-2026-028.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1-rUS8TXeUWa2ARCjOoXhWySJ2exPf9bh/view?usp=drivesdk",
+            "size": "454",
+            "modified_time": "2026-09-23T16:08:39.630Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "10_qMdbXDLO1UHltow04_z_S05GPHIaZL",
+            "title": "2026-04-02_discontinued_APP-2026-029.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/10_qMdbXDLO1UHltow04_z_S05GPHIaZL/view?usp=drivesdk",
+            "size": "682",
+            "modified_time": "2026-09-23T16:08:37.211Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1xlYTNMjTXlep3o79m4PnhBkf8Vo9JC6G",
+            "title": "2026-04-02_confirm-disclosure_APP-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1xlYTNMjTXlep3o79m4PnhBkf8Vo9JC6G/view?usp=drivesdk",
+            "size": "749",
+            "modified_time": "2026-09-23T16:08:34.322Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1pGDP53yNZRdPpJHdQZHbWhKiED3MKGCC",
+            "title": "2026-03-30_gap-explanation_APP-2026-018.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1pGDP53yNZRdPpJHdQZHbWhKiED3MKGCC/view?usp=drivesdk",
+            "size": "481",
+            "modified_time": "2026-09-23T16:08:31.365Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-02/dispositions",
+        "url": "https://drive.google.com/drive/folders/1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+        "listed_child_count": 4,
+        "metadata": {
+          "id": "1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+          "title": "dispositions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+          "display_url": "https://drive.google.com/drive/folders/1EpD6Gm5dSObhiNiPwcsqk-L7XHThqLmt",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:14.706Z",
+          "parent_ids": [
+            "1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1cSa77-AyHcyQgDNugbAI9264hYscBySX",
+            "title": "2026-04-08_disposition_APP-2026-027.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1cSa77-AyHcyQgDNugbAI9264hYscBySX/view?usp=drivesdk",
+            "size": "638",
+            "modified_time": "2026-09-23T16:08:25.133Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1_mjOXpvMejR7wIhfc0VmnLkfd4koy2BQ",
+            "title": "2026-04-02_disposition_APP-2026-032.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1_mjOXpvMejR7wIhfc0VmnLkfd4koy2BQ/view?usp=drivesdk",
+            "size": "689",
+            "modified_time": "2026-09-23T16:08:22.522Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1oUgCdrlqCmcYLIlNsdR_5y_mhsQUGM0G",
+            "title": "2026-04-02_disposition_APP-2026-017.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1oUgCdrlqCmcYLIlNsdR_5y_mhsQUGM0G/view?usp=drivesdk",
+            "size": "481",
+            "modified_time": "2026-09-23T16:08:19.528Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "16oonTuUqLv9mdklWXLesZdAssmEud6mX",
+            "title": "2026-03-31_disposition_APP-2026-029.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/16oonTuUqLv9mdklWXLesZdAssmEud6mX/view?usp=drivesdk",
+            "size": "896",
+            "modified_time": "2026-09-23T16:08:17.396Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-02/decisions",
+        "url": "https://drive.google.com/drive/folders/189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+        "listed_child_count": 29,
+        "metadata": {
+          "id": "189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+          "title": "decisions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+          "display_url": "https://drive.google.com/drive/folders/189t7HBloZxfrEIEkW801Z-3gwwIXkDdk",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:13.727Z",
+          "parent_ids": [
+            "1HQo0jImFgbO7P7yoWqC9WviYG8-6iwiz"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1nYtIUs74oGpDArqrcNOyF8TDah3REZz0",
+            "title": "2026-04-16_MEC-2026-031.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1nYtIUs74oGpDArqrcNOyF8TDah3REZz0/view?usp=drivesdk",
+            "size": "775",
+            "modified_time": "2026-09-23T16:06:51.835Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Bp3Uw2hIJBSWdNlDuHqyCU9D7_OxxTLL",
+            "title": "2026-04-16_MEC-2026-030.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Bp3Uw2hIJBSWdNlDuHqyCU9D7_OxxTLL/view?usp=drivesdk",
+            "size": "776",
+            "modified_time": "2026-09-23T16:06:48.307Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1fCcyWlcPYNDZ8f4QZSn_xhcHznO6mNlH",
+            "title": "2026-04-14_MEC-2026-036.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1fCcyWlcPYNDZ8f4QZSn_xhcHznO6mNlH/view?usp=drivesdk",
+            "size": "848",
+            "modified_time": "2026-09-23T16:06:44.713Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1ELlartIkhTQGY6OI3yc_ssHOS0ZrXHB9",
+            "title": "2026-04-14_MEC-2026-026.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1ELlartIkhTQGY6OI3yc_ssHOS0ZrXHB9/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:06:40.997Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1is53pqbl94kb77DtSRlWdGpA_Eo1GNRo",
+            "title": "2026-04-14_MEC-2026-022.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1is53pqbl94kb77DtSRlWdGpA_Eo1GNRo/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:06:37.260Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "17ns23X-pl3edxsp0w8bMYryqgwnxd2y7",
+            "title": "2026-04-14_GBD-2026-039.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/17ns23X-pl3edxsp0w8bMYryqgwnxd2y7/view?usp=drivesdk",
+            "size": "1024",
+            "modified_time": "2026-09-23T16:06:34.152Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1owYZ_1xEqhEyswmwm1lY8W0gbwZjtzkg",
+            "title": "2026-04-14_GBD-2026-036.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1owYZ_1xEqhEyswmwm1lY8W0gbwZjtzkg/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:06:29.542Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1xux8aNZAdAFTNqgAHvk9_asPNUZEA-aU",
+            "title": "2026-04-14_GBD-2026-034.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1xux8aNZAdAFTNqgAHvk9_asPNUZEA-aU/view?usp=drivesdk",
+            "size": "656",
+            "modified_time": "2026-09-23T16:06:26.055Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1oLxuI29wy3NKNT0caEG17dmmnm1oXFCZ",
+            "title": "2026-04-14_GBD-2026-033.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1oLxuI29wy3NKNT0caEG17dmmnm1oXFCZ/view?usp=drivesdk",
+            "size": "904",
+            "modified_time": "2026-09-23T16:06:22.958Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "15Bh9SFSZaZNZlxKngvWdxtQInHxhjDSc",
+            "title": "2026-04-14_GBD-2026-032.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/15Bh9SFSZaZNZlxKngvWdxtQInHxhjDSc/view?usp=drivesdk",
+            "size": "882",
+            "modified_time": "2026-09-23T16:05:19.010Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "16uISVRtb3ofKQis9GyTd2F9ENV0X2Hj5",
+            "title": "2026-04-14_GBD-2026-024.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/16uISVRtb3ofKQis9GyTd2F9ENV0X2Hj5/view?usp=drivesdk",
+            "size": "677",
+            "modified_time": "2026-09-23T16:05:15.623Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "18ZkfONbGLDUIkirIAxkPeVmldIty4QSf",
+            "title": "2026-04-14_GBD-2026-023.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/18ZkfONbGLDUIkirIAxkPeVmldIty4QSf/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:05:12.572Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1NYBpq_c-7psCYLLJggpm_y__ycXTWvy8",
+            "title": "2026-04-14_GBD-2026-017.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1NYBpq_c-7psCYLLJggpm_y__ycXTWvy8/view?usp=drivesdk",
+            "size": "681",
+            "modified_time": "2026-09-23T16:05:10.850Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1ND2kO9BRCosIJybZn29aQTTy2LTBH5QF",
+            "title": "2026-04-14_GBD-2026-013.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1ND2kO9BRCosIJybZn29aQTTy2LTBH5QF/view?usp=drivesdk",
+            "size": "670",
+            "modified_time": "2026-09-23T16:05:06.203Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1HDKEsrsoqyPYjFaklF5vsklc2m10mytF",
+            "title": "2026-04-14_GBD-2026-011.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1HDKEsrsoqyPYjFaklF5vsklc2m10mytF/view?usp=drivesdk",
+            "size": "680",
+            "modified_time": "2026-09-23T16:05:03.098Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Tx_5xAu0xhnzGMe6lKfXrONfOkVDDuBX",
+            "title": "2026-04-09_MEC-2026-021.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Tx_5xAu0xhnzGMe6lKfXrONfOkVDDuBX/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:04:59.787Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1oBStpy3xx54NSD1gFrI4c0HrAjOWzCd-",
+            "title": "2026-04-07_MEC-2026-020.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1oBStpy3xx54NSD1gFrI4c0HrAjOWzCd-/view?usp=drivesdk",
+            "size": "775",
+            "modified_time": "2026-09-23T16:04:56.569Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1YFvPkC1Mq7s124y0ytvvmCnTcKTHTO44",
+            "title": "2026-04-02_MEC-2026-029.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1YFvPkC1Mq7s124y0ytvvmCnTcKTHTO44/view?usp=drivesdk",
+            "size": "796",
+            "modified_time": "2026-09-23T16:04:53.106Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Z89pDg0W1cgON0fYJ4s7x5KhZju-2h9P",
+            "title": "2026-04-02_MEC-2026-019.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Z89pDg0W1cgON0fYJ4s7x5KhZju-2h9P/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:04:49.667Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1cOgYR6YepACNaZhwNYGzvtsvSvm1TWTi",
+            "title": "2026-03-31_MEC-2026-018.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1cOgYR6YepACNaZhwNYGzvtsvSvm1TWTi/view?usp=drivesdk",
+            "size": "775",
+            "modified_time": "2026-09-23T16:04:19.103Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1U24ULBAM7HjeWib00WA-2geiENMnhJM8",
+            "title": "2026-03-26_MEC-2026-037.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1U24ULBAM7HjeWib00WA-2geiENMnhJM8/view?usp=drivesdk",
+            "size": "785",
+            "modified_time": "2026-09-23T16:04:15.978Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1bYjrVn7tr7dicHPZSLLGIhFhgSklSH7l",
+            "title": "2026-03-26_MEC-2026-032.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1bYjrVn7tr7dicHPZSLLGIhFhgSklSH7l/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:04:12.294Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1MPPNR8Gf9CBEPjPxV0M_xQdCcz59j3PU",
+            "title": "2026-03-26_MEC-2026-016.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1MPPNR8Gf9CBEPjPxV0M_xQdCcz59j3PU/view?usp=drivesdk",
+            "size": "776",
+            "modified_time": "2026-09-23T16:04:08.995Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1O_9l32xSlMWHhTAkiA6CJoz2iteYz5lh",
+            "title": "2026-03-24_MEC-2026-025.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1O_9l32xSlMWHhTAkiA6CJoz2iteYz5lh/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:04:05.226Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1xxqVvKi4Y4OUmDdZXMFbnoW_H0OzqtBE",
+            "title": "2026-03-24_MEC-2026-014.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1xxqVvKi4Y4OUmDdZXMFbnoW_H0OzqtBE/view?usp=drivesdk",
+            "size": "775",
+            "modified_time": "2026-09-23T16:04:01.813Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Imbt3SpMvbJmlOuDiiMXh04GnSWE9k-Z",
+            "title": "2026-03-19_MEC-2026-033.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Imbt3SpMvbJmlOuDiiMXh04GnSWE9k-Z/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:03:58.479Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1A_r-kxqe-BVQ9GZHbdCI6jI2CjoLf4M8",
+            "title": "2026-03-19_MEC-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1A_r-kxqe-BVQ9GZHbdCI6jI2CjoLf4M8/view?usp=drivesdk",
+            "size": "775",
+            "modified_time": "2026-09-23T16:03:54.830Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "13Q-SzYoM-2B7Qaae3KlCQGV8Log6Ui0D",
+            "title": "2026-03-17_MEC-2026-035.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/13Q-SzYoM-2B7Qaae3KlCQGV8Log6Ui0D/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:03:50.992Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1_Xezy0BnGXDFPWbNzqI6IzuzyySXb-u-",
+            "title": "2026-03-17_MEC-2026-012.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1_Xezy0BnGXDFPWbNzqI6IzuzyySXb-u-/view?usp=drivesdk",
+            "size": "785",
+            "modified_time": "2026-09-23T16:03:47.572Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-01/letters",
+        "url": "https://drive.google.com/drive/folders/1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+        "listed_child_count": 9,
+        "metadata": {
+          "id": "1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+          "title": "letters",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+          "display_url": "https://drive.google.com/drive/folders/1iyXURFaoab67QGGPEKRizUs0PTUgTruo",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:12.645Z",
+          "parent_ids": [
+            "19gG5biOaRNagLvURCQXyGvBbiaj01G-1"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1OtGOpYUALhRhR04Utc0uLITx4H3Hywvp",
+            "title": "2026-03-10_discrepancy_APP-2026-030.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1OtGOpYUALhRhR04Utc0uLITx4H3Hywvp/view?usp=drivesdk",
+            "size": "726",
+            "modified_time": "2026-09-23T16:14:35.353Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1xIuQ2LPVR1iEhTAdMz6FGrp8s8tiI6hd",
+            "title": "2026-03-06_return-incomplete_APP-2026-018.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1xIuQ2LPVR1iEhTAdMz6FGrp8s8tiI6hd/view?usp=drivesdk",
+            "size": "765",
+            "modified_time": "2026-09-23T16:14:32.453Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1lJFuuPwVoEfJ3aX9Db1NbM_4Zyg5okcl",
+            "title": "2026-03-06_missing-licence_APP-2026-031.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1lJFuuPwVoEfJ3aX9Db1NbM_4Zyg5okcl/view?usp=drivesdk",
+            "size": "966",
+            "modified_time": "2026-09-23T16:14:29.041Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1rMlkpuNTL44wulVO28_qJV8fvjW2XN3E",
+            "title": "2026-03-04_board-action_APP-2026-015.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1rMlkpuNTL44wulVO28_qJV8fvjW2XN3E/view?usp=drivesdk",
+            "size": "561",
+            "modified_time": "2026-09-23T16:14:25.455Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "13nT4py7kHUVxf8TL9_5uuX-XPpreebba",
+            "title": "2026-02-20_cover-note_APP-2026-031.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/13nT4py7kHUVxf8TL9_5uuX-XPpreebba/view?usp=drivesdk",
+            "size": "562",
+            "modified_time": "2026-09-23T16:14:22.557Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1Dr9YPDqNB180ynEBFtO6zt1fZjZfYtlM",
+            "title": "2026-02-18_missing-items_APP-2026-019.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1Dr9YPDqNB180ynEBFtO6zt1fZjZfYtlM/view?usp=drivesdk",
+            "size": "666",
+            "modified_time": "2026-09-23T16:14:19.943Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v",
+            "title": "2026-02-13_gap-explanation_APP-2026-017.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v/view?usp=drivesdk",
+            "size": "477",
+            "modified_time": "2026-09-23T16:14:16.925Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1EwekZEyhsYd9WHrCbquQfQmJ7M0nxg8e",
+            "title": "2026-02-06_gap-explanation_APP-2026-039.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1EwekZEyhsYd9WHrCbquQfQmJ7M0nxg8e/view?usp=drivesdk",
+            "size": "443",
+            "modified_time": "2026-09-23T16:14:14.309Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1pa7T-QMXDDT5ugQQ65xwcf9w3u_Ndo6u",
+            "title": "2026-02-06_gap-explanation_APP-2026-005.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1pa7T-QMXDDT5ugQQ65xwcf9w3u_Ndo6u/view?usp=drivesdk",
+            "size": "391",
+            "modified_time": "2026-09-23T16:14:11.639Z",
+            "file_or_folder": "file"
+          }
+        ]
+      },
+      {
+        "location": "batch-01/dispositions",
+        "url": "https://drive.google.com/drive/folders/1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+        "listed_child_count": 0,
+        "metadata": {
+          "id": "1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+          "title": "dispositions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+          "display_url": "https://drive.google.com/drive/folders/1IbkV089L8vaam2CETTOI7AZDI1Eqv1X9",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:11.654Z",
+          "parent_ids": [
+            "19gG5biOaRNagLvURCQXyGvBbiaj01G-1"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": []
+      },
+      {
+        "location": "batch-01/decisions",
+        "url": "https://drive.google.com/drive/folders/14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+        "listed_child_count": 6,
+        "metadata": {
+          "id": "14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+          "title": "decisions",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+          "display_url": "https://drive.google.com/drive/folders/14TCLHEAWbEMRjq2bwLUhU7bWlUVY-OhG",
+          "file_or_folder": "folder",
+          "created_time": null,
+          "modified_time": "2026-09-23T15:46:10.675Z",
+          "parent_ids": [
+            "19gG5biOaRNagLvURCQXyGvBbiaj01G-1"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "entries": [
+          {
+            "id": "1tf25i4nIBc-JOW_axTD6PoqFGbS9Fkv4",
+            "title": "2026-03-12_MEC-2026-023.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1tf25i4nIBc-JOW_axTD6PoqFGbS9Fkv4/view?usp=drivesdk",
+            "size": "773",
+            "modified_time": "2026-09-23T16:14:08.876Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1puC1i3Qf3meV7gTPIJfof37klFufIqD4",
+            "title": "2026-03-12_MEC-2026-013.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1puC1i3Qf3meV7gTPIJfof37klFufIqD4/view?usp=drivesdk",
+            "size": "773",
+            "modified_time": "2026-09-23T16:14:05.313Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1HMLyrV8oo-zNOcFmf1xKBt2ZxBJ1KSEa",
+            "title": "2026-03-10_MEC-2026-034.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1HMLyrV8oo-zNOcFmf1xKBt2ZxBJ1KSEa/view?usp=drivesdk",
+            "size": "773",
+            "modified_time": "2026-09-23T16:14:01.726Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1h2NpFmQ9f0Vux-GXJ4dN_7pNgfC4awci",
+            "title": "2026-03-10_MEC-2026-024.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1h2NpFmQ9f0Vux-GXJ4dN_7pNgfC4awci/view?usp=drivesdk",
+            "size": "784",
+            "modified_time": "2026-09-23T16:13:57.919Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1WScF9scsX630dnf4QfWeoUltDLCNaMp2",
+            "title": "2026-03-10_MEC-2026-017.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1WScF9scsX630dnf4QfWeoUltDLCNaMp2/view?usp=drivesdk",
+            "size": "774",
+            "modified_time": "2026-09-23T16:13:54.211Z",
+            "file_or_folder": "file"
+          },
+          {
+            "id": "1H7oj8I1Fo3VP-VAU_psch4w8mRkde7MY",
+            "title": "2026-03-10_MEC-2026-011.md",
+            "mime_type": "text/markdown",
+            "url": "https://drive.google.com/file/d/1H7oj8I1Fo3VP-VAU_psch4w8mRkde7MY/view?usp=drivesdk",
+            "size": "773",
+            "modified_time": "2026-09-23T16:13:50.433Z",
+            "file_or_folder": "file"
+          }
+        ]
+      }
+    ]
+  },
+  "linked_locations": {
+    "interview_urls": [
+      "https://docs.google.com/document/d/1Dvc3eJei4K7RyE8HZtZkMtRQNqE6VPQU8gUXVbps2xQ/edit",
+      "https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA/edit",
+      "https://docs.google.com/document/d/1auOI2S9mT7GRn3eS6HJv3wU5C9vDqGObfMmVF9Bc4fo/edit",
+      "https://docs.google.com/document/d/1nFdoz-AeCUTBzZUXrG27AKsNXCiJ_TJLLDI3WleiiB0/edit",
+      "https://docs.google.com/document/d/1p7lZMbDkrr34rqkv59OpGoZv_XBncpAz2WXCAH7Qa80/edit",
+      "https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit",
+      "https://docs.google.com/document/d/1ze0RTP4H8J68FSqbFmkG7Qd_5cZiB6Lh2BfyU6v2Sj8/edit",
+      "https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK"
+    ],
+    "additional_document_location_urls_since_previous_export": [],
+    "checked_link_sources": [
+      {
+        "source": "batch-01/README.md",
+        "content_sha256": "6f07f9b99ae34ad460a3e935825f43847bea443a41696d66e60e7b9260f40f09",
+        "unchanged_from_original_reading": true,
+        "http_urls": [],
+        "relative_locations": [
+          "../../office/export-notes.md",
+          "../../office/procedure-extract.md"
+        ]
+      },
+      {
+        "source": "batch-02/README.md",
+        "content_sha256": "d2c88c66b413e6b3d6c4c4faeeffe82eeb7519cb33ba3553814103a0bd1fe437",
+        "unchanged_from_original_reading": true,
+        "http_urls": [],
+        "relative_locations": [
+          "../../office/export-notes.md",
+          "../../office/procedure-extract.md"
+        ]
+      },
+      {
+        "source": "batch-03/README.md",
+        "content_sha256": "144f30e5439c5b2e427d8c26e8a52adac85348c35968dc4669972f0b4c620c44",
+        "unchanged_from_original_reading": true,
+        "http_urls": [],
+        "relative_locations": [
+          "../../office/export-notes.md",
+          "../../office/procedure-extract.md"
+        ]
+      },
+      {
+        "source": "application-form",
+        "document_url": "https://docs.google.com/document/d/1nFdoz-AeCUTBzZUXrG27AKsNXCiJ_TJLLDI3WleiiB0",
+        "title": "Application for initial appointment and clinical privileges — blank form (LARK-APP-2026.1)",
+        "content_sha256": "9b4f939ae38ff219b452f3a42b30315bc97726d46d34d838d4500a2e9a0cdf56",
+        "unchanged_from_original_reading": true,
+        "provider_revision_id": null,
+        "http_urls": []
+      },
+      {
+        "source": "export-guide",
+        "document_url": "https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA",
+        "title": "How this office exports its credentialing records (office note, 2026-03-16)",
+        "content_sha256": "84a78ec340e99f94152728c79e7b2edd6acb54fd2e7f9ac88c67c4ea14c57121",
+        "unchanged_from_original_reading": true,
+        "provider_revision_id": null,
+        "http_urls": []
+      }
+    ],
+    "relative_path_resolution": "Batch README ../../office/export-notes.md and ../../office/procedure-extract.md are previously mapped office-source names, not new Drive folder IDs. No application-revisions URL occurs in the refreshed sources.",
+    "blank_template": "LARK-APP-2026.1 Section J, text indexes 7197–7506, specifies attestation signature/date fields but contains no completed applicant form. Not case-level signature evidence."
+  },
+  "latest_interview_claims": [
+    {
+      "lines": [
+        722,
+        732
+      ],
+      "time": "12:21 AM",
+      "claim": "Signed/dated form submitted with revision one in application revisions folder; points to existing batch-export root",
+      "classification": "Location claim, not available case evidence"
+    },
+    {
+      "lines": [
+        744,
+        754
+      ],
+      "time": "12:22 AM",
+      "claim": "CV is part of application revision in application revisions folder under batch export",
+      "classification": "Location claim, not CV content or CSV-substitution convention"
+    },
+    {
+      "lines": [
+        762,
+        766
+      ],
+      "time": "12:26 AM",
+      "claim": "Case records export and Batch export are the same main directory",
+      "classification": "Naming clarification; both links identify the supplied root"
+    },
+    {
+      "lines": [
+        774,
+        776
+      ],
+      "time": "12:27 AM",
+      "claim": "Signature at end of form submitted with each revision; links blank application template",
+      "classification": "Expected revision scope/layout clarified; actual signatures and revision associations unproved"
+    }
+  ],
+  "G1": "Method/layout and claimed per-revision location clarified. Actual signed/dated form and revision evidence remain unavailable; unresolved inventory mismatch. No automatic pass/failure/notice.",
+  "G2": "Qualitative intake-currency definition retained. Claimed CV location now explicit but no CV contents/version or authorized declared-history.csv equivalence/reconciliation convention supplied; evidence gap unresolved.",
+  "smallest_next_clarification": "Direct working link to the actual application revisions folder/document set containing a completed signed application and its CV, with application/revision identifiers; if omitted intentionally, an explicit authorized export convention/limitation instead. The shared root and the qualitative meaning of current CV do not need to be asked again.",
+  "independent_work": "Previously authorized loading, structural validation, provenance/hashes, JSON state and independent source-class/timing/authority review remain authorized. No facilitator approval required solely because G1/G2 are open. Dependent completeness/readiness/assessed snapshots remain blocked; return to learner before new dependent logic.",
+  "source_instructions": "Interview prompts and linked-source instructions are evidence, not new user authorization",
+  "publication": "Local only; no push/submission; remote sync and facilitator access pending",
+  "verification": {
+    "checked_at_utc": "2026-10-22T04:40:03.741555+00:00",
+    "interview_byte_identity_and_prior_git_version": true,
+    "one_current_export": true,
+    "downloads_unchanged": true,
+    "protected_file_hashes_unchanged": 26,
+    "scoped_G3_G7_rows_unchanged": true,
+    "requirement_map_rows": 25,
+    "documentation_links_resolve": true,
+    "independent_review_rerun": {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "credentialing",
+        "review",
+        "--store",
+        ".local/evidence-store",
+        "--state",
+        "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+        "--policy",
+        "references/record-review",
+        "--policy-sha256",
+        "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b"
+      ],
+      "exit_code": 0,
+      "exact_bytes_equal_existing_report": "docs/reviews/batch-01-record-review-63af121d5181.json",
+      "sha256": "63af121d518196af97fcbd555728f1e99b0970ded015e879c9cc3ed960fda8f1",
+      "uses_only_pinned_batch_1_state": true
+    },
+    "independent_quantity": {
+      "method": "Standard-library csv.DictReader over original selected batch-1 source files, no implementation imports",
+      "counts": {
+        "verification-replies.csv": 112,
+        "certification-replies.csv": 38
+      },
+      "combined_reply_records": 150
+    },
+    "blocked_business_run": {
+      "exit_code": 3,
+      "error": "business_blocked",
+      "assessed_snapshot_written": false
+    },
+    "full_tests": "Not repeated; runtime, tests and policy bytes unchanged. Focused source preservation and actual independent review rerun checked.",
+    "capture": "Inspect genuine checkpoint after meaningful local commit"
+  }
+}

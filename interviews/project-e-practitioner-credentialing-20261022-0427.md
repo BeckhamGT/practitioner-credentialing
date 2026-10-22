@@ -1,6 +1,6 @@
 # Project E — Practitioner Credentialing Interview
 
-Participant: Beckham Vo · Exported: 10/21/2026, 11:55:39 PM
+Participant: Beckham Vo · Exported: 10/22/2026, 12:27:33 AM
 
 ## Renata Kowalczyk · Medical Services Professional, Medical Staff Office
 
@@ -712,3 +712,65 @@ The curriculum vitae represents the applicant's declared professional history. I
 **Renata Kowalczyk** · Voice · 11:54 PM
 
 Which specific part of the workflow would you like to explore next?
+
+**Beckham Vo** · Voice · 12:21 AM
+
+Where can we find application signature?
+
+**Renata Kowalczyk** · Voice · 12:21 AM
+
+The signed application form, including the applicant's signature and date, is submitted as part of revision one and is located within the application revisions folder for that specific batch among the case records.
+
+**Beckham Vo** · Voice · 12:21 AM
+
+Can you provide me the folder?
+
+**Renata Kowalczyk** · Voice · 12:21 AM
+
+The case records, organized into sub-folders per batch, can be found in the Batch export folder. What part of the workflow are you investigating next?
+
+- [Batch export folder](https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK)
+
+**Renata Kowalczyk** · Voice · 12:21 AM
+
+Which part of the workflow are you investigating next?
+
+**Beckham Vo** · Voice · 12:22 AM
+
+I cannot find the CV evidence.
+
+**Renata Kowalczyk** · Voice · 12:22 AM
+
+The curriculum vitae is submitted by the applicant as part of the application revision. You can find it within the application revisions folder for each batch in the case records.
+
+**Beckham Vo** · Voice · 12:22 AM
+
+Can you provide me that?
+
+**Renata Kowalczyk** · Voice · 12:22 AM
+
+The curriculum vitae is located in the application revisions folder within the batch export folder.
+
+- [Batch export folder](https://drive.google.com/drive/folders/1-1FamMn890v5qICb12rRiiuqFQ7mpwGK)
+
+**Renata Kowalczyk** · Voice · 12:22 AM
+
+Which part of the workflow are you investigating next?
+
+**Beckham Vo** · Voice · 12:26 AM
+
+Why is the case records export folder and the batch export folder the same link?
+
+**Renata Kowalczyk** · Voice · 12:26 AM
+
+They are the same because that main directory holds all the subfolders for each batched credentialing export. Are there any other aspects of the records you want to look into?
+
+**Beckham Vo** · Voice · 12:27 AM
+
+I cannot find the exact location of applicant signature in the folder.
+
+**Renata Kowalczyk** · Voice · 12:27 AM
+
+The applicant's signature is located at the end of the application form, which is submitted with each revision inside the application revisions folder. You can review the layout in the Application for initial appointment and clinical privileges — blank form.
+
+- [Application for initial appointment and clinical privileges — blank form (LARK-APP-2026.1)](https://docs.google.com/document/d/1nFdoz-AeCUTBzZUXrG27AKsNXCiJ_TJLLDI3WleiiB0/edit)
