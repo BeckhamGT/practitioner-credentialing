@@ -1774,6 +1774,6 @@
       "assessed_snapshot_written": false
     },
     "full_tests": "Not repeated; runtime, tests and policy bytes unchanged. Focused source preservation and actual independent review rerun checked.",
-    "capture": "Inspect genuine checkpoint after meaningful local commit"
+    "capture": "Genuine meaningful-commit checkpoint verified after commit; see docs/audit/interview-update-capture-20261022-0427.json"
   }
 }

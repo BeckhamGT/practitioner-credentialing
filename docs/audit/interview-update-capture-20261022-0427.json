@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-22T04:41:09.522364+00:00",
+  "commit": "0550058fdef51caaaf3700e98c8eaf7c9db5fb8d",
+  "checkpoint_id": "01M5GYJ78YW0P39KW1R3KXBZE0",
+  "checkpoint_ref": "refs/entire/checkpoints/E0/01M5GYJ78YW0P39KW1R3KXBZE0",
+  "checkpoint_object": "fd0584955e2a730822e7e60eb64160ee62b1a5ac",
+  "actual_session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "commit_trailer_matches": true,
+  "session_metadata_matches": true,
+  "stored_git_transcript_equals_cli_export": true,
+  "stored_transcript_path": "0/full.jsonl",
+  "transcript_bytes": 7234183,
+  "transcript_records": 1105,
+  "transcript_sha256": "4b1f144c1c3844bb104b60dff55c9eac7e0ab49ca3619e9e7d5969bcdd166d18",
+  "actual_transcript_matches": {
+    "current_user_request": [
+      "2026-10-22T04:35:32.325Z"
+    ],
+    "byte_preservation_tool_record": [
+      "2026-10-22T04:38:20.697Z",
+      "2026-10-22T04:38:20.855Z"
+    ],
+    "inventory_refresh_tool_record": [
+      "2026-10-22T04:36:26.206Z",
+      "2026-10-22T04:36:42.471Z",
+      "2026-10-22T04:37:05.750Z"
+    ],
+    "independent_review_verification_tool_record": [
+      "2026-10-22T04:40:03.449Z",
+      "2026-10-22T04:40:03.769Z"
+    ]
+  },
+  "committed_interview_bytes_equal_download": true,
+  "committed_interview_sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+  "metadata_limitations": "This checkpoint envelope exposes no files_touched list; actual preservation, inventory and verification tool records were inspected in the stored Git transcript. Commit bytes independently verify the interview. Metadata configuration alone was not used as capture proof.",
+  "proof_timing": "Recorded after the source-update commit; preserved in a subsequent documentation commit.",
+  "remote_sync": "pending; no push authorized or attempted",
+  "facilitator_access": "pending; not demonstrated"
+}
