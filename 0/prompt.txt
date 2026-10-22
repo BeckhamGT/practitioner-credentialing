@@ -1,12 +1,3 @@
-I reviewed the groundwork verification and capture proof, and they look good. I accept this groundwork milestone.
-Continue with work that is supported by confirmed rules and independent of G1/G2. First identify the next bounded scope and explain why it does not depend on application-signature evidence or CV currency/reconciliation. Then implement and verify that scope, preserving source history, batch isolation, and human authority.
-Keep G1/G2-dependent completeness decisions, packet-readiness conclusions, and assessed snapshots blocked. Do not interpret my acceptance of the groundwork as resolving those gaps or accepting final business outcomes.
-Give me a concise list of the exact evidence or authoritative clarification still needed for G1/G2, with source references and consequences. Do not draft interview questions. Keep the narrower conflicts scoped to their affected records.
-Continue verifying genuine capture for meaningful commits. Keep everything local while the publication/access arrangement remains unresolved; remote syncing and facilitator access must remain explicitly pending.
-At the next meaningful review point, show me actual results, what was independently checked, remaining limitations, and the decision you need from me. Do not claim full implementation or submission readiness yet.
-
----
-
 # Files mentioned by the user:
 
 ## project-e-practitioner-credentialing-20261022-0355.md: /Users/user/Downloads/project-e-practitioner-credentialing-20261022-0355.md
@@ -37,3 +28,11 @@ Report briefly:
 2. Whether the application revisions folder and signed forms were found.
 3. What changed in G1/G2 and what remains unresolved.
 4. The next decision or clarification needed from me.
+
+---
+
+<environment_context>
+  <current_date>2026-10-22</current_date>
+  <timezone>America/New_York</timezone>
+  <filesystem><workspace_roots><root>/Users/user/fellowship/practitioner-credentialing</root><root>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>/Users/user/fellowship/practitioner-credentialing</path></entry><entry access="write"><path>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="read"><path>/Users/user/fellowship/practitioner-credentialing/.git</path></entry><entry access="read"><path>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e/.git</path></entry><entry access="read"><path>/Users/user/fellowship/practitioner-credentialing/.agents</path></entry><entry access="read"><path>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e/.agents</path></entry><entry access="read"><path>/Users/user/fellowship/practitioner-credentialing/.codex</path></entry><entry access="read"><path>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e/.codex</path></entry><entry access="read"><path>/Users/user/fellowship/practitioner-credentialing/.aws</path></entry><entry access="read"><path>/Users/user/.codex/visualizations/2026/10/21/01a15fd1-860f-7210-a8ec-b2a637129c5e/.aws</path></entry></file_system></permission_profile></filesystem>
+</environment_context>
