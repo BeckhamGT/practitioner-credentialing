@@ -1,0 +1,51 @@
+{
+  "assessed_snapshots_absent": true,
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "credentialing",
+    "review",
+    "--store",
+    ".local/evidence-store",
+    "--state",
+    "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+    "--policy",
+    "references/record-review",
+    "--policy-sha256",
+    "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b"
+  ],
+  "delivery_route_counts": {
+    "Applicant": 1,
+    "Certifying board": 38,
+    "Graduate medical education office": 33,
+    "Medical staff office": 41,
+    "Registrar's office": 36,
+    "State medical society": 1
+  },
+  "evidence_head_unchanged": true,
+  "facilitator_access": "pending; not demonstrated",
+  "independent_method": "Separate Python standard-library CSV/date/regex/hash checks of actual source files; no imports from credentialing implementation",
+  "input_state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+  "interview_original_hash_preserved": true,
+  "oldest_peer": {
+    "days_from_export_to_anniversary": 50,
+    "reply_id": "RR-2500",
+    "second_anniversary": "2026-05-05",
+    "signature": "2024-05-05"
+  },
+  "policy_sha256": "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b",
+  "prior_unreviewed_report_path": "docs/reviews/batch-01-record-review-1638d5576c72.json",
+  "raw_reply_rows": 150,
+  "remote_sync": "pending; no push",
+  "report_path": "docs/reviews/batch-01-record-review-63af121d5181.json",
+  "report_revision_reason": "Narrowed peer relationship field label to box-only and made relationship-text assessment explicitly not evaluated; no source record changed.",
+  "report_sha256": "63af121d518196af97fcbd555728f1e99b0970ded015e879c9cc3ed960fda8f1",
+  "rerun_bytes_identical": true,
+  "review_examples": [
+    "VR-2000 applicant delivery",
+    "VR-2201 unlisted society",
+    "VR-3002 preserved discrepancy"
+  ],
+  "scope": "Independent record review only; no application outcome",
+  "six_original_mec_records_inspected": true
+}

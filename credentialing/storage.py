@@ -40,9 +40,13 @@ class Store:
             return None
         head = read_json(head_path.read_bytes())
         schema_validate(head, HEAD_SCHEMA)
+        return self.at(head["sha256"])
+
+    def at(self, state_sha256: str):
+        """Read only this occurrence and its predecessors, never a newer HEAD."""
         chain = []
         visited = set()
-        sha = head["sha256"]
+        sha = state_sha256
         while sha is not None:
             if sha in visited:
                 raise GroundworkError("corrupt_state", "State chain contains a cycle")
@@ -65,7 +69,11 @@ class Store:
             if manifest["batch"] != batch or (previous_date and manifest["as_of"] < previous_date):
                 raise GroundworkError("corrupt_state", "State sequence or export clock is invalid")
             previous_date = manifest["as_of"]
-        return {"sha256": head["sha256"], "state": chain[0][1], "summary": chain[0][2], "chain": ordered}
+        return {"sha256": state_sha256, "state": chain[0][1], "summary": chain[0][2], "chain": ordered}
+
+    def blob(self, sha256: str) -> bytes:
+        """Read a hash-verified retained source, without touching HEAD."""
+        return self._object("blobs", sha256)
 
     @contextmanager
     def locked(self):

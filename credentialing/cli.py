@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 from .storage import Store
+from .review import review
 from .validation import GroundworkError, load_batch
 
 
@@ -23,12 +24,19 @@ def main(argv=None) -> int:
             command.add_argument("--previous-state", help="Exact prior state SHA-256; required for continuation")
     command = commands.add_parser("inspect-state")
     command.add_argument("--store", type=Path, required=True)
+    command = commands.add_parser("review", help="Read-only independent record checks; never a credentialing snapshot")
+    command.add_argument("--store", type=Path, required=True)
+    command.add_argument("--state", required=True, help="Exact evidence-state SHA; never infer from a newer HEAD")
+    command.add_argument("--policy", type=Path, required=True)
+    command.add_argument("--policy-sha256", required=True)
     commands.add_parser("run", help="Reserved business operation: blocked until source clarification and learner review")
     args = parser.parse_args(argv)
     try:
         if args.command == "run":
             raise GroundworkError("business_blocked", "G1/G2 unresolved; completeness, packet readiness, assessed snapshots and business actions are disabled")
-        if args.command == "inspect-state":
+        if args.command == "review":
+            result = review(Store(args.store), args.state, args.policy, args.policy_sha256)
+        elif args.command == "inspect-state":
             current = Store(args.store).current()
             if current is None:
                 raise GroundworkError("missing_state", "No current evidence state; no state was reconstructed")

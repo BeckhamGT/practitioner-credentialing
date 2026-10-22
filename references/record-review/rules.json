@@ -1,0 +1,95 @@
+{
+  "body_outcomes": {
+    "Credentials Committee": [
+      "recommended",
+      "not recommended",
+      "deferred-pending-information"
+    ],
+    "Executive Committee of the Medical Staff": [
+      "recommended",
+      "not recommended",
+      "deferred-pending-information"
+    ],
+    "Governing Body": [
+      "approved",
+      "approved-with-conditions",
+      "deferred-pending-information",
+      "denied"
+    ]
+  },
+  "designated_certification_sources": [
+    "American Board of Medical Specialties (ABMS) certification verification",
+    "CertiFACTS",
+    "American Medical Association Physician Profile",
+    "American Osteopathic Association Physician Profile",
+    "American Board of Physician Specialties (ABPS)",
+    "American Nurses Credentialing Center (ANCC)",
+    "National Commission on Certification of Physician Assistants (NCCPA)"
+  ],
+  "designated_education_sources": [
+    "Educational Commission for Foreign Medical Graduates (ECFMG)",
+    "Federation Credentials Verification Service of the Federation of State Medical Boards (FCVS)",
+    "American Medical Association Physician Profile",
+    "American Osteopathic Association Physician Profile",
+    "National Student Clearinghouse"
+  ],
+  "format": "credentialing-record-review-rules/1",
+  "peer_years": 2,
+  "roles": [
+    {
+      "body": "Governing Body",
+      "designation_from": null,
+      "from": "2025-01-01",
+      "name": "Ms. Corinne Batiste",
+      "role": "Chair, Governing Body",
+      "to": "2027-12-31"
+    },
+    {
+      "body": "Governing Body",
+      "designation_from": "2026-01-05",
+      "from": "2026-01-01",
+      "name": "Mr. Desmond Ihejirika",
+      "role": "Vice-Chair, Governing Body",
+      "to": "2026-12-31"
+    },
+    {
+      "body": "Executive Committee of the Medical Staff",
+      "designation_from": null,
+      "from": "2026-01-01",
+      "name": "Dr. Peter Vandermolen, MD",
+      "role": "Chair, Executive Committee of the Medical Staff",
+      "to": "2027-12-31"
+    },
+    {
+      "body": "Credentials Committee",
+      "designation_from": null,
+      "from": "2025-07-01",
+      "name": "Dr. Anneke Thorvald, MD",
+      "role": "Chair, Credentials Committee",
+      "to": "2027-06-30"
+    }
+  ],
+  "sources": {
+    "ATT": {
+      "effective_from": "2026-01-01",
+      "path": "accepted-sources.txt",
+      "sha256": "3e3b7da8f5582958b037939c6ab3681e015ce4a29fa704f0b91da28c37e03620",
+      "url": "https://docs.google.com/document/d/1ze0RTP4H8J68FSqbFmkG7Qd_5cZiB6Lh2BfyU6v2Sj8",
+      "version": "LARK-ATT-2026.1"
+    },
+    "AUTH": {
+      "effective_from": "2026-01-01",
+      "path": "authority.txt",
+      "sha256": "37baaf8a28fbfc3fcea688fb35f1a85cf7cc7e665bebe1539eb9faa890cb65c6",
+      "url": "https://docs.google.com/document/d/1Dvc3eJei4K7RyE8HZtZkMtRQNqE6VPQU8gUXVbps2xQ",
+      "version": "LARK-AUTH-2026.1"
+    },
+    "P": {
+      "effective_from": "2026-01-01",
+      "path": "procedure.txt",
+      "sha256": "e62cb335326de7a1b3ea0e7fb53c58d21a0ba655cdfba1a1cad505634f0d5dd0",
+      "url": "https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk",
+      "version": "LARK-MSO-2026.1"
+    }
+  }
+}
