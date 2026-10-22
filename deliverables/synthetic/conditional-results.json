@@ -1,0 +1,152 @@
+{
+  "activation_before_start": {
+    "activation": {
+      "active_at_export": false,
+      "cycle_end": "2027-03-31",
+      "effective_date": "2026-04-01",
+      "privileges": [
+        "PRIV-FM"
+      ]
+    },
+    "evaluated": true
+  },
+  "activation_on_start": {
+    "activation": {
+      "active_at_export": true,
+      "cycle_end": "2027-03-31",
+      "effective_date": "2026-04-01",
+      "privileges": [
+        "PRIV-FM"
+      ]
+    },
+    "evaluated": true
+  },
+  "assumptions": "Completeness, signed application, current CV, reconciliation, verified elements and lawful disposition are explicit test assumptions, not inferred export facts",
+  "condition_unmet_on_due_date": [
+    {
+      "blocks_activation": false,
+      "condition": "SYNTH named requirement",
+      "due": "2026-04-20",
+      "finding": true,
+      "owner": "Clinical Director",
+      "satisfaction_records": [],
+      "satisfied": false
+    }
+  ],
+  "conditional_admission": {
+    "admitted": true,
+    "reason": null
+  },
+  "evidence_kind": "SYNTHETIC ONLY \u2014 not supplied-applicant results",
+  "extra_unanswered_request_after_presentation": {
+    "closure": "no-longer-needed",
+    "counts_as_reference": false,
+    "holds_element": false
+  },
+  "extra_unanswered_request_before_presentation": {
+    "closure": "not-closed-by-this-rule",
+    "counts_as_reference": false,
+    "holds_element": false
+  },
+  "packet_when_completeness_unknown": {
+    "application_id": "SYNTH-ONLY",
+    "date": null,
+    "failed_checks": [],
+    "presentable": null,
+    "retained_element_states": {
+      "certification": "resolved",
+      "education": "resolved",
+      "experience": "resolved",
+      "gaps": "resolved",
+      "licensure": "finding",
+      "references": "resolved"
+    },
+    "revision": 1,
+    "unevaluated_dependencies": [
+      "completeness"
+    ]
+  },
+  "packet_when_cv_reconciliation_unknown": {
+    "application_id": "SYNTH-ONLY",
+    "date": null,
+    "failed_checks": [],
+    "presentable": null,
+    "retained_element_states": {
+      "certification": "resolved",
+      "education": "resolved",
+      "experience": "resolved",
+      "gaps": "resolved",
+      "licensure": "finding",
+      "references": "resolved"
+    },
+    "revision": 1,
+    "unevaluated_dependencies": [
+      "CV reconciliation"
+    ]
+  },
+  "packet_with_retained_finding": {
+    "application_id": "SYNTH-ONLY",
+    "date": "2026-03-14",
+    "failed_checks": [],
+    "presentable": true,
+    "retained_element_states": {
+      "certification": "resolved",
+      "education": "resolved",
+      "experience": "resolved",
+      "gaps": "resolved",
+      "licensure": "finding",
+      "references": "resolved"
+    },
+    "revision": 1,
+    "unevaluated_dependencies": []
+  },
+  "provided_test_facts": {
+    "application_id": "SYNTH-ONLY",
+    "complete": true,
+    "cv_reconciled": true,
+    "elements": {
+      "certification": {
+        "nothing_owed": true,
+        "state": "resolved"
+      },
+      "education": {
+        "nothing_owed": true,
+        "state": "resolved"
+      },
+      "experience": {
+        "nothing_owed": true,
+        "state": "resolved"
+      },
+      "gaps": {
+        "nothing_owed": true,
+        "state": "resolved"
+      },
+      "licensure": {
+        "nothing_owed": true,
+        "state": "finding"
+      },
+      "references": {
+        "nothing_owed": true,
+        "state": "resolved"
+      }
+    },
+    "last_needed_reply_date": "2026-03-14",
+    "open_discrepancy": false,
+    "revision": 1,
+    "usable_verifications": true
+  },
+  "test_decision": {
+    "Application": "SYNTH-ONLY",
+    "Body": "Governing Body",
+    "Decision ID": "SYNTH-GB-ONLY",
+    "Decision date": "2026-03-15",
+    "Effective date": "2026-04-01",
+    "Outcome": "approved-with-conditions",
+    "Privileges": "PRIV-FM",
+    "Reason": "Synthetic condition attached",
+    "Revision": "1",
+    "Role": "Chair, Governing Body",
+    "Signatory": "Ms. Corinne Batiste",
+    "Supersedes": ""
+  }
+}

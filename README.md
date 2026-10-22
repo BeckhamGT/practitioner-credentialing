@@ -25,11 +25,13 @@ You create the Skill, its implementation, your own checks and every output the t
 - Complete the program's coding-session capture setup in the course before assessed work, and confirm your session is being captured after your first meaningful commit. Ask the facilitator to repair missing capture before you continue.
 - Meet the stakeholder to obtain the relevant business source links and context; the facilitator supplies the interview link with the assignment. Read those online sources through the intended access route.
 
-## Authorized groundwork — not a completed credentialing Skill
+## Current implementation — evidence review and conditional components
 
-The learner selected a Python CLI and explicit persisted JSON state. Only loading,
-structural validation, provenance, hashing, state storage, the command interface,
-and read-only independent record checks are implemented. **G1 (application-signature evidence) and G2 (CV currency and
+The learner selected a Python CLI and explicit persisted JSON state. Loading,
+structural validation, provenance, hashing, state storage, independent record
+checks and chronological evidence review are implemented. Root [SKILL.md](SKILL.md)
+documents invocation and boundaries; conditional business kernels have synthetic
+tests only. **G1 (application-signature evidence) and G2 (CV currency and
 reconciliation evidence) remain unresolved.** Completeness decisions, packet
 readiness, business action queues and assessed snapshots are disabled. There is
 no bypass flag. `run` exits 3 without writing an assessed snapshot.
@@ -139,6 +141,86 @@ the real snapshot/action queue, source comparisons and an independent calculatio
 before continuing. Preserve authentic human choices and final inspection separately
 from what the agent merely displayed. Do not push private sources/interview/capture
 or submit to Classroom until the learner's publication/submission instructions permit it.
+
+## Evidence continuation and handoff
+
+The learner authorized confirmed-rule independent work and synthetic tests of
+dependent logic. [The milestone plan](docs/confirmed-rule-plan.md) separates these
+dependencies. The [rules](deliverables/rules.md), [verification](deliverables/verification.md)
+and [run log](deliverables/run-log.md) describe actual capability and remaining work.
+This is not yet the full intake-to-activation assignment implementation.
+
+The already-read source archive contains extracted text from all three batches.
+To reproduce the selected physical inputs, use the preparer **outside** business
+runtime. It selects only the reviewed manifest, preserves exact retained text
+bytes and provenance, and refuses to overwrite differing existing files. These
+are connector-returned text bytes, not original provider file exports.
+
+```sh
+for credentialing_batch in 01 02 03; do
+  .venv/bin/python tools/prepare_batch.py --archive docs/audit/source-readings.json --manifest "deliverables/evidence/input-manifests/batch-${credentialing_batch}.json" --output ".local/inputs/batch-${credentialing_batch}"
+done
+```
+
+For a fresh replay, choose an unused store such as `.local/replay-store`. Preserve
+any existing store; do not reinitialize a batch-3 store by staging batch 1 over it.
+Run these in order, inspecting each receipt before continuing:
+
+```sh
+.venv/bin/python -m credentialing check-input --input .local/inputs/batch-01 --batch 1
+.venv/bin/python -m credentialing stage --input .local/inputs/batch-01 --batch 1 --store .local/replay-store
+.venv/bin/python -m credentialing stage --input .local/inputs/batch-02 --batch 2 --store .local/replay-store --previous-state a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f
+.venv/bin/python -m credentialing stage --input .local/inputs/batch-03 --batch 3 --store .local/replay-store --previous-state 58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a
+```
+
+Those hashes identify these exact retained manifests. For changed or new inputs,
+use the hashes actually returned by the preceding verified receipts. The observed
+separate `.local/continuation-store` now contains all three evidence stages:
+
+| Batch | Export clock | State hash |
+|---|---|---|
+| 1 | 2026-03-16 | a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f |
+| 2 | 2026-04-20 | 58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a |
+| 3 | 2026-05-18 | 0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a |
+
+Run/repeat the evidence timeline for a pinned state, even when HEAD is newer:
+
+```sh
+.venv/bin/python -m credentialing timeline --store .local/continuation-store --state a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f --rules references/continuation.json --rules-sha256 d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c
+.venv/bin/python -m credentialing timeline --store .local/continuation-store --state 58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a --rules references/continuation.json --rules-sha256 d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c
+.venv/bin/python -m credentialing timeline --store .local/continuation-store --state 0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a --rules references/continuation.json --rules-sha256 d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c
+.venv/bin/python tools/independent_checks.py --inputs .local/inputs --reports deliverables/evidence --application APP-2026-014 --subject REF-1401
+.venv/bin/python -m unittest discover -v
+```
+
+Timeline stdout is `credentialing-evidence-timeline/1`: revisions, source hashes,
+attempts and replies, actual decision metadata and independently established
+early refusals. An internal `admitted: null` means admission is unevaluated and
+cannot be serialized into the assessment schema. `review_tasks` are MSP evidence
+review tasks; the final per-file business action queue remains unfinished.
+
+The read-only snapshot verifier accepts a root, repository-relative snapshot path
+and schema: `verify-snapshot --root <workspace> --path <snapshot> --schema snapshot.schema.json`.
+It checks schema and selected relationships listed in the rules register; it
+does not establish source truth or business authority. No actual assessment
+snapshot is available to verify yet. Synthetic tests exercise this interface.
+
+### Assignment result meanings and current boundary
+
+| Assignment state | Required actual evidence | Current implementation |
+|---|---|---|
+| Supported | All supplied batches consumed, three sealed snapshots and required files agreeing | Not demonstrated; evidence stages are not assessed consumption |
+| Partial | A consumed batch with schema-valid owned unresolved cases and scope in run log | Not claimed; no encoding is invented for G1/G2 |
+| Blocked | Batch cannot be consumed; failed attempt scoped; no replacement snapshot; prior sealed result retained | Error/no-write boundaries tested; full assessed writer pending |
+| Deferred | Authentic business hold with owner and awaited event, not a failed run | Conditional protocol tests; actual business-state integration pending |
+
+To continue unfinished work, preserve the reports/store and consult the remaining
+matrix in verification.md. Independent checks need no new blanket approval.
+Signed application/CV evidence or an explicit authorized export convention is
+still needed for dependent completeness/reconciliation. Return to the learner
+before integrating newly supported dependent logic. Do not repeat the unchanged
+Drive search without new source information. Actual first-batch business output
+and final acceptance remain future learner review gates.
 
 ## Independent record review
 

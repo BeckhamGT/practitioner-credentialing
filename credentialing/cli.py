@@ -9,6 +9,9 @@ from pathlib import Path
 
 from .storage import Store
 from .review import review
+from .timeline import timeline
+from .snapshots import verify_snapshot
+from .validation import read_json
 from .validation import GroundworkError, load_batch
 
 
@@ -29,12 +32,25 @@ def main(argv=None) -> int:
     command.add_argument("--state", required=True, help="Exact evidence-state SHA; never infer from a newer HEAD")
     command.add_argument("--policy", type=Path, required=True)
     command.add_argument("--policy-sha256", required=True)
+    command = commands.add_parser("timeline", help="Retained revision/request/decision evidence; not an assessed snapshot")
+    command.add_argument("--store", type=Path, required=True)
+    command.add_argument("--state", required=True)
+    command.add_argument("--rules", type=Path, required=True)
+    command.add_argument("--rules-sha256", required=True)
+    command = commands.add_parser("verify-snapshot", help="Read-only schema and predecessor checks; not business acceptance")
+    command.add_argument("--root", type=Path, required=True)
+    command.add_argument("--path", required=True)
+    command.add_argument("--schema", type=Path, required=True)
     commands.add_parser("run", help="Reserved business operation: blocked until source clarification and learner review")
     args = parser.parse_args(argv)
     try:
         if args.command == "run":
             raise GroundworkError("business_blocked", "G1/G2 unresolved; completeness, packet readiness, assessed snapshots and business actions are disabled")
-        if args.command == "review":
+        if args.command == "timeline":
+            result = timeline(Store(args.store), args.state, args.rules, args.rules_sha256)
+        elif args.command == "verify-snapshot":
+            result = verify_snapshot(args.root, args.path, read_json(args.schema.read_bytes()))
+        elif args.command == "review":
             result = review(Store(args.store), args.state, args.policy, args.policy_sha256)
         elif args.command == "inspect-state":
             current = Store(args.store).current()

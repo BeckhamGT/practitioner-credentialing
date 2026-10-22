@@ -1,0 +1,50 @@
+{
+  "mode": "local-only scanner; static_analyzer, bytecode and pipeline; no cloud analyzer enabled",
+  "scanner": "cisco-ai-skill-scanner 2.0.13 via pinned apprentice-workspace wrapper",
+  "exit_code": 0,
+  "findings": [
+    {
+      "severity": "INFO",
+      "rule": "MANIFEST_MISSING_LICENSE",
+      "evidence": "SKILL.md frontmatter",
+      "disposition": "Accepted for current local assessment candidate. No license grant invented; publishing/licensing choices remain with the owner."
+    }
+  ],
+  "scope": "Operative Skill, CLI/tools/tests/reference bundle and operational docs; excludes interpreter dependency trees, .git, raw interview/case archive and generated case reports",
+  "manual_inspection": "Reviewed instructions, runtime source and preparer/checker scripts: no network client, credential access, interview automation or publication command; local writes confined to explicit input/store/output destinations. Original source text and human decisions preserved. A clean scan is not safety certification.",
+  "files_sha256": {
+    "snapshot.schema.json": "df371cfd4638194348be79352a0683d9d4dc40bb4f95d87f6028a7b889274318",
+    "requirements.txt": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6",
+    "README.md": "a4858ec45535e9ea0ab6ac9db940b99c121159ed6bcebfbe4994a1ed1bd28bca",
+    "SKILL.md": "d0a1f08f6918f191d46ca852022880d6eb2f20f6d2664eed4f1ed50cb03aa997",
+    "requirements.lock": "32fc34d551899f73b649ff12336f3e44f5d1f2b54e328aa0db3fa3e63bdd4ade",
+    "credentialing/snapshots.py": "5c1efe4069fc2d4b37b9e14f77c1e5e94213a04f938d906d847e00eccb87df98",
+    "credentialing/timeline.py": "f73af580a43ae5bc5137c0f028496e8cfd87fc3a6984ad47c19d52d377e49fa1",
+    "credentialing/__init__.py": "58c76ba6d1025898b8125001d35c83c874b31ee16e0f6e4097c6019d12737305",
+    "credentialing/review.py": "97a0aae56ace68d399d833dae504465fed286b21a2f33b889a20aca229a51f68",
+    "credentialing/cli.py": "57bf7ff84ba4886d99d57537bef83acdbdf0a4fecdd4e91512c1bff837f49daf",
+    "credentialing/storage.py": "f79dca096950667bc8f5d2c338bad4748e374c4693660264ca5beb1684a7f0b0",
+    "credentialing/conditional.py": "092da5741264dcdda5214498182b8dad953e609bde916768ba62d0b9f7f65621",
+    "credentialing/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "credentialing/validation.py": "7252cb3b00ec829dbbb2dbaeebce4252375bd448b4aa425aea12e666f9d0a4b2",
+    "tools/prepare_batch.py": "f50ec0e3cabf92a44a7e9ef6f49b9eabd3464365ea307380ee82627eae119c3e",
+    "tools/independent_checks.py": "b39dc2c127d7f7f5d440bdbc9507017a67734093e501c1ce47127f58db1bc310",
+    "references/export-guide.txt": "84a78ec340e99f94152728c79e7b2edd6acb54fd2e7f9ac88c67c4ea14c57121",
+    "references/continuation.json": "d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_continuation.py": "30db71fb607959d71cfec564ece1010d7f1b2dfed3c3b00278063c160c6b4c89",
+    "tests/test_preparation.py": "9f25c76307024c33ed7ac31fe13fca90b72d444c83e0c8cc0731bbb680809bcc",
+    "tests/test_groundwork.py": "6a3bf55ac0d1587f666e9d65d7af64b61788763348a422837a4cd407b2f28ccb",
+    "tests/test_review.py": "7c57b47b7840f9b597ea3579cd40298080ada2751ccdf74cec8811d059697328",
+    "docs/readiness-audit.md": "706e8b40def9f9d3bc40fad7be79334b473ec9dedde16b6cfcbd935dc9009550",
+    "docs/confirmed-rule-plan.md": "53bcfb88e544817260eb428d5c2ee6643d1ee9c50bea63e83428ab9a5ce6ece1",
+    "deliverables/verification.md": "cf7db147cc16293a9e6bd921d8210fa967c57eddf8a05476666d24d2d664cee6",
+    "deliverables/run-log.md": "bec62fbed0e0ca483ce7f170c63521ad9c3e0563da30fc297c7074b327144c17",
+    "deliverables/rules.md": "5f1baf8bbd77b83439adcd27ed4ead732e675b0e7772f3192464aa8729a5cc33",
+    "references/record-review/authority.txt": "37baaf8a28fbfc3fcea688fb35f1a85cf7cc7e665bebe1539eb9faa890cb65c6",
+    "references/record-review/accepted-sources.txt": "3e3b7da8f5582958b037939c6ab3681e015ce4a29fa704f0b91da28c37e03620",
+    "references/record-review/README.md": "9205204391152c793ca15f2714a940ca851fa1b397de03c8de063e3213a5c308",
+    "references/record-review/rules.json": "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b",
+    "references/record-review/procedure.txt": "e62cb335326de7a1b3ea0e7fb53c58d21a0ba655cdfba1a1cad505634f0d5dd0"
+  }
+}

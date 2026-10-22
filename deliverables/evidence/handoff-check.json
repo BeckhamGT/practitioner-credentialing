@@ -1,0 +1,45 @@
+{
+  "scope": "Clean replay using documented preparer and stage interface",
+  "state_hashes_reproduced": [
+    {
+      "as_of": "2026-03-16",
+      "assessed_snapshot_written": false,
+      "batch": 1,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f"
+    },
+    {
+      "as_of": "2026-04-20",
+      "assessed_snapshot_written": false,
+      "batch": 2,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a"
+    },
+    {
+      "as_of": "2026-05-18",
+      "assessed_snapshot_written": false,
+      "batch": 3,
+      "business_blockers": [
+        "G1",
+        "G2"
+      ],
+      "operation": "evidence-stage",
+      "phase": "evidence-only",
+      "result": "staged",
+      "state_sha256": "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a"
+    }
+  ],
+  "runtime_reads_combined_archive": false
+}

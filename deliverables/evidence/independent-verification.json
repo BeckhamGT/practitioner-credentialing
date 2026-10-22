@@ -1,0 +1,86 @@
+{
+  "scope": "Independent raw-file checks, no imports from implementation",
+  "checked_at_utc": "2026-10-22T05:03:06.912191+00:00",
+  "batches": [
+    {
+      "batch": 1,
+      "as_of": "2026-03-16",
+      "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+      "report": "deliverables/evidence/batch-01-timeline-43ea990d33a5.json",
+      "report_sha256": "43ea990d33a50c0b92a71bd83c7dc743d4d0d662cc5a757dee55bdd960bd6d7e",
+      "independent_counts": {
+        "applications": 40,
+        "revision_occurrences": 41,
+        "attempt_occurrences": 236,
+        "decision_occurrences": 6
+      }
+    },
+    {
+      "batch": 2,
+      "as_of": "2026-04-20",
+      "state_sha256": "58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a",
+      "report": "deliverables/evidence/batch-02-timeline-4c0b738ad865.json",
+      "report_sha256": "4c0b738ad865d8ef556683e61259d88f72de655bdffa40578c45544ca66574c0",
+      "independent_counts": {
+        "applications": 40,
+        "revision_occurrences": 45,
+        "attempt_occurrences": 245,
+        "decision_occurrences": 35
+      }
+    },
+    {
+      "batch": 3,
+      "as_of": "2026-05-18",
+      "state_sha256": "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "report": "deliverables/evidence/batch-03-timeline-2339f13a56fa.json",
+      "report_sha256": "2339f13a56fabcd90d8218996e83f74bf5374a598af5013ceb9f85d61c167f5e",
+      "independent_counts": {
+        "applications": 40,
+        "revision_occurrences": 46,
+        "attempt_occurrences": 250,
+        "decision_occurrences": 56
+      }
+    }
+  ],
+  "independent_request_arithmetic": {
+    "application_id": "APP-2026-014",
+    "subject_ref": "REF-1401",
+    "dates": [
+      "2026-02-09",
+      "2026-03-02",
+      "2026-03-23"
+    ],
+    "interval_days": [
+      21,
+      21
+    ],
+    "day64": "2026-04-14",
+    "attempts_retained_after_reply": 3,
+    "observed_reply_not_claimed_qualified": "not-evaluated"
+  },
+  "independent_negative_checks": [
+    {
+      "decision_id": "MEC-2026-036",
+      "source_outcome_retained": "approved",
+      "first_failed": "body-authority"
+    },
+    {
+      "decision_id": "GBD-2026-034",
+      "recorded_revision": "1",
+      "latest_known_revision_on_decision_date": 2,
+      "first_failed": "applicant/revision"
+    }
+  ],
+  "earlier_reports_identical_with_batch3_head": true,
+  "deliberate_failure_and_recovery": {
+    "kind": "Isolated intentional wrong-command probe with actual evidence inputs; not a historical production failure",
+    "failure": "predecessor_mismatch",
+    "exit_code": 2,
+    "prior_head_preserved": true,
+    "corrected_explicit_predecessor_recovered_state": "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+    "unchanged_rerun": "unchanged"
+  },
+  "baseline_preserved_files": 20,
+  "accepted_store_head_unchanged": true,
+  "assessed_snapshots_absent": true
+}

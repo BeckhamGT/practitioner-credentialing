@@ -1,0 +1,14 @@
+{
+  "attempt_spacing_days": 21,
+  "export_guide": {
+    "effective_from": "2026-03-16",
+    "path": "export-guide.txt",
+    "sha256": "84a78ec340e99f94152728c79e7b2edd6acb54fd2e7f9ac88c67c4ea14c57121",
+    "url": "https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA",
+    "version": "Office note 2026-03-16"
+  },
+  "format": "credentialing-continuation-rules/1",
+  "peer_overdue_offset_days": 64,
+  "policy_directory": "record-review",
+  "policy_sha256": "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b"
+}

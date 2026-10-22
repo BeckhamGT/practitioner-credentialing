@@ -1,0 +1,239 @@
+{
+  "as_of": "2026-03-16",
+  "batch": 1,
+  "files": [
+    {
+      "kind": "batch-readme",
+      "path": "README.md",
+      "sha256": "6f07f9b99ae34ad460a3e935825f43847bea443a41696d66e60e7b9260f40f09",
+      "source_batch": 1,
+      "source_id": "15tzOOHfOgWinrIzv3Yj3YP_QPT5FKcdB",
+      "source_url": "https://drive.google.com/file/d/15tzOOHfOgWinrIzv3Yj3YP_QPT5FKcdB/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "application-disclosures.csv",
+      "sha256": "24c03406762fd372a562bb2e632210fba3a7b192c75a819d4937aa480a79e10a",
+      "source_batch": 1,
+      "source_id": "13HLDpJGCvSLkNdf39xYn4I5SRzxM9ROt",
+      "source_url": "https://drive.google.com/file/d/13HLDpJGCvSLkNdf39xYn4I5SRzxM9ROt/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "applications.csv",
+      "sha256": "8abd24835cae92ffd3579cd77c66b1bb28343a8a0d3f3f735a4b78451076ce59",
+      "source_batch": 1,
+      "source_id": "1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_",
+      "source_url": "https://drive.google.com/file/d/1SyRCELkNhEtf7aO5MV3h4GWYzdIFs1v_/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "certification-replies.csv",
+      "sha256": "8f245ba12a9be8f4dd7bf5fe8634a9378e162553752f944fb88616ac976a6768",
+      "source_batch": 1,
+      "source_id": "1ZQGk-urxaXTLmsxsVemBdzwTh-AnvFpu",
+      "source_url": "https://drive.google.com/file/d/1ZQGk-urxaXTLmsxsVemBdzwTh-AnvFpu/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "correspondence.csv",
+      "sha256": "6ca63d169776e4c1d462dc960d9b2ce0570ddc94775e11cd61eb779769a9a260",
+      "source_batch": 1,
+      "source_id": "15HUuf4g9ryvEd-dZdvyOzys4csQqvqGb",
+      "source_url": "https://drive.google.com/file/d/15HUuf4g9ryvEd-dZdvyOzys4csQqvqGb/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-10_MEC-2026-011.md",
+      "sha256": "5561cbfb7703641dda6cbf85b15f178188e9869a613e8e3458a78f764e3b7493",
+      "source_batch": 1,
+      "source_id": "1H7oj8I1Fo3VP-VAU_psch4w8mRkde7MY",
+      "source_url": "https://drive.google.com/file/d/1H7oj8I1Fo3VP-VAU_psch4w8mRkde7MY/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-10_MEC-2026-017.md",
+      "sha256": "d2da8fda17f245ef54d24e69e821f735396052569b7a9a8fdcd2acce1b549b0f",
+      "source_batch": 1,
+      "source_id": "1WScF9scsX630dnf4QfWeoUltDLCNaMp2",
+      "source_url": "https://drive.google.com/file/d/1WScF9scsX630dnf4QfWeoUltDLCNaMp2/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-10_MEC-2026-024.md",
+      "sha256": "edb4c4aa45556c3c8cf2c3f1daa476c1096fe930bbb30a2db43cc62b86c95922",
+      "source_batch": 1,
+      "source_id": "1h2NpFmQ9f0Vux-GXJ4dN_7pNgfC4awci",
+      "source_url": "https://drive.google.com/file/d/1h2NpFmQ9f0Vux-GXJ4dN_7pNgfC4awci/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-10_MEC-2026-034.md",
+      "sha256": "4298947f2f23a9d656d3893acc81171e9321f7b4ebef83f1b01fdb3ad5398721",
+      "source_batch": 1,
+      "source_id": "1HMLyrV8oo-zNOcFmf1xKBt2ZxBJ1KSEa",
+      "source_url": "https://drive.google.com/file/d/1HMLyrV8oo-zNOcFmf1xKBt2ZxBJ1KSEa/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-12_MEC-2026-013.md",
+      "sha256": "f87bf71265878c197a6a321caea3d7b0477511dd1b73b5344248b649200d628d",
+      "source_batch": 1,
+      "source_id": "1puC1i3Qf3meV7gTPIJfof37klFufIqD4",
+      "source_url": "https://drive.google.com/file/d/1puC1i3Qf3meV7gTPIJfof37klFufIqD4/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "decisions/2026-03-12_MEC-2026-023.md",
+      "sha256": "ad9a7805442e9af5586ba66ae3ca05d71b87360ac0c61cd243cacee3a43f111e",
+      "source_batch": 1,
+      "source_id": "1tf25i4nIBc-JOW_axTD6PoqFGbS9Fkv4",
+      "source_url": "https://drive.google.com/file/d/1tf25i4nIBc-JOW_axTD6PoqFGbS9Fkv4/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "declared-credentials.csv",
+      "sha256": "45f46136eaeed9a8730c243c85e9dd75c045ac4bf41945b9c180c2dce560ef69",
+      "source_batch": 1,
+      "source_id": "1bdzmUNd6CUbIfu3J23mx_uVRZexSrSj_",
+      "source_url": "https://drive.google.com/file/d/1bdzmUNd6CUbIfu3J23mx_uVRZexSrSj_/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "declared-history.csv",
+      "sha256": "a2d9d9ad845476a48e69c152269861bcec223f32358594665d2ba4e6c7196485",
+      "source_batch": 1,
+      "source_id": "1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl",
+      "source_url": "https://drive.google.com/file/d/1W8Hz2x_7UTckFvGKbJPFJf8a8fhPjhQl/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-02-06_gap-explanation_APP-2026-005.md",
+      "sha256": "0dde1cc5da6d1b89372ce77767502350a5ae797d37ae262bd868c05c5aae9356",
+      "source_batch": 1,
+      "source_id": "1pa7T-QMXDDT5ugQQ65xwcf9w3u_Ndo6u",
+      "source_url": "https://drive.google.com/file/d/1pa7T-QMXDDT5ugQQ65xwcf9w3u_Ndo6u/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-02-06_gap-explanation_APP-2026-039.md",
+      "sha256": "88032fc04d5c5fddfd5a4237b99c56d39c5af44a13e6609208075bc160ca4119",
+      "source_batch": 1,
+      "source_id": "1EwekZEyhsYd9WHrCbquQfQmJ7M0nxg8e",
+      "source_url": "https://drive.google.com/file/d/1EwekZEyhsYd9WHrCbquQfQmJ7M0nxg8e/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-02-13_gap-explanation_APP-2026-017.md",
+      "sha256": "60d08570b395b2e8436171fbfc9768a88c22fca3094a1f0e0c994c5a567b8a4f",
+      "source_batch": 1,
+      "source_id": "1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v",
+      "source_url": "https://drive.google.com/file/d/1UtfAcc5uGuBO8Cklrq4KAR_XiZXZVP5v/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-02-18_missing-items_APP-2026-019.md",
+      "sha256": "272af3b68d3f57e410ffca6593e629284ceb1150b1e02cadbd50e4a21fbc6b78",
+      "source_batch": 1,
+      "source_id": "1Dr9YPDqNB180ynEBFtO6zt1fZjZfYtlM",
+      "source_url": "https://drive.google.com/file/d/1Dr9YPDqNB180ynEBFtO6zt1fZjZfYtlM/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-02-20_cover-note_APP-2026-031.md",
+      "sha256": "750d7bd1c17058e6d52d2948a3f504a2fde5a29764ced3de427ab3f8898520df",
+      "source_batch": 1,
+      "source_id": "13nT4py7kHUVxf8TL9_5uuX-XPpreebba",
+      "source_url": "https://drive.google.com/file/d/13nT4py7kHUVxf8TL9_5uuX-XPpreebba/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-03-04_board-action_APP-2026-015.md",
+      "sha256": "7996a40b9265e3d3574bc8332d0cdc408ab991f86136374e9f04628831f1c1ac",
+      "source_batch": 1,
+      "source_id": "1rMlkpuNTL44wulVO28_qJV8fvjW2XN3E",
+      "source_url": "https://drive.google.com/file/d/1rMlkpuNTL44wulVO28_qJV8fvjW2XN3E/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-03-06_missing-licence_APP-2026-031.md",
+      "sha256": "8a0797ce5903f9472d0af5aebe39fea5ab5ee48c3564e94d1d5d0b459687f3ac",
+      "source_batch": 1,
+      "source_id": "1lJFuuPwVoEfJ3aX9Db1NbM_4Zyg5okcl",
+      "source_url": "https://drive.google.com/file/d/1lJFuuPwVoEfJ3aX9Db1NbM_4Zyg5okcl/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-03-06_return-incomplete_APP-2026-018.md",
+      "sha256": "fce865d7b5966a2abdff019dc9a00c2270bde7729b682ceba2ed51db440d4e29",
+      "source_batch": 1,
+      "source_id": "1xIuQ2LPVR1iEhTAdMz6FGrp8s8tiI6hd",
+      "source_url": "https://drive.google.com/file/d/1xIuQ2LPVR1iEhTAdMz6FGrp8s8tiI6hd/view?usp=drivesdk"
+    },
+    {
+      "kind": "document",
+      "path": "letters/2026-03-10_discrepancy_APP-2026-030.md",
+      "sha256": "2308b4c6639ee3fe0c55906dcc204b197c51020f61fafc597240b74bb2a18eda",
+      "source_batch": 1,
+      "source_id": "1OtGOpYUALhRhR04Utc0uLITx4H3Hywvp",
+      "source_url": "https://drive.google.com/file/d/1OtGOpYUALhRhR04Utc0uLITx4H3Hywvp/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "licence-lookup-other-states.csv",
+      "sha256": "98a762618503c37d4755898e4fe10075e18e82587b8bdf0ce52c3ac6c521e2a6",
+      "source_batch": 1,
+      "source_id": "1_0BKU9QkhSYOultxF6bGosW4H-VUPIsK",
+      "source_url": "https://drive.google.com/file/d/1_0BKU9QkhSYOultxF6bGosW4H-VUPIsK/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "licence-lookup-wa.csv",
+      "sha256": "79fa22cbd17295cbff94819caedba93ca60eed7401caca4956d0cc3a01089030",
+      "source_batch": 1,
+      "source_id": "1Ywsbxykp2llYZRLYRmMqAiuSQQ0uRmWh",
+      "source_url": "https://drive.google.com/file/d/1Ywsbxykp2llYZRLYRmMqAiuSQQ0uRmWh/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "peer-referees.csv",
+      "sha256": "20fcd223325687983aa57bde13ab167340d914ec252f927eee695352979866b9",
+      "source_batch": 1,
+      "source_id": "1zQmUk5LmEH3_JL9FU5IWtCNersmQiA-g",
+      "source_url": "https://drive.google.com/file/d/1zQmUk5LmEH3_JL9FU5IWtCNersmQiA-g/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "peer-reference-replies.csv",
+      "sha256": "c18acc940e71e674d87abc318eb2fcdb8e11f89849256527eddde20cb23159a3",
+      "source_batch": 1,
+      "source_id": "1eR_0lgYDiz788CydYqHltddBQ3DK9ne2",
+      "source_url": "https://drive.google.com/file/d/1eR_0lgYDiz788CydYqHltddBQ3DK9ne2/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "privilege-requests.csv",
+      "sha256": "8d340522c55214fbc82e8c0d90111c6fd7ea1d86ae436b90e7d54cb3786b8f5f",
+      "source_batch": 1,
+      "source_id": "1azOuhDDQ4NLUR_rO3DZHAZv9sebRkv2b",
+      "source_url": "https://drive.google.com/file/d/1azOuhDDQ4NLUR_rO3DZHAZv9sebRkv2b/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "verification-attempts.csv",
+      "sha256": "b7ad0dca044af2b9a1b7d8640a66f4f052b6a064cf503cf9ef8f9844f0cd084c",
+      "source_batch": 1,
+      "source_id": "13iUcb-ZQfWcuvKOem4NNMSNQjG4KuUhA",
+      "source_url": "https://drive.google.com/file/d/13iUcb-ZQfWcuvKOem4NNMSNQjG4KuUhA/view?usp=drivesdk"
+    },
+    {
+      "kind": "records",
+      "path": "verification-replies.csv",
+      "sha256": "2aa7be13ae75f20513d7e13cb8fd8eee6512da514ab606c65ef7b70c8c63ba33",
+      "source_batch": 1,
+      "source_id": "1zbiysJtGQ4Z_JtMWneBTZ9PRdIkQoP7b",
+      "source_url": "https://drive.google.com/file/d/1zbiysJtGQ4Z_JtMWneBTZ9PRdIkQoP7b/view?usp=drivesdk"
+    }
+  ],
+  "format": "credentialing-input-manifest/1"
+}
