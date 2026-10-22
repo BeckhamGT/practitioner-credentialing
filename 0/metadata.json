@@ -1,0 +1,88 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5H0MYEEFCSDDP9TKX6E3GP4",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-22T05:16:56.975157Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "README.md",
+    "SKILL.md",
+    "credentialing/cli.py",
+    "credentialing/conditional.py",
+    "credentialing/snapshots.py",
+    "credentialing/timeline.py",
+    "deliverables/rules.md",
+    "deliverables/verification.md",
+    "docs/confirmed-rule-plan.md",
+    "tests/test_continuation.py",
+    "tests/test_preparation.py",
+    "tools/independent_checks.py",
+    "tools/prepare_batch.py"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "79fed5684be6",
+  "checkpoint_transcript_start": 1121,
+  "transcript_lines_at_start": 1121,
+  "compact_transcript_start": 103,
+  "token_usage": {
+    "input_tokens": 69959,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 8649984,
+    "output_tokens": 64098,
+    "api_call_count": 39,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 8
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-22T05:16:56.832119Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 110421,
+    "human_modified": 6,
+    "human_removed": 0,
+    "total_committed": 110421,
+    "total_lines_changed": 110448,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 107482,
+      "user_lines_removed": 1,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "credentialing/cli.py": 17,
+        "credentialing/conditional.py": 124,
+        "credentialing/snapshots.py": 77,
+        "credentialing/timeline.py": 226,
+        "deliverables/evidence/batch-01-timeline-43ea990d33a5.json": 30895,
+        "deliverables/evidence/batch-02-timeline-4c0b738ad865.json": 36242,
+        "deliverables/evidence/batch-03-timeline-2339f13a56fa.json": 39002,
+        "deliverables/evidence/execution-log.json": 374,
+        "deliverables/evidence/independent-verification.json": 86,
+        "docs/confirmed-rule-plan.md": 31,
+        "references/continuation.json": 14,
+        "references/export-guide.txt": 75,
+        "tests/test_continuation.py": 319
+      },
+      "user_removed_per_file": {
+        "credentialing/cli.py": 1
+      }
+    }
+  ]
+}
