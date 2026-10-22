@@ -1,0 +1,39 @@
+{
+  "commit": "8999252ad09913d9047fd97442f0ac5e9174f6e7",
+  "entire_checkpoint": "01M5GWMD06APCQQ8G5FJASCF0K",
+  "checkpoint_ref": "refs/entire/checkpoints/0K/01M5GWMD06APCQQ8G5FJASCF0K",
+  "checkpoint_object": "d6dfbde5a6eed67259db00a2e63a2563e81f6794",
+  "actual_session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "session_in_checkpoint_metadata": true,
+  "commit_trailer_matches_checkpoint": true,
+  "stored_transcript_path": "0/full.jsonl",
+  "stored_transcript_equals_cli_export_bytes": true,
+  "transcript_bytes": 6408101,
+  "transcript_jsonl_records": 962,
+  "transcript_sha256": "f4c3d090e087e0818fd4cf28ce74b6333c20ddbb3a3f5c581343cb9b17aac67d",
+  "observed_transcript_matches": {
+    "current_user_request": [
+      "2026-10-22T03:57:06.679Z"
+    ],
+    "byte_preservation_tool_record": [
+      "2026-10-22T04:02:52.869Z",
+      "2026-10-22T04:02:52.984Z"
+    ],
+    "source_audit_tool_record": [
+      "2026-10-22T04:02:52.869Z",
+      "2026-10-22T04:02:52.984Z"
+    ],
+    "audit_update_tool_record": [
+      "2026-10-22T04:04:23.032Z",
+      "2026-10-22T04:05:02.020Z",
+      "2026-10-22T04:05:02.064Z",
+      "2026-10-22T04:06:30.601Z"
+    ]
+  },
+  "committed_interview_equals_download_bytes": true,
+  "committed_interview_sha256": "6ab5dfded8ebac3bdb696d8a4e81e13db1da1c308bec66d6fe23c02d5539509d",
+  "metadata_limitation": "Entire files_touched lists four Markdown documents; the interview copy and inventory were written through Python in an exec_command and do not appear in that list. Their actual tool records are present in the genuine stored transcript, and their bytes are checked in the associated commit. files_touched is not a complete manifest.",
+  "capture_proof_scope": "Actual local checkpoint and current session content, not configuration alone; proof recorded after the source-update commit",
+  "remote_sync": "pending; no push attempted or authorized",
+  "facilitator_access": "pending; not demonstrated"
+}

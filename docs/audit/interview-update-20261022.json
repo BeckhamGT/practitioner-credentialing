@@ -1454,6 +1454,6 @@
       "assessed_snapshot_written": false
     },
     "full_test_suite": "Not repeated: this is a documentary/source update; code and prior outputs are byte-unchanged",
-    "capture": "Meaningful local commit checkpoint to be inspected after committing"
+    "capture": "Genuine checkpoint for local source-update commit verified after commit; see docs/audit/interview-update-capture-20261022.json"
   }
 }
