@@ -1,0 +1,32 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5GT4Y6C225ZK9HT3RBE68F4",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md",
+    "credentialing/cli.py",
+    "credentialing/review.py",
+    "credentialing/storage.py",
+    "docs/record-review-milestone.md",
+    "references/record-review/README.md",
+    "tests/test_review.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 92661,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 2880128,
+    "output_tokens": 33264,
+    "api_call_count": 10
+  }
+}
