@@ -157,7 +157,7 @@ class WorkflowTests(unittest.TestCase):
     def test_secondary_route_requires_msp_record_even_with_documented_impossibility(self):
         def change(rows,docs):
             reply=rows['verification-replies.csv'][0];reply.update(received_from='Medical staff office — SYNTH Practice',attester_organization='SYNTH Practice',notes='School closed; no designated source holds record; this most recent affiliation holds the original registrar verification.')
-        a=self.start(change);one,_=self.run_batch(a);case=self.result(one)['applications'][0];self.assertIsNone(case['elements']['education']['state']);self.assertIsNone(case['packet']['presentable'])
+        a=self.start(change);one,_=self.run_batch(a);case=self.result(one)['applications'][0];self.assertEqual(case['elements']['education']['state'],'outstanding');self.assertIsNone(case['elements']['education']['nothing_owed']);self.assertIsNone(case['packet']['presentable'])
 
     def test_licence_renewal_retains_and_satisfies_its_exact_old_condition(self):
         def change(rows,docs):rows['licence-lookup-wa.csv'][0]['expirationdate']='2026-04-30'

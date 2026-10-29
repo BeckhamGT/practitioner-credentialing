@@ -1,0 +1,24 @@
+{
+  "checkpoint": "refs/entire/checkpoints/QC/01M5HDTRSACHMXCJWE604FV6QC",
+  "remote_object_verified_20261029": "a034371d10d65d5f509de65533f0855de920205f",
+  "local_object": "dbb34c3ca90d8fb20f575708b9c2f28c4c1df789",
+  "local_parent": "a034371d10d65d5f509de65533f0855de920205f",
+  "remote_commit_time": "2026-10-22T05:07:19-04:00",
+  "local_commit_time": "2026-10-22T05:12:54-04:00",
+  "remote_records_absent_locally": 0,
+  "additional_local_records": 62,
+  "additional_record_timestamp_range": [
+    "2026-10-22T09:07:19.508Z",
+    "2026-10-22T09:12:53.385Z"
+  ],
+  "remote_payload_sha256": "0ad20e8774593e8b8042af3582265ec348ccb1ef97b4d8cbdd2aa811c58ad8c0",
+  "local_payload_sha256": "ad51fd80f31987cdd6960d78c2c98890a83e029481df8869bd1cac1742cbdd75",
+  "finding": "Remote points at initial checkpoint; local is its direct later finalization commit. All remote records are retained, plus 62 genuine later records. Finalized object has not reached remote. No evidence here establishes a network upload error; the demonstrated issue is a later finalized checkpoint left unsynchronized.",
+  "sync_prepared_not_executed": true,
+  "supported_fast_forward_command": [
+    "git",
+    "push",
+    "origin",
+    "refs/entire/checkpoints/QC/01M5HDTRSACHMXCJWE604FV6QC:refs/entire/checkpoints/QC/01M5HDTRSACHMXCJWE604FV6QC"
+  ]
+}

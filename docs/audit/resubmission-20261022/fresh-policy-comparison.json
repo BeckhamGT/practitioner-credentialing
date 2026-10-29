@@ -1,0 +1,182 @@
+[
+  {
+    "key": "procedure",
+    "url": "https://docs.google.com/document/d/1v442U759TGLwnElS24xF1MmvovZjBSHy4KKe2Nl-GDk/edit",
+    "modified_time": "2026-09-24T07:01:52.694Z",
+    "old_text_sha256": "e62cb335326de7a1b3ea0e7fb53c58d21a0ba655cdfba1a1cad505634f0d5dd0",
+    "fresh_text_sha256": "72f85edc4c16371bb75b0f783462925afceac5dd2e739657ec8586c2676cb9d5",
+    "word_sequence_differences": [
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "1"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "2"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "3"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "4"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "5"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "6"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "7"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "8"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "9"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "1"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "2"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "3"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "4"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "5"
+      }
+    ],
+    "only_inserted_list_numbers": true
+  },
+  {
+    "key": "accepted-sources",
+    "url": "https://docs.google.com/document/d/1ze0RTP4H8J68FSqbFmkG7Qd_5cZiB6Lh2BfyU6v2Sj8/edit",
+    "modified_time": "2026-09-24T06:53:19.819Z",
+    "old_text_sha256": "3e3b7da8f5582958b037939c6ab3681e015ce4a29fa704f0b91da28c37e03620",
+    "fresh_text_sha256": "e8dadaa6c752ebe90e208043b449b69e2ebe9fa7bed51aa11e2b208778c8c660",
+    "word_sequence_differences": [
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "1"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "2"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "3"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "4"
+      }
+    ],
+    "only_inserted_list_numbers": true
+  },
+  {
+    "key": "privilege-criteria",
+    "url": "https://docs.google.com/document/d/1auOI2S9mT7GRn3eS6HJv3wU5C9vDqGObfMmVF9Bc4fo/edit",
+    "modified_time": "2026-09-24T06:55:58.579Z",
+    "old_text_sha256": "fa34dbc4a5a8b3f30d20678e009d61ec6e9b16a6182d8d66406dc342009a6522",
+    "fresh_text_sha256": "7d8718c45c0a1c46eabd1cf31b8610484e9d7b6bc7ef491d6fc8de833a033f58",
+    "word_sequence_differences": [
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "1"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "2"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "3"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "4"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "5"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "6"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "7"
+      }
+    ],
+    "only_inserted_list_numbers": true
+  },
+  {
+    "key": "export-guide",
+    "url": "https://docs.google.com/document/d/1UtQMnsCW78nPClsgEJV1DgBKlaiIkzNS-fT93-kTLgA/edit",
+    "modified_time": "2026-09-24T06:59:06.292Z",
+    "old_text_sha256": "84a78ec340e99f94152728c79e7b2edd6acb54fd2e7f9ac88c67c4ea14c57121",
+    "fresh_text_sha256": "0814dac57cce72b49fb7831b73081822ec53097bbbecfcdbc0abb9d2dcb1cbb8",
+    "word_sequence_differences": [
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "1"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "2"
+      },
+      {
+        "op": "insert",
+        "old": "",
+        "fresh": "3"
+      }
+    ],
+    "only_inserted_list_numbers": true
+  }
+]

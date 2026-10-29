@@ -46,7 +46,7 @@ def action(item, owner="Medical Services Professional", due=None, sources=(), ki
 
 
 def element(state, nothing_owed, detail, sources=()):
-    return {"state": state, "nothing_owed": nothing_owed, "detail": detail, "sources": list(sources),
+    return {"state": state or "outstanding", "nothing_owed": nothing_owed, "detail": detail, "sources": list(sources),
             "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite"}
 
 
@@ -122,7 +122,8 @@ def entry_checks(app, tables, clock, policy, human, strict=False):
                             "discrepancy": verified and (not equal or bool(non_dates)), "verified": verified})
         matched = [r for r in replies if r["current_entry_matches"]]
         undecided = [r for r in replies if r["class"] in ("needs-source-review","needs-link-review") and r["window"]=="within-date-window-only" and r["entry_fields_match"] and r["row"]["outcome"] in ("confirmed","confirmed-with-discrepancy")]
-        discrepancy = bool(replies) and not matched and any(r["discrepancy"] for r in replies)
+        latest_match = max((r["row"]["received_date"] for r in matched), default="")
+        discrepancy = any(r["discrepancy"] and r["row"]["received_date"] >= latest_match for r in replies)
         is_education = entry["entry_type"] in ("medical-school", "residency", "fellowship", "other")
         overlap = (day(entry["to_date"]) or day(clock)) >= floor if floor else None
         needs_experience = not is_education and overlap is not False
@@ -130,7 +131,7 @@ def entry_checks(app, tables, clock, policy, human, strict=False):
         needs_experience = needs_experience or (not is_education and discrepancy)
         checked.append({"entry": entry, "source": occurrence["source"], "education_required": is_education,
                         "experience_required": needs_experience, "five_year_floor": floor.isoformat() if floor else None,
-                        "source_verified_current_entry": True if matched else None if undecided else False, "discrepancy": discrepancy, "replies": replies,
+                        "source_verified_current_entry": False if discrepancy else True if matched else None if undecided else False, "discrepancy": discrepancy, "replies": replies,
                         "accepted_reply_dates": [r["row"]["received_date"] for r in matched]})
     return checked
 
@@ -243,7 +244,7 @@ def licence_element(app, tables, declarations, clock, documents, human):
     for text in unknown:queue.append(action(text))
     if issues and not disposition:
         owed.append("Disposition on another state's action is owed");queue.append(action("Record disposition on other-state licence action", "Clinical Director", sources=issues))
-    state = "finding" if restriction or issues else "outstanding" if owed else None if unknown else "resolved"
+    state = "finding" if restriction or issues else "outstanding" if owed else "outstanding" if unknown else "resolved"
     return element(state, False if owed else None if unknown else True, {"Washington": wa, "other_states": others, "restriction_sources": restriction,
                                    "CD_dispositions": [d["source"] for d in disposition], "remaining": owed,
                                    "clean_basis": "Board status, expiry and action record together; actiontaken alone is never used"}), queue
@@ -299,6 +300,8 @@ def certification_element(app, tables, entries, requests, declarations, clock, r
     accreditation = human.get("accreditation_by_entry", {}).get("value", {})
     for req in requests:
         code = req["row"]["privilege_code"];criterion = rules["criteria"].get(code)
+        if req["row"]["criteria_version_cited"] != rules["criteria_version"]:
+            groups.append({"code": code, "supported": None, "reason": "Unavailable requested criteria version"});continue
         if not criterion:
             groups.append({"code": code, "supported": False, "reason": "Code not published"});continue
         cert_flags = [];inactive = False;prohibited = False
@@ -341,9 +344,10 @@ def certification_element(app, tables, entries, requests, declarations, clock, r
     if missing:queue.append(action("Obtain admissible board verification for " + ", ".join(missing)))
     if discrepancies:queue.append(action("Resolve declared versus board certification status in writing: " + ", ".join(discrepancies)))
     if unknown:queue.append(action("Establish missing privilege-support component/accreditation or scoped G6 interpretation: " + ", ".join(unknown)))
-    eligibility = bool(groups) and len(unsupported) == len(groups)
+    pending_verification = any(e["source_verified_current_entry"] is False for e in entries if e["education_required"]) or bool(missing)
+    eligibility = bool(groups) and (len(unsupported) == len(groups) or (not supported and pending_verification))
     if eligibility:queue.append(action("Record eligibility disposition or offer amendment; no supported requested group", "Clinical Director"))
-    state = "discrepancy" if discrepancies else "outstanding" if missing else "eligibility-question" if eligibility else "finding" if unsupported else None if unknown else "resolved"
+    state = "discrepancy" if discrepancies else "outstanding" if missing else "eligibility-question" if eligibility else "finding" if unsupported else "outstanding" if unknown else "resolved"
     done = False if missing or discrepancies or eligibility else None if unknown else True
     return element(state, done, {"certificates": certificates, "groups": groups, "supported": supported, "unsupported": unsupported,
                                 "conditional_components": unknown, "verification_complete": not missing,
@@ -570,14 +574,29 @@ def finish_case(case, decisions, documents, tables, clock, contract, rules, rost
         case["status"] = "decision-inadmissible"
     if terminal:
         case["status"] = terminal["status"];case["activation"] = None;case["approval_decision_id"] = None
+    for d in own:
+        if d["fields"].get("Criteria version") != rules["criteria_version"]:
+            queue.append(action("Obtain governing criteria version for decision " + d["fields"]["Decision ID"], sources=[d["source"]]))
     requests = [r for r in request_history(tables, clock, contract) if r["application_id"] == app_id]
     met = case["elements"]["references"]["nothing_owed"] is True
     presented = bool(any(d["result"]["admitted"] is True for d in own))
     for request in requests:
         peer = request["element"] == "peer-reference"
+        subject = request["subject_ref"]
+        entries = [e for name in ("education", "experience") for e in case["elements"][name]["detail"]["entries"] if e["entry"]["entry_id"] == subject]
+        certificates = [c for c in case["elements"]["certification"]["detail"]["certificates"] if c["declaration"]["row"]["declaration_id"] == subject]
+        peers = [r for r in case["elements"]["references"]["detail"]["replies"] if r["row"]["referee_id"] == subject]
+        qualifies = (any(r["verified"] for e in entries for r in e["replies"]) if entries else
+                     any(c["latest"] is not None for c in certificates) if certificates else
+                     any(r["qualifies_at_this_clock"] is True for r in peers) if peer else None)
+        satisfied = (all(e["source_verified_current_entry"] is True for e in entries) if entries else qualifies)
+        request["reply_qualifies"] = qualifies
+        request["request_satisfied"] = satisfied
+        request["resolution_basis"] = "Current entry/source/window checks; receipt alone never satisfies a request"
+
         request["operationally_closed"] = "terminal-file" if terminal else "no-longer-needed" if peer and met and presented and not request["reply_observed"] else None
         request["counts_as_reference"] = False if not request["reply_observed"] else None
-        if not request["reply_observed"] and not request["operationally_closed"]:
+        if request["reply_qualifies"] is not True and not request["operationally_closed"]:
             if peer and met:
                 queue.append(action("Keep extra unanswered reference request visible until presentation; it does not hold the met element: " + request["subject_ref"]))
             elif peer and request.get("no_returned_row_at_day64"):
@@ -596,7 +615,7 @@ def finish_case(case, decisions, documents, tables, clock, contract, rules, rost
     case["element_result_classes"] = {k:"missing-evidence" if v["nothing_owed"] is None else "established-within-exported-scope" for k,v in case["elements"].items()}
     case.pop("prior_monitored_conditions", None)
     candidate = {"application_id": app_id, "revision": revision, "status": case["status"],
-                 "elements": {k: e["state"] for k,e in case["elements"].items()}, "packet_presentable": case["packet"]["presentable"],
+                 "elements": {k: e["state"] or "outstanding" for k,e in case["elements"].items()}, "packet_presentable": case["packet"]["presentable"],
                  "decisions": [{"decision_id": d["fields"]["Decision ID"], "admitted": d["result"]["admitted"], "reason": d["result"]["reason"] if d["result"]["admitted"] is False else None} for d in own],
                  "approval_decision_id": case["approval_decision_id"], "activation": case["activation"],
                  "monitored_conditions": [{"condition": c["condition"], "due": c["due"]} for c in case["monitored_conditions"] if not c["satisfied"]],
@@ -648,6 +667,8 @@ def process(store, state_sha, rule_path, rule_sha, previous=None, previous_sha=N
             packet["presentable"] = False;packet["date"] = None
         prior = [d for d in decisions if d["fields"]["Application"] == fields["Application"]]
         result = decision(fields, policy, context["revision"] if context else None, packet, prior)
+        if fields.get("Criteria version") != rules["criteria_version"] and result["admitted"] is True:
+            result = {"admitted": None, "reason": "Unavailable cited criteria version; obtain governing policy"}
         authority = authority_checks(fields,policy)
         earlier = [d for d in prior if d["fields"]["Body"]==fields["Body"]=="Governing Body" and d["fields"]["Revision"]==fields["Revision"]]
         reason_ok = fields["Outcome"] in ("approved","recommended") or bool(fields.get("Reason","").strip())
@@ -692,7 +713,7 @@ def process(store, state_sha, rule_path, rule_sha, previous=None, previous_sha=N
                                 "source_view": "only retained predecessor plus current batch dated evidence; not a revision of earlier reports"})
         case["history"] = history;cases.append(case)
     conflicts = [{"application_id":a["application_id"],"fields":a["schema_conflicts"]} for a in cases if a["schema_conflicts"]]
-    return {"format":"credentialing-workflow/1", "engine":"workflow/1", "dataset":"synthetic-demonstration" if synthetic and all(synthetic) else "supplied-evidence", "batch":batch, "as_of":clock,
+    return {"format":"credentialing-workflow/1", "engine":"workflow/2", "dataset":"synthetic-demonstration" if synthetic and all(synthetic) else "supplied-evidence", "batch":batch, "as_of":clock,
             "evidence_state_sha256":state_sha, "previous_workflow_sha256":previous_sha, "rules_sha256":rule_sha,
             "source_manifest":manifest, "applications":cases, "decision_history":decisions,
             "revision_history":revision_history(tables), "schema_projection_conflicts":conflicts,

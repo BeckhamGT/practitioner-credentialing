@@ -1,0 +1,38 @@
+................................................................................................E...................................E.....................................................E.........................
+======================================================================
+ERROR: test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot (tests.test_repairs.RepairTests.test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_workflow.py", line 178, in test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot
+    SnapshotWriter(self.root,json.loads(SCHEMA.read_text())).recover();self.assertEqual(before,(self.root/'deliverables/snapshots/batch-01.json').read_bytes());two,code=self.run_batch(b,one['workflow_sha256']);self.assertEqual(code,0);self.assertEqual(two['workflow_result'],'unchanged')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/user/fellowship/practitioner-credentialing/credentialing/writer.py", line 225, in recover
+    raise GroundworkError("writer_recovery", "Output changed outside transaction; manual investigation required")
+credentialing.validation.GroundworkError: Output changed outside transaction; manual investigation required
+
+======================================================================
+ERROR: test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot (tests.test_workflow.WorkflowTests.test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_workflow.py", line 178, in test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot
+    SnapshotWriter(self.root,json.loads(SCHEMA.read_text())).recover();self.assertEqual(before,(self.root/'deliverables/snapshots/batch-01.json').read_bytes());two,code=self.run_batch(b,one['workflow_sha256']);self.assertEqual(code,0);self.assertEqual(two['workflow_result'],'unchanged')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/user/fellowship/practitioner-credentialing/credentialing/writer.py", line 225, in recover
+    raise GroundworkError("writer_recovery", "Output changed outside transaction; manual investigation required")
+credentialing.validation.GroundworkError: Output changed outside transaction; manual investigation required
+
+======================================================================
+ERROR: test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot (tests.test_workflow.WorkflowTests.test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_workflow.py", line 178, in test_full_pipeline_snapshot_failure_recovery_retry_keeps_workflow_and_prior_snapshot
+    SnapshotWriter(self.root,json.loads(SCHEMA.read_text())).recover();self.assertEqual(before,(self.root/'deliverables/snapshots/batch-01.json').read_bytes());two,code=self.run_batch(b,one['workflow_sha256']);self.assertEqual(code,0);self.assertEqual(two['workflow_result'],'unchanged')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/user/fellowship/practitioner-credentialing/credentialing/writer.py", line 225, in recover
+    raise GroundworkError("writer_recovery", "Output changed outside transaction; manual investigation required")
+credentialing.validation.GroundworkError: Output changed outside transaction; manual investigation required
+
+----------------------------------------------------------------------
+Ran 212 tests in 5.820s
+
+FAILED (errors=3)

@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-22T19:44:47.011133+00:00",
+  "baseline_tracked_file_count": 197,
+  "changed_or_missing_baseline_tracked_paths": [],
+  "interview_bytes": 43202,
+  "interview_sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d",
+  "interview_matches_downloads_original": true,
+  "schema_sha256": "df371cfd4638194348be79352a0683d9d4dc40bb4f95d87f6028a7b889274318",
+  "product_code_modified": false,
+  "prior_results_modified": false,
+  "audit_uncommitted": true,
+  "push_or_resubmission_performed": false
+}

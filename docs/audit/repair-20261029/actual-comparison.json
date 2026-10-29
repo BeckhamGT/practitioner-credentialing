@@ -1,0 +1,2178 @@
+[
+  {
+    "batch": 1,
+    "summary_before": {
+      "admission_unresolved": 5,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 24,
+        "None": 16
+      },
+      "refused": 1,
+      "schema_applications": 1,
+      "statuses": {
+        "decision-inadmissible": 1,
+        "intake-incomplete": 1,
+        "returned-incomplete": 1,
+        "unresolved-intake-status": 37
+      }
+    },
+    "summary_after": {
+      "admission_unresolved": 5,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 24,
+        "None": 16
+      },
+      "refused": 1,
+      "schema_applications": 3,
+      "statuses": {
+        "decision-inadmissible": 1,
+        "intake-incomplete": 1,
+        "returned-incomplete": 1,
+        "unresolved-intake-status": 37
+      }
+    },
+    "changed_applications": [
+      {
+        "application_id": "APP-2026-001",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-002",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-003",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-004",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-005",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-006",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-007",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-008",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-009",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-010",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-010",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-010",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-013",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-014",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-015",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [
+          "Record disposition on licensure finding with board reply",
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ],
+        "CD_after": [
+          "Record disposition on licensure finding with board reply",
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ]
+      },
+      {
+        "application_id": "APP-2026-016",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-017",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [
+          "Record disposition on 219-day gap 2019-04-01\u20132019-11-05"
+        ],
+        "CD_after": [
+          "Record disposition on 219-day gap 2019-04-01\u20132019-11-05"
+        ]
+      },
+      {
+        "application_id": "APP-2026-018",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-018",
+              "date": null,
+              "established_negative_dependencies": [
+                "intake_complete",
+                "education",
+                "experience",
+                "gaps",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": false,
+                "gaps": false,
+                "high_risk_disposition": true,
+                "intake_complete": false,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-018",
+              "date": null,
+              "established_negative_dependencies": [
+                "intake_complete",
+                "education",
+                "experience",
+                "gaps",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": false,
+                "high_risk_disposition": true,
+                "intake_complete": false,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-020",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-020",
+              "date": null,
+              "established_negative_dependencies": [
+                "education"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-020",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-021",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-021",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-021",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-022",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "experience",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-023",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-024",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-025",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-028",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-030",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-031",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-032",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-032",
+              "date": null,
+              "established_negative_dependencies": [
+                "high_risk_disposition",
+                "education",
+                "experience",
+                "references"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": false,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-032",
+              "date": null,
+              "established_negative_dependencies": [
+                "high_risk_disposition",
+                "education",
+                "experience",
+                "references",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": false,
+                "gaps": true,
+                "high_risk_disposition": false,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": false
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group",
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ]
+      },
+      {
+        "application_id": "APP-2026-033",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-034",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-035",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-036",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-037",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-038",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-039",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-040",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      }
+    ],
+    "status_decision_and_activation_outcomes_unchanged": true
+  },
+  {
+    "batch": 2,
+    "summary_before": {
+      "admission_unresolved": 31,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 13,
+        "None": 27
+      },
+      "refused": 4,
+      "schema_applications": 2,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "summary_after": {
+      "admission_unresolved": 31,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 13,
+        "None": 27
+      },
+      "refused": 4,
+      "schema_applications": 3,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "changed_applications": [
+      {
+        "application_id": "APP-2026-001",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-002",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-003",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-004",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-005",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-006",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-007",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-008",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-009",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-010",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-011",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-012",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-013",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-014",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-015",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [
+          "Record disposition on licensure finding with board reply",
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ],
+        "CD_after": [
+          "Record disposition on licensure finding with board reply",
+          "Record high-risk disposition; retain evidence for MEC and GB"
+        ]
+      },
+      {
+        "application_id": "APP-2026-016",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-017",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-018",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-020",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-020",
+              "date": null,
+              "established_negative_dependencies": [
+                "education"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-020",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-021",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          },
+          "education": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-022",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-023",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-024",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-025",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-028",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-030",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-031",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-032",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-033",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-034",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-035",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-036",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-037",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-038",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-039",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-040",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      }
+    ],
+    "status_decision_and_activation_outcomes_unchanged": true
+  },
+  {
+    "batch": 3,
+    "summary_before": {
+      "admission_unresolved": 52,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 6,
+        "None": 34
+      },
+      "refused": 4,
+      "schema_applications": 2,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "summary_after": {
+      "admission_unresolved": 52,
+      "admitted": 0,
+      "applications": 40,
+      "packet_presentable": {
+        "False": 6,
+        "None": 34
+      },
+      "refused": 4,
+      "schema_applications": 2,
+      "statuses": {
+        "decision-inadmissible": 3,
+        "discontinued": 1,
+        "ineligible-clock-expired": 1,
+        "unresolved-intake-status": 34,
+        "withdrawn": 1
+      }
+    },
+    "changed_applications": [
+      {
+        "application_id": "APP-2026-001",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-002",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-003",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-004",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-005",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-006",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-007",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-008",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-009",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-010",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-011",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-012",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-013",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-014",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-015",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-016",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-017",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-018",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-020",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-021",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          },
+          "education": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-022",
+        "changed_fields": {
+          "packet": {
+            "before": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": null,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled",
+                "certification"
+              ]
+            },
+            "after": {
+              "application_id": "APP-2026-022",
+              "date": null,
+              "established_negative_dependencies": [
+                "education",
+                "certification"
+              ],
+              "presentable": false,
+              "requirements": {
+                "CV_reconciled": null,
+                "certification": false,
+                "education": false,
+                "experience": true,
+                "gaps": true,
+                "high_risk_disposition": true,
+                "intake_complete": null,
+                "licensure": true,
+                "no_open_discrepancy": true,
+                "references": true
+              },
+              "revision": 1,
+              "unknown_dependencies": [
+                "intake_complete",
+                "CV_reconciled"
+              ]
+            }
+          }
+        },
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "eligibility-question",
+            "nothing_owed_before": null,
+            "nothing_owed_after": false
+          }
+        },
+        "CD_before": [],
+        "CD_after": [
+          "Record eligibility disposition or offer amendment; no supported requested group"
+        ]
+      },
+      {
+        "application_id": "APP-2026-023",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-024",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-025",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-028",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-030",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-031",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-032",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-033",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-034",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-035",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-036",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-037",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-038",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-039",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      },
+      {
+        "application_id": "APP-2026-040",
+        "changed_fields": {},
+        "elements": {
+          "certification": {
+            "before": null,
+            "after": "outstanding",
+            "nothing_owed_before": null,
+            "nothing_owed_after": null
+          }
+        },
+        "CD_before": [],
+        "CD_after": []
+      }
+    ],
+    "status_decision_and_activation_outcomes_unchanged": true
+  }
+]

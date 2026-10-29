@@ -1,0 +1,14 @@
+{
+  "local_records": 3397,
+  "remote_records": 3335,
+  "remote_records_absent_from_local": 0,
+  "local_records_absent_from_remote": 62,
+  "remote_record_multiset_contained_in_local": true,
+  "added_types": {
+    "response_item": 26,
+    "event_msg": 28,
+    "token_usage_record": 8
+  },
+  "removed_types": {},
+  "interpretation": "Exact payload mismatch confirmed. No assumption of append-only update or automatic safe replacement."
+}

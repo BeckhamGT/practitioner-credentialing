@@ -1,0 +1,65 @@
+{
+  "classification": "PROPOSAL ONLY \u2014 individual application, NOT an assessed snapshot or approved business result",
+  "basis": "Only final element None mapped to outstanding; existing known status and known false packet retained; G1/G2 tasks retained",
+  "application": {
+    "application_id": "APP-2026-014",
+    "revision": 1,
+    "status": "decision-inadmissible",
+    "elements": {
+      "certification": "outstanding",
+      "education": "resolved",
+      "experience": "resolved",
+      "gaps": "resolved",
+      "licensure": "resolved",
+      "references": "outstanding"
+    },
+    "packet_presentable": false,
+    "decisions": [
+      {
+        "decision_id": "MEC-2026-024",
+        "admitted": false,
+        "reason": "prior presentable packet"
+      }
+    ],
+    "approval_decision_id": null,
+    "activation": null,
+    "monitored_conditions": [],
+    "action_queue": [
+      {
+        "item": "Obtain two qualifying current references; 1 established at 2026-03-16. Retain all ineligible/stale replies",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Establish missing privilege-support component/accreditation or scoped G6 interpretation: PRIV-IM, PRIV-HOSP",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Inspect actual signed/dated application tied to this revision and all-credentials attestation; obtain source documents or explicit authorized export representation",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Inspect current CV contents/version at intake and reconcile it with application and completed verifications; obtain source documents or explicit authorized export representation",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Packet cannot be presented: references",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Review refused decision MEC-2026-024: prior presentable packet",
+        "owner": "Medical Services Professional",
+        "due": null
+      },
+      {
+        "item": "Next required verification attempt (send only with signed release): REF-1401",
+        "owner": "Medical Services Professional",
+        "due": "2026-03-23"
+      }
+    ]
+  }
+}

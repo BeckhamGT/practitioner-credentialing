@@ -1,0 +1,239 @@
+[
+  {
+    "probe": "later_source_correction",
+    "dataset": "SYNTHETIC ONLY",
+    "expected": "affected entry unresolved discrepancy; preserve both replies; no guessed corrected declaration",
+    "observed_state": "discrepancy",
+    "observed_packet": false,
+    "reply_discrepancy_flags": [
+      false,
+      true
+    ],
+    "replies_retained": 2,
+    "confirmed_gap": false
+  },
+  {
+    "probe": "inadmissible_reply_suppresses_required_source_followup",
+    "dataset": "SYNTHETIC ONLY",
+    "expected": "unanswered registrar request remains due for follow-up; diploma receipt is not a source reply",
+    "element_state": "outstanding",
+    "request": {
+      "recorded_attempt_count": 1,
+      "reply_observed": true,
+      "reply_qualifies": false,
+      "request_satisfied": false,
+      "operationally_closed": null
+    },
+    "source_followup_actions": [
+      {
+        "action_id": "03e52b9aa52c981a1354",
+        "dependency": null,
+        "due": null,
+        "execution": "not-sent-or-performed-by-software",
+        "item": "Obtain an admissible verification of the current entry: SYNTH-E0",
+        "kind": "owed",
+        "owner": "Medical Services Professional",
+        "sources": [
+          {
+            "batch": 1,
+            "csv_row": 2,
+            "path": "declared-history.csv",
+            "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f",
+            "source_id": "SYNTH-1-2"
+          }
+        ]
+      },
+      {
+        "action_id": "4325450f69f15bd67fe1",
+        "dependency": null,
+        "due": null,
+        "execution": "not-sent-or-performed-by-software",
+        "item": "Review rejected source / any documented impossibility route for SYNTH-E0; silence is not impossibility",
+        "kind": "owed",
+        "owner": "Medical Services Professional",
+        "sources": [
+          {
+            "batch": 1,
+            "csv_row": 2,
+            "path": "verification-replies.csv",
+            "sha256": "f7fce46adb238607eebec63c9ccd8e1512a2845539f0fe5c166f95c6a11875bf",
+            "source_id": "SYNTH-1-8"
+          }
+        ]
+      },
+      {
+        "action_id": "6f76bf8376fca908c8f6",
+        "dependency": null,
+        "due": "2026-01-23",
+        "execution": "not-sent-or-performed-by-software",
+        "item": "Next required verification attempt (send only with signed release): SYNTH-E0",
+        "kind": "owed",
+        "owner": "Medical Services Professional",
+        "sources": []
+      }
+    ]
+  },
+  {
+    "probe": "unknown_criteria_version",
+    "dataset": "SYNTHETIC ONLY",
+    "expected": "unsupported cited policy version surfaced, no silent evaluation under LARK-PRIV-2026.1",
+    "decision": {
+      "admitted": null,
+      "reason": "Unavailable cited criteria version; obtain governing policy"
+    },
+    "approval": null,
+    "activation": null,
+    "confirmed_gap": false
+  },
+  {
+    "probe": "no_yet_verified_training_support",
+    "dataset": "SYNTHETIC ONLY",
+    "expected": "PRIV rule 6 asks Clinical Director while nothing yet verified supports any group; no discontinuation invented",
+    "certification": {
+      "basis": "current exported declaration and dated source records; CV comparison is a separate file prerequisite",
+      "detail": {
+        "certificates": [
+          {
+            "declaration": {
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "credential_class": "certification",
+                "declaration_id": "SYNTH-C",
+                "declared_expiry_date": "",
+                "declared_issue_date": "",
+                "declared_status": "Board certified",
+                "issuer": "American Board of Family Medicine",
+                "jurisdiction_or_board": "ABFM",
+                "number_declared": "",
+                "revision": "1"
+              },
+              "source": {
+                "batch": 1,
+                "csv_row": 3,
+                "path": "declared-credentials.csv",
+                "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0",
+                "source_id": "SYNTH-1-3"
+              }
+            },
+            "latest": {
+              "class": "listed-primary-class",
+              "row": {
+                "application_id": "SYNTH-WORKFLOW",
+                "board_code": "ABFM",
+                "board_name": "American Board of Family Medicine",
+                "certificate_specialty": "Family Medicine",
+                "certification_status": "Active",
+                "declaration_id": "SYNTH-C",
+                "expiry_date": "2028-12-31",
+                "initial_certification_date": "2003-07-01",
+                "notes": "",
+                "received_date": "2026-02-04",
+                "received_from": "Certifying board \u2014 American Board of Family Medicine",
+                "reply_id": "SYNTH-CR",
+                "reply_method": "",
+                "requested_date": "2026-01-02"
+              },
+              "rule": "ATT Board certification / Primary source",
+              "source": {
+                "batch": 1,
+                "csv_row": 2,
+                "path": "certification-replies.csv",
+                "sha256": "206038806296a4af33b950a763afd9af829832a93afa00610f65d87eaf141c84",
+                "source_id": "SYNTH-1-7"
+              },
+              "usable": true
+            },
+            "replies": [
+              {
+                "class": "listed-primary-class",
+                "row": {
+                  "application_id": "SYNTH-WORKFLOW",
+                  "board_code": "ABFM",
+                  "board_name": "American Board of Family Medicine",
+                  "certificate_specialty": "Family Medicine",
+                  "certification_status": "Active",
+                  "declaration_id": "SYNTH-C",
+                  "expiry_date": "2028-12-31",
+                  "initial_certification_date": "2003-07-01",
+                  "notes": "",
+                  "received_date": "2026-02-04",
+                  "received_from": "Certifying board \u2014 American Board of Family Medicine",
+                  "reply_id": "SYNTH-CR",
+                  "reply_method": "",
+                  "requested_date": "2026-01-02"
+                },
+                "rule": "ATT Board certification / Primary source",
+                "source": {
+                  "batch": 1,
+                  "csv_row": 2,
+                  "path": "certification-replies.csv",
+                  "sha256": "206038806296a4af33b950a763afd9af829832a93afa00610f65d87eaf141c84",
+                  "source_id": "SYNTH-1-7"
+                },
+                "usable": true
+              }
+            ]
+          }
+        ],
+        "conditional_components": [
+          "PRIV-FM",
+          "PRIV-HOSP"
+        ],
+        "groups": [
+          {
+            "code": "PRIV-FM",
+            "criteria_version": "LARK-PRIV-2026.1",
+            "current_experience": "reserved-clinical-leadership",
+            "inactive_certificate_supports_nothing": false,
+            "qualifying_accredited_degree": true,
+            "supported": null,
+            "supporting_certification": true,
+            "training": [
+              {
+                "met": false,
+                "minimum_months": 36,
+                "observations": [],
+                "required_title": "Residency \u2014 Family Medicine"
+              }
+            ],
+            "training_met": false
+          },
+          {
+            "code": "PRIV-HOSP",
+            "criteria_version": "LARK-PRIV-2026.1",
+            "current_experience": "reserved-clinical-leadership",
+            "inactive_certificate_supports_nothing": false,
+            "qualifying_accredited_degree": true,
+            "supported": null,
+            "supporting_certification": true,
+            "training": [
+              {
+                "met": false,
+                "minimum_months": 36,
+                "observations": [],
+                "required_title": "Residency \u2014 Internal Medicine"
+              },
+              {
+                "met": false,
+                "minimum_months": 36,
+                "observations": [],
+                "required_title": "Residency \u2014 Family Medicine"
+              }
+            ],
+            "training_met": false
+          }
+        ],
+        "scope": "No accreditation pass or one-component interpretation invented",
+        "supported": [],
+        "unsupported": [],
+        "verification_complete": true
+      },
+      "nothing_owed": false,
+      "sources": [],
+      "state": "eligibility-question"
+    },
+    "CD_actions": [
+      "Record eligibility disposition or offer amendment; no supported requested group"
+    ]
+  }
+]

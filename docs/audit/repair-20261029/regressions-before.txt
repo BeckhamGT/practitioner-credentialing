@@ -1,0 +1,53 @@
+FFFFF
+======================================================================
+FAIL: test_later_contradictory_source_reopens_matching_entry (tests.test_repairs.RepairTests.test_later_contradictory_source_reopens_matching_entry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 14, in test_later_contradictory_source_reopens_matching_entry
+    self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'resolved' != 'discrepancy'
+- resolved
++ discrepancy
+
+
+======================================================================
+FAIL: test_unavailable_cited_policy_cannot_admit_or_activate (tests.test_repairs.RepairTests.test_unavailable_cited_policy_cannot_admit_or_activate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 23, in test_unavailable_cited_policy_cannot_admit_or_activate
+    self.assertIsNone(case['decisions'][0]['result']['admitted'])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not None
+
+======================================================================
+FAIL: test_inadmissible_material_does_not_answer_source_request (tests.test_repairs.RepairTests.test_inadmissible_material_does_not_answer_source_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 33, in test_inadmissible_material_does_not_answer_source_request
+    self.assertTrue(req['reply_observed']);self.assertFalse(req['reply_qualifies']);self.assertFalse(req['request_satisfied'])
+                                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'not-evaluated' is not false
+
+======================================================================
+FAIL: test_no_verified_training_routes_temporary_question (tests.test_repairs.RepairTests.test_no_verified_training_routes_temporary_question)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 39, in test_no_verified_training_routes_temporary_question
+    self.assertTrue(any(q['owner']=='Clinical Director' and 'eligibility' in q['item'] for q in case['action_queue']))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_owed_element_review_uses_outstanding_without_claiming_pass (tests.test_repairs.RepairTests.test_owed_element_review_uses_outstanding_without_claiming_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 48, in test_owed_element_review_uses_outstanding_without_claiming_pass
+    self.assertEqual(case['elements']['certification']['state'],'outstanding')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'outstanding'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.174s
+
+FAILED (failures=5)

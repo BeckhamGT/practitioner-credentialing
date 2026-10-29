@@ -1,0 +1,47 @@
+{
+  "observed_utc_date": "2026-10-22",
+  "method": "Read-only GitHub API and Chrome accessibility inspection of actual Tacitt Work/Challenge and Google Classroom pages. This is an auditor observation, not a fabricated platform receipt.",
+  "repositories": [
+    {
+      "full_name": "BeckhamGT/practitioner-credentialing",
+      "html_url": null,
+      "private": false,
+      "fork": true,
+      "visibility": "public",
+      "default_branch": "main"
+    },
+    {
+      "full_name": "BeckhamGT/practitioner-credentialing-submission",
+      "html_url": null,
+      "private": false,
+      "fork": false,
+      "visibility": "public",
+      "default_branch": "main"
+    }
+  ],
+  "classroom": {
+    "state": "Turned in",
+    "assignment": "Project E",
+    "attached_repository": "https://github.com/BeckhamGT/practitioner-credentialing.git",
+    "submission_action_performed_by_this_audit": false
+  },
+  "tacitt": {
+    "score": 83.8,
+    "met": 109,
+    "not_met": 2,
+    "no_evidence": 19,
+    "total": 130,
+    "attempts": 1,
+    "outcome": "Passed",
+    "graded_commit": "cbc1d70a40724f48d82aaf074c8bb2dc131fb7f7",
+    "scoring_definition_visible": "Share of 130 checkpoints met",
+    "individual_checkpoints_visible": false
+  },
+  "capture_current_request": {
+    "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+    "live_transcript_line": 3428,
+    "timestamp": "2026-10-22T19:20:29.931Z",
+    "first600_contains_attachment_reference_not_full_choice_paragraph": true
+  },
+  "privacy_or_submission_mutations_performed": false
+}
