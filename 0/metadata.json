@@ -1,0 +1,73 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M64Q0EQTY002T0F3ZXYVEWZ9",
+  "session_id": "01a15fd1-860f-7210-a8ec-b2a637129c5e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-29T20:53:17.586753Z",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "save_step_count": 1,
+  "files_touched": [
+    ".local/resubmission-audit-20261022/audit_checks.py",
+    ".local/resubmission-audit-20261022/fresh-policy-readings.json",
+    ".local/resubmission-audit-20261022/probes.py",
+    "docs/audit/resubmission-20261022/README.md",
+    "docs/audit/resubmission-20261022/additional-independent-checks.json",
+    "docs/audit/resubmission-20261022/audit_checks.py",
+    "docs/audit/resubmission-20261022/baseline-results.json",
+    "docs/audit/resubmission-20261022/capture-record-comparison.json",
+    "docs/audit/resubmission-20261022/capture-remote-comparison.json",
+    "docs/audit/resubmission-20261022/diagnostic-probes.json",
+    "docs/audit/resubmission-20261022/execution-log.json",
+    "docs/audit/resubmission-20261022/external-state-observations.json",
+    "docs/audit/resubmission-20261022/fresh-policy-comparison.json",
+    "docs/audit/resubmission-20261022/fresh-synthetic-proof.json",
+    "docs/audit/resubmission-20261022/independent-workflow-checks.json",
+    "docs/audit/resubmission-20261022/preservation.json",
+    "docs/audit/resubmission-20261022/probes.py",
+    "docs/audit/resubmission-20261022/proposed-APP014-batch1.json",
+    "docs/audit/resubmission-20261022/reproduce.py",
+    "docs/audit/resubmission-20261022/tests-receipt.json",
+    "docs/audit/resubmission-20261022/tests.txt",
+    "docs/resubmission-audit-20261022.md",
+    "docs/resubmission-requirements-20261022.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "354d25d1ee2e",
+  "checkpoint_transcript_start": 3397,
+  "transcript_lines_at_start": 3397,
+  "compact_transcript_start": 356,
+  "token_usage": {
+    "input_tokens": 492465,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 7139968,
+    "output_tokens": 38775,
+    "api_call_count": 64,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 15
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-29T20:53:17.270493Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 4108,
+    "total_committed": 4108,
+    "total_lines_changed": 4108,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}

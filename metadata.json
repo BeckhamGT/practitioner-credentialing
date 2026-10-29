@@ -1,0 +1,49 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M64Q0EQTY002T0F3ZXYVEWZ9",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    ".local/resubmission-audit-20261022/audit_checks.py",
+    ".local/resubmission-audit-20261022/fresh-policy-readings.json",
+    ".local/resubmission-audit-20261022/probes.py",
+    "docs/audit/resubmission-20261022/README.md",
+    "docs/audit/resubmission-20261022/additional-independent-checks.json",
+    "docs/audit/resubmission-20261022/audit_checks.py",
+    "docs/audit/resubmission-20261022/baseline-results.json",
+    "docs/audit/resubmission-20261022/capture-record-comparison.json",
+    "docs/audit/resubmission-20261022/capture-remote-comparison.json",
+    "docs/audit/resubmission-20261022/diagnostic-probes.json",
+    "docs/audit/resubmission-20261022/execution-log.json",
+    "docs/audit/resubmission-20261022/external-state-observations.json",
+    "docs/audit/resubmission-20261022/fresh-policy-comparison.json",
+    "docs/audit/resubmission-20261022/fresh-synthetic-proof.json",
+    "docs/audit/resubmission-20261022/independent-workflow-checks.json",
+    "docs/audit/resubmission-20261022/preservation.json",
+    "docs/audit/resubmission-20261022/probes.py",
+    "docs/audit/resubmission-20261022/proposed-APP014-batch1.json",
+    "docs/audit/resubmission-20261022/reproduce.py",
+    "docs/audit/resubmission-20261022/tests-receipt.json",
+    "docs/audit/resubmission-20261022/tests.txt",
+    "docs/resubmission-audit-20261022.md",
+    "docs/resubmission-requirements-20261022.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 492465,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 7139968,
+    "output_tokens": 38775,
+    "api_call_count": 64,
+    "subagent_tokens_complete": true
+  }
+}
