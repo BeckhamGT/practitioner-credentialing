@@ -1,5 +1,11 @@
 # Project E source and readiness audit
 
+## Current local repair status — October 30, 2026
+
+The [repair review](repair-review-20261030.md) is the current requirements/evidence delta over the preserved [32-requirement audit matrix](resubmission-requirements-20261022.md). R01/R09/R12/R14/R20/R28/R29 now have targeted repaired branches, 157 tests and new original-source verification. R04 remains unmet: all three full actual assessed snapshots are absent. R11/R17/R22–R26 remain limited by authentic signature/CV/reconciliation/accreditation evidence. R30 has a verified new genuine capture association; remote finalized checkpoint synchronization is prepared but not executed. R32 privacy/access and template-origin issues remain pending learner decision. Earlier rows and receipts below describe prior stages and do not constitute current acceptance.
+
+Current source corrections: GBD-2026-034 maps to APP-036; MEC-2026-036 maps to APP-038; APP-022 has no later admissible training reply. G3–G8 remain scoped to their records. No repeated Drive folder search, source repair, new export convention or business-rule waiver was performed.
+
 **Current destination update, October 22:** the learner explicitly authorized
 the original **public** `BeckhamGT/practitioner-credentialing` as final, including
 code, original interview/history and genuine Entire records. Initial remote main

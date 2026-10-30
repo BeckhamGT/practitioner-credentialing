@@ -12,13 +12,15 @@ from .workflow_store import WorkflowStore
 from .writer import SnapshotWriter, snapshot_path
 
 
-def _process_run(evidence_store, state, work_store, previous, rules, rules_sha, root, schema_path, audit_outputs=()):
+def _process_run(evidence_store, state, work_store, previous, rules, rules_sha, root, schema_path, audit_outputs=(), attempt_context=None):
     if root.is_symlink():raise GroundworkError("unsafe_path", "Output root cannot be a symlink")
     root = root.resolve(strict=True)
     evidence = Store(evidence_store)
     if work_store.resolve().is_relative_to(evidence.root) or evidence.root.is_relative_to(work_store.resolve()):
         raise GroundworkError("unsafe_path", "Workflow store must be separate from retained evidence store")
     retained = evidence.at(state);batch = retained["state"]["manifest"]["batch"]
+    if attempt_context is not None:
+        attempt_context.update(batch=batch,as_of=retained["state"]["manifest"]["as_of"],consumed_manifest=retained["state"]["manifest"])
     workflow = WorkflowStore(work_store);prior = workflow.predecessor(batch,state,previous)
     report = process(evidence,state,rules,rules_sha,prior,previous)
     schema = read_json(schema_path.read_bytes())
@@ -34,6 +36,8 @@ def _process_run(evidence_store, state, work_store, previous, rules, rules_sha, 
         if path.is_symlink() or path.read_bytes()!=raw:raise GroundworkError("changed_report", "Preserve existing report, do not overwrite differing bytes")
     else:
         with path.open("xb") as out:out.write(raw)
+    if attempt_context is not None:
+        attempt_context.update(retained_workflow_sha256=run_sha,written_report=name)
     receipt = {"operation":"process", "workflow_result":change, "workflow_sha256":run_sha,
                "previous_workflow_sha256":previous, "batch":batch,"as_of":report["as_of"],"report":name,
                "summary":report["summary"],"assessed_snapshot_written":False,
@@ -89,7 +93,7 @@ def process_run(evidence_store, state, work_store, previous, rules, rules_sha, r
     identifier=uuid.uuid4().hex
     relative=f"deliverables/workflow/attempts/{identifier}.json"
     record={"attempt_id":identifier,"started_at_utc":datetime.now(timezone.utc).isoformat(),
-            "operation":"process","state":state,"previous_workflow":previous,
+            "operation":"process","state":state,"previous_workflow":previous,"batch":None,"as_of":None,
             "command":["python","-m","credentialing","process","--store",str(evidence_store),"--state",state,"--work-store",str(work_store),"--rules",str(rules),"--rules-sha256",rules_sha,"--root",str(root)]+(["--previous-workflow",previous] if previous else []),
             "arguments":{"store":str(evidence_store),"work_store":str(work_store),"rules":str(rules),"rules_sha256":rules_sha,"root":str(root)},
             "result":"running","receipt":relative}
@@ -101,7 +105,7 @@ def process_run(evidence_store, state, work_store, previous, rules, rules_sha, r
         _atomic_json(folder/"current.json",{})
     try:
         result,code=_process_run(evidence_store,state,work_store,previous,rules,rules_sha,root,schema_path,
-            [relative,"deliverables/workflow/latest-attempt.json","deliverables/workflow/current.json"])
+            [relative,"deliverables/workflow/latest-attempt.json","deliverables/workflow/current.json"],record)
         record.update(result="consumed",exit_code=code,output=result)
         index_path=folder/"current.json"
         index=read_json(index_path.read_bytes()) if index_path.exists() else {}

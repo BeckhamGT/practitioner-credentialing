@@ -1,0 +1,464 @@
+{
+  "graded_commit": "cbc1d70a40724f48d82aaf074c8bb2dc131fb7f7",
+  "protected_files_unchanged": [
+    {
+      "path": "deliverables/evidence/batch-01-timeline-43ea990d33a5.json",
+      "sha256": "43ea990d33a50c0b92a71bd83c7dc743d4d0d662cc5a757dee55bdd960bd6d7e"
+    },
+    {
+      "path": "deliverables/evidence/batch-02-timeline-4c0b738ad865.json",
+      "sha256": "4c0b738ad865d8ef556683e61259d88f72de655bdffa40578c45544ca66574c0"
+    },
+    {
+      "path": "deliverables/evidence/batch-03-timeline-2339f13a56fa.json",
+      "sha256": "2339f13a56fabcd90d8218996e83f74bf5374a598af5013ceb9f85d61c167f5e"
+    },
+    {
+      "path": "deliverables/evidence/capture-proof.json",
+      "sha256": "3869c3e5617980f89617ad1db32afef259e2787430f562ff91709a85d2f17327"
+    },
+    {
+      "path": "deliverables/evidence/execution-log.json",
+      "sha256": "f1265431da5347380c1949a9db56a369ed1654f5e6ea6ca769e72150ee72c067"
+    },
+    {
+      "path": "deliverables/evidence/handoff-check.json",
+      "sha256": "dc8af44b4d2c7c2570e93e6a5206267a98074cbd982af7b9ce0700afdcef9b09"
+    },
+    {
+      "path": "deliverables/evidence/independent-verification.json",
+      "sha256": "45fc97b7a917baba4b35a180db79d1e41aa0b93815569a62416889a444c7e169"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-01.json",
+      "sha256": "9e35cd9d70b507b8ffad01fcebd0fc1a4643a1aed35d264e87e98e01ac50a63a"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-02.json",
+      "sha256": "315901d46665c6d60a734c03703407af266862fcae52b0dd3055f7defd8724a0"
+    },
+    {
+      "path": "deliverables/evidence/input-manifests/batch-03.json",
+      "sha256": "732b7f6f8921c90a94a7f7628b2a2e7f9fdd77ededd9efef7e391b43a9d573f8"
+    },
+    {
+      "path": "deliverables/evidence/skill-scan.md",
+      "sha256": "7c25df723c3a8bae45ba11a2736b86955f56eebdc2a3341ccf1aa990a1923c37"
+    },
+    {
+      "path": "deliverables/evidence/skill-validation.json",
+      "sha256": "cd53fd5a1c297de0c8b88e105db686e09e9a30f7afa7030fbb959534e25b0c86"
+    },
+    {
+      "path": "deliverables/synthetic/conditional-results.json",
+      "sha256": "3a19474fd910fdcba333d408f52efea721c121eb56f09fcb4919383248d63f39"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/rules.md",
+      "sha256": "d532c8af41104f2a101d58b43f8c6c96f7380cda24e854ed5467dd4840c204bf"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/run-log.md",
+      "sha256": "e0e9dfc2cd53dfcc37ea9baf50e7de6e7e2d2b9d89b120851f52d438828294dc"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/snapshots/batch-01.json",
+      "sha256": "890d2ce6d8f130eb6418e60fcc5905ccf77f253ab8097f0b0ad1ed2853484c0c"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/snapshots/batch-02.json",
+      "sha256": "0064e7bdf96ad819b221099c13df63713fb5654cd788fcee0d18b97f5f25927c"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/snapshots/batch-03.json",
+      "sha256": "514756fbc6f0d25230156ce8956ca5f2dbaef69d30b5b89ebf561041b8906aa9"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/workflow/batch-01-ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34.json",
+      "sha256": "ad75f406260af01b2ecb7775fed939ff2bf2c34c7f2b3d7e17d7be2b7fdd5b34"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/workflow/batch-02-56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87.json",
+      "sha256": "56a004dd4f26323c0600405cefd22218276bf2cbaf429532958ac902b5362f87"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/deliverables/workflow/batch-03-d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719.json",
+      "sha256": "d6e1ab6a8ee5d02cb04433c3ea2e89c6d40f8fb353383ac59e5e2770990d6719"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/execution-log.json",
+      "sha256": "9082973dd24aa736ba18734825d508b4ebcd4a569b22cc8440eed5b8b68aba70"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/README.md",
+      "sha256": "e6eea5bd2626ada7bf22794bcdc59ee6de8a3f74ed374c50cbeaa8ca3a90e159"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/application-disclosures.csv",
+      "sha256": "67c3ec1cd9657a3a9a4fba4f733ca2859d6d26ff37fcabc499bfaffa585a609b"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/applications.csv",
+      "sha256": "5ff716ae901f93802def83a49f8f1dd3252d5edd5bccc8f65def006d83454fa8"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/certification-replies.csv",
+      "sha256": "206038806296a4af33b950a763afd9af829832a93afa00610f65d87eaf141c84"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/correspondence.csv",
+      "sha256": "98868c393fc4dc70a76e230ff2ef9f25abe3b31da4d2b184a39af99b5e2c1d45"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/declared-credentials.csv",
+      "sha256": "2d27fd4ec71e0c9531f5a284e9798d7e2c53c171c0dbb66aa8b454fc9784e5e0"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/declared-history.csv",
+      "sha256": "8b6b6097c9b8079b13d56d970b0383f71c68f8242e0c3e48663897eccf2cb73f"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/input.manifest.json",
+      "sha256": "0c7e2eb426117e2dc8aa257957eefc465d2d9fe2dcbfedadfbd9892e06be0da6"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/letters/SYNTH-intake-evidence.md",
+      "sha256": "fa8fe8a3eec75ebab8a2cf52f3c1355f6a60e84c7b73a96398b1229bf432049d"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/letters/SYNTH-review.md",
+      "sha256": "27d532f8a8e56a0c1a029fe378b211930eb23b5e407290f3b410a2455c4ffa37"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/licence-lookup-other-states.csv",
+      "sha256": "3d9cc090a459e75fa671dbc7344d486f9d39a2b6a1b7be44723247565bb6b0a2"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/licence-lookup-wa.csv",
+      "sha256": "3f6c6f6711b1eae94f10c3b876a2e9f8f78dc3f07839d315e2613e22e8d91b15"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/peer-referees.csv",
+      "sha256": "b1e38b909edc988d63b633289181206b0035f6d165b21e46eaa498184b00f862"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/peer-reference-replies.csv",
+      "sha256": "96f26c48c9cfdcda6b3b761b795b5981dbd032631bb15aa39f91f50a4c9bb688"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/privilege-requests.csv",
+      "sha256": "f3d6801fb4a03c2e4f1fd2342a232bc50a0adfa1f103608a21f24cc5a79bd866"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/verification-attempts.csv",
+      "sha256": "e3b170749c5bb75f4a312650a5aa280cb06a83a24a1e8fc8b0568bd27e1cfce8"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-01/verification-replies.csv",
+      "sha256": "fb531f250348817d7c62e848c758174db871226bc46b75fcf85e62d17096a2b3"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/README.md",
+      "sha256": "152f7f77beeab9c323a899e91b2c26ad7b0095e525e37dc9cb8f91da2f2fceb8"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/application-disclosures.csv",
+      "sha256": "0bad7e35c48a5ad492c8462dda0f3fe903eb0174c59044e8556dd346c4e5ff96"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/applications.csv",
+      "sha256": "63c1a271ab2af901e8106aa211a474561d0deb21085ae4e384bb5bfcebc9eff0"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/certification-replies.csv",
+      "sha256": "a0f68abff968645afd9f28f4e4e640a5da10ca05eeba4e62e73208f412a601eb"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/correspondence.csv",
+      "sha256": "9a9f92d87ac4e1062d22c5d249e9f551928268377441b5331b16efccce75aed5"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/decisions/SYNTH-GB.md",
+      "sha256": "07d88352604630fb1471025c35d9d09339b2cd8522fa8d3787e84fecbb6e3f72"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/declared-credentials.csv",
+      "sha256": "20e44bc2e25d0d9a5fdbcb564a659fd9ac10faf46ffc6bbb10c5ba6fa4c00c03"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/declared-history.csv",
+      "sha256": "43bdd7a5c865e05da6cc1e8982c467ac899d43c09b5128eba995f3c64743301d"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/input.manifest.json",
+      "sha256": "113d599c298c185011e64fc6635d0369fa408ef663b713f5c80bb33dba97cbec"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/licence-lookup-other-states.csv",
+      "sha256": "3d9cc090a459e75fa671dbc7344d486f9d39a2b6a1b7be44723247565bb6b0a2"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/licence-lookup-wa.csv",
+      "sha256": "2e6693635851be7f662c0e45814cec632593afb73da96bf3f776e806920d90c7"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/peer-referees.csv",
+      "sha256": "b7cd57151aed10e7ff6b63fbcb3b06ac8000fa67910ecf8b8d0c61892dd9aef1"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/peer-reference-replies.csv",
+      "sha256": "70ab52544eb327ac48534fdccc80a60d5d20ef73b13838b280b4e82f982f85ab"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/privilege-requests.csv",
+      "sha256": "56449c0862aa85e91ad4cdd7b589043c7ebaae3e5225db12e051800c070d3690"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/verification-attempts.csv",
+      "sha256": "8b130fe580279f40033e110deebaf27d4ee2c22a96c8185d32d8a37b9f734383"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-02/verification-replies.csv",
+      "sha256": "7bb8d0bd5ebac3237cc102a031c7780800a70d1adca0b6458cca2eeffd1e7404"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/README.md",
+      "sha256": "928a910550ce07bba0255c3393a91c22dee6f1abd3feca75744490a13eadffbe"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/application-disclosures.csv",
+      "sha256": "0bad7e35c48a5ad492c8462dda0f3fe903eb0174c59044e8556dd346c4e5ff96"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/applications.csv",
+      "sha256": "63c1a271ab2af901e8106aa211a474561d0deb21085ae4e384bb5bfcebc9eff0"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/certification-replies.csv",
+      "sha256": "a0f68abff968645afd9f28f4e4e640a5da10ca05eeba4e62e73208f412a601eb"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/correspondence.csv",
+      "sha256": "74675e40345a7e24ee18403b1438adc2589686d1746845c2484ef04170ffcf0c"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/declared-credentials.csv",
+      "sha256": "20e44bc2e25d0d9a5fdbcb564a659fd9ac10faf46ffc6bbb10c5ba6fa4c00c03"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/declared-history.csv",
+      "sha256": "43bdd7a5c865e05da6cc1e8982c467ac899d43c09b5128eba995f3c64743301d"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/input.manifest.json",
+      "sha256": "f25b44f0f098b5c6f5ae76a88c17b5a2d4d66b1baa8a1f971b4b9e1b13f0468d"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/letters/SYNTH-satisfaction.md",
+      "sha256": "5240ca64a2728791db60acba2641c09aa428386d52cc1ce2a97189dc27088ed8"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/licence-lookup-other-states.csv",
+      "sha256": "3d9cc090a459e75fa671dbc7344d486f9d39a2b6a1b7be44723247565bb6b0a2"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/licence-lookup-wa.csv",
+      "sha256": "2e6693635851be7f662c0e45814cec632593afb73da96bf3f776e806920d90c7"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/peer-referees.csv",
+      "sha256": "b7cd57151aed10e7ff6b63fbcb3b06ac8000fa67910ecf8b8d0c61892dd9aef1"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/peer-reference-replies.csv",
+      "sha256": "70ab52544eb327ac48534fdccc80a60d5d20ef73b13838b280b4e82f982f85ab"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/privilege-requests.csv",
+      "sha256": "56449c0862aa85e91ad4cdd7b589043c7ebaae3e5225db12e051800c070d3690"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/verification-attempts.csv",
+      "sha256": "8b130fe580279f40033e110deebaf27d4ee2c22a96c8185d32d8a37b9f734383"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/inputs/batch-03/verification-replies.csv",
+      "sha256": "7bb8d0bd5ebac3237cc102a031c7780800a70d1adca0b6458cca2eeffd1e7404"
+    },
+    {
+      "path": "deliverables/synthetic/workflow-demo/proof.json",
+      "sha256": "d7f996707fb3d56b9e1265e2f468fd18cf8ae282a4b84c48fa25396fd542263b"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/SYNTH.csv",
+      "sha256": "c1f322debfa472c83a31fc2fb45cce0420210ff83724216ffc9f0000d8928db0"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/run-log.md",
+      "sha256": "0e867b4e4a05aa0ec0ae0509ba89b17f5b3d72c293714bc8f8457ccf9db183ef"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/batch-01.json",
+      "sha256": "0644724950f68fab07378335d476e73bc680391fbcf4ca918a7fd815f67a81f7"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/batch-02.json",
+      "sha256": "cc607b38cfe33f73ba495770ffcf320923c59a2ca01a0b78fe72fffe7cb3eb02"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/batch-03.json",
+      "sha256": "36161a077fdd2a43c7d73aca86663de80e07da92f1cb00f312fd719cc0a22763"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/history/batch-01-41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a.json",
+      "sha256": "41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/history/batch-02-a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5.json",
+      "sha256": "a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/history/batch-03-cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7.json",
+      "sha256": "cf4857ee3a7c3781c5ba06a80bfca52d358e83b2511cc76ac9974251d40075c7"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/deliverables/snapshots/history/index.json",
+      "sha256": "81cabfd79928705b5fbc5fcceb3630d4486f855a597797b472a93398b89512f7"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/failure-probe/SYNTH.csv",
+      "sha256": "c1f322debfa472c83a31fc2fb45cce0420210ff83724216ffc9f0000d8928db0"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/failure-probe/deliverables/run-log.md",
+      "sha256": "e3bbfed4f2c93a2d8d9958960a933d255107bc57a7b91d85a76f925696ab9b6e"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/failure-probe/deliverables/snapshots/batch-01.json",
+      "sha256": "41b04ba6bef159e36309793c522cc9c8f51feb08eabaf770cf98f820de82ce1a"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/failure-probe/deliverables/snapshots/batch-02.json",
+      "sha256": "a2d7e4a94212e75dc9854f188adb9393113fa254a97b9c65832db6b7d8aa70e5"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/failure-probe/rules.md",
+      "sha256": "b761bacf9c8052dd78a89193cf30993d3553533d7bd9d40e73858a10f0a489c5"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/proof.json",
+      "sha256": "ab87cc634b3cc422c00e68995a41463260405f4d8b050ccd5857c1d93a39dd2e"
+    },
+    {
+      "path": "deliverables/synthetic/writer-demo/rules.md",
+      "sha256": "b761bacf9c8052dd78a89193cf30993d3553533d7bd9d40e73858a10f0a489c5"
+    },
+    {
+      "path": "deliverables/workflow/batch-01-5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679.json",
+      "sha256": "5ac56baa3165b13892d55b987d05b93533018f1961612533ef8e7d76e80e1679"
+    },
+    {
+      "path": "deliverables/workflow/batch-02-a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e.json",
+      "sha256": "a4359c44c6537fbe0f5d1ad7c47d258a86d7b63478a91798985ad90c303b898e"
+    },
+    {
+      "path": "deliverables/workflow/batch-03-10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5.json",
+      "sha256": "10f9cb009dc3dcd745a7fa5e43673e3afd7fa86405642b9e5d07877c91e107e5"
+    },
+    {
+      "path": "deliverables/workflow/capture-proof.json",
+      "sha256": "a6f6aaa42284198f5b440b8911ba0a1b174145ef2876e05c5822ee9c4383320f"
+    },
+    {
+      "path": "deliverables/workflow/current.json",
+      "sha256": "f81e6586c3b543c38c6d1d744dea0e3a18338576a6f00cf68a070486bf40a61d"
+    },
+    {
+      "path": "deliverables/workflow/execution-log.json",
+      "sha256": "4e56c9649b7544d0c6dd957de1243b13ddeb12914fc0c3af82473905c0854ab9"
+    },
+    {
+      "path": "deliverables/workflow/independent-verification.json",
+      "sha256": "457fe397a24694485251dbbd5f926242eb71bc0de4e9312e5433d77af0318303"
+    },
+    {
+      "path": "deliverables/workflow/preservation.json",
+      "sha256": "38c0b655ff53466dcc23456fe24238771cd41d03cafbafc3f8878567975b9c29"
+    },
+    {
+      "path": "deliverables/workflow/skill-scan.md",
+      "sha256": "b132f557f88f5ab2f0324771374af8703e43889e5bfcbe5506facd76468b68ff"
+    },
+    {
+      "path": "deliverables/workflow/skill-validation.json",
+      "sha256": "f5493162d0625ffd8942f92c8ec29bc2c6b965bd39d8a3f1202c9d5bdef38991"
+    },
+    {
+      "path": "deliverables/workflow/summary.json",
+      "sha256": "b6a7a7c949954f90538ae828483819d9f87dadffe630b7913ba8a875db704d17"
+    },
+    {
+      "path": "deliverables/workflow/tests.txt",
+      "sha256": "eb82d96eaa74c04f7e8612db72e8a91539c1abf465132070605dfd7c971aad6b"
+    },
+    {
+      "path": "docs/audit/source-readings.json",
+      "sha256": "4bd79770ee0a1fe25c8dc8fa008d6028d120605f98a62a4c640e4c896a8a7515"
+    },
+    {
+      "path": "interviews/project-e-practitioner-credentialing-20261022-0427.md",
+      "sha256": "9bf893b1678735f49e777e2693bceb2093e5df1b493024821e61ab697e209f4d"
+    },
+    {
+      "path": "references/continuation.json",
+      "sha256": "d392ba706f13091ee72baab794fb106cd93696da7c09ceb26b8c5e6b75c5144c"
+    },
+    {
+      "path": "references/element-rules.json",
+      "sha256": "f4d0418c024166945826c2eb9f586f787350ab7efec3faa8fd0c7fc524613eb1"
+    },
+    {
+      "path": "references/element-sources/APP.txt",
+      "sha256": "9b4f939ae38ff219b452f3a42b30315bc97726d46d34d838d4500a2e9a0cdf56"
+    },
+    {
+      "path": "references/element-sources/PRIV.txt",
+      "sha256": "fa34dbc4a5a8b3f30d20678e009d61ec6e9b16a6182d8d66406dc342009a6522"
+    },
+    {
+      "path": "references/element-sources/REF.txt",
+      "sha256": "0c15223a1a9adf7a581c677fa99640ca916e31fb1e30249f1c9f4c507b3c0e1d"
+    },
+    {
+      "path": "references/export-guide.txt",
+      "sha256": "84a78ec340e99f94152728c79e7b2edd6acb54fd2e7f9ac88c67c4ea14c57121"
+    },
+    {
+      "path": "references/record-review/README.md",
+      "sha256": "9205204391152c793ca15f2714a940ca851fa1b397de03c8de063e3213a5c308"
+    },
+    {
+      "path": "references/record-review/accepted-sources.txt",
+      "sha256": "3e3b7da8f5582958b037939c6ab3681e015ce4a29fa704f0b91da28c37e03620"
+    },
+    {
+      "path": "references/record-review/authority.txt",
+      "sha256": "37baaf8a28fbfc3fcea688fb35f1a85cf7cc7e665bebe1539eb9faa890cb65c6"
+    },
+    {
+      "path": "references/record-review/procedure.txt",
+      "sha256": "e62cb335326de7a1b3ea0e7fb53c58d21a0ba655cdfba1a1cad505634f0d5dd0"
+    },
+    {
+      "path": "references/record-review/rules.json",
+      "sha256": "673cce5abb0a6eab08f5a9bb2f569bbaa6af71a1b0dec01318a12d5e2c2e879b"
+    },
+    {
+      "path": "snapshot.schema.json",
+      "sha256": "df371cfd4638194348be79352a0683d9d4dc40bb4f95d87f6028a7b889274318"
+    }
+  ],
+  "original_interview_equals_downloads": true,
+  "actual_assessed_snapshots_absent": true,
+  "push_or_resubmission_performed": false
+}

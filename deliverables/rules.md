@@ -1,5 +1,18 @@
 # Rules register — complete workflow capability
 
+## Repair implementation notes — October 30, 2026
+
+Current evidence and limits: [repair review](../docs/repair-review-20261030.md). These are corrections to application of existing rules, not new office rules or source conventions:
+
+- P §§2,11: retain contradictory current-entry observations; source recency alone cannot resolve a discrepancy. A later applicant amendment and matching verification can resolve the affected entry.
+- PRIV introduction and I Oct 21 5:29 PM: bind requests/decisions to the available cited criteria version. An unavailable version cannot create a positive admission; independent earlier failures remain proven refusals.
+- P §3 common verification rules, ATT education row, I 6:06 PM: raw material received is not necessarily a completed source request. Preserve receipt, qualifying response, request satisfaction, prior attempts and required follow-up separately. No fourth-attempt policy is invented.
+- PRIV application rule 6: raise temporary eligibility review on missing admissible degree/training support, retain it until verified support exists, never compute discontinuation. Missing accreditation remains unknown and separate from applicant fault.
+- S /$defs/element_state: owed review uses existing outstanding; unknown nothing_owed/completeness/readiness/admission is not converted to a pass or refusal.
+- A run-log/failed-run requirements: durable process receipts distinguish latest attempt from last consumed output; writer recovery owns its journaled log until rollback completes.
+
+Source identifiers for current review: GBD-2026-034 is APP-036's wrong-revision record; MEC-2026-036 is APP-038's unauthorized approving-body record. APP-022 still lacks an admissible training reply in batch 3. The detailed register and historical source conflicts below remain applicable within these corrections.
+
 This register covers the current `process` command, its helpers and writer.
 Historical review outputs remain unchanged. A rule is different from evidence
 that an individual case meets it. No case-specific answers are in the runtime.

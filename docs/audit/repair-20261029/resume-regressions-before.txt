@@ -1,0 +1,26 @@
+FF........
+======================================================================
+FAIL: test_later_matching_reply_does_not_replace_applicant_resolution (tests.test_repairs.RepairTests.test_later_matching_reply_does_not_replace_applicant_resolution)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 20, in test_later_matching_reply_does_not_replace_applicant_resolution
+    self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'resolved' != 'discrepancy'
+- resolved
++ discrepancy
+
+
+======================================================================
+FAIL: test_old_reply_does_not_satisfy_amended_entry_request (tests.test_repairs.RepairTests.test_old_reply_does_not_satisfy_amended_entry_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 33, in test_old_reply_does_not_satisfy_amended_entry_request
+    self.assertFalse(request['reply_qualifies']);self.assertFalse(request['request_satisfied'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.545s
+
+FAILED (failures=2)

@@ -1,0 +1,87 @@
+{
+  "baseline_commit": "0fb3fe183f52d7a2ad7c0459ebb9113ceb0c37f4",
+  "batches": [
+    {
+      "batch": 1,
+      "state_sha256": "a2927aa3e86233b01b040efb68b5c3258db2aaec18b85708a63648a47b0ced8f",
+      "workflow_sha256": "f0b10c186f9d217cec49aac34672b770358cd3d0506b3629c7f67830425d851b",
+      "summary": {
+        "admission_unresolved": 5,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 24,
+          "None": 16
+        },
+        "refused": 1,
+        "schema_applications": 3,
+        "statuses": {
+          "decision-inadmissible": 1,
+          "intake-incomplete": 1,
+          "returned-incomplete": 1,
+          "unresolved-intake-status": 37
+        }
+      },
+      "matches_published_report_bytes": false,
+      "assessment_result": "blocked-at-schema-projection"
+    },
+    {
+      "batch": 2,
+      "state_sha256": "58b5a3bc181da5ac48746d3e45803f5a1b52d5e179f8e3937bfe4a8bfe69659a",
+      "workflow_sha256": "4696b047dc1dbeae7ca61a9276037b75ef9ebd1b7580ef356ab7ca68ecc20b6c",
+      "summary": {
+        "admission_unresolved": 31,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 13,
+          "None": 27
+        },
+        "refused": 4,
+        "schema_applications": 3,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "matches_published_report_bytes": false,
+      "assessment_result": "blocked-at-schema-projection"
+    },
+    {
+      "batch": 3,
+      "state_sha256": "0b9b640dc1d2552608b4c85628ef9beac3a53fedc661a3e2edf1c018e2a1651a",
+      "workflow_sha256": "f2580d9c0ab7e65aa70ce682908349145f7e12a69c1d7c88b4181976f9645a20",
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      },
+      "matches_published_report_bytes": false,
+      "assessment_result": "blocked-at-schema-projection"
+    }
+  ],
+  "actual_snapshot_paths_exist": [
+    false,
+    false,
+    false
+  ],
+  "rerun_unchanged": true,
+  "synthetic_existing_validated": true,
+  "synthetic_fresh_demonstrated": true
+}

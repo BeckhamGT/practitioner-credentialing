@@ -1,0 +1,131 @@
+FFFFEFFFFFEE
+======================================================================
+ERROR: test_later_reply_with_unknown_accreditation_does_not_close_prior_question (tests.test_repairs.RepairTests.test_later_reply_with_unknown_accreditation_does_not_close_prior_question)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 60, in test_later_reply_with_unknown_accreditation_does_not_close_prior_question
+    self.assertTrue(case['elements']['certification']['detail']['eligibility_question_pending'])
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'eligibility_question_pending'
+
+======================================================================
+ERROR: test_failure_receipt_never_selects_old_success_as_latest_attempt (tests.test_repairs.RepairTests.test_failure_receipt_never_selects_old_success_as_latest_attempt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 110, in test_failure_receipt_never_selects_old_success_as_latest_attempt
+    index=self.root/'deliverables/workflow/current.json';before=index.read_bytes()
+                                                                ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py", line 976, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py", line 970, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/d8/6jsmyshx2j129p04t810jltc0000gn/T/tmpmlv_ghmk/deliverables/workflow/current.json'
+
+======================================================================
+ERROR: test_failure_receipt_survives_snapshot_rollback_and_is_logged_on_retry (tests.test_repairs.RepairTests.test_failure_receipt_survives_snapshot_rollback_and_is_logged_on_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 123, in test_failure_receipt_survives_snapshot_rollback_and_is_logged_on_retry
+    latest=json.loads((self.root/'deliverables/workflow/latest-attempt.json').read_text())
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py", line 986, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py", line 970, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/d8/6jsmyshx2j129p04t810jltc0000gn/T/tmptpqmrbtk/deliverables/workflow/latest-attempt.json'
+
+======================================================================
+FAIL: test_later_matching_reply_does_not_replace_applicant_resolution (tests.test_repairs.RepairTests.test_later_matching_reply_does_not_replace_applicant_resolution)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 20, in test_later_matching_reply_does_not_replace_applicant_resolution
+    self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'resolved' != 'discrepancy'
+- resolved
++ discrepancy
+
+
+======================================================================
+FAIL: test_old_reply_does_not_satisfy_amended_entry_request (tests.test_repairs.RepairTests.test_old_reply_does_not_satisfy_amended_entry_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 33, in test_old_reply_does_not_satisfy_amended_entry_request
+    self.assertFalse(request['reply_qualifies']);self.assertFalse(request['request_satisfied'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'not-evaluated' is not false
+
+======================================================================
+FAIL: test_requested_unavailable_policy_remains_review_work (tests.test_repairs.RepairTests.test_requested_unavailable_policy_remains_review_work)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 40, in test_requested_unavailable_policy_remains_review_work
+    self.assertIsNone(case['packet']['presentable'])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not None
+
+======================================================================
+FAIL: test_partial_source_reply_does_not_satisfy_whole_request (tests.test_repairs.RepairTests.test_partial_source_reply_does_not_satisfy_whole_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 50, in test_partial_source_reply_does_not_satisfy_whole_request
+    self.assertTrue(request['reply_observed']);self.assertFalse(request['request_satisfied'])
+                                               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'not-evaluated' is not false
+
+======================================================================
+FAIL: test_later_contradictory_source_reopens_matching_entry (tests.test_repairs.RepairTests.test_later_contradictory_source_reopens_matching_entry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 70, in test_later_contradictory_source_reopens_matching_entry
+    self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'resolved' != 'discrepancy'
+- resolved
++ discrepancy
+
+
+======================================================================
+FAIL: test_unavailable_cited_policy_cannot_admit_or_activate (tests.test_repairs.RepairTests.test_unavailable_cited_policy_cannot_admit_or_activate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 79, in test_unavailable_cited_policy_cannot_admit_or_activate
+    self.assertIsNone(case['decisions'][0]['result']['admitted'])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not None
+
+======================================================================
+FAIL: test_inadmissible_material_does_not_answer_source_request (tests.test_repairs.RepairTests.test_inadmissible_material_does_not_answer_source_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 89, in test_inadmissible_material_does_not_answer_source_request
+    self.assertTrue(req['reply_observed']);self.assertFalse(req['reply_qualifies']);self.assertFalse(req['request_satisfied'])
+                                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'not-evaluated' is not false
+
+======================================================================
+FAIL: test_no_verified_training_routes_temporary_question (tests.test_repairs.RepairTests.test_no_verified_training_routes_temporary_question)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 95, in test_no_verified_training_routes_temporary_question
+    self.assertTrue(any(q['owner']=='Clinical Director' and 'eligibility' in q['item'] for q in case['action_queue']))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_owed_element_review_uses_outstanding_without_claiming_pass (tests.test_repairs.RepairTests.test_owed_element_review_uses_outstanding_without_claiming_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/.local/repair-20261029-baseline/tests/test_repairs.py", line 104, in test_owed_element_review_uses_outstanding_without_claiming_pass
+    self.assertEqual(case['elements']['certification']['state'],'outstanding')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'outstanding'
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.470s
+
+FAILED (failures=9, errors=3)

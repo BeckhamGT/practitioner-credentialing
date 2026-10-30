@@ -1,5 +1,13 @@
 # Verification — complete workflow capability
 
+## Repaired local candidate — October 30, 2026
+
+The [repair review](../docs/repair-review-20261030.md) supersedes earlier completion claims for the corrected branches. Full suite: 157 passing tests; all 12 focused repair checks fail against graded code and pass against the candidate. Evidence: [tests](../docs/audit/repair-20261029/tests-complete-20261030.txt), [graded failures](../docs/audit/repair-20261029/complete-regressions-graded-baseline.txt), [candidate regressions](../docs/audit/repair-20261029/complete-regressions-candidate.txt).
+
+All three original batches were independently reconstructed and processed 1→2→3, with the third resuming the second and an unchanged rerun. [Original-row checks](../docs/audit/repair-20261029/candidate-independent-checks.json) cover 120 revision/referee/gap comparisons and independently calculate APP-019's March 20 deadline. [Separate source verification](../docs/audit/repair-20261029/candidate-source-verification.json) checks the affected degree/training rows and all 120 status/readiness/admission/activation comparisons against the graded output. No product business imports are used by those checkers.
+
+Actual statuses, readiness booleans, admissions/refusals, approvals and activation remain unchanged. Missing-source eligibility questions and request satisfaction are now explicit; individual schema projection improves to 3/3/2 files. Whole-caseload actual snapshots remain unavailable, and synthetic grants/conditions are not actual applicant outcomes. The preserved original interview and schema have not been rewritten. See the review's exact source comparisons and learner inspection checklist before acceptance.
+
 [Current review](../docs/workflow-review.md) is the definitive actual/conditional
 scope. The remaining confirmed-rule implementation is now present in
 workflow.py, workflow_store.py, human_review.py and processor.py, integrated with

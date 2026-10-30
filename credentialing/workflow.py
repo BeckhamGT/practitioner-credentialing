@@ -122,8 +122,10 @@ def entry_checks(app, tables, clock, policy, human, strict=False):
                             "discrepancy": verified and (not equal or bool(non_dates)), "verified": verified})
         matched = [r for r in replies if r["current_entry_matches"]]
         undecided = [r for r in replies if r["class"] in ("needs-source-review","needs-link-review") and r["window"]=="within-date-window-only" and r["entry_fields_match"] and r["row"]["outcome"] in ("confirmed","confirmed-with-discrepancy")]
-        latest_match = max((r["row"]["received_date"] for r in matched), default="")
-        discrepancy = any(r["discrepancy"] and r["row"]["received_date"] >= latest_match for r in replies)
+        # A newer source reply cannot choose between conflicting observations.
+        # A later applicant amendment followed by matching verification can
+        # reconcile earlier entry evidence; otherwise keep the conflict open.
+        discrepancy = any(r["discrepancy"] and (not matched or r["row"]["received_date"] >= row["received_date"]) for r in replies)
         is_education = entry["entry_type"] in ("medical-school", "residency", "fellowship", "other")
         overlap = (day(entry["to_date"]) or day(clock)) >= floor if floor else None
         needs_experience = not is_education and overlap is not False
@@ -351,6 +353,7 @@ def certification_element(app, tables, entries, requests, declarations, clock, r
     done = False if missing or discrepancies or eligibility else None if unknown else True
     return element(state, done, {"certificates": certificates, "groups": groups, "supported": supported, "unsupported": unsupported,
                                 "conditional_components": unknown, "verification_complete": not missing,
+                                "eligibility_question_pending": eligibility,
                                 "scope": "No accreditation pass or one-component interpretation invented"}), queue
 
 
@@ -577,6 +580,11 @@ def finish_case(case, decisions, documents, tables, clock, contract, rules, rost
     for d in own:
         if d["fields"].get("Criteria version") != rules["criteria_version"]:
             queue.append(action("Obtain governing criteria version for decision " + d["fields"]["Decision ID"], sources=[d["source"]]))
+    support = case["elements"]["certification"]["detail"]
+    if case.pop("prior_eligibility_question", False) and not support["supported"]:
+        support["eligibility_question_pending"] = True
+        if not any(q["owner"] == "Clinical Director" and "eligibility" in q["item"] for q in queue):
+            queue.append(action("Retain prior eligibility question pending source-supported privilege mapping; a later reply alone does not establish support", "Clinical Director"))
     requests = [r for r in request_history(tables, clock, contract) if r["application_id"] == app_id]
     met = case["elements"]["references"]["nothing_owed"] is True
     presented = bool(any(d["result"]["admitted"] is True for d in own))
@@ -586,7 +594,7 @@ def finish_case(case, decisions, documents, tables, clock, contract, rules, rost
         entries = [e for name in ("education", "experience") for e in case["elements"][name]["detail"]["entries"] if e["entry"]["entry_id"] == subject]
         certificates = [c for c in case["elements"]["certification"]["detail"]["certificates"] if c["declaration"]["row"]["declaration_id"] == subject]
         peers = [r for r in case["elements"]["references"]["detail"]["replies"] if r["row"]["referee_id"] == subject]
-        qualifies = (any(r["verified"] for e in entries for r in e["replies"]) if entries else
+        qualifies = (any(r["verified"] and not any(k not in ("from_date", "to_date") for k in (r["changed_since_reply"] or {})) for e in entries for r in e["replies"]) if entries else
                      any(c["latest"] is not None for c in certificates) if certificates else
                      any(r["qualifies_at_this_clock"] is True for r in peers) if peer else None)
         satisfied = (all(e["source_verified_current_entry"] is True for e in entries) if entries else qualifies)
@@ -691,6 +699,8 @@ def process(store, state_sha, rule_path, rule_sha, previous=None, previous_sha=N
             known = [d for d in decisions if d["result"]["admitted"] is True and d["fields"]["Body"] == "Governing Body" and d["fields"]["Application"] == app_id and d["fields"]["Revision"] == str(revision) and d["fields"]["Decision date"] <= stamp]
             return known[-1]["fields"]["Decision date"] if known else None
         case = evaluate(app, viewed, docs, clock, rules, policy, roster, presentation=presentation_at(clock,app["row"]["revision"]))
+        if app_id in old:
+            case["prior_eligibility_question"] = old[app_id]["elements"]["certification"]["detail"].get("eligibility_question_pending", False)
         if app_id in old:case["prior_monitored_conditions"] = old[app_id]["monitored_conditions"]
         case = finish_case(case, decisions, docs, viewed, clock, contract, rules, roster)
         for field, value in (("appointment_history",{"approval_decision_id":case["approval_decision_id"],"activation":case["activation"]}),

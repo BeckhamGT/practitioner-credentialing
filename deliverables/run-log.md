@@ -1,5 +1,9 @@
 # Run log — actual and conditional workflow operations
 
+## Local repair runs — October 30, 2026
+
+The graded run entries below remain historical. Current repair execution is recorded in [candidate execution log](../docs/audit/repair-20261029/candidate-execution-log.json) and [durable per-process receipts/run log](repair-20261030/run-log.md). Each entry includes the actual command/arguments, UTC time, batch/export clock, consumed source state and predecessor, report/exit or failure scope. All actual process calls exit 3 for unsupported full assessed projection while retaining computed workflow results; no full snapshot is asserted. The third run resumes batch 2, and the final rerun is unchanged. Test failures during development are separately retained under docs/audit/repair-20261029, including the writer-recovery regression and its correction. Synthetic runs are labeled separately and do not establish applicant outcomes.
+
 This log records actual commands. No actual-case command below produced a full assessed snapshot or a Supported/Partial assignment result. The separate synthetic CLI demonstration generates labeled fixture snapshots. Deliberate probes are labeled; source/accepted stores were preserved. See [machine log](evidence/execution-log.json) for exact arguments, return codes and stdout hashes. Times are UTC; business clocks are the batch export dates.
 
 ## Consumed and produced

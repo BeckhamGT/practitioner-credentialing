@@ -1,5 +1,11 @@
 # Project E submission handoff
 
+## Local candidate review — October 30, 2026
+
+The graded public destination and commit recorded below remain the submitted baseline. This repaired candidate is **local only**; it has not been published or resubmitted. Current reports: [repair-20261030 index](../deliverables/repair-20261030/workflow/current.json). Current repair evidence, exact limitations, rerun instructions, checkpoint investigation, access proposal and inspection checklist: [repair review](repair-review-20261030.md).
+
+Classroom was last independently verified Turned in for cbc1d70a40724f48d82aaf074c8bb2dc131fb7f7 on October 22; historical pending/Assigned statements must not be read as current submission proof. All three actual assessed snapshot paths remain absent. No genuine code/capture push is authorized during this repair phase. Last-observed public repositories do not satisfy the assignment's private-conversation restriction merely because earlier publication was authorized. Before any new publication, obtain an approved private access arrangement and review the public exposure/template-origin remediation. Do not assume a private URL grants grader access.
+
 Final destination: https://github.com/BeckhamGT/practitioner-credentialing
 
 GitHub verified owner BeckhamGT and **public** visibility on October 22, 2026.

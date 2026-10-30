@@ -1,5 +1,9 @@
 # Complete workflow review
 
+## Current repaired candidate — October 30, 2026
+
+Use [repair-review-20261030.md](repair-review-20261030.md) and its indexed candidate reports for current behavior. Earlier results below remain preserved comparison evidence. The four reproduced workflow defects plus request resolution, durable receipts/current selection and existing outstanding representation have been repaired and checked. Actual status/readiness/admission/activation outcomes are unchanged; new owned review work and request satisfaction are detailed in that review. G1/G2/accreditation still prevent full actual assessed snapshots. Publication and resubmission remain pending.
+
 The supported-rule software is implemented and usable through `process`, including
 the business-state projector and schema writer. This review does **not** accept
 its outputs, verify missing facts, publish, submit or grade the project. No new

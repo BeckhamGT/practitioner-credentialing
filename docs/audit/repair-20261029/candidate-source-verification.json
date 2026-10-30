@@ -1,0 +1,981 @@
+{
+  "method": "Independent original-CSV and graded-output comparisons; no product imports.",
+  "limits": "No positive signature/CV/accreditation conclusion is inferred. The independent gap/referee/calendar checker is a separate required check. Synthetic regressions are separate evidence.",
+  "results": [
+    {
+      "batch": 1,
+      "report": "deliverables/repair-20261030/workflow/batch-01-f0b10c186f9d217cec49aac34672b770358cd3d0506b3629c7f67830425d851b.json",
+      "sha256": "f0b10c186f9d217cec49aac34672b770358cd3d0506b3629c7f67830425d851b",
+      "all_40_status_packet_boolean_decision_and_activation_comparisons_unchanged": true,
+      "source_backed_questions": [
+        {
+          "application_id": "APP-2026-010",
+          "missing_or_inadmissible_initial_entry": "ENT-1001",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 37,
+              "row": {
+                "entry_id": "ENT-1001",
+                "application_id": "APP-2026-010",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Pinevale University Hospital",
+                "location": "Pinevale, UT",
+                "role": "Pediatrics Residency",
+                "from_date": "2019-07-01",
+                "to_date": "2022-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Orlovsky",
+                "contact_email": "xiomara.orlovsky@pinevale.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-018",
+          "missing_or_inadmissible_initial_entry": "ENT-1801",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 70,
+              "row": {
+                "entry_id": "ENT-1801",
+                "application_id": "APP-2026-018",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Cedar Quarry University Hospital",
+                "location": "Cedar Quarry, OR",
+                "role": "Internal Medicine Residency",
+                "from_date": "2014-07-01",
+                "to_date": "2017-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Rafael Nordstrand",
+                "contact_email": "rafael.nordstrand@cedar.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-020",
+          "missing_or_inadmissible_initial_entry": "ENT-2000",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 76,
+              "row": {
+                "entry_id": "ENT-2000",
+                "application_id": "APP-2026-020",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Steadmere University School of Medicine",
+                "location": "Steadmere, NC",
+                "role": "Doctor of Medicine",
+                "from_date": "2005-08-22",
+                "to_date": "2009-06-30",
+                "hours_per_week": "",
+                "contact_name": "Mira Ndiaye",
+                "contact_email": "mira.ndiaye@steadmere.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 53,
+              "row": {
+                "reply_id": "VR-2000",
+                "application_id": "APP-2026-020",
+                "entry_id": "ENT-2000",
+                "element": "education-and-training",
+                "attester_organization": "Steadmere University School of Medicine",
+                "attester_name": "Mira Ndiaye",
+                "attester_role": "Assistant Registrar",
+                "received_from": "Applicant \u2014 hand-delivered at intake",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "2005-08-22",
+                "verified_to": "2009-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-12",
+                "received_date": "2026-02-25",
+                "reply_method": "hand-delivered",
+                "notes": "Photocopy of the Doctor of Medicine diploma on the school's letterhead, bearing what appears to be the registrar's signature and the school seal, brought to the office by the applicant at intake."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-021",
+          "missing_or_inadmissible_initial_entry": "ENT-2100",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 79,
+              "row": {
+                "entry_id": "ENT-2100",
+                "application_id": "APP-2026-021",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Cascade Valley College of Medicine",
+                "location": "Cascade Valley, WA",
+                "role": "Doctor of Medicine",
+                "from_date": "1998-08-24",
+                "to_date": "2002-06-30",
+                "hours_per_week": "",
+                "contact_name": "Ingrid Montalvo",
+                "contact_email": "ingrid.montalvo@cascade.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-022",
+          "missing_or_inadmissible_initial_entry": "ENT-2201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 84,
+              "row": {
+                "entry_id": "ENT-2201",
+                "application_id": "APP-2026-022",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Westmarch University Medical Center",
+                "location": "Westmarch, CO",
+                "role": "Psychiatry Residency",
+                "from_date": "2008-07-01",
+                "to_date": "2012-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Haddad",
+                "contact_email": "xiomara.haddad@westmarch.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 58,
+              "row": {
+                "reply_id": "VR-2201",
+                "application_id": "APP-2026-022",
+                "entry_id": "ENT-2201",
+                "element": "education-and-training",
+                "attester_organization": "Cascade Valley Physicians Society",
+                "attester_name": "Xiomara Haddad",
+                "attester_role": "Membership Secretary",
+                "received_from": "State medical society \u2014 Cascade Valley Physicians Society",
+                "verified_credential": "Residency \u2014 Psychiatry",
+                "verified_from": "2008-07-01",
+                "verified_to": "2012-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-22",
+                "received_date": "2026-03-04",
+                "reply_method": "email",
+                "notes": "The society confirms from its own membership file that the practitioner completed the psychiatry residency at Westmarch University Medical Center between 2008 and 2012."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-032",
+          "missing_or_inadmissible_initial_entry": "ENT-3201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 125,
+              "row": {
+                "entry_id": "ENT-3201",
+                "application_id": "APP-2026-032",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Saltmarsh Regional Health",
+                "location": "Saltmarsh, ME",
+                "role": "Obstetrics and Gynecology Residency",
+                "from_date": "2011-07-01",
+                "to_date": "2015-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Kenji Kova\u010devi\u0107",
+                "contact_email": "kenji.kova\u010devi\u0107@saltmarsh.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        }
+      ],
+      "APP020_request_satisfied": false,
+      "APP022_request_satisfied": false,
+      "summary": {
+        "admission_unresolved": 5,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 24,
+          "None": 16
+        },
+        "refused": 1,
+        "schema_applications": 3,
+        "statuses": {
+          "decision-inadmissible": 1,
+          "intake-incomplete": 1,
+          "returned-incomplete": 1,
+          "unresolved-intake-status": 37
+        }
+      }
+    },
+    {
+      "batch": 2,
+      "report": "deliverables/repair-20261030/workflow/batch-02-4696b047dc1dbeae7ca61a9276037b75ef9ebd1b7580ef356ab7ca68ecc20b6c.json",
+      "sha256": "4696b047dc1dbeae7ca61a9276037b75ef9ebd1b7580ef356ab7ca68ecc20b6c",
+      "all_40_status_packet_boolean_decision_and_activation_comparisons_unchanged": true,
+      "source_backed_questions": [
+        {
+          "application_id": "APP-2026-010",
+          "missing_or_inadmissible_initial_entry": "ENT-1001",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 37,
+              "row": {
+                "entry_id": "ENT-1001",
+                "application_id": "APP-2026-010",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Pinevale University Hospital",
+                "location": "Pinevale, UT",
+                "role": "Pediatrics Residency",
+                "from_date": "2019-07-01",
+                "to_date": "2022-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Orlovsky",
+                "contact_email": "xiomara.orlovsky@pinevale.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 6,
+              "row": {
+                "reply_id": "VR-1001",
+                "application_id": "APP-2026-010",
+                "entry_id": "ENT-1001",
+                "element": "education-and-training",
+                "attester_organization": "Pinevale University Hospital",
+                "attester_name": "Xiomara Orlovsky",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Pinevale University Hospital",
+                "verified_credential": "Residency \u2014 Pediatrics",
+                "verified_from": "2019-07-01",
+                "verified_to": "2022-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-018",
+          "missing_or_inadmissible_initial_entry": "ENT-1801",
+          "declared_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 3,
+              "row": {
+                "entry_id": "ENT-1801",
+                "application_id": "APP-2026-018",
+                "revision": "2",
+                "entry_type": "residency",
+                "organization": "Cedar Quarry University Hospital",
+                "location": "Cedar Quarry, OR",
+                "role": "Internal Medicine Residency",
+                "from_date": "2014-07-01",
+                "to_date": "2017-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Rafael Nordstrand",
+                "contact_email": "rafael.nordstrand@cedar.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 19,
+              "row": {
+                "reply_id": "VR-1801",
+                "application_id": "APP-2026-018",
+                "entry_id": "ENT-1801",
+                "element": "education-and-training",
+                "attester_organization": "Cedar Quarry University Hospital",
+                "attester_name": "Rafael Nordstrand",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Cedar Quarry University Hospital",
+                "verified_credential": "Residency \u2014 Internal Medicine",
+                "verified_from": "2014-07-01",
+                "verified_to": "2017-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-020",
+          "missing_or_inadmissible_initial_entry": "ENT-2000",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 76,
+              "row": {
+                "entry_id": "ENT-2000",
+                "application_id": "APP-2026-020",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Steadmere University School of Medicine",
+                "location": "Steadmere, NC",
+                "role": "Doctor of Medicine",
+                "from_date": "2005-08-22",
+                "to_date": "2009-06-30",
+                "hours_per_week": "",
+                "contact_name": "Mira Ndiaye",
+                "contact_email": "mira.ndiaye@steadmere.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 53,
+              "row": {
+                "reply_id": "VR-2000",
+                "application_id": "APP-2026-020",
+                "entry_id": "ENT-2000",
+                "element": "education-and-training",
+                "attester_organization": "Steadmere University School of Medicine",
+                "attester_name": "Mira Ndiaye",
+                "attester_role": "Assistant Registrar",
+                "received_from": "Applicant \u2014 hand-delivered at intake",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "2005-08-22",
+                "verified_to": "2009-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-12",
+                "received_date": "2026-02-25",
+                "reply_method": "hand-delivered",
+                "notes": "Photocopy of the Doctor of Medicine diploma on the school's letterhead, bearing what appears to be the registrar's signature and the school seal, brought to the office by the applicant at intake."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-021",
+          "missing_or_inadmissible_initial_entry": "ENT-2100",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 79,
+              "row": {
+                "entry_id": "ENT-2100",
+                "application_id": "APP-2026-021",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Cascade Valley College of Medicine",
+                "location": "Cascade Valley, WA",
+                "role": "Doctor of Medicine",
+                "from_date": "1998-08-24",
+                "to_date": "2002-06-30",
+                "hours_per_week": "",
+                "contact_name": "Ingrid Montalvo",
+                "contact_email": "ingrid.montalvo@cascade.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 22,
+              "row": {
+                "reply_id": "VR-2100",
+                "application_id": "APP-2026-021",
+                "entry_id": "ENT-2100",
+                "element": "education-and-training",
+                "attester_organization": "Greyfen Regional Hospital",
+                "attester_name": "Ingrid Montalvo",
+                "attester_role": "Director, Medical Staff Services",
+                "received_from": "Medical staff office \u2014 Greyfen Regional Hospital",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "1998-08-24",
+                "verified_to": "2002-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-19",
+                "received_date": "2026-04-08",
+                "reply_method": "letter",
+                "notes": "Cascade Valley College of Medicine closed on 2019-06-30 and its registrar's records were not transferred to a successor institution. The Federation Credentials Verification Service holds no record. This office verified the Doctor of Medicine degree directly with the college's registrar on 2005-08-12, before the closure, and holds that verification on file. This letter is a secondary source and is offered because the primary and the designated equivalent sources are both impossible."
+              }
+            },
+            {
+              "batch": 2,
+              "csv_row": 25,
+              "row": {
+                "reply_id": "VR-2104",
+                "application_id": "APP-2026-021",
+                "entry_id": "ENT-2100",
+                "element": "education-and-training",
+                "attester_organization": "Federation Credentials Verification Service",
+                "attester_name": "Iyanla Sandvik",
+                "attester_role": "Verification Analyst",
+                "received_from": "FCVS \u2014 Federation Credentials Verification Service",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "",
+                "verified_to": "",
+                "outcome": "no-record",
+                "requested_date": "2026-03-09",
+                "received_date": "2026-03-24",
+                "reply_method": "secure portal",
+                "notes": "No profile exists for this practitioner and no record of the named institution is held."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-022",
+          "missing_or_inadmissible_initial_entry": "ENT-2201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 84,
+              "row": {
+                "entry_id": "ENT-2201",
+                "application_id": "APP-2026-022",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Westmarch University Medical Center",
+                "location": "Westmarch, CO",
+                "role": "Psychiatry Residency",
+                "from_date": "2008-07-01",
+                "to_date": "2012-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Haddad",
+                "contact_email": "xiomara.haddad@westmarch.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 58,
+              "row": {
+                "reply_id": "VR-2201",
+                "application_id": "APP-2026-022",
+                "entry_id": "ENT-2201",
+                "element": "education-and-training",
+                "attester_organization": "Cascade Valley Physicians Society",
+                "attester_name": "Xiomara Haddad",
+                "attester_role": "Membership Secretary",
+                "received_from": "State medical society \u2014 Cascade Valley Physicians Society",
+                "verified_credential": "Residency \u2014 Psychiatry",
+                "verified_from": "2008-07-01",
+                "verified_to": "2012-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-22",
+                "received_date": "2026-03-04",
+                "reply_method": "email",
+                "notes": "The society confirms from its own membership file that the practitioner completed the psychiatry residency at Westmarch University Medical Center between 2008 and 2012."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-032",
+          "missing_or_inadmissible_initial_entry": "ENT-3201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 125,
+              "row": {
+                "entry_id": "ENT-3201",
+                "application_id": "APP-2026-032",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Saltmarsh Regional Health",
+                "location": "Saltmarsh, ME",
+                "role": "Obstetrics and Gynecology Residency",
+                "from_date": "2011-07-01",
+                "to_date": "2015-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Kenji Kova\u010devi\u0107",
+                "contact_email": "kenji.kova\u010devi\u0107@saltmarsh.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 34,
+              "row": {
+                "reply_id": "VR-3201",
+                "application_id": "APP-2026-032",
+                "entry_id": "ENT-3201",
+                "element": "education-and-training",
+                "attester_organization": "Saltmarsh Regional Health",
+                "attester_name": "Kenji Kova\u010devi\u0107",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Saltmarsh Regional Health",
+                "verified_credential": "Residency \u2014 Obstetrics and Gynecology",
+                "verified_from": "2011-07-01",
+                "verified_to": "2015-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        }
+      ],
+      "APP020_request_satisfied": false,
+      "APP022_request_satisfied": false,
+      "summary": {
+        "admission_unresolved": 31,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 13,
+          "None": 27
+        },
+        "refused": 4,
+        "schema_applications": 3,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      }
+    },
+    {
+      "batch": 3,
+      "report": "deliverables/repair-20261030/workflow/batch-03-f2580d9c0ab7e65aa70ce682908349145f7e12a69c1d7c88b4181976f9645a20.json",
+      "sha256": "f2580d9c0ab7e65aa70ce682908349145f7e12a69c1d7c88b4181976f9645a20",
+      "all_40_status_packet_boolean_decision_and_activation_comparisons_unchanged": true,
+      "source_backed_questions": [
+        {
+          "application_id": "APP-2026-010",
+          "missing_or_inadmissible_initial_entry": "ENT-1001",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 37,
+              "row": {
+                "entry_id": "ENT-1001",
+                "application_id": "APP-2026-010",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Pinevale University Hospital",
+                "location": "Pinevale, UT",
+                "role": "Pediatrics Residency",
+                "from_date": "2019-07-01",
+                "to_date": "2022-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Orlovsky",
+                "contact_email": "xiomara.orlovsky@pinevale.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 6,
+              "row": {
+                "reply_id": "VR-1001",
+                "application_id": "APP-2026-010",
+                "entry_id": "ENT-1001",
+                "element": "education-and-training",
+                "attester_organization": "Pinevale University Hospital",
+                "attester_name": "Xiomara Orlovsky",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Pinevale University Hospital",
+                "verified_credential": "Residency \u2014 Pediatrics",
+                "verified_from": "2019-07-01",
+                "verified_to": "2022-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-018",
+          "missing_or_inadmissible_initial_entry": "ENT-1801",
+          "declared_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 3,
+              "row": {
+                "entry_id": "ENT-1801",
+                "application_id": "APP-2026-018",
+                "revision": "2",
+                "entry_type": "residency",
+                "organization": "Cedar Quarry University Hospital",
+                "location": "Cedar Quarry, OR",
+                "role": "Internal Medicine Residency",
+                "from_date": "2014-07-01",
+                "to_date": "2017-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Rafael Nordstrand",
+                "contact_email": "rafael.nordstrand@cedar.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 19,
+              "row": {
+                "reply_id": "VR-1801",
+                "application_id": "APP-2026-018",
+                "entry_id": "ENT-1801",
+                "element": "education-and-training",
+                "attester_organization": "Cedar Quarry University Hospital",
+                "attester_name": "Rafael Nordstrand",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Cedar Quarry University Hospital",
+                "verified_credential": "Residency \u2014 Internal Medicine",
+                "verified_from": "2014-07-01",
+                "verified_to": "2017-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-020",
+          "missing_or_inadmissible_initial_entry": "ENT-2000",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 76,
+              "row": {
+                "entry_id": "ENT-2000",
+                "application_id": "APP-2026-020",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Steadmere University School of Medicine",
+                "location": "Steadmere, NC",
+                "role": "Doctor of Medicine",
+                "from_date": "2005-08-22",
+                "to_date": "2009-06-30",
+                "hours_per_week": "",
+                "contact_name": "Mira Ndiaye",
+                "contact_email": "mira.ndiaye@steadmere.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 53,
+              "row": {
+                "reply_id": "VR-2000",
+                "application_id": "APP-2026-020",
+                "entry_id": "ENT-2000",
+                "element": "education-and-training",
+                "attester_organization": "Steadmere University School of Medicine",
+                "attester_name": "Mira Ndiaye",
+                "attester_role": "Assistant Registrar",
+                "received_from": "Applicant \u2014 hand-delivered at intake",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "2005-08-22",
+                "verified_to": "2009-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-12",
+                "received_date": "2026-02-25",
+                "reply_method": "hand-delivered",
+                "notes": "Photocopy of the Doctor of Medicine diploma on the school's letterhead, bearing what appears to be the registrar's signature and the school seal, brought to the office by the applicant at intake."
+              }
+            },
+            {
+              "batch": 3,
+              "csv_row": 2,
+              "row": {
+                "reply_id": "VR-2003",
+                "application_id": "APP-2026-020",
+                "entry_id": "ENT-2000",
+                "element": "education-and-training",
+                "attester_organization": "Steadmere University School of Medicine",
+                "attester_name": "Desmond Pennington",
+                "attester_role": "Assistant Registrar",
+                "received_from": "Registrar's office \u2014 Steadmere University School of Medicine",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "2005-08-22",
+                "verified_to": "2009-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-12",
+                "received_date": "2026-05-04",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-021",
+          "missing_or_inadmissible_initial_entry": "ENT-2100",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 79,
+              "row": {
+                "entry_id": "ENT-2100",
+                "application_id": "APP-2026-021",
+                "revision": "1",
+                "entry_type": "medical-school",
+                "organization": "Cascade Valley College of Medicine",
+                "location": "Cascade Valley, WA",
+                "role": "Doctor of Medicine",
+                "from_date": "1998-08-24",
+                "to_date": "2002-06-30",
+                "hours_per_week": "",
+                "contact_name": "Ingrid Montalvo",
+                "contact_email": "ingrid.montalvo@cascade.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 22,
+              "row": {
+                "reply_id": "VR-2100",
+                "application_id": "APP-2026-021",
+                "entry_id": "ENT-2100",
+                "element": "education-and-training",
+                "attester_organization": "Greyfen Regional Hospital",
+                "attester_name": "Ingrid Montalvo",
+                "attester_role": "Director, Medical Staff Services",
+                "received_from": "Medical staff office \u2014 Greyfen Regional Hospital",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "1998-08-24",
+                "verified_to": "2002-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-19",
+                "received_date": "2026-04-08",
+                "reply_method": "letter",
+                "notes": "Cascade Valley College of Medicine closed on 2019-06-30 and its registrar's records were not transferred to a successor institution. The Federation Credentials Verification Service holds no record. This office verified the Doctor of Medicine degree directly with the college's registrar on 2005-08-12, before the closure, and holds that verification on file. This letter is a secondary source and is offered because the primary and the designated equivalent sources are both impossible."
+              }
+            },
+            {
+              "batch": 2,
+              "csv_row": 25,
+              "row": {
+                "reply_id": "VR-2104",
+                "application_id": "APP-2026-021",
+                "entry_id": "ENT-2100",
+                "element": "education-and-training",
+                "attester_organization": "Federation Credentials Verification Service",
+                "attester_name": "Iyanla Sandvik",
+                "attester_role": "Verification Analyst",
+                "received_from": "FCVS \u2014 Federation Credentials Verification Service",
+                "verified_credential": "Degree \u2014 Doctor of Medicine",
+                "verified_from": "",
+                "verified_to": "",
+                "outcome": "no-record",
+                "requested_date": "2026-03-09",
+                "received_date": "2026-03-24",
+                "reply_method": "secure portal",
+                "notes": "No profile exists for this practitioner and no record of the named institution is held."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-022",
+          "missing_or_inadmissible_initial_entry": "ENT-2201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 84,
+              "row": {
+                "entry_id": "ENT-2201",
+                "application_id": "APP-2026-022",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Westmarch University Medical Center",
+                "location": "Westmarch, CO",
+                "role": "Psychiatry Residency",
+                "from_date": "2008-07-01",
+                "to_date": "2012-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Xiomara Haddad",
+                "contact_email": "xiomara.haddad@westmarch.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 58,
+              "row": {
+                "reply_id": "VR-2201",
+                "application_id": "APP-2026-022",
+                "entry_id": "ENT-2201",
+                "element": "education-and-training",
+                "attester_organization": "Cascade Valley Physicians Society",
+                "attester_name": "Xiomara Haddad",
+                "attester_role": "Membership Secretary",
+                "received_from": "State medical society \u2014 Cascade Valley Physicians Society",
+                "verified_credential": "Residency \u2014 Psychiatry",
+                "verified_from": "2008-07-01",
+                "verified_to": "2012-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-22",
+                "received_date": "2026-03-04",
+                "reply_method": "email",
+                "notes": "The society confirms from its own membership file that the practitioner completed the psychiatry residency at Westmarch University Medical Center between 2008 and 2012."
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        },
+        {
+          "application_id": "APP-2026-032",
+          "missing_or_inadmissible_initial_entry": "ENT-3201",
+          "declared_source_rows": [
+            {
+              "batch": 1,
+              "csv_row": 125,
+              "row": {
+                "entry_id": "ENT-3201",
+                "application_id": "APP-2026-032",
+                "revision": "1",
+                "entry_type": "residency",
+                "organization": "Saltmarsh Regional Health",
+                "location": "Saltmarsh, ME",
+                "role": "Obstetrics and Gynecology Residency",
+                "from_date": "2011-07-01",
+                "to_date": "2015-06-30",
+                "hours_per_week": "60",
+                "contact_name": "Kenji Kova\u010devi\u0107",
+                "contact_email": "kenji.kova\u010devi\u0107@saltmarsh.example",
+                "notes": ""
+              }
+            }
+          ],
+          "received_source_rows": [
+            {
+              "batch": 2,
+              "csv_row": 34,
+              "row": {
+                "reply_id": "VR-3201",
+                "application_id": "APP-2026-032",
+                "entry_id": "ENT-3201",
+                "element": "education-and-training",
+                "attester_organization": "Saltmarsh Regional Health",
+                "attester_name": "Kenji Kova\u010devi\u0107",
+                "attester_role": "Programme Coordinator",
+                "received_from": "Graduate medical education office \u2014 Saltmarsh Regional Health",
+                "verified_credential": "Residency \u2014 Obstetrics and Gynecology",
+                "verified_from": "2011-07-01",
+                "verified_to": "2015-06-30",
+                "outcome": "confirmed",
+                "requested_date": "2026-02-26",
+                "received_date": "2026-03-16",
+                "reply_method": "secure portal",
+                "notes": ""
+              }
+            }
+          ],
+          "rule": "PRIV application rule 6; ATT Professional education and post-graduate training row",
+          "conclusion": "Initial missing admissible degree/training evidence raises human question. No verified support yet closes it; later source receipt alone cannot establish missing accreditation."
+        }
+      ],
+      "APP020_request_satisfied": true,
+      "APP022_request_satisfied": false,
+      "summary": {
+        "admission_unresolved": 52,
+        "admitted": 0,
+        "applications": 40,
+        "packet_presentable": {
+          "False": 6,
+          "None": 34
+        },
+        "refused": 4,
+        "schema_applications": 2,
+        "statuses": {
+          "decision-inadmissible": 3,
+          "discontinued": 1,
+          "ineligible-clock-expired": 1,
+          "unresolved-intake-status": 34,
+          "withdrawn": 1
+        }
+      }
+    }
+  ]
+}
