@@ -1,5 +1,7 @@
 # Local repaired candidate — 30 October 2026
 
+Current final review: [final-review-20261030.md](final-review-20261030.md). The learner accepted APP-020/022 request repairs only. Final verification adds one field-relevant reconciliation correction over 72c1e5d; 158 tests pass and the three actual reports are byte-identical to that candidate. The original public repository remains the expressly authorized destination; earlier private-destination recommendations are historical. Publication and resubmission remain pending.
+
 Ready for learner inspection of the bounded repairs. Publication, access changes and resubmission are pending. This is not acceptance of applicant outcomes or a claim that every assignment deliverable is complete.
 
 ## Version and preserved comparison

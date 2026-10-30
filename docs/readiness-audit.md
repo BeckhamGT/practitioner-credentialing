@@ -1,5 +1,7 @@
 # Project E source and readiness audit
 
+Current final review: [final-review-20261030.md](final-review-20261030.md). The learner accepted APP-020/022 request repairs only. Final verification adds one field-relevant reconciliation correction over 72c1e5d; 158 tests pass and the three actual reports are byte-identical to that candidate. The original public repository remains the expressly authorized destination; earlier private-destination recommendations are historical. Publication and resubmission remain pending.
+
 ## Current local repair status — October 30, 2026
 
 The [repair review](repair-review-20261030.md) is the current requirements/evidence delta over the preserved [32-requirement audit matrix](resubmission-requirements-20261022.md). R01/R09/R12/R14/R20/R28/R29 now have targeted repaired branches, 157 tests and new original-source verification. R04 remains unmet: all three full actual assessed snapshots are absent. R11/R17/R22–R26 remain limited by authentic signature/CV/reconciliation/accreditation evidence. R30 has a verified new genuine capture association; remote finalized checkpoint synchronization is prepared but not executed. R32 privacy/access and template-origin issues remain pending learner decision. Earlier rows and receipts below describe prior stages and do not constitute current acceptance.

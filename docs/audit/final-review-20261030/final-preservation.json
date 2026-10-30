@@ -1,0 +1,21 @@
+{
+  "protected_file_count": 114,
+  "all_protected_hashes_unchanged": true,
+  "actual_snapshots_absent": true,
+  "reviewed_implementation": "72c1e5da42c70715c1eef675959e9cff6cd83c7f",
+  "code_change": "Field-relevant applicant amendment required to clear date contradiction; source-backed focused failure/pass retained",
+  "actual_report_bytes_unchanged_from_reviewed_candidate": true,
+  "learner_acceptance": "APP-020 and APP-022 request handling only; explicitly not G1/G2 or submission readiness",
+  "checked_document_links": [
+    "README.md",
+    "docs/final-review-20261030.md",
+    "docs/resubmission-requirements-20261022.md",
+    "docs/repair-review-20261030.md",
+    "docs/readiness-audit.md",
+    "docs/submission-handoff.md",
+    "deliverables/verification.md",
+    "deliverables/run-log.md",
+    "deliverables/rules.md"
+  ],
+  "phase": "local only; no publication or resubmission"
+}

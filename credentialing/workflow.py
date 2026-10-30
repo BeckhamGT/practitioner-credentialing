@@ -125,7 +125,20 @@ def entry_checks(app, tables, clock, policy, human, strict=False):
         # A newer source reply cannot choose between conflicting observations.
         # A later applicant amendment followed by matching verification can
         # reconcile earlier entry evidence; otherwise keep the conflict open.
-        discrepancy = any(r["discrepancy"] and (not matched or r["row"]["received_date"] >= row["received_date"]) for r in replies)
+        def unresolved_conflict(response):
+            if not response["discrepancy"]:
+                return False
+            if not matched or response["row"]["received_date"] >= row["received_date"]:
+                return True
+            # A contact-only amendment is not an applicant resolution of a
+            # conflicting date/title. Require that the amendment actually
+            # touched each disputed field before re-verification can clear it.
+            disputed = []
+            if response["row"]["verified_from"] != entry["from_date"]:disputed.append("from_date")
+            if response["row"]["verified_to"] != entry["to_date"]:disputed.append("to_date")
+            if not role_equivalent(entry["role"], response["row"]["verified_credential"]):disputed.append("role")
+            return any(key not in (response["changed_since_reply"] or {}) for key in disputed)
+        discrepancy = any(unresolved_conflict(r) for r in replies)
         is_education = entry["entry_type"] in ("medical-school", "residency", "fellowship", "other")
         overlap = (day(entry["to_date"]) or day(clock)) >= floor if floor else None
         needs_experience = not is_education and overlap is not False

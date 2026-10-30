@@ -1,5 +1,50 @@
 # Published requirements → evidence → recovery work
 
+## Final local review — October 30, 2026
+
+This section is the current matrix; the October 22 table below remains historical audit evidence. Implementation candidate `72c1e5da42c70715c1eef675959e9cff6cd83c7f` received one further source-backed reconciliation correction during final verification: an unrelated/contact-only amendment cannot resolve an existing date contradiction (P §§2,11). The final publication candidate includes that change and these review documents; its exact commit is supplied in the final handoff. All three actual reports remain byte-for-byte identical to candidate 72c1e5d. No graded source/result history is rewritten.
+
+Learner feedback, actual current turn: APP-020 and APP-022 request handling was inspected and accepted. This acceptance is scoped to those repairs; it does not resolve G1/G2 or establish submission readiness. No other learner acceptance is inferred.
+
+Evidence keys: **T** = [158-test suite](audit/final-review-20261030/tests.txt), including the original repaired branches and one additional focused failing/passing regression; **B** = [12 original regressions against graded code](audit/repair-20261029/complete-regressions-graded-baseline.txt) and [candidate passes](audit/repair-20261029/complete-regressions-candidate.txt); **F** = [new focused failure](audit/final-review-20261030/conflict-before.txt) / [pass](audit/final-review-20261030/conflict-after.txt); **A** = [unchanged actual report hashes](audit/final-review-20261030/actual-report-preservation.json), [independent original-row checks](audit/final-review-20261030/source-checks.json), [120 independent quantity comparisons](audit/final-review-20261030/independent-checks.json); **L** = [chronological command log](audit/final-review-20261030/execution-log.json). Source keys and exact published sections in the historical table still apply. No score relevance is predicted in this current matrix.
+
+| Requirement | Current demonstrated evidence | Conditional / unsupported / remaining limitation |
+|---|---|---|
+| R01 Reusable one-batch Skill | Existing Skill, CLI and repaired branches; T/B/F | Complete actual assessed output unavailable; no rebuild. |
+| R02 Setup/invoke/resume/handoff | README, repair review, L | Publication candidate and genuine capture must be remotely read back after authorization. |
+| R03 Authentic interview | Original 0427 export retained, byte/hash comparison with Downloads | No new interview or signature/CV evidence; public publication is explicitly authorized, with assignment confidentiality caveat disclosed. |
+| R04 Three full actual snapshots | Guarded writer and application-fragment validation; A | **Absent:** batch-01.json, batch-02.json, batch-03.json. Partial requires a full-caseload truthful schema snapshot; 3/3/2 supported application objects are insufficient. |
+| R05 Chronology/retained state | L: 1→2→3, third resumes second; A | Proven for actual workflow reports, not a nonexistent actual snapshot chain. |
+| R06 Source provenance/batch isolation | Original manifest/state hashes, L, A | Text hashes do not authenticate native signatures or establish omitted evidence. |
+| R07 Snapshot predecessor/produced/rules links | Original-schema synthetic snapshots and verifier checks in T/L | Actual snapshot predecessor chain remains absent. |
+| R08 Rerun/sealed supersession | Actual unchanged rerun; synthetic archive and downstream-chain tests in T | Actual sealed snapshot supersession unavailable because no actual snapshots exist. |
+| R09 Failure isolation/recovery/latest attempt | Durable attempt JSON, current/last-consumed separation; T/B; writer recovery regression | Unsafe/unwritable output filesystem cannot guarantee disk receipt; stderr reports failure. Synthetic failures are labeled. |
+| R10 Rule provenance | Updated rules register maps repairs to P/PRIV/ATT/I/S/A | G3–G8 conflicts remain scoped; no new office rule inferred. |
+| R11 Intake/signature/CV | Known documented notices/false checks; G1/G2-owned tasks | Signed application/revision evidence, current CV contents and declarations/reconciliation still unsupported where missing. |
+| R12 Reconciliation/re-entry | T/B/F: contradictions retained, field-relevant amendment required, unrelated entries continue; A | CV reconciliation G2 and APP-018 narrative G8 remain human/source work. |
+| R13 Accepted sources/impossibility | Original source classifications; A; APP-020/022 learner acceptance | APP-021 secondary admission and missing accreditation remain unproved; receipt alone is not verification. |
+| R14 Requests/attempts | T/B: receipt vs qualification vs satisfaction; amended-entry/partial follow-up; A | No invented fourth-attempt policy or sent request. |
+| R15 Licences/WA/board findings | Existing original-source checks retained; A has no outcome regression | Actual activation requires missing prerequisites; CD alone judges findings. |
+| R16 Experience/gaps | 120 independent comparisons; 219/31-day source gaps and Mar20 notice clock retained | APP-017 cited missing explanation G5 and APP-018 narrative G8 persist. |
+| R17 Education/training/accreditation | Source admissibility independently checked; unknown review stays outstanding | No inferred accreditation or secondary-route approval. |
+| R18 Peer reference qualification/currency | Original-row counts across 120 records; existing T boundary tests | G3 exact-anniversary conflict remains limited to the disputed boundary. |
+| R19 Extra reference requests | T: met element does not hold for surplus request; attempts remain | Presentation-dependent closure is synthetic because actual presentation prerequisites are unknown. |
+| R20 Certification/eligibility/version | T/B: policy binding and temporary CD question, retained until support; A | Unknown accreditation and G6 one-component wording cannot become unsupported findings or invented clinical disposition. |
+| R21 Reserved judgments/authority | Actual records, existing authority/refusal checks, T; owned queues | No new clinical judgment or approval computed. G4/G5 provenance work persists. |
+| R22 Packet/readiness revision binding | Known false/unknown values retained; F; A | False/unknown totals 24/16, 13/27, 6/34. No positive actual completeness/readiness inferred. |
+| R23 Decision evaluation/refused retention | A: 1/4/4 proven refusals preserved; T ordered checks | 5/31/52 admissions unresolved, not refusals. |
+| R24 Business deferral/denial/supersession | Source documents retained and conditional branches tested in T | Actual admission prerequisites remain unresolved; internal projection failure is not business deferral. |
+| R25 Approval/exact activation/dates | Separate explicit synthetic tests/demo in T/L | No actual approval or activation established. |
+| R26 Conditions/monitoring | Synthetic named satisfaction, overdue history, licence renewal and recovery in T | Actual conditional decisions cannot establish monitored appointment outcomes without admission. |
+| R27 Terminal files | Actual APP-028/029 retained unchanged in A | Terminal status does not establish unrelated unknown schema fields. APP-029 name conflict remains. |
+| R28 Owned queues/outstanding elements | T/B; six source-backed CD questions retained; A | Human evidence work stays owned with no invented deadline; neither G1/G2 nor accreditation is passed. |
+| R29 Independent verification | A original CSV/std-library methods; outputs match candidate72 exactly | Learner acceptance covers APP-020/022 only; other review is not silently accepted. |
+| R30 Genuine capture/remote pairing | Genuine 72c1e5d checkpoint and resume association inspected; local finalization lineage proved | Prepared fast-forward only. New/finalized checkpoints and final code revision require authorized upload and remote hash readback. |
+| R31 Learner reasoning/own interview | Current learner turn directly records inspection, scoped acceptance and reason/limits | No reconstructed reasoning or interview; prior attachment-only first600 limitation remains historical. |
+| R32 Destination/template/confidentiality/submission | Original public repository established and earlier public-publication authorization acknowledged | No repository-choice reopening. Template-origin mismatch and assignment confidentiality wording remain disclosed; authorized material is distinct from secrets or newly introduced unrelated private data. No push/resubmission in this phase. |
+
+Required-deliverable state: Skill/README/rules/verification/run log/interview **present**, repaired capability **verified within demonstrated scope**, full actual snapshots **absent**, actual downstream appointment results **unsupported**, capture **genuine locally; remote synchronization pending**, publication/resubmission **awaiting authorization**. See [final review](final-review-20261030.md) for the privacy check, prepared synchronization and accurate note.
+
 Independent audit at `cbc1d70a40724f48d82aaf074c8bb2dc131fb7f7`. All test references below were re-executed in the 145-test baseline. A passing synthetic test proves only its stated software branch. “Score relevance” is a qualitative coverage estimate, **not checkpoint identity, weight, or promised credit**. Severity describes correctness/compliance risk, not grading weight. This table supersedes earlier completeness claims only where it identifies a specific gap; historical receipts remain unchanged.
 
 Source keys (exact sections are specified per row):

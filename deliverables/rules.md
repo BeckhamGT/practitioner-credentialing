@@ -4,7 +4,7 @@
 
 Current evidence and limits: [repair review](../docs/repair-review-20261030.md). These are corrections to application of existing rules, not new office rules or source conventions:
 
-- P §§2,11: retain contradictory current-entry observations; source recency alone cannot resolve a discrepancy. A later applicant amendment and matching verification can resolve the affected entry.
+- P §§2,11: retain contradictory current-entry observations; source recency alone cannot resolve a discrepancy. A later applicant amendment touching the disputed field and matching verification can resolve the affected entry; an unrelated or contact-only amendment cannot clear a date contradiction.
 - PRIV introduction and I Oct 21 5:29 PM: bind requests/decisions to the available cited criteria version. An unavailable version cannot create a positive admission; independent earlier failures remain proven refusals.
 - P §3 common verification rules, ATT education row, I 6:06 PM: raw material received is not necessarily a completed source request. Preserve receipt, qualifying response, request satisfaction, prior attempts and required follow-up separately. No fourth-attempt policy is invented.
 - PRIV application rule 6: raise temporary eligibility review on missing admissible degree/training support, retain it until verified support exists, never compute discontinuation. Missing accreditation remains unknown and separate from applicant fault.

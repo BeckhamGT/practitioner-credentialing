@@ -1,5 +1,7 @@
 # Run log — actual and conditional workflow operations
 
+Current final review: [final-review-20261030.md](../docs/final-review-20261030.md). The learner accepted APP-020/022 request repairs only. Final verification adds one field-relevant reconciliation correction over 72c1e5d; 158 tests pass and the three actual reports are byte-identical to that candidate. The original public repository remains the expressly authorized destination; earlier private-destination recommendations are historical. Publication and resubmission remain pending.
+
 ## Local repair runs — October 30, 2026
 
 The graded run entries below remain historical. Current repair execution is recorded in [candidate execution log](../docs/audit/repair-20261029/candidate-execution-log.json) and [durable per-process receipts/run log](repair-20261030/run-log.md). Each entry includes the actual command/arguments, UTC time, batch/export clock, consumed source state and predecessor, report/exit or failure scope. All actual process calls exit 3 for unsupported full assessed projection while retaining computed workflow results; no full snapshot is asserted. The third run resumes batch 2, and the final rerun is unchanged. Test failures during development are separately retained under docs/audit/repair-20261029, including the writer-recovery regression and its correction. Synthetic runs are labeled separately and do not establish applicant outcomes.
@@ -158,3 +160,7 @@ notification, clinical approval or learner acceptance was manufactured.
 | 7 | 2026-10-22T07:52:52.451186+00:00 | process / 2 | 3 | stored blocked-at-schema-projection |
 | 8 | 2026-10-22T07:52:53.057549+00:00 | process / 3 | 3 | stored blocked-at-schema-projection |
 | 9 | 2026-10-22T07:52:53.744852+00:00 | independent check / all | 0 | independent original-source repeat  |
+
+## Final verification over candidate 72c1e5d
+
+The focused contact-only-amendment regression failed, justifying the targeted correction and a new suite/replay. Exact commands, UTC times, 1→2→3 source/workflow hashes, exits, rerun and outputs are retained in [final execution log](../docs/audit/final-review-20261030/execution-log.json). All three actual reports match the already reviewed candidate bytes; no report is rewritten. The [158-test result](../docs/audit/final-review-20261030/tests.txt) and [source checks](../docs/audit/final-review-20261030/source-checks.json) are verification evidence, not applicant outcomes or a submission receipt.

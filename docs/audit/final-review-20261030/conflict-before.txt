@@ -1,0 +1,17 @@
+F
+======================================================================
+FAIL: test_unrelated_amendment_does_not_resolve_existing_date_conflict (tests.test_repairs.RepairTests.test_unrelated_amendment_does_not_resolve_existing_date_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/fellowship/practitioner-credentialing/tests/test_repairs.py", line 24, in test_unrelated_amendment_does_not_resolve_existing_date_conflict
+    self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'resolved' != 'discrepancy'
+- resolved
++ discrepancy
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.094s
+
+FAILED (failures=1)

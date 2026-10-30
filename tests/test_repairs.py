@@ -10,6 +10,20 @@ from tools.synthetic_workflow import initial,decision_document,record
 
 
 class RepairTests(WorkflowTests):
+    def test_unrelated_amendment_does_not_resolve_existing_date_conflict(self):
+        state=self.start();one,_=self.run_batch(state);base,_=initial()
+        bad=dict(base['verification-replies.csv'][-1],reply_id='SYNTH-DATE-CONFLICT',received_date='2026-04-01',verified_from='2003-08-01')
+        two=self.stage(2,{'verification-replies.csv':[bad]},previous=state);second,_=self.run_batch(two,one['workflow_sha256'])
+        rows={name:copy.deepcopy(base[name]) for name in ('applications.csv','declared-history.csv','application-disclosures.csv','declared-credentials.csv','privilege-requests.csv')}
+        for values in rows.values():
+            for row in values:row['revision']='2'
+        rows['applications.csv'][0]['received_date']='2026-04-25'
+        rows['declared-history.csv'][-1]['contact_name']='SYNTH changed contact, dates unchanged'
+        rows['verification-replies.csv']=[dict(base['verification-replies.csv'][-1],reply_id='SYNTH-CONTACT-REPLY',received_date='2026-05-01')]
+        three=self.stage(3,rows,previous=two);result,_=self.run_batch(three,second['workflow_sha256']);case=self.result(result)['applications'][0]
+        self.assertEqual(case['elements']['experience']['state'],'discrepancy')
+        self.assertFalse(case['packet']['presentable'])
+
     def test_later_matching_reply_does_not_replace_applicant_resolution(self):
         state=self.start();one,_=self.run_batch(state);rows,_=initial()
         bad=dict(rows['verification-replies.csv'][-1],reply_id='SYNTH-CONFLICT',received_date='2026-04-01',verified_from='2003-08-01')

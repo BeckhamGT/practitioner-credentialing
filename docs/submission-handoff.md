@@ -1,5 +1,7 @@
 # Project E submission handoff
 
+Current final review: [final-review-20261030.md](final-review-20261030.md). The learner accepted APP-020/022 request repairs only. Final verification adds one field-relevant reconciliation correction over 72c1e5d; 158 tests pass and the three actual reports are byte-identical to that candidate. The original public repository remains the expressly authorized destination; earlier private-destination recommendations are historical. Publication and resubmission remain pending.
+
 ## Local candidate review — October 30, 2026
 
 The graded public destination and commit recorded below remain the submitted baseline. This repaired candidate is **local only**; it has not been published or resubmitted. Current reports: [repair-20261030 index](../deliverables/repair-20261030/workflow/current.json). Current repair evidence, exact limitations, rerun instructions, checkpoint investigation, access proposal and inspection checklist: [repair review](repair-review-20261030.md).

@@ -1,5 +1,7 @@
 # Verification — complete workflow capability
 
+Current final review: [final-review-20261030.md](../docs/final-review-20261030.md). The learner accepted APP-020/022 request repairs only. Final verification adds one field-relevant reconciliation correction over 72c1e5d; 158 tests pass and the three actual reports are byte-identical to that candidate. The original public repository remains the expressly authorized destination; earlier private-destination recommendations are historical. Publication and resubmission remain pending.
+
 ## Repaired local candidate — October 30, 2026
 
 The [repair review](../docs/repair-review-20261030.md) supersedes earlier completion claims for the corrected branches. Full suite: 157 passing tests; all 12 focused repair checks fail against graded code and pass against the candidate. Evidence: [tests](../docs/audit/repair-20261029/tests-complete-20261030.txt), [graded failures](../docs/audit/repair-20261029/complete-regressions-graded-baseline.txt), [candidate regressions](../docs/audit/repair-20261029/complete-regressions-candidate.txt).
